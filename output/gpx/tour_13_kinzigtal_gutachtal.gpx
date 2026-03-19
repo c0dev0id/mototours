@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 13: Kinzigtal &amp; Gutachtal</name>
+    <desc>Explore the central Black Forest’s most scenic valleys—the Kinzigtal and Gutachtal—with their traditional farmhouses, half-timbered towns, and the famous Vogtsbauernhof open-air museum.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="48.473000" lon="7.954000">
+    <name>Offenburg</name>
+    <desc>Enter Kinzigtal (via A5)</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.407000" lon="8.015000">
+    <name>Gengenbach</name>
+    <desc>Beautiful old town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.278000" lon="8.087000">
+    <name>Haslach im Kinzigtal</name>
+    <desc>Trachtmuseum</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.282000" lon="8.175000">
+    <name>Hausach</name>
+    <desc>Valley junction</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.256000" lon="8.180000">
+    <name>Vogtsbauernhof, Gutach</name>
+    <desc>Open-air museum – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.293000" lon="8.219000">
+    <name>Wolfach</name>
+    <desc>Glassblowing</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.290000" lon="8.339000">
+    <name>Schiltach</name>
+    <desc>Half-timbered gem</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.346000" lon="8.403000">
+    <name>Alpirsbach</name>
+    <desc>Klosterbräu brewery</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.462000" lon="8.411000">
+    <name>Freudenstadt</name>
+    <desc>Largest Marktplatz</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.473000" lon="7.954000">
+    <name>Offenburg</name>
+    <desc>Return (via B28/B33)</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End (via A5)</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 13: Kinzigtal &amp; Gutachtal</name>
+    <desc>Schwarzwald | ~270 km | Moderate</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="48.473000" lon="7.954000">
+      <name>Offenburg</name>
+    </rtept>
+    <rtept lat="48.407000" lon="8.015000">
+      <name>Gengenbach</name>
+    </rtept>
+    <rtept lat="48.278000" lon="8.087000">
+      <name>Haslach im Kinzigtal</name>
+    </rtept>
+    <rtept lat="48.282000" lon="8.175000">
+      <name>Hausach</name>
+    </rtept>
+    <rtept lat="48.256000" lon="8.180000">
+      <name>Vogtsbauernhof, Gutach</name>
+    </rtept>
+    <rtept lat="48.293000" lon="8.219000">
+      <name>Wolfach</name>
+    </rtept>
+    <rtept lat="48.290000" lon="8.339000">
+      <name>Schiltach</name>
+    </rtept>
+    <rtept lat="48.346000" lon="8.403000">
+      <name>Alpirsbach</name>
+    </rtept>
+    <rtept lat="48.462000" lon="8.411000">
+      <name>Freudenstadt</name>
+    </rtept>
+    <rtept lat="48.473000" lon="7.954000">
+      <name>Offenburg</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 16: Titisee &amp; Southern Black Forest</name>
+    <desc>The longest tour in the collection reaches deep into the southern Black Forest to the iconic Titisee lake, returning through the dramatic Höllental (Hell Valley). A full-day adventure through the most dramatic Black Forest landscapes.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="48.473000" lon="7.954000">
+    <name>Offenburg</name>
+    <desc>Enter Black Forest (via A5)</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.170000" lon="8.070000">
+    <name>Elztal</name>
+    <desc>Into the forest</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.055000" lon="8.208000">
+    <name>Furtwangen</name>
+    <desc>Cuckoo clock museum</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.903000" lon="8.157000">
+    <name>Titisee</name>
+    <desc>Iconic lake – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="47.906000" lon="8.110000">
+    <name>Hinterzarten</name>
+    <desc>Health resort</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.897000" lon="8.050000">
+    <name>Höllental</name>
+    <desc>Hell Valley gorge</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.963000" lon="7.952000">
+    <name>Kirchzarten</name>
+    <desc>Valley exit</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.999000" lon="7.842000">
+    <name>Freiburg im Breisgau</name>
+    <desc>Black Forest capital</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End (via A5)</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 16: Titisee &amp; Southern Black Forest</name>
+    <desc>Schwarzwald | ~300 km | Moderate to Challenging</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="48.473000" lon="7.954000">
+      <name>Offenburg</name>
+    </rtept>
+    <rtept lat="48.170000" lon="8.070000">
+      <name>Elztal</name>
+    </rtept>
+    <rtept lat="48.055000" lon="8.208000">
+      <name>Furtwangen</name>
+    </rtept>
+    <rtept lat="47.903000" lon="8.157000">
+      <name>Titisee</name>
+    </rtept>
+    <rtept lat="47.906000" lon="8.110000">
+      <name>Hinterzarten</name>
+    </rtept>
+    <rtept lat="47.897000" lon="8.050000">
+      <name>Höllental</name>
+    </rtept>
+    <rtept lat="47.963000" lon="7.952000">
+      <name>Kirchzarten</name>
+    </rtept>
+    <rtept lat="47.999000" lon="7.842000">
+      <name>Freiburg im Breisgau</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

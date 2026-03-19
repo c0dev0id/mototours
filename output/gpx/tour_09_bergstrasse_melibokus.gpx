@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 09: Bergstraße &amp; Melibokus</name>
+    <desc>A relaxed ride along the Bergstraße—Germany’s “spring garden” with its Mediterranean microclimate—combined with a loop through the western Odenwald hills and the panoramic Auerbacher Schloss.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.550000" lon="8.667000">
+    <name>Weinheim</name>
+    <desc>Castle gardens</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.563000" lon="8.707000">
+    <name>Birkenau</name>
+    <desc>Into Odenwald</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.560000" lon="8.728000">
+    <name>Gorxheimertal</name>
+    <desc>Hill country</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.621000" lon="8.761000">
+    <name>Rimbach</name>
+    <desc>Forest edge</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.568000" lon="8.780000">
+    <name>Lindenfels</name>
+    <desc>Pearl of the Odenwald</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.681000" lon="8.618000">
+    <name>Bensheim</name>
+    <desc>Bergstraße</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.709000" lon="8.652000">
+    <name>Auerbacher Schloss</name>
+    <desc>Castle and viewpoint – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.726000" lon="8.613000">
+    <name>Zwingenberg</name>
+    <desc>Oldest Bergstraße town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.740000" lon="8.638000">
+    <name>Alsbach-Hähnlein</name>
+    <desc>Continue north</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.765000" lon="8.648000">
+    <name>Seeheim</name>
+    <desc>Northern Bergstraße</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End (via A5/A67)</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 09: Bergstraße &amp; Melibokus</name>
+    <desc>Odenwald / Bergstraße | ~175 km | Easy</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.550000" lon="8.667000">
+      <name>Weinheim</name>
+    </rtept>
+    <rtept lat="49.563000" lon="8.707000">
+      <name>Birkenau</name>
+    </rtept>
+    <rtept lat="49.560000" lon="8.728000">
+      <name>Gorxheimertal</name>
+    </rtept>
+    <rtept lat="49.621000" lon="8.761000">
+      <name>Rimbach</name>
+    </rtept>
+    <rtept lat="49.568000" lon="8.780000">
+      <name>Lindenfels</name>
+    </rtept>
+    <rtept lat="49.681000" lon="8.618000">
+      <name>Bensheim</name>
+    </rtept>
+    <rtept lat="49.709000" lon="8.652000">
+      <name>Auerbacher Schloss</name>
+    </rtept>
+    <rtept lat="49.726000" lon="8.613000">
+      <name>Zwingenberg</name>
+    </rtept>
+    <rtept lat="49.740000" lon="8.638000">
+      <name>Alsbach-Hähnlein</name>
+    </rtept>
+    <rtept lat="49.765000" lon="8.648000">
+      <name>Seeheim</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

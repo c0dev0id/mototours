@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 21: Jagsttal &amp; Kochertal</name>
+    <desc>Explore the peaceful Jagst and Kocher valleys—parallel river valleys winding through the gentle Hohenloher Land, where time seems to have stopped in the Baroque era. Discover monasteries, castles, and the Deutsches Zweirad-Museum (German Motorcycle Museum) in Neckarsulm.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.253000" lon="8.879000">
+    <name>Sinsheim</name>
+    <desc>Head east</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.239000" lon="8.993000">
+    <name>Bad Rappenau</name>
+    <desc>Saline</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.231000" lon="9.211000">
+    <name>Bad Friedrichshall</name>
+    <desc>Salt mining town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.309000" lon="9.469000">
+    <name>Jagsthausen</name>
+    <desc>Götzenburg</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.302000" lon="9.451000">
+    <name>Berlichingen</name>
+    <desc>Knight’s village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.328000" lon="9.500000">
+    <name>Kloster Schöntal</name>
+    <desc>Baroque abbey</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.282000" lon="9.685000">
+    <name>Künzelsau</name>
+    <desc>Hohenlohe capital – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.300000" lon="9.650000">
+    <name>Ingelfingen</name>
+    <desc>Wine town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.290000" lon="9.560000">
+    <name>Forchtenberg</name>
+    <desc>Sophie Scholl birthplace</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.201000" lon="9.501000">
+    <name>Öhringen</name>
+    <desc>Hohenlohe residency</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.234000" lon="9.329000">
+    <name>Neuenstadt am Kocher</name>
+    <desc>Kocher valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.192000" lon="9.225000">
+    <name>Neckarsulm</name>
+    <desc>Deutsches Zweirad-Museum!</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End (via A6)</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 21: Jagsttal &amp; Kochertal</name>
+    <desc>Hohenloher Land | ~250 km | Easy to Moderate</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.253000" lon="8.879000">
+      <name>Sinsheim</name>
+    </rtept>
+    <rtept lat="49.239000" lon="8.993000">
+      <name>Bad Rappenau</name>
+    </rtept>
+    <rtept lat="49.231000" lon="9.211000">
+      <name>Bad Friedrichshall</name>
+    </rtept>
+    <rtept lat="49.309000" lon="9.469000">
+      <name>Jagsthausen</name>
+    </rtept>
+    <rtept lat="49.302000" lon="9.451000">
+      <name>Berlichingen</name>
+    </rtept>
+    <rtept lat="49.328000" lon="9.500000">
+      <name>Kloster Schöntal</name>
+    </rtept>
+    <rtept lat="49.282000" lon="9.685000">
+      <name>Künzelsau</name>
+    </rtept>
+    <rtept lat="49.300000" lon="9.650000">
+      <name>Ingelfingen</name>
+    </rtept>
+    <rtept lat="49.290000" lon="9.560000">
+      <name>Forchtenberg</name>
+    </rtept>
+    <rtept lat="49.201000" lon="9.501000">
+      <name>Öhringen</name>
+    </rtept>
+    <rtept lat="49.234000" lon="9.329000">
+      <name>Neuenstadt am Kocher</name>
+    </rtept>
+    <rtept lat="49.192000" lon="9.225000">
+      <name>Neckarsulm</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 11: Schwarzwaldhochstraße – The Classic</name>
+    <desc>Germany’s most famous motorcycle road. The B500 Schwarzwaldhochstraße runs along the northern Black Forest ridge at over 1000 m altitude, with panoramic views, alpine meadows, and sweeping curves that make this an absolute must-ride.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="48.761000" lon="8.241000">
+    <name>Baden-Baden</name>
+    <desc>Spa city (via A5)</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.722000" lon="8.240000">
+    <name>Geroldsau</name>
+    <desc>Waterfall</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.683000" lon="8.223000">
+    <name>Bühlerhöhe</name>
+    <desc>Join B500</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.654000" lon="8.226000">
+    <name>Sand</name>
+    <desc>B500 junction</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.620000" lon="8.210000">
+    <name>Unterstmatt</name>
+    <desc>Ridge road</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.596000" lon="8.201000">
+    <name>Mummelsee (1036 m)</name>
+    <desc>Mountain lake – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.604000" lon="8.204000">
+    <name>Hornisgrinde (1164 m)</name>
+    <desc>Highest peak, northern BF</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.561000" lon="8.221000">
+    <name>Ruhestein</name>
+    <desc>Nationalpark center</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.483000" lon="8.287000">
+    <name>Kniebis</name>
+    <desc>Pass village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.462000" lon="8.411000">
+    <name>Freudenstadt</name>
+    <desc>Germany’s largest Marktplatz</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.346000" lon="8.403000">
+    <name>Alpirsbach</name>
+    <desc>Klosterbräu brewery</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.473000" lon="7.954000">
+    <name>Offenburg</name>
+    <desc>Ortenau (via B33)</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End (via A5)</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 11: Schwarzwaldhochstraße – The Classic</name>
+    <desc>Schwarzwald | ~250 km | Moderate to Challenging</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="48.761000" lon="8.241000">
+      <name>Baden-Baden</name>
+    </rtept>
+    <rtept lat="48.722000" lon="8.240000">
+      <name>Geroldsau</name>
+    </rtept>
+    <rtept lat="48.683000" lon="8.223000">
+      <name>Bühlerhöhe</name>
+    </rtept>
+    <rtept lat="48.654000" lon="8.226000">
+      <name>Sand</name>
+    </rtept>
+    <rtept lat="48.620000" lon="8.210000">
+      <name>Unterstmatt</name>
+    </rtept>
+    <rtept lat="48.596000" lon="8.201000">
+      <name>Mummelsee (1036 m)</name>
+    </rtept>
+    <rtept lat="48.604000" lon="8.204000">
+      <name>Hornisgrinde (1164 m)</name>
+    </rtept>
+    <rtept lat="48.561000" lon="8.221000">
+      <name>Ruhestein</name>
+    </rtept>
+    <rtept lat="48.483000" lon="8.287000">
+      <name>Kniebis</name>
+    </rtept>
+    <rtept lat="48.462000" lon="8.411000">
+      <name>Freudenstadt</name>
+    </rtept>
+    <rtept lat="48.346000" lon="8.403000">
+      <name>Alpirsbach</name>
+    </rtept>
+    <rtept lat="48.473000" lon="7.954000">
+      <name>Offenburg</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

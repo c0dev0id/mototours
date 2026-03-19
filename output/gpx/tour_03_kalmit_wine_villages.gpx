@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 03: Kalmit Summit &amp; Wine Villages</name>
+    <desc>A shorter tour perfect for a relaxed afternoon, climbing to the highest peak of the Pfälzerwald and weaving through the sun-blessed wine villages of the southern Deutsche Weinstraße.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.317000" lon="8.431000">
+    <name>Speyer</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.355000" lon="8.142000">
+    <name>Neustadt a.d. Weinstraße</name>
+    <desc>Wine route</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.302000" lon="8.106000">
+    <name>Sankt Martin</name>
+    <desc>Charming wine village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.326000" lon="8.075000">
+    <name>Kalmit (672 m)</name>
+    <desc>Highest peak of the Pfälzerwald – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.337000" lon="8.084000">
+    <name>Hohe Loog</name>
+    <desc>Viewpoint</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.306000" lon="8.132000">
+    <name>Maikammer</name>
+    <desc>Wine village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.284000" lon="8.120000">
+    <name>Edenkoben</name>
+    <desc>Villa Ludwigshöhe</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.117000" lon="8.052000">
+    <name>Gleiszellen-Gleishorbach</name>
+    <desc>Southern wine route</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.100000" lon="8.001000">
+    <name>Bad Bergzabern</name>
+    <desc>Spa town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.199000" lon="8.117000">
+    <name>Landau in der Pfalz</name>
+    <desc>Return north</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.317000" lon="8.431000">
+    <name>Speyer</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 03: Kalmit Summit &amp; Wine Villages</name>
+    <desc>Pfälzerwald | ~165 km | Easy to Moderate</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.317000" lon="8.431000">
+      <name>Speyer</name>
+    </rtept>
+    <rtept lat="49.355000" lon="8.142000">
+      <name>Neustadt a.d. Weinstraße</name>
+    </rtept>
+    <rtept lat="49.302000" lon="8.106000">
+      <name>Sankt Martin</name>
+    </rtept>
+    <rtept lat="49.326000" lon="8.075000">
+      <name>Kalmit (672 m)</name>
+    </rtept>
+    <rtept lat="49.337000" lon="8.084000">
+      <name>Hohe Loog</name>
+    </rtept>
+    <rtept lat="49.306000" lon="8.132000">
+      <name>Maikammer</name>
+    </rtept>
+    <rtept lat="49.284000" lon="8.120000">
+      <name>Edenkoben</name>
+    </rtept>
+    <rtept lat="49.117000" lon="8.052000">
+      <name>Gleiszellen-Gleishorbach</name>
+    </rtept>
+    <rtept lat="49.100000" lon="8.001000">
+      <name>Bad Bergzabern</name>
+    </rtept>
+    <rtept lat="49.199000" lon="8.117000">
+      <name>Landau in der Pfalz</name>
+    </rtept>
+    <rtept lat="49.317000" lon="8.431000">
+      <name>Speyer</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

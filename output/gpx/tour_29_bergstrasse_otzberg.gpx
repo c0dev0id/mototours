@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 29: Bergstraße Express – North to Otzberg</name>
+    <desc>A long northern arc combining the Bergstraße, two impressive castles—Veste Otzberg and Burg Breuberg—and the scenic Odenwald heartland. An ambitious day exploring the northern reaches of the riding area.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.550000" lon="8.667000">
+    <name>Weinheim</name>
+    <desc>Bergstraße start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.681000" lon="8.618000">
+    <name>Bensheim</name>
+    <desc>Bergstraße</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.726000" lon="8.613000">
+    <name>Zwingenberg</name>
+    <desc>Oldest Bergstraße town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.830000" lon="8.834000">
+    <name>Reinheim</name>
+    <desc>Eastern turn</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.832000" lon="8.912000">
+    <name>Veste Otzberg</name>
+    <desc>White tower</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.828000" lon="9.033000">
+    <name>Burg Breuberg</name>
+    <desc>Medieval castle</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.800000" lon="8.983000">
+    <name>Höchst im Odenwald</name>
+    <desc>Odenwald descent</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.744000" lon="9.017000">
+    <name>Bad König</name>
+    <desc>Spa town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.676000" lon="9.004000">
+    <name>Michelstadt</name>
+    <desc>Fairy-tale Rathaus – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.659000" lon="8.994000">
+    <name>Erbach</name>
+    <desc>Ivory museum</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.568000" lon="8.780000">
+    <name>Lindenfels</name>
+    <desc>Pearl of the Odenwald</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.642000" lon="8.650000">
+    <name>Heppenheim</name>
+    <desc>Wine town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End (via A5)</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 29: Bergstraße Express – North to Otzberg</name>
+    <desc>Bergstraße / Odenwald | ~280 km | Moderate</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.550000" lon="8.667000">
+      <name>Weinheim</name>
+    </rtept>
+    <rtept lat="49.681000" lon="8.618000">
+      <name>Bensheim</name>
+    </rtept>
+    <rtept lat="49.726000" lon="8.613000">
+      <name>Zwingenberg</name>
+    </rtept>
+    <rtept lat="49.830000" lon="8.834000">
+      <name>Reinheim</name>
+    </rtept>
+    <rtept lat="49.832000" lon="8.912000">
+      <name>Veste Otzberg</name>
+    </rtept>
+    <rtept lat="49.828000" lon="9.033000">
+      <name>Burg Breuberg</name>
+    </rtept>
+    <rtept lat="49.800000" lon="8.983000">
+      <name>Höchst im Odenwald</name>
+    </rtept>
+    <rtept lat="49.744000" lon="9.017000">
+      <name>Bad König</name>
+    </rtept>
+    <rtept lat="49.676000" lon="9.004000">
+      <name>Michelstadt</name>
+    </rtept>
+    <rtept lat="49.659000" lon="8.994000">
+      <name>Erbach</name>
+    </rtept>
+    <rtept lat="49.568000" lon="8.780000">
+      <name>Lindenfels</name>
+    </rtept>
+    <rtept lat="49.642000" lon="8.650000">
+      <name>Heppenheim</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

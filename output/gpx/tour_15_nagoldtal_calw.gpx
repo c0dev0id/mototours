@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 15: Nagoldtal &amp; Calw</name>
+    <desc>Explore the eastern Black Forest through the winding Nagold valley and the charming town of Calw—birthplace of Hermann Hesse. Forested valleys, castle ruins, and thermal spa towns.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.294000" lon="8.698000">
+    <name>Wiesloch</name>
+    <desc>Head south</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.036000" lon="8.707000">
+    <name>Bretten</name>
+    <desc>Melanchthon’s birthplace</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.891000" lon="8.704000">
+    <name>Pforzheim</name>
+    <desc>Gold city</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.825000" lon="8.802000">
+    <name>Tiefenbronn</name>
+    <desc>Into the forest</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.714000" lon="8.741000">
+    <name>Calw</name>
+    <desc>Hesse’s birthplace – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.692000" lon="8.688000">
+    <name>Bad Teinach</name>
+    <desc>Spa in the valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.698000" lon="8.668000">
+    <name>Zavelstein</name>
+    <desc>Castle ruin</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.775000" lon="8.732000">
+    <name>Bad Liebenzell</name>
+    <desc>Thermal springs</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.665000" lon="8.469000">
+    <name>Enzklösterle</name>
+    <desc>Remote forest village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.756000" lon="8.550000">
+    <name>Bad Wildbad</name>
+    <desc>Thermal spa</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.891000" lon="8.704000">
+    <name>Pforzheim</name>
+    <desc>Return north</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End (via A5/A8)</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 15: Nagoldtal &amp; Calw</name>
+    <desc>Schwarzwald | ~260 km | Moderate</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.294000" lon="8.698000">
+      <name>Wiesloch</name>
+    </rtept>
+    <rtept lat="49.036000" lon="8.707000">
+      <name>Bretten</name>
+    </rtept>
+    <rtept lat="48.891000" lon="8.704000">
+      <name>Pforzheim</name>
+    </rtept>
+    <rtept lat="48.825000" lon="8.802000">
+      <name>Tiefenbronn</name>
+    </rtept>
+    <rtept lat="48.714000" lon="8.741000">
+      <name>Calw</name>
+    </rtept>
+    <rtept lat="48.692000" lon="8.688000">
+      <name>Bad Teinach</name>
+    </rtept>
+    <rtept lat="48.698000" lon="8.668000">
+      <name>Zavelstein</name>
+    </rtept>
+    <rtept lat="48.775000" lon="8.732000">
+      <name>Bad Liebenzell</name>
+    </rtept>
+    <rtept lat="48.665000" lon="8.469000">
+      <name>Enzklösterle</name>
+    </rtept>
+    <rtept lat="48.756000" lon="8.550000">
+      <name>Bad Wildbad</name>
+    </rtept>
+    <rtept lat="48.891000" lon="8.704000">
+      <name>Pforzheim</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

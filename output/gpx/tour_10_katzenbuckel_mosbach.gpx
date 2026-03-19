@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 10: Katzenbuckel &amp; Mosbach</name>
+    <desc>Climb to the Katzenbuckel—at 626 m the highest peak in the Odenwald—on switchback roads through dense forest, then discover the beautifully preserved half-timbered town of Mosbach.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.253000" lon="8.879000">
+    <name>Sinsheim</name>
+    <desc>Head east</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.296000" lon="8.955000">
+    <name>Neckarbischofsheim</name>
+    <desc>Rolling hills</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.374000" lon="8.976000">
+    <name>Schwarzach</name>
+    <desc>Cross Neckar</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.467000" lon="8.988000">
+    <name>Eberbach</name>
+    <desc>Neckar town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.500000" lon="9.040000">
+    <name>Strümpfelbrunn</name>
+    <desc>Into deep forest</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.483000" lon="9.004000">
+    <name>Katzenbuckel (626 m)</name>
+    <desc>Highest Odenwald peak</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.454000" lon="9.103000">
+    <name>Waldbrunn</name>
+    <desc>Health resort – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.534000" lon="9.208000">
+    <name>Mudau</name>
+    <desc>Remote Odenwald</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.353000" lon="9.146000">
+    <name>Mosbach</name>
+    <desc>Half-timbered town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.319000" lon="9.138000">
+    <name>Neckarzimmern</name>
+    <desc>Burg Hornberg</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.285000" lon="9.159000">
+    <name>Gundelsheim</name>
+    <desc>Neckar valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.239000" lon="8.993000">
+    <name>Bad Rappenau</name>
+    <desc>Return west</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 10: Katzenbuckel &amp; Mosbach</name>
+    <desc>Odenwald | ~195 km | Moderate</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.253000" lon="8.879000">
+      <name>Sinsheim</name>
+    </rtept>
+    <rtept lat="49.296000" lon="8.955000">
+      <name>Neckarbischofsheim</name>
+    </rtept>
+    <rtept lat="49.374000" lon="8.976000">
+      <name>Schwarzach</name>
+    </rtept>
+    <rtept lat="49.467000" lon="8.988000">
+      <name>Eberbach</name>
+    </rtept>
+    <rtept lat="49.500000" lon="9.040000">
+      <name>Strümpfelbrunn</name>
+    </rtept>
+    <rtept lat="49.483000" lon="9.004000">
+      <name>Katzenbuckel (626 m)</name>
+    </rtept>
+    <rtept lat="49.454000" lon="9.103000">
+      <name>Waldbrunn</name>
+    </rtept>
+    <rtept lat="49.534000" lon="9.208000">
+      <name>Mudau</name>
+    </rtept>
+    <rtept lat="49.353000" lon="9.146000">
+      <name>Mosbach</name>
+    </rtept>
+    <rtept lat="49.319000" lon="9.138000">
+      <name>Neckarzimmern</name>
+    </rtept>
+    <rtept lat="49.285000" lon="9.159000">
+      <name>Gundelsheim</name>
+    </rtept>
+    <rtept lat="49.239000" lon="8.993000">
+      <name>Bad Rappenau</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

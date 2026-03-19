@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 06: Romantic Neckartal</name>
+    <desc>Follow the winding Neckar river through its most romantic stretch—a narrow valley lined with castle ruins, medieval towns, and forested slopes. The road hugs the river through countless curves as you pass through four-castle Neckarsteinach, Hirschhorn, and Eberbach.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.409000" lon="8.693000">
+    <name>Heidelberg</name>
+    <desc>Ride east</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.393000" lon="8.797000">
+    <name>Neckargemünd</name>
+    <desc>Valley narrows</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.403000" lon="8.838000">
+    <name>Neckarsteinach</name>
+    <desc>Four Castle Town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.448000" lon="8.893000">
+    <name>Hirschhorn</name>
+    <desc>Pearl of the Neckar</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.467000" lon="8.988000">
+    <name>Eberbach</name>
+    <desc>Medieval town – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.352000" lon="9.039000">
+    <name>Zwingenberg am Neckar</name>
+    <desc>Castle on the cliff</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.353000" lon="9.146000">
+    <name>Mosbach</name>
+    <desc>Half-timbered town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.319000" lon="9.138000">
+    <name>Neckarzimmern</name>
+    <desc>Burg Hornberg</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.285000" lon="9.159000">
+    <name>Gundelsheim</name>
+    <desc>Neckar valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.239000" lon="8.993000">
+    <name>Bad Rappenau</name>
+    <desc>Return west</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.253000" lon="8.879000">
+    <name>Sinsheim</name>
+    <desc>Kraichgau</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 06: Romantic Neckartal</name>
+    <desc>Odenwald | ~190 km | Easy to Moderate</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.409000" lon="8.693000">
+      <name>Heidelberg</name>
+    </rtept>
+    <rtept lat="49.393000" lon="8.797000">
+      <name>Neckargemünd</name>
+    </rtept>
+    <rtept lat="49.403000" lon="8.838000">
+      <name>Neckarsteinach</name>
+    </rtept>
+    <rtept lat="49.448000" lon="8.893000">
+      <name>Hirschhorn</name>
+    </rtept>
+    <rtept lat="49.467000" lon="8.988000">
+      <name>Eberbach</name>
+    </rtept>
+    <rtept lat="49.352000" lon="9.039000">
+      <name>Zwingenberg am Neckar</name>
+    </rtept>
+    <rtept lat="49.353000" lon="9.146000">
+      <name>Mosbach</name>
+    </rtept>
+    <rtept lat="49.319000" lon="9.138000">
+      <name>Neckarzimmern</name>
+    </rtept>
+    <rtept lat="49.285000" lon="9.159000">
+      <name>Gundelsheim</name>
+    </rtept>
+    <rtept lat="49.239000" lon="8.993000">
+      <name>Bad Rappenau</name>
+    </rtept>
+    <rtept lat="49.253000" lon="8.879000">
+      <name>Sinsheim</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

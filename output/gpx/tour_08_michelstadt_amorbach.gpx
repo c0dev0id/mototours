@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 08: Deep Odenwald – Michelstadt &amp; Amorbach</name>
+    <desc>Penetrate the most remote reaches of the Odenwald to discover Amorbach’s stunning Baroque abbey and Michelstadt’s fairy-tale medieval Rathaus. Long stretches through dark forest with barely a village in sight.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.409000" lon="8.693000">
+    <name>Heidelberg</name>
+    <desc>Head east</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.393000" lon="8.797000">
+    <name>Neckargemünd</name>
+    <desc>Neckar valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.438000" lon="8.811000">
+    <name>Schönau</name>
+    <desc>Into the hills</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.454000" lon="9.103000">
+    <name>Waldbrunn</name>
+    <desc>Deep forest</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.534000" lon="9.208000">
+    <name>Mudau</name>
+    <desc>Remote Odenwald</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.645000" lon="9.221000">
+    <name>Amorbach</name>
+    <desc>Baroque abbey</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.676000" lon="9.004000">
+    <name>Michelstadt</name>
+    <desc>Fairy-tale Rathaus – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.659000" lon="8.994000">
+    <name>Erbach</name>
+    <desc>Ivory museum</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.710000" lon="8.837000">
+    <name>Reichelsheim</name>
+    <desc>Continue south</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.568000" lon="8.780000">
+    <name>Lindenfels</name>
+    <desc>Pearl of the Odenwald</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.681000" lon="8.618000">
+    <name>Bensheim</name>
+    <desc>Bergstraße</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End (via A5)</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 08: Deep Odenwald – Michelstadt &amp; Amorbach</name>
+    <desc>Odenwald | ~230 km | Moderate to Challenging</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.409000" lon="8.693000">
+      <name>Heidelberg</name>
+    </rtept>
+    <rtept lat="49.393000" lon="8.797000">
+      <name>Neckargemünd</name>
+    </rtept>
+    <rtept lat="49.438000" lon="8.811000">
+      <name>Schönau</name>
+    </rtept>
+    <rtept lat="49.454000" lon="9.103000">
+      <name>Waldbrunn</name>
+    </rtept>
+    <rtept lat="49.534000" lon="9.208000">
+      <name>Mudau</name>
+    </rtept>
+    <rtept lat="49.645000" lon="9.221000">
+      <name>Amorbach</name>
+    </rtept>
+    <rtept lat="49.676000" lon="9.004000">
+      <name>Michelstadt</name>
+    </rtept>
+    <rtept lat="49.659000" lon="8.994000">
+      <name>Erbach</name>
+    </rtept>
+    <rtept lat="49.710000" lon="8.837000">
+      <name>Reichelsheim</name>
+    </rtept>
+    <rtept lat="49.568000" lon="8.780000">
+      <name>Lindenfels</name>
+    </rtept>
+    <rtept lat="49.681000" lon="8.618000">
+      <name>Bensheim</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

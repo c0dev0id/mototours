@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 19: Col de Saverne &amp; Vosges Loop</name>
+    <desc>A grand cross-border loop from the Pfälzerwald into the French Vosges mountains via the Col de Saverne. Combines German forest roads with French mountain passes and the impressive Citadel of Bitche.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.317000" lon="8.431000">
+    <name>Speyer</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.355000" lon="8.142000">
+    <name>Neustadt a.d. Weinstraße</name>
+    <desc>Through Pfälzerwald</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.348000" lon="7.850000">
+    <name>Johanniskreuz</name>
+    <desc>Forest crossroads</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.201000" lon="7.605000">
+    <name>Pirmasens</name>
+    <desc>Border region</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.052000" lon="7.430000">
+    <name>Bitche</name>
+    <desc>Vauban citadel (France)</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.742000" lon="7.362000">
+    <name>Saverne</name>
+    <desc>Rose City – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.736000" lon="7.303000">
+    <name>Col de Saverne</name>
+    <desc>Historic mountain pass</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.689000" lon="7.386000">
+    <name>Marmoutier</name>
+    <desc>Romanesque abbey</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.768000" lon="7.262000">
+    <name>Phalsbourg</name>
+    <desc>Fortified town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.037000" lon="7.945000">
+    <name>Wissembourg</name>
+    <desc>Back to Germany</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.049000" lon="8.054000">
+    <name>Schweigen-Rechtenbach</name>
+    <desc>Wine Gate</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.317000" lon="8.431000">
+    <name>Speyer</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 19: Col de Saverne &amp; Vosges Loop</name>
+    <desc>Elsass / Pfalz / Vosges | ~240 km | Moderate</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.317000" lon="8.431000">
+      <name>Speyer</name>
+    </rtept>
+    <rtept lat="49.355000" lon="8.142000">
+      <name>Neustadt a.d. Weinstraße</name>
+    </rtept>
+    <rtept lat="49.348000" lon="7.850000">
+      <name>Johanniskreuz</name>
+    </rtept>
+    <rtept lat="49.201000" lon="7.605000">
+      <name>Pirmasens</name>
+    </rtept>
+    <rtept lat="49.052000" lon="7.430000">
+      <name>Bitche</name>
+    </rtept>
+    <rtept lat="48.742000" lon="7.362000">
+      <name>Saverne</name>
+    </rtept>
+    <rtept lat="48.736000" lon="7.303000">
+      <name>Col de Saverne</name>
+    </rtept>
+    <rtept lat="48.689000" lon="7.386000">
+      <name>Marmoutier</name>
+    </rtept>
+    <rtept lat="48.768000" lon="7.262000">
+      <name>Phalsbourg</name>
+    </rtept>
+    <rtept lat="49.037000" lon="7.945000">
+      <name>Wissembourg</name>
+    </rtept>
+    <rtept lat="49.049000" lon="8.054000">
+      <name>Schweigen-Rechtenbach</name>
+    </rtept>
+    <rtept lat="49.317000" lon="8.431000">
+      <name>Speyer</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 14: Allerheiligen Waterfalls &amp; Renchtal</name>
+    <desc>A stunning loop combining the atmospheric ruins of Allerheiligen monastery, its cascading waterfalls, and the beautiful Renchtal—finished off with a stretch of the legendary B500.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="48.628000" lon="8.075000">
+    <name>Achern</name>
+    <desc>Enter hills (via A5)</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.592000" lon="8.113000">
+    <name>Kappelrodeck</name>
+    <desc>Red wine village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.570000" lon="8.152000">
+    <name>Ottenhöfen</name>
+    <desc>Valley end</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.538000" lon="8.132000">
+    <name>Kloster Allerheiligen</name>
+    <desc>Ruined monastery – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.488000" lon="8.175000">
+    <name>Zuflucht</name>
+    <desc>Mountain pass</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.474000" lon="8.161000">
+    <name>Oppenau</name>
+    <desc>Renchtal</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.427000" lon="8.202000">
+    <name>Bad Peterstal-Griesbach</name>
+    <desc>Spa village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.483000" lon="8.287000">
+    <name>Kniebis</name>
+    <desc>Pass</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.561000" lon="8.221000">
+    <name>Ruhestein</name>
+    <desc>Join B500</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.654000" lon="8.226000">
+    <name>Sand</name>
+    <desc>B500 north</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.761000" lon="8.241000">
+    <name>Baden-Baden</name>
+    <desc>Spa city</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End (via A5)</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 14: Allerheiligen Waterfalls &amp; Renchtal</name>
+    <desc>Schwarzwald | ~230 km | Moderate to Challenging</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="48.628000" lon="8.075000">
+      <name>Achern</name>
+    </rtept>
+    <rtept lat="48.592000" lon="8.113000">
+      <name>Kappelrodeck</name>
+    </rtept>
+    <rtept lat="48.570000" lon="8.152000">
+      <name>Ottenhöfen</name>
+    </rtept>
+    <rtept lat="48.538000" lon="8.132000">
+      <name>Kloster Allerheiligen</name>
+    </rtept>
+    <rtept lat="48.488000" lon="8.175000">
+      <name>Zuflucht</name>
+    </rtept>
+    <rtept lat="48.474000" lon="8.161000">
+      <name>Oppenau</name>
+    </rtept>
+    <rtept lat="48.427000" lon="8.202000">
+      <name>Bad Peterstal-Griesbach</name>
+    </rtept>
+    <rtept lat="48.483000" lon="8.287000">
+      <name>Kniebis</name>
+    </rtept>
+    <rtept lat="48.561000" lon="8.221000">
+      <name>Ruhestein</name>
+    </rtept>
+    <rtept lat="48.654000" lon="8.226000">
+      <name>Sand</name>
+    </rtept>
+    <rtept lat="48.761000" lon="8.241000">
+      <name>Baden-Baden</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

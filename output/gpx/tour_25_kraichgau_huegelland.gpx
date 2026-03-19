@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 25: Kraichgau Hügelland</name>
+    <desc>Explore the Kraichgau—the rolling hill country between the Rhine and the Odenwald that’s often called the “land of a thousand hills.” Gentle curves through orchards and vineyards with the Burg Steinsberg as the panoramic highlight.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.306000" lon="8.643000">
+    <name>Walldorf</name>
+    <desc>SAP town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.294000" lon="8.698000">
+    <name>Wiesloch</name>
+    <desc>Into the hills</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.334000" lon="8.819000">
+    <name>Meckesheim</name>
+    <desc>Kraichgau</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.351000" lon="8.824000">
+    <name>Zuzenhausen</name>
+    <desc>Rolling hills</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.239000" lon="8.825000">
+    <name>Burg Steinsberg</name>
+    <desc>Compass of the Kraichgau – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.253000" lon="8.879000">
+    <name>Sinsheim</name>
+    <desc>Technik Museum</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.198000" lon="8.933000">
+    <name>Ittlingen</name>
+    <desc>Wine country</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.136000" lon="8.912000">
+    <name>Eppingen</name>
+    <desc>Fachwerkstadt</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.106000" lon="8.860000">
+    <name>Sulzfeld</name>
+    <desc>Wine village with town wall</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.036000" lon="8.707000">
+    <name>Bretten</name>
+    <desc>Melanchthon house</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.124000" lon="8.598000">
+    <name>Bruchsal</name>
+    <desc>Baroque palace</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 25: Kraichgau Hügelland</name>
+    <desc>Kraichgau | ~165 km | Easy</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.306000" lon="8.643000">
+      <name>Walldorf</name>
+    </rtept>
+    <rtept lat="49.294000" lon="8.698000">
+      <name>Wiesloch</name>
+    </rtept>
+    <rtept lat="49.334000" lon="8.819000">
+      <name>Meckesheim</name>
+    </rtept>
+    <rtept lat="49.351000" lon="8.824000">
+      <name>Zuzenhausen</name>
+    </rtept>
+    <rtept lat="49.239000" lon="8.825000">
+      <name>Burg Steinsberg</name>
+    </rtept>
+    <rtept lat="49.253000" lon="8.879000">
+      <name>Sinsheim</name>
+    </rtept>
+    <rtept lat="49.198000" lon="8.933000">
+      <name>Ittlingen</name>
+    </rtept>
+    <rtept lat="49.136000" lon="8.912000">
+      <name>Eppingen</name>
+    </rtept>
+    <rtept lat="49.106000" lon="8.860000">
+      <name>Sulzfeld</name>
+    </rtept>
+    <rtept lat="49.036000" lon="8.707000">
+      <name>Bretten</name>
+    </rtept>
+    <rtept lat="49.124000" lon="8.598000">
+      <name>Bruchsal</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

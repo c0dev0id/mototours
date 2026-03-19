@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 27: Enztal to Besigheim</name>
+    <desc>Follow the Enz river from Maulbronn’s UNESCO monastery to the stunning wine terraces of Besigheim and Hessigheim, where vineyards cling to dramatic limestone cliffs above the river.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.124000" lon="8.598000">
+    <name>Bruchsal</name>
+    <desc>Head south</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.036000" lon="8.707000">
+    <name>Bretten</name>
+    <desc>Melanchthon</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.002000" lon="8.812000">
+    <name>Maulbronn</name>
+    <desc>UNESCO monastery</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.948000" lon="8.839000">
+    <name>Mühlacker</name>
+    <desc>Enz valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.933000" lon="8.962000">
+    <name>Vaihingen an der Enz</name>
+    <desc>River town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.962000" lon="9.127000">
+    <name>Bietigheim-Bissingen</name>
+    <desc>Enz confluence</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.999000" lon="9.142000">
+    <name>Besigheim</name>
+    <desc>Wine terrace town – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.012000" lon="9.185000">
+    <name>Hessigheim</name>
+    <desc>Felsengärten cliffs</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.010000" lon="9.208000">
+    <name>Mundelsheim</name>
+    <desc>Käsberg vineyard</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.074000" lon="9.145000">
+    <name>Lauffen am Neckar</name>
+    <desc>Hölderlin birthplace</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.077000" lon="9.067000">
+    <name>Brackenheim</name>
+    <desc>Wine capital</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.136000" lon="8.912000">
+    <name>Eppingen</name>
+    <desc>Fachwerkstadt</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 27: Enztal to Besigheim</name>
+    <desc>Enztal / Württemberg | ~220 km | Moderate</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.124000" lon="8.598000">
+      <name>Bruchsal</name>
+    </rtept>
+    <rtept lat="49.036000" lon="8.707000">
+      <name>Bretten</name>
+    </rtept>
+    <rtept lat="49.002000" lon="8.812000">
+      <name>Maulbronn</name>
+    </rtept>
+    <rtept lat="48.948000" lon="8.839000">
+      <name>Mühlacker</name>
+    </rtept>
+    <rtept lat="48.933000" lon="8.962000">
+      <name>Vaihingen an der Enz</name>
+    </rtept>
+    <rtept lat="48.962000" lon="9.127000">
+      <name>Bietigheim-Bissingen</name>
+    </rtept>
+    <rtept lat="48.999000" lon="9.142000">
+      <name>Besigheim</name>
+    </rtept>
+    <rtept lat="49.012000" lon="9.185000">
+      <name>Hessigheim</name>
+    </rtept>
+    <rtept lat="49.010000" lon="9.208000">
+      <name>Mundelsheim</name>
+    </rtept>
+    <rtept lat="49.074000" lon="9.145000">
+      <name>Lauffen am Neckar</name>
+    </rtept>
+    <rtept lat="49.077000" lon="9.067000">
+      <name>Brackenheim</name>
+    </rtept>
+    <rtept lat="49.136000" lon="8.912000">
+      <name>Eppingen</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

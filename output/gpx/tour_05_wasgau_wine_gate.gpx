@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 05: Wasgau &amp; the German Wine Gate</name>
+    <desc>Ride to the southern tip of the Deutsche Weinstraße, where Germany meets France. The Wasgau region offers romantic castle ruins, a brief French border crossing, and the iconic Deutsches Weintor—the monumental gate marking the start of the German wine route.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.317000" lon="8.431000">
+    <name>Speyer</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.199000" lon="8.117000">
+    <name>Landau in der Pfalz</name>
+    <desc>Head south</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.204000" lon="7.969000">
+    <name>Annweiler am Trifels</name>
+    <desc>Into the forest</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.100000" lon="8.001000">
+    <name>Bad Bergzabern</name>
+    <desc>Spa town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.082000" lon="8.006000">
+    <name>Dörrenbach</name>
+    <desc>Prettiest village in the Pfalz</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.049000" lon="8.054000">
+    <name>Schweigen-Rechtenbach</name>
+    <desc>Deutsches Weintor – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.037000" lon="7.945000">
+    <name>Wissembourg</name>
+    <desc>Brief French detour</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.052000" lon="8.096000">
+    <name>Schweighofen</name>
+    <desc>Border villages</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.067000" lon="8.051000">
+    <name>Steinfeld</name>
+    <desc>Quiet border region</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.135000" lon="8.015000">
+    <name>Klingenmünster</name>
+    <desc>Wine village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.269000" lon="8.110000">
+    <name>Rhodt unter Rietburg</name>
+    <desc>Northern wine route</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.355000" lon="8.142000">
+    <name>Neustadt a.d. Weinstraße</name>
+    <desc>Return north</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.317000" lon="8.431000">
+    <name>Speyer</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 05: Wasgau &amp; the German Wine Gate</name>
+    <desc>Pfälzerwald | ~240 km | Moderate</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.317000" lon="8.431000">
+      <name>Speyer</name>
+    </rtept>
+    <rtept lat="49.199000" lon="8.117000">
+      <name>Landau in der Pfalz</name>
+    </rtept>
+    <rtept lat="49.204000" lon="7.969000">
+      <name>Annweiler am Trifels</name>
+    </rtept>
+    <rtept lat="49.100000" lon="8.001000">
+      <name>Bad Bergzabern</name>
+    </rtept>
+    <rtept lat="49.082000" lon="8.006000">
+      <name>Dörrenbach</name>
+    </rtept>
+    <rtept lat="49.049000" lon="8.054000">
+      <name>Schweigen-Rechtenbach</name>
+    </rtept>
+    <rtept lat="49.037000" lon="7.945000">
+      <name>Wissembourg</name>
+    </rtept>
+    <rtept lat="49.052000" lon="8.096000">
+      <name>Schweighofen</name>
+    </rtept>
+    <rtept lat="49.067000" lon="8.051000">
+      <name>Steinfeld</name>
+    </rtept>
+    <rtept lat="49.135000" lon="8.015000">
+      <name>Klingenmünster</name>
+    </rtept>
+    <rtept lat="49.269000" lon="8.110000">
+      <name>Rhodt unter Rietburg</name>
+    </rtept>
+    <rtept lat="49.355000" lon="8.142000">
+      <name>Neustadt a.d. Weinstraße</name>
+    </rtept>
+    <rtept lat="49.317000" lon="8.431000">
+      <name>Speyer</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

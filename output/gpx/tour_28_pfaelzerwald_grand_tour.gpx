@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 28: Pfälzerwald Grand Tour</name>
+    <desc>The ultimate Pfälzerwald experience—a grand loop covering the entire forest from north to south. Bad Dürkheim’s famous Wurstmarkt grounds, the legendary Johanniskreuz, the wild Dahner Felsenland, and the wine route. A full day of forest riding.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.317000" lon="8.431000">
+    <name>Speyer</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.355000" lon="8.142000">
+    <name>Neustadt a.d. Weinstraße</name>
+    <desc>Wine gateway</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.462000" lon="8.172000">
+    <name>Bad Dürkheim</name>
+    <desc>World’s largest wine barrel</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.486000" lon="7.907000">
+    <name>Enkenbach-Alsenborn</name>
+    <desc>Northern Pfälzerwald</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.504000" lon="7.770000">
+    <name>Otterberg</name>
+    <desc>Cistercian abbey</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.445000" lon="7.769000">
+    <name>Kaiserslautern</name>
+    <desc>Brief pass</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.348000" lon="7.850000">
+    <name>Johanniskreuz</name>
+    <desc>Forest crossroads</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.360000" lon="7.940000">
+    <name>Elmstein</name>
+    <desc>Elmstein Valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.297000" lon="7.676000">
+    <name>Heltersberg</name>
+    <desc>Western forest</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.201000" lon="7.605000">
+    <name>Pirmasens</name>
+    <desc>Shoe city</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.151000" lon="7.790000">
+    <name>Dahn</name>
+    <desc>Felsenland – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.204000" lon="7.969000">
+    <name>Annweiler am Trifels</name>
+    <desc>Trifels Castle</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.199000" lon="8.117000">
+    <name>Landau in der Pfalz</name>
+    <desc>Wine route</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.284000" lon="8.120000">
+    <name>Edenkoben</name>
+    <desc>Weinstraße</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.317000" lon="8.431000">
+    <name>Speyer</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 28: Pfälzerwald Grand Tour</name>
+    <desc>Pfälzerwald | ~290 km | Challenging</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.317000" lon="8.431000">
+      <name>Speyer</name>
+    </rtept>
+    <rtept lat="49.355000" lon="8.142000">
+      <name>Neustadt a.d. Weinstraße</name>
+    </rtept>
+    <rtept lat="49.462000" lon="8.172000">
+      <name>Bad Dürkheim</name>
+    </rtept>
+    <rtept lat="49.486000" lon="7.907000">
+      <name>Enkenbach-Alsenborn</name>
+    </rtept>
+    <rtept lat="49.504000" lon="7.770000">
+      <name>Otterberg</name>
+    </rtept>
+    <rtept lat="49.445000" lon="7.769000">
+      <name>Kaiserslautern</name>
+    </rtept>
+    <rtept lat="49.348000" lon="7.850000">
+      <name>Johanniskreuz</name>
+    </rtept>
+    <rtept lat="49.360000" lon="7.940000">
+      <name>Elmstein</name>
+    </rtept>
+    <rtept lat="49.297000" lon="7.676000">
+      <name>Heltersberg</name>
+    </rtept>
+    <rtept lat="49.201000" lon="7.605000">
+      <name>Pirmasens</name>
+    </rtept>
+    <rtept lat="49.151000" lon="7.790000">
+      <name>Dahn</name>
+    </rtept>
+    <rtept lat="49.204000" lon="7.969000">
+      <name>Annweiler am Trifels</name>
+    </rtept>
+    <rtept lat="49.199000" lon="8.117000">
+      <name>Landau in der Pfalz</name>
+    </rtept>
+    <rtept lat="49.284000" lon="8.120000">
+      <name>Edenkoben</name>
+    </rtept>
+    <rtept lat="49.317000" lon="8.431000">
+      <name>Speyer</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

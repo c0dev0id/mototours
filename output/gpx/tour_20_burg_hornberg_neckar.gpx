@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 20: Burg Hornberg &amp; Neckar Loop</name>
+    <desc>A relaxed loop along the middle Neckar valley, visiting some of the finest castles in Baden-Württemberg and the stunning hilltop town of Bad Wimpfen with its imperial palace ruins.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.253000" lon="8.879000">
+    <name>Sinsheim</name>
+    <desc>Head east</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.239000" lon="8.993000">
+    <name>Bad Rappenau</name>
+    <desc>Saline tower</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.231000" lon="9.165000">
+    <name>Bad Wimpfen</name>
+    <desc>Imperial palace – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.285000" lon="9.159000">
+    <name>Gundelsheim</name>
+    <desc>Deutschordensschloss</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.283000" lon="9.142000">
+    <name>Burg Guttenberg</name>
+    <desc>Raptor center</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.319000" lon="9.138000">
+    <name>Neckarzimmern</name>
+    <desc>Burg Hornberg</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.300000" lon="9.157000">
+    <name>Haßmersheim</name>
+    <desc>Neckar valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.353000" lon="9.146000">
+    <name>Mosbach</name>
+    <desc>Half-timbered town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.352000" lon="9.087000">
+    <name>Obrigheim</name>
+    <desc>Continue west</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.253000" lon="8.879000">
+    <name>Sinsheim</name>
+    <desc>Return</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 20: Burg Hornberg &amp; Neckar Loop</name>
+    <desc>Neckartal | ~180 km | Easy to Moderate</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.253000" lon="8.879000">
+      <name>Sinsheim</name>
+    </rtept>
+    <rtept lat="49.239000" lon="8.993000">
+      <name>Bad Rappenau</name>
+    </rtept>
+    <rtept lat="49.231000" lon="9.165000">
+      <name>Bad Wimpfen</name>
+    </rtept>
+    <rtept lat="49.285000" lon="9.159000">
+      <name>Gundelsheim</name>
+    </rtept>
+    <rtept lat="49.283000" lon="9.142000">
+      <name>Burg Guttenberg</name>
+    </rtept>
+    <rtept lat="49.319000" lon="9.138000">
+      <name>Neckarzimmern</name>
+    </rtept>
+    <rtept lat="49.300000" lon="9.157000">
+      <name>Haßmersheim</name>
+    </rtept>
+    <rtept lat="49.353000" lon="9.146000">
+      <name>Mosbach</name>
+    </rtept>
+    <rtept lat="49.352000" lon="9.087000">
+      <name>Obrigheim</name>
+    </rtept>
+    <rtept lat="49.253000" lon="8.879000">
+      <name>Sinsheim</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

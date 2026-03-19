@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 17: Fleckenstein &amp; Northern Vosges</name>
+    <desc>Cross into France to discover the Château du Fleckenstein—a medieval fortress carved into a 30-meter sandstone cliff—and ride the forested roads of the northern Vosges, a UNESCO Biosphere Reserve.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.317000" lon="8.431000">
+    <name>Speyer</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.199000" lon="8.117000">
+    <name>Landau in der Pfalz</name>
+    <desc>Head south</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.100000" lon="8.001000">
+    <name>Bad Bergzabern</name>
+    <desc>Spa town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.037000" lon="7.945000">
+    <name>Wissembourg</name>
+    <desc>Cross into France</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.003000" lon="7.788000">
+    <name>Lembach</name>
+    <desc>Vosges forest</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.033000" lon="7.774000">
+    <name>Château du Fleckenstein</name>
+    <desc>Sandstone castle – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.952000" lon="7.643000">
+    <name>Niederbronn-les-Bains</name>
+    <desc>Thermal spa</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.938000" lon="7.737000">
+    <name>Wörth-sur-Sauer</name>
+    <desc>Through the forest</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.974000" lon="8.176000">
+    <name>Lauterbourg</name>
+    <desc>Back to Germany</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.216000" lon="8.366000">
+    <name>Germersheim</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 17: Fleckenstein &amp; Northern Vosges</name>
+    <desc>Elsass / Alsace | ~230 km | Moderate</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.317000" lon="8.431000">
+      <name>Speyer</name>
+    </rtept>
+    <rtept lat="49.199000" lon="8.117000">
+      <name>Landau in der Pfalz</name>
+    </rtept>
+    <rtept lat="49.100000" lon="8.001000">
+      <name>Bad Bergzabern</name>
+    </rtept>
+    <rtept lat="49.037000" lon="7.945000">
+      <name>Wissembourg</name>
+    </rtept>
+    <rtept lat="49.003000" lon="7.788000">
+      <name>Lembach</name>
+    </rtept>
+    <rtept lat="49.033000" lon="7.774000">
+      <name>Château du Fleckenstein</name>
+    </rtept>
+    <rtept lat="48.952000" lon="7.643000">
+      <name>Niederbronn-les-Bains</name>
+    </rtept>
+    <rtept lat="48.938000" lon="7.737000">
+      <name>Wörth-sur-Sauer</name>
+    </rtept>
+    <rtept lat="48.974000" lon="8.176000">
+      <name>Lauterbourg</name>
+    </rtept>
+    <rtept lat="49.216000" lon="8.366000">
+      <name>Germersheim</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>
