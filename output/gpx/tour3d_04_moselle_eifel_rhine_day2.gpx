@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour3d 04, Day 2: Eifel, Nürburgring &amp; Ahr Valley</name>
+    <desc>Visit Burg Eltz, ride through the Eifel to the Nürburgring, then through the Ahr valley.</desc>
+  </metadata>
+  <wpt lat="50.146000" lon="7.167000">
+    <name>Cochem</name>
+    <desc>Start day 2</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.205000" lon="7.337000">
+    <name>Burg Eltz</name>
+    <desc>Fairy-tale castle</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.328000" lon="7.223000">
+    <name>Mayen</name>
+    <desc>Eifel town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.336000" lon="6.943000">
+    <name>Nürburgring</name>
+    <desc>Legendary circuit</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="50.383000" lon="6.931000">
+    <name>Adenau</name>
+    <desc>Eifel village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.518000" lon="6.985000">
+    <name>Altenahr</name>
+    <desc>Ahr gorge</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.543000" lon="7.112000">
+    <name>Bad Neuenahr-Ahrweiler</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Eifel, Nürburgring &amp; Ahr Valley</name>
+    <desc>~200 km</desc>
+    <rtept lat="50.146000" lon="7.167000">
+      <name>Cochem</name>
+    </rtept>
+    <rtept lat="50.205000" lon="7.337000">
+      <name>Burg Eltz</name>
+    </rtept>
+    <rtept lat="50.328000" lon="7.223000">
+      <name>Mayen</name>
+    </rtept>
+    <rtept lat="50.336000" lon="6.943000">
+      <name>Nürburgring</name>
+    </rtept>
+    <rtept lat="50.383000" lon="6.931000">
+      <name>Adenau</name>
+    </rtept>
+    <rtept lat="50.518000" lon="6.985000">
+      <name>Altenahr</name>
+    </rtept>
+    <rtept lat="50.543000" lon="7.112000">
+      <name>Bad Neuenahr-Ahrweiler</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour3d 03, Day 1: Odenwald &amp; Main to Würzburg</name>
+    <desc>Through the Odenwald to Amorbach and the Main valley to Würzburg.</desc>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.467000" lon="8.988000">
+    <name>Eberbach</name>
+    <desc>Neckar valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.570000" lon="8.977000">
+    <name>Beerfelden</name>
+    <desc>Deep Odenwald</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.645000" lon="9.221000">
+    <name>Amorbach</name>
+    <desc>Baroque abbey</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.703000" lon="9.265000">
+    <name>Miltenberg</name>
+    <desc>Main valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.759000" lon="9.509000">
+    <name>Wertheim</name>
+    <desc>Main confluence</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.792000" lon="9.934000">
+    <name>Würzburg</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Odenwald &amp; Main to Würzburg</name>
+    <desc>~210 km</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.467000" lon="8.988000">
+      <name>Eberbach</name>
+    </rtept>
+    <rtept lat="49.570000" lon="8.977000">
+      <name>Beerfelden</name>
+    </rtept>
+    <rtept lat="49.645000" lon="9.221000">
+      <name>Amorbach</name>
+    </rtept>
+    <rtept lat="49.703000" lon="9.265000">
+      <name>Miltenberg</name>
+    </rtept>
+    <rtept lat="49.759000" lon="9.509000">
+      <name>Wertheim</name>
+    </rtept>
+    <rtept lat="49.792000" lon="9.934000">
+      <name>Würzburg</name>
+    </rtept>
+  </rte>
+</gpx>

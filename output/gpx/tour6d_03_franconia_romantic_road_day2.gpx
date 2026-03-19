@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 03, Day 2: Franconian Wine to Bamberg</name>
+    <desc>Through Franconian wine country along the Main to UNESCO Bamberg.</desc>
+  </metadata>
+  <wpt lat="49.792000" lon="9.934000">
+    <name>Würzburg</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.866000" lon="10.227000">
+    <name>Volkach</name>
+    <desc>Mainschleife</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.800000" lon="10.168000">
+    <name>Dettelbach</name>
+    <desc>Pilgrim town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.701000" lon="10.258000">
+    <name>Iphofen</name>
+    <desc>Wine town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.891000" lon="10.886000">
+    <name>Bamberg</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Franconian Wine to Bamberg</name>
+    <desc>~200 km</desc>
+    <rtept lat="49.792000" lon="9.934000">
+      <name>Würzburg</name>
+    </rtept>
+    <rtept lat="49.866000" lon="10.227000">
+      <name>Volkach</name>
+    </rtept>
+    <rtept lat="49.800000" lon="10.168000">
+      <name>Dettelbach</name>
+    </rtept>
+    <rtept lat="49.701000" lon="10.258000">
+      <name>Iphofen</name>
+    </rtept>
+    <rtept lat="49.891000" lon="10.886000">
+      <name>Bamberg</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 03, Day 6: Hohenlohe &amp; Neckar Home</name>
+    <desc>Through Hohenlohe, motorcycle museum, Bad Wimpfen, Neckar valley home.</desc>
+  </metadata>
+  <wpt lat="49.112000" lon="9.738000">
+    <name>Schwäbisch Hall</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.201000" lon="9.501000">
+    <name>Öhringen</name>
+    <desc>Hohenlohe</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.192000" lon="9.225000">
+    <name>Neckarsulm</name>
+    <desc>Motorcycle museum!</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.231000" lon="9.165000">
+    <name>Bad Wimpfen</name>
+    <desc>Kaiserpfalz</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.353000" lon="9.146000">
+    <name>Mosbach</name>
+    <desc>Fachwerk</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.467000" lon="8.988000">
+    <name>Eberbach</name>
+    <desc>Neckar valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End – home</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Hohenlohe &amp; Neckar Home</name>
+    <desc>~200 km</desc>
+    <rtept lat="49.112000" lon="9.738000">
+      <name>Schwäbisch Hall</name>
+    </rtept>
+    <rtept lat="49.201000" lon="9.501000">
+      <name>Öhringen</name>
+    </rtept>
+    <rtept lat="49.192000" lon="9.225000">
+      <name>Neckarsulm</name>
+    </rtept>
+    <rtept lat="49.231000" lon="9.165000">
+      <name>Bad Wimpfen</name>
+    </rtept>
+    <rtept lat="49.353000" lon="9.146000">
+      <name>Mosbach</name>
+    </rtept>
+    <rtept lat="49.467000" lon="8.988000">
+      <name>Eberbach</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

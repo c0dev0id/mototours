@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Weekend 03, Day 1: Through Pfälzerwald &amp; Alsace to Kaysersberg</name>
+    <desc>Cross the Rhine at Speyer, ride through Landau and into France at Wissembourg. Follow the northern Vosges through Niederbronn to Saverne, then pick up the Alsace Wine Route at Marlenheim. Ride south through Obernai, Ribeauvillé, and a string of flower-draped villages to Kaysersberg.</desc>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.317000" lon="8.431000">
+    <name>Speyer</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.199000" lon="8.117000">
+    <name>Landau in der Pfalz</name>
+    <desc>Pfalz</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.037000" lon="7.945000">
+    <name>Wissembourg</name>
+    <desc>Cross into France</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.952000" lon="7.643000">
+    <name>Niederbronn-les-Bains</name>
+    <desc>Thermal spa</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.742000" lon="7.362000">
+    <name>Saverne</name>
+    <desc>Rose City</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.622000" lon="7.492000">
+    <name>Marlenheim</name>
+    <desc>Wine route starts</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.462000" lon="7.483000">
+    <name>Obernai</name>
+    <desc>Alsatian gem</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.194000" lon="7.318000">
+    <name>Ribeauvillé</name>
+    <desc>Three castles</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.140000" lon="7.264000">
+    <name>Kaysersberg</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Through Pfälzerwald &amp; Alsace to Kaysersberg</name>
+    <desc>~210 km</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.317000" lon="8.431000">
+      <name>Speyer</name>
+    </rtept>
+    <rtept lat="49.199000" lon="8.117000">
+      <name>Landau in der Pfalz</name>
+    </rtept>
+    <rtept lat="49.037000" lon="7.945000">
+      <name>Wissembourg</name>
+    </rtept>
+    <rtept lat="48.952000" lon="7.643000">
+      <name>Niederbronn-les-Bains</name>
+    </rtept>
+    <rtept lat="48.742000" lon="7.362000">
+      <name>Saverne</name>
+    </rtept>
+    <rtept lat="48.622000" lon="7.492000">
+      <name>Marlenheim</name>
+    </rtept>
+    <rtept lat="48.462000" lon="7.483000">
+      <name>Obernai</name>
+    </rtept>
+    <rtept lat="48.194000" lon="7.318000">
+      <name>Ribeauvillé</name>
+    </rtept>
+    <rtept lat="48.140000" lon="7.264000">
+      <name>Kaysersberg</name>
+    </rtept>
+  </rte>
+</gpx>

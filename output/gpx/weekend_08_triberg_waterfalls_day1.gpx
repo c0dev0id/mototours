@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Weekend 08, Day 1: Renchtal &amp; Allerheiligen to Triberg</name>
+    <desc>Take the A5 to Achern and climb through Kappelrodeck to Allerheiligen—the atmospheric ruined monastery with its 83 m cascading waterfalls. Cross to the Renchtal, ride south through Oppenau, then east to Freudenstadt. Continue through Schiltach to Triberg.</desc>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="48.628000" lon="8.075000">
+    <name>Achern</name>
+    <desc>Enter hills (via A5)</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.592000" lon="8.113000">
+    <name>Kappelrodeck</name>
+    <desc>Red wine village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.570000" lon="8.152000">
+    <name>Ottenhöfen</name>
+    <desc>Valley end</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.538000" lon="8.132000">
+    <name>Kloster Allerheiligen</name>
+    <desc>Ruined monastery</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.474000" lon="8.161000">
+    <name>Oppenau</name>
+    <desc>Renchtal</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.427000" lon="8.202000">
+    <name>Bad Peterstal</name>
+    <desc>Spa village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.462000" lon="8.411000">
+    <name>Freudenstadt</name>
+    <desc>Marktplatz</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.290000" lon="8.339000">
+    <name>Schiltach</name>
+    <desc>Half-timbered</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.133000" lon="8.237000">
+    <name>Triberg</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Renchtal &amp; Allerheiligen to Triberg</name>
+    <desc>~220 km</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="48.628000" lon="8.075000">
+      <name>Achern</name>
+    </rtept>
+    <rtept lat="48.592000" lon="8.113000">
+      <name>Kappelrodeck</name>
+    </rtept>
+    <rtept lat="48.570000" lon="8.152000">
+      <name>Ottenhöfen</name>
+    </rtept>
+    <rtept lat="48.538000" lon="8.132000">
+      <name>Kloster Allerheiligen</name>
+    </rtept>
+    <rtept lat="48.474000" lon="8.161000">
+      <name>Oppenau</name>
+    </rtept>
+    <rtept lat="48.427000" lon="8.202000">
+      <name>Bad Peterstal</name>
+    </rtept>
+    <rtept lat="48.462000" lon="8.411000">
+      <name>Freudenstadt</name>
+    </rtept>
+    <rtept lat="48.290000" lon="8.339000">
+      <name>Schiltach</name>
+    </rtept>
+    <rtept lat="48.133000" lon="8.237000">
+      <name>Triberg</name>
+    </rtept>
+  </rte>
+</gpx>

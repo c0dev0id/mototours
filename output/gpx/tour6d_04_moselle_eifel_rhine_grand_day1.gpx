@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 04, Day 1: Bergstraße &amp; Taunus</name>
+    <desc>North along the Bergstraße, through the Taunus to Limburg and Weilburg.</desc>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.550000" lon="8.667000">
+    <name>Weinheim</name>
+    <desc>Bergstraße</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.681000" lon="8.618000">
+    <name>Bensheim</name>
+    <desc>Bergstraße</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.874000" lon="8.650000">
+    <name>Darmstadt</name>
+    <desc>Architecture</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.222000" lon="8.268000">
+    <name>Idstein</name>
+    <desc>Taunus</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="50.387000" lon="8.063000">
+    <name>Limburg an der Lahn</name>
+    <desc>Cathedral</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.486000" lon="8.262000">
+    <name>Weilburg</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Bergstraße &amp; Taunus</name>
+    <desc>~210 km</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.550000" lon="8.667000">
+      <name>Weinheim</name>
+    </rtept>
+    <rtept lat="49.681000" lon="8.618000">
+      <name>Bensheim</name>
+    </rtept>
+    <rtept lat="49.874000" lon="8.650000">
+      <name>Darmstadt</name>
+    </rtept>
+    <rtept lat="50.222000" lon="8.268000">
+      <name>Idstein</name>
+    </rtept>
+    <rtept lat="50.387000" lon="8.063000">
+      <name>Limburg an der Lahn</name>
+    </rtept>
+    <rtept lat="50.486000" lon="8.262000">
+      <name>Weilburg</name>
+    </rtept>
+  </rte>
+</gpx>

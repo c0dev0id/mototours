@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 05, Day 5: Hesse to the Lahn</name>
+    <desc>To fairy-tale Marburg, then through the Hessisches Hinterland to the Lahn valley.</desc>
+  </metadata>
+  <wpt lat="50.749000" lon="9.271000">
+    <name>Alsfeld</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.810000" lon="8.770000">
+    <name>Marburg</name>
+    <desc>University town</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="50.769000" lon="8.583000">
+    <name>Gladenbach</name>
+    <desc>Hinterland</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.680000" lon="8.302000">
+    <name>Herborn</name>
+    <desc>Lahn valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.486000" lon="8.262000">
+    <name>Weilburg</name>
+    <desc>Lahn palace</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.387000" lon="8.063000">
+    <name>Limburg an der Lahn</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Hesse to the Lahn</name>
+    <desc>~210 km</desc>
+    <rtept lat="50.749000" lon="9.271000">
+      <name>Alsfeld</name>
+    </rtept>
+    <rtept lat="50.810000" lon="8.770000">
+      <name>Marburg</name>
+    </rtept>
+    <rtept lat="50.769000" lon="8.583000">
+      <name>Gladenbach</name>
+    </rtept>
+    <rtept lat="50.680000" lon="8.302000">
+      <name>Herborn</name>
+    </rtept>
+    <rtept lat="50.486000" lon="8.262000">
+      <name>Weilburg</name>
+    </rtept>
+    <rtept lat="50.387000" lon="8.063000">
+      <name>Limburg an der Lahn</name>
+    </rtept>
+  </rte>
+</gpx>

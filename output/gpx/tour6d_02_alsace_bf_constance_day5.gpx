@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 02, Day 5: Lake Constance to Triberg</name>
+    <desc>Along Lake Constance, then north through Donaueschingen (Danube source) to Triberg.</desc>
+  </metadata>
+  <wpt lat="47.694000" lon="9.271000">
+    <name>Meersburg</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.769000" lon="9.160000">
+    <name>Überlingen</name>
+    <desc>Lake town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.763000" lon="8.836000">
+    <name>Singen</name>
+    <desc>Hegau volcanoes</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.951000" lon="8.503000">
+    <name>Donaueschingen</name>
+    <desc>Danube source</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.062000" lon="8.461000">
+    <name>Villingen</name>
+    <desc>Twin town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.133000" lon="8.237000">
+    <name>Triberg</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Lake Constance to Triberg</name>
+    <desc>~200 km</desc>
+    <rtept lat="47.694000" lon="9.271000">
+      <name>Meersburg</name>
+    </rtept>
+    <rtept lat="47.769000" lon="9.160000">
+      <name>Überlingen</name>
+    </rtept>
+    <rtept lat="47.763000" lon="8.836000">
+      <name>Singen</name>
+    </rtept>
+    <rtept lat="47.951000" lon="8.503000">
+      <name>Donaueschingen</name>
+    </rtept>
+    <rtept lat="48.062000" lon="8.461000">
+      <name>Villingen</name>
+    </rtept>
+    <rtept lat="48.133000" lon="8.237000">
+      <name>Triberg</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour3d 01, Day 3: Höllental &amp; Kinzigtal Home</name>
+    <desc>From Staufen, ride through Freiburg and up the dramatic Höllental gorge. Continue through Hinterzarten and the Elztal north to Wolfach and Gengenbach. Return from Offenburg via the A5.</desc>
+  </metadata>
+  <wpt lat="47.883000" lon="7.728000">
+    <name>Staufen im Breisgau</name>
+    <desc>Start day 3</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.999000" lon="7.842000">
+    <name>Freiburg</name>
+    <desc>BF capital</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.963000" lon="7.952000">
+    <name>Kirchzarten</name>
+    <desc>Höllental entrance</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.897000" lon="8.050000">
+    <name>Höllental</name>
+    <desc>Hell Valley gorge</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="47.906000" lon="8.110000">
+    <name>Hinterzarten</name>
+    <desc>Health resort</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.173000" lon="8.071000">
+    <name>Elzach</name>
+    <desc>Elztal</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.293000" lon="8.219000">
+    <name>Wolfach</name>
+    <desc>Kinzigtal</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.407000" lon="8.015000">
+    <name>Gengenbach</name>
+    <desc>Gengenbach</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.473000" lon="7.954000">
+    <name>Offenburg</name>
+    <desc>A5 north</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End – home</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Höllental &amp; Kinzigtal Home</name>
+    <desc>~210 km</desc>
+    <rtept lat="47.883000" lon="7.728000">
+      <name>Staufen im Breisgau</name>
+    </rtept>
+    <rtept lat="47.999000" lon="7.842000">
+      <name>Freiburg</name>
+    </rtept>
+    <rtept lat="47.963000" lon="7.952000">
+      <name>Kirchzarten</name>
+    </rtept>
+    <rtept lat="47.897000" lon="8.050000">
+      <name>Höllental</name>
+    </rtept>
+    <rtept lat="47.906000" lon="8.110000">
+      <name>Hinterzarten</name>
+    </rtept>
+    <rtept lat="48.173000" lon="8.071000">
+      <name>Elzach</name>
+    </rtept>
+    <rtept lat="48.293000" lon="8.219000">
+      <name>Wolfach</name>
+    </rtept>
+    <rtept lat="48.407000" lon="8.015000">
+      <name>Gengenbach</name>
+    </rtept>
+    <rtept lat="48.473000" lon="7.954000">
+      <name>Offenburg</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

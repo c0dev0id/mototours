@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour3d 05, Day 1: Through Hohenlohe to Heidenheim</name>
+    <desc>East through Heilbronn to Schwäbisch Hall, then south through the Kocher valley to Heidenheim.</desc>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.253000" lon="8.879000">
+    <name>Sinsheim</name>
+    <desc>Head east</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.142000" lon="9.220000">
+    <name>Heilbronn</name>
+    <desc>Bypass</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.151000" lon="9.286000">
+    <name>Weinsberg</name>
+    <desc>Weibertreu castle</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.112000" lon="9.738000">
+    <name>Schwäbisch Hall</name>
+    <desc>Marktplatz</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.995000" lon="9.770000">
+    <name>Gaildorf</name>
+    <desc>Kocher valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.837000" lon="10.093000">
+    <name>Aalen</name>
+    <desc>Limes museum</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.676000" lon="10.152000">
+    <name>Heidenheim a.d. Brenz</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Through Hohenlohe to Heidenheim</name>
+    <desc>~210 km</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.253000" lon="8.879000">
+      <name>Sinsheim</name>
+    </rtept>
+    <rtept lat="49.142000" lon="9.220000">
+      <name>Heilbronn</name>
+    </rtept>
+    <rtept lat="49.151000" lon="9.286000">
+      <name>Weinsberg</name>
+    </rtept>
+    <rtept lat="49.112000" lon="9.738000">
+      <name>Schwäbisch Hall</name>
+    </rtept>
+    <rtept lat="48.995000" lon="9.770000">
+      <name>Gaildorf</name>
+    </rtept>
+    <rtept lat="48.837000" lon="10.093000">
+      <name>Aalen</name>
+    </rtept>
+    <rtept lat="48.676000" lon="10.152000">
+      <name>Heidenheim a.d. Brenz</name>
+    </rtept>
+  </rte>
+</gpx>

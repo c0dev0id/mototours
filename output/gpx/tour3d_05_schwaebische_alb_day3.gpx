@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour3d 05, Day 3: Nagoldtal &amp; Black Forest Edge Home</name>
+    <desc>Follow the young Neckar to Horb, then the Nagold valley north through Calw and Pforzheim home.</desc>
+  </metadata>
+  <wpt lat="48.522000" lon="9.057000">
+    <name>Tübingen</name>
+    <desc>Start day 3</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.476000" lon="8.935000">
+    <name>Rottenburg</name>
+    <desc>Cathedral town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.445000" lon="8.692000">
+    <name>Horb am Neckar</name>
+    <desc>Neckar valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.551000" lon="8.724000">
+    <name>Nagold</name>
+    <desc>Nagold river</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.714000" lon="8.741000">
+    <name>Calw</name>
+    <desc>Hesse’s birthplace</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.775000" lon="8.732000">
+    <name>Bad Liebenzell</name>
+    <desc>Thermal springs</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.891000" lon="8.704000">
+    <name>Pforzheim</name>
+    <desc>Gold city</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.036000" lon="8.707000">
+    <name>Bretten</name>
+    <desc>Melanchthon</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End – home</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Nagoldtal &amp; Black Forest Edge Home</name>
+    <desc>~200 km</desc>
+    <rtept lat="48.522000" lon="9.057000">
+      <name>Tübingen</name>
+    </rtept>
+    <rtept lat="48.476000" lon="8.935000">
+      <name>Rottenburg</name>
+    </rtept>
+    <rtept lat="48.445000" lon="8.692000">
+      <name>Horb am Neckar</name>
+    </rtept>
+    <rtept lat="48.551000" lon="8.724000">
+      <name>Nagold</name>
+    </rtept>
+    <rtept lat="48.714000" lon="8.741000">
+      <name>Calw</name>
+    </rtept>
+    <rtept lat="48.775000" lon="8.732000">
+      <name>Bad Liebenzell</name>
+    </rtept>
+    <rtept lat="48.891000" lon="8.704000">
+      <name>Pforzheim</name>
+    </rtept>
+    <rtept lat="49.036000" lon="8.707000">
+      <name>Bretten</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

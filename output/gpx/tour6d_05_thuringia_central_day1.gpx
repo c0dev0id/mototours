@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 05, Day 1: Main Valley to Bamberg</name>
+    <desc>Through Odenwald and Main valley, past Würzburg to Bamberg.</desc>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.676000" lon="9.004000">
+    <name>Michelstadt</name>
+    <desc>Odenwald</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.703000" lon="9.265000">
+    <name>Miltenberg</name>
+    <desc>Main valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.759000" lon="9.509000">
+    <name>Wertheim</name>
+    <desc>Castle</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.792000" lon="9.934000">
+    <name>Würzburg</name>
+    <desc>Brief stop</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.891000" lon="10.886000">
+    <name>Bamberg</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Main Valley to Bamberg</name>
+    <desc>~210 km</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.676000" lon="9.004000">
+      <name>Michelstadt</name>
+    </rtept>
+    <rtept lat="49.703000" lon="9.265000">
+      <name>Miltenberg</name>
+    </rtept>
+    <rtept lat="49.759000" lon="9.509000">
+      <name>Wertheim</name>
+    </rtept>
+    <rtept lat="49.792000" lon="9.934000">
+      <name>Würzburg</name>
+    </rtept>
+    <rtept lat="49.891000" lon="10.886000">
+      <name>Bamberg</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour3d 04, Day 1: Pfälzerwald to the Moselle</name>
+    <desc>Through the Pfälzerwald and Hunsrück to Bernkastel, then along the Moselle to Cochem.</desc>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.317000" lon="8.431000">
+    <name>Speyer</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.348000" lon="7.850000">
+    <name>Johanniskreuz</name>
+    <desc>Forest crossroads</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.533000" lon="7.400000">
+    <name>Kusel</name>
+    <desc>Burg Lichtenberg</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.714000" lon="7.308000">
+    <name>Idar-Oberstein</name>
+    <desc>Gemstone city</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.810000" lon="7.130000">
+    <name>Morbach</name>
+    <desc>Hunsrück</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.915000" lon="7.068000">
+    <name>Bernkastel-Kues</name>
+    <desc>Moselle wine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.947000" lon="7.118000">
+    <name>Traben-Trarbach</name>
+    <desc>Art Nouveau town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.146000" lon="7.167000">
+    <name>Cochem</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Pfälzerwald to the Moselle</name>
+    <desc>~220 km</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.317000" lon="8.431000">
+      <name>Speyer</name>
+    </rtept>
+    <rtept lat="49.348000" lon="7.850000">
+      <name>Johanniskreuz</name>
+    </rtept>
+    <rtept lat="49.533000" lon="7.400000">
+      <name>Kusel</name>
+    </rtept>
+    <rtept lat="49.714000" lon="7.308000">
+      <name>Idar-Oberstein</name>
+    </rtept>
+    <rtept lat="49.810000" lon="7.130000">
+      <name>Morbach</name>
+    </rtept>
+    <rtept lat="49.915000" lon="7.068000">
+      <name>Bernkastel-Kues</name>
+    </rtept>
+    <rtept lat="49.947000" lon="7.118000">
+      <name>Traben-Trarbach</name>
+    </rtept>
+    <rtept lat="50.146000" lon="7.167000">
+      <name>Cochem</name>
+    </rtept>
+  </rte>
+</gpx>

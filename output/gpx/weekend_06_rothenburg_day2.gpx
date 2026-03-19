@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Weekend 06, Day 2: Tauber Valley &amp; Odenwald Return</name>
+    <desc>Follow the Tauber valley south through Creglingen (Riemenschneider altar), Weikersheim (Renaissance palace), Bad Mergentheim, and Tauberbischofsheim. At Wertheim, join the Main briefly, then head into the Odenwald via Miltenberg and Amorbach to Michelstadt. Return through Eberbach and the Neckar valley.</desc>
+  </metadata>
+  <wpt lat="49.377000" lon="10.179000">
+    <name>Rothenburg o.d. Tauber</name>
+    <desc>Start day 2</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.468000" lon="10.031000">
+    <name>Creglingen</name>
+    <desc>Riemenschneider altar</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.479000" lon="9.896000">
+    <name>Weikersheim</name>
+    <desc>Renaissance palace</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.493000" lon="9.773000">
+    <name>Bad Mergentheim</name>
+    <desc>Teutonic Order castle</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.623000" lon="9.663000">
+    <name>Tauberbischofsheim</name>
+    <desc>Tauber valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.759000" lon="9.509000">
+    <name>Wertheim</name>
+    <desc>Main confluence</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.703000" lon="9.265000">
+    <name>Miltenberg</name>
+    <desc>Half-timbered Main town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.645000" lon="9.221000">
+    <name>Amorbach</name>
+    <desc>Baroque abbey</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.676000" lon="9.004000">
+    <name>Michelstadt</name>
+    <desc>Fairy-tale Rathaus</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.467000" lon="8.988000">
+    <name>Eberbach</name>
+    <desc>Neckar valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End – home</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tauber Valley &amp; Odenwald Return</name>
+    <desc>~220 km</desc>
+    <rtept lat="49.377000" lon="10.179000">
+      <name>Rothenburg o.d. Tauber</name>
+    </rtept>
+    <rtept lat="49.468000" lon="10.031000">
+      <name>Creglingen</name>
+    </rtept>
+    <rtept lat="49.479000" lon="9.896000">
+      <name>Weikersheim</name>
+    </rtept>
+    <rtept lat="49.493000" lon="9.773000">
+      <name>Bad Mergentheim</name>
+    </rtept>
+    <rtept lat="49.623000" lon="9.663000">
+      <name>Tauberbischofsheim</name>
+    </rtept>
+    <rtept lat="49.759000" lon="9.509000">
+      <name>Wertheim</name>
+    </rtept>
+    <rtept lat="49.703000" lon="9.265000">
+      <name>Miltenberg</name>
+    </rtept>
+    <rtept lat="49.645000" lon="9.221000">
+      <name>Amorbach</name>
+    </rtept>
+    <rtept lat="49.676000" lon="9.004000">
+      <name>Michelstadt</name>
+    </rtept>
+    <rtept lat="49.467000" lon="8.988000">
+      <name>Eberbach</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

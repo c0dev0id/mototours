@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour3d 03, Day 3: Hohenlohe &amp; Neckar Return</name>
+    <desc>Through Hohenlohe via Schwäbisch Hall, the motorcycle museum, and Bad Wimpfen home.</desc>
+  </metadata>
+  <wpt lat="49.377000" lon="10.179000">
+    <name>Rothenburg o.d. Tauber</name>
+    <desc>Start day 3</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.167000" lon="10.328000">
+    <name>Feuchtwangen</name>
+    <desc>Market town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.134000" lon="10.072000">
+    <name>Crailsheim</name>
+    <desc>Eastern Hohenlohe</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.112000" lon="9.738000">
+    <name>Schwäbisch Hall</name>
+    <desc>Theatrical Marktplatz</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.201000" lon="9.501000">
+    <name>Öhringen</name>
+    <desc>Hohenlohe</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.192000" lon="9.225000">
+    <name>Neckarsulm</name>
+    <desc>Motorcycle museum</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.231000" lon="9.165000">
+    <name>Bad Wimpfen</name>
+    <desc>Kaiserpfalz</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.253000" lon="8.879000">
+    <name>Sinsheim</name>
+    <desc>Return west</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End – home</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Hohenlohe &amp; Neckar Return</name>
+    <desc>~210 km</desc>
+    <rtept lat="49.377000" lon="10.179000">
+      <name>Rothenburg o.d. Tauber</name>
+    </rtept>
+    <rtept lat="49.167000" lon="10.328000">
+      <name>Feuchtwangen</name>
+    </rtept>
+    <rtept lat="49.134000" lon="10.072000">
+      <name>Crailsheim</name>
+    </rtept>
+    <rtept lat="49.112000" lon="9.738000">
+      <name>Schwäbisch Hall</name>
+    </rtept>
+    <rtept lat="49.201000" lon="9.501000">
+      <name>Öhringen</name>
+    </rtept>
+    <rtept lat="49.192000" lon="9.225000">
+      <name>Neckarsulm</name>
+    </rtept>
+    <rtept lat="49.231000" lon="9.165000">
+      <name>Bad Wimpfen</name>
+    </rtept>
+    <rtept lat="49.253000" lon="8.879000">
+      <name>Sinsheim</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 04, Day 2: Lahn Valley to Koblenz</name>
+    <desc>Lahn valley to Koblenz, then Rhine south through the Loreley gorge.</desc>
+  </metadata>
+  <wpt lat="50.486000" lon="8.262000">
+    <name>Weilburg</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.315000" lon="7.795000">
+    <name>Nassau</name>
+    <desc>Lahn valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.334000" lon="7.722000">
+    <name>Bad Ems</name>
+    <desc>Spa (UNESCO)</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="50.354000" lon="7.599000">
+    <name>Koblenz</name>
+    <desc>Deutsches Eck</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.230000" lon="7.593000">
+    <name>Boppard</name>
+    <desc>Rhine bend</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.153000" lon="7.711000">
+    <name>St. Goar</name>
+    <desc>Loreley views</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.059000" lon="7.770000">
+    <name>Bacharach</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Lahn Valley to Koblenz</name>
+    <desc>~200 km</desc>
+    <rtept lat="50.486000" lon="8.262000">
+      <name>Weilburg</name>
+    </rtept>
+    <rtept lat="50.315000" lon="7.795000">
+      <name>Nassau</name>
+    </rtept>
+    <rtept lat="50.334000" lon="7.722000">
+      <name>Bad Ems</name>
+    </rtept>
+    <rtept lat="50.354000" lon="7.599000">
+      <name>Koblenz</name>
+    </rtept>
+    <rtept lat="50.230000" lon="7.593000">
+      <name>Boppard</name>
+    </rtept>
+    <rtept lat="50.153000" lon="7.711000">
+      <name>St. Goar</name>
+    </rtept>
+    <rtept lat="50.059000" lon="7.770000">
+      <name>Bacharach</name>
+    </rtept>
+  </rte>
+</gpx>

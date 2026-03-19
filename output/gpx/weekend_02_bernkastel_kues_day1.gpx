@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Weekend 02, Day 1: Through Pfälzerwald &amp; Hunsrück to the Moselle</name>
+    <desc>Cross the Rhine at Speyer and ride through the Pfälzerwald to Johanniskreuz. Continue northwest through Lauterecken to Kusel, overlooked by the largest castle ruin in the Palatinate. Cross through Idar-Oberstein, the gemstone capital carved into a gorge, and over the Hunsrück highlands to descend to the Moselle at Bernkastel-Kues.</desc>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.317000" lon="8.431000">
+    <name>Speyer</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.355000" lon="8.142000">
+    <name>Neustadt a.d. Weinstraße</name>
+    <desc>Wine route</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.348000" lon="7.850000">
+    <name>Johanniskreuz</name>
+    <desc>Forest crossroads</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.650000" lon="7.588000">
+    <name>Lauterecken</name>
+    <desc>Glan valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.533000" lon="7.400000">
+    <name>Kusel</name>
+    <desc>Burg Lichtenberg</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.714000" lon="7.308000">
+    <name>Idar-Oberstein</name>
+    <desc>Gemstone city</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.810000" lon="7.130000">
+    <name>Morbach</name>
+    <desc>Hunsrück</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.915000" lon="7.068000">
+    <name>Bernkastel-Kues</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Through Pfälzerwald &amp; Hunsrück to the Moselle</name>
+    <desc>~220 km</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.317000" lon="8.431000">
+      <name>Speyer</name>
+    </rtept>
+    <rtept lat="49.355000" lon="8.142000">
+      <name>Neustadt a.d. Weinstraße</name>
+    </rtept>
+    <rtept lat="49.348000" lon="7.850000">
+      <name>Johanniskreuz</name>
+    </rtept>
+    <rtept lat="49.650000" lon="7.588000">
+      <name>Lauterecken</name>
+    </rtept>
+    <rtept lat="49.533000" lon="7.400000">
+      <name>Kusel</name>
+    </rtept>
+    <rtept lat="49.714000" lon="7.308000">
+      <name>Idar-Oberstein</name>
+    </rtept>
+    <rtept lat="49.810000" lon="7.130000">
+      <name>Morbach</name>
+    </rtept>
+    <rtept lat="49.915000" lon="7.068000">
+      <name>Bernkastel-Kues</name>
+    </rtept>
+  </rte>
+</gpx>

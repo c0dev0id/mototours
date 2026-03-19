@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Weekend 05, Day 2: Belchen, Titisee &amp; Höllental Home</name>
+    <desc>Ride through the Münstertal and climb the spectacular Belchen road to 1414 m—the finest panorama in the Black Forest. Descend to Schönau and Todtnau, then past the Feldberg to Titisee for lunch. Return through Hinterzarten and plunge into the Höllental—a dramatic gorge with sheer walls—to Freiburg. A5 north home.</desc>
+  </metadata>
+  <wpt lat="47.883000" lon="7.728000">
+    <name>Staufen im Breisgau</name>
+    <desc>Start day 2</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.856000" lon="7.770000">
+    <name>Münstertal</name>
+    <desc>Valley south</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.822000" lon="7.831000">
+    <name>Belchen (1414 m)</name>
+    <desc>Panoramic summit</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="47.787000" lon="7.893000">
+    <name>Schönau</name>
+    <desc>Black Forest village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.826000" lon="7.946000">
+    <name>Todtnau</name>
+    <desc>Waterfall town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.874000" lon="8.005000">
+    <name>Feldberg area</name>
+    <desc>Highest BF peak views</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.903000" lon="8.157000">
+    <name>Titisee</name>
+    <desc>Iconic lake</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.906000" lon="8.110000">
+    <name>Hinterzarten</name>
+    <desc>Health resort</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.897000" lon="8.050000">
+    <name>Höllental</name>
+    <desc>Hell Valley gorge</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.999000" lon="7.842000">
+    <name>Freiburg</name>
+    <desc>BF capital</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End – home</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Belchen, Titisee &amp; Höllental Home</name>
+    <desc>~220 km</desc>
+    <rtept lat="47.883000" lon="7.728000">
+      <name>Staufen im Breisgau</name>
+    </rtept>
+    <rtept lat="47.856000" lon="7.770000">
+      <name>Münstertal</name>
+    </rtept>
+    <rtept lat="47.822000" lon="7.831000">
+      <name>Belchen (1414 m)</name>
+    </rtept>
+    <rtept lat="47.787000" lon="7.893000">
+      <name>Schönau</name>
+    </rtept>
+    <rtept lat="47.826000" lon="7.946000">
+      <name>Todtnau</name>
+    </rtept>
+    <rtept lat="47.874000" lon="8.005000">
+      <name>Feldberg area</name>
+    </rtept>
+    <rtept lat="47.903000" lon="8.157000">
+      <name>Titisee</name>
+    </rtept>
+    <rtept lat="47.906000" lon="8.110000">
+      <name>Hinterzarten</name>
+    </rtept>
+    <rtept lat="47.897000" lon="8.050000">
+      <name>Höllental</name>
+    </rtept>
+    <rtept lat="47.999000" lon="7.842000">
+      <name>Freiburg</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

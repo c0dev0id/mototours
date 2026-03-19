@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour3d 02, Day 2: Wine Route &amp; Vosges Passes</name>
+    <desc>Visit Mont Sainte-Odile, then ride the wine route south through Barr, Ribeauvillé, Riquewihr, and Kaysersberg. Climb through the Munster valley to the Col de la Schlucht and descend to Gérardmer.</desc>
+  </metadata>
+  <wpt lat="48.462000" lon="7.483000">
+    <name>Obernai</name>
+    <desc>Start day 2</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.437000" lon="7.404000">
+    <name>Mont Sainte-Odile</name>
+    <desc>Pilgrimage site</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.407000" lon="7.449000">
+    <name>Barr</name>
+    <desc>Wine capital</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.194000" lon="7.318000">
+    <name>Ribeauvillé</name>
+    <desc>Three castles</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.167000" lon="7.298000">
+    <name>Riquewihr</name>
+    <desc>Walled wine village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.140000" lon="7.264000">
+    <name>Kaysersberg</name>
+    <desc>Schweitzer’s birthplace</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.042000" lon="7.137000">
+    <name>Munster</name>
+    <desc>Cheese valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.063000" lon="7.023000">
+    <name>Col de la Schlucht</name>
+    <desc>Mountain pass (1139 m)</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.073000" lon="6.879000">
+    <name>Gérardmer</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Wine Route &amp; Vosges Passes</name>
+    <desc>~200 km</desc>
+    <rtept lat="48.462000" lon="7.483000">
+      <name>Obernai</name>
+    </rtept>
+    <rtept lat="48.437000" lon="7.404000">
+      <name>Mont Sainte-Odile</name>
+    </rtept>
+    <rtept lat="48.407000" lon="7.449000">
+      <name>Barr</name>
+    </rtept>
+    <rtept lat="48.194000" lon="7.318000">
+      <name>Ribeauvillé</name>
+    </rtept>
+    <rtept lat="48.167000" lon="7.298000">
+      <name>Riquewihr</name>
+    </rtept>
+    <rtept lat="48.140000" lon="7.264000">
+      <name>Kaysersberg</name>
+    </rtept>
+    <rtept lat="48.042000" lon="7.137000">
+      <name>Munster</name>
+    </rtept>
+    <rtept lat="48.063000" lon="7.023000">
+      <name>Col de la Schlucht</name>
+    </rtept>
+    <rtept lat="48.073000" lon="6.879000">
+      <name>Gérardmer</name>
+    </rtept>
+  </rte>
+</gpx>

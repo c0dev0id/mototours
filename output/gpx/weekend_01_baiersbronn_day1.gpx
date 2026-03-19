@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Weekend 01, Day 1: Through the Nagold Valley to Baiersbronn</name>
+    <desc>Head south through Bretten and Pforzheim to Calw, Hermann Hesse’s birthplace on the Nagold river. Follow the winding Nagold valley south through Bad Teinach and Nagold, with continuous flowing curves through dense forest. At Altensteig, enjoy the castle views before climbing to Freudenstadt. A short ride east brings you to Baiersbronn.</desc>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.036000" lon="8.707000">
+    <name>Bretten</name>
+    <desc>Melanchthon town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.891000" lon="8.704000">
+    <name>Pforzheim</name>
+    <desc>Gold city</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.714000" lon="8.741000">
+    <name>Calw</name>
+    <desc>Hermann Hesse’s birthplace</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.692000" lon="8.688000">
+    <name>Bad Teinach</name>
+    <desc>Spa in the valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.551000" lon="8.724000">
+    <name>Nagold</name>
+    <desc>Nagold river</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.586000" lon="8.601000">
+    <name>Altensteig</name>
+    <desc>Castle town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.462000" lon="8.411000">
+    <name>Freudenstadt</name>
+    <desc>Largest Marktplatz</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.504000" lon="8.378000">
+    <name>Baiersbronn</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Through the Nagold Valley to Baiersbronn</name>
+    <desc>~210 km</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.036000" lon="8.707000">
+      <name>Bretten</name>
+    </rtept>
+    <rtept lat="48.891000" lon="8.704000">
+      <name>Pforzheim</name>
+    </rtept>
+    <rtept lat="48.714000" lon="8.741000">
+      <name>Calw</name>
+    </rtept>
+    <rtept lat="48.692000" lon="8.688000">
+      <name>Bad Teinach</name>
+    </rtept>
+    <rtept lat="48.551000" lon="8.724000">
+      <name>Nagold</name>
+    </rtept>
+    <rtept lat="48.586000" lon="8.601000">
+      <name>Altensteig</name>
+    </rtept>
+    <rtept lat="48.462000" lon="8.411000">
+      <name>Freudenstadt</name>
+    </rtept>
+    <rtept lat="48.504000" lon="8.378000">
+      <name>Baiersbronn</name>
+    </rtept>
+  </rte>
+</gpx>

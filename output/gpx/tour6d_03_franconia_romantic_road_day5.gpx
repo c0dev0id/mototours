@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 03, Day 5: Romantic Road to Schwäbisch Hall</name>
+    <desc>Romantic Road through Rothenburg, then Hohenlohe to Schwäbisch Hall.</desc>
+  </metadata>
+  <wpt lat="49.067000" lon="10.319000">
+    <name>Dinkelsbühl</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.167000" lon="10.328000">
+    <name>Feuchtwangen</name>
+    <desc>Romantic Road</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.377000" lon="10.179000">
+    <name>Rothenburg o.d. Tauber</name>
+    <desc>Medieval dream</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.134000" lon="10.072000">
+    <name>Crailsheim</name>
+    <desc>Eastern Hohenlohe</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.254000" lon="9.858000">
+    <name>Langenburg</name>
+    <desc>Castle</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.112000" lon="9.738000">
+    <name>Schwäbisch Hall</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Romantic Road to Schwäbisch Hall</name>
+    <desc>~210 km</desc>
+    <rtept lat="49.067000" lon="10.319000">
+      <name>Dinkelsbühl</name>
+    </rtept>
+    <rtept lat="49.167000" lon="10.328000">
+      <name>Feuchtwangen</name>
+    </rtept>
+    <rtept lat="49.377000" lon="10.179000">
+      <name>Rothenburg o.d. Tauber</name>
+    </rtept>
+    <rtept lat="49.134000" lon="10.072000">
+      <name>Crailsheim</name>
+    </rtept>
+    <rtept lat="49.254000" lon="9.858000">
+      <name>Langenburg</name>
+    </rtept>
+    <rtept lat="49.112000" lon="9.738000">
+      <name>Schwäbisch Hall</name>
+    </rtept>
+  </rte>
+</gpx>

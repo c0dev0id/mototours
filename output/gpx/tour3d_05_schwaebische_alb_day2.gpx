@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour3d 05, Day 2: Eastern Alb to Tübingen</name>
+    <desc>Cross the Alb to Blaubeuren’s blue spring, visit Lichtenstein and Bad Urach, descend to Tübingen.</desc>
+  </metadata>
+  <wpt lat="48.676000" lon="10.152000">
+    <name>Heidenheim a.d. Brenz</name>
+    <desc>Start day 2</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.412000" lon="9.783000">
+    <name>Blaubeuren</name>
+    <desc>Blautopf spring</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.412000" lon="9.497000">
+    <name>Münsingen</name>
+    <desc>Alb plateau</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.408000" lon="9.260000">
+    <name>Schloss Lichtenstein</name>
+    <desc>Fairy-tale castle</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.494000" lon="9.397000">
+    <name>Bad Urach</name>
+    <desc>Waterfall</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.492000" lon="9.214000">
+    <name>Reutlingen</name>
+    <desc>Alb foot</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.522000" lon="9.057000">
+    <name>Tübingen</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Eastern Alb to Tübingen</name>
+    <desc>~200 km</desc>
+    <rtept lat="48.676000" lon="10.152000">
+      <name>Heidenheim a.d. Brenz</name>
+    </rtept>
+    <rtept lat="48.412000" lon="9.783000">
+      <name>Blaubeuren</name>
+    </rtept>
+    <rtept lat="48.412000" lon="9.497000">
+      <name>Münsingen</name>
+    </rtept>
+    <rtept lat="48.408000" lon="9.260000">
+      <name>Schloss Lichtenstein</name>
+    </rtept>
+    <rtept lat="48.494000" lon="9.397000">
+      <name>Bad Urach</name>
+    </rtept>
+    <rtept lat="48.492000" lon="9.214000">
+      <name>Reutlingen</name>
+    </rtept>
+    <rtept lat="48.522000" lon="9.057000">
+      <name>Tübingen</name>
+    </rtept>
+  </rte>
+</gpx>

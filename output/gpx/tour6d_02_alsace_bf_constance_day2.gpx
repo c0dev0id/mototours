@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 02, Day 2: Wine Route &amp; Vosges Passes</name>
+    <desc>Wine route, Vosges passes, Grand Ballon, down to Colmar.</desc>
+  </metadata>
+  <wpt lat="48.462000" lon="7.483000">
+    <name>Obernai</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.194000" lon="7.318000">
+    <name>Ribeauvillé</name>
+    <desc>Three castles</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.140000" lon="7.264000">
+    <name>Kaysersberg</name>
+    <desc>Schweitzer</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.042000" lon="7.137000">
+    <name>Munster</name>
+    <desc>Cheese valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.063000" lon="7.023000">
+    <name>Col de la Schlucht</name>
+    <desc>Pass (1139 m)</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.977000" lon="7.053000">
+    <name>Route des Crêtes</name>
+    <desc>Ridge road</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.902000" lon="7.099000">
+    <name>Grand Ballon</name>
+    <desc>Highest Vosges</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.079000" lon="7.359000">
+    <name>Colmar</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Wine Route &amp; Vosges Passes</name>
+    <desc>~200 km</desc>
+    <rtept lat="48.462000" lon="7.483000">
+      <name>Obernai</name>
+    </rtept>
+    <rtept lat="48.194000" lon="7.318000">
+      <name>Ribeauvillé</name>
+    </rtept>
+    <rtept lat="48.140000" lon="7.264000">
+      <name>Kaysersberg</name>
+    </rtept>
+    <rtept lat="48.042000" lon="7.137000">
+      <name>Munster</name>
+    </rtept>
+    <rtept lat="48.063000" lon="7.023000">
+      <name>Col de la Schlucht</name>
+    </rtept>
+    <rtept lat="47.977000" lon="7.053000">
+      <name>Route des Crêtes</name>
+    </rtept>
+    <rtept lat="47.902000" lon="7.099000">
+      <name>Grand Ballon</name>
+    </rtept>
+    <rtept lat="48.079000" lon="7.359000">
+      <name>Colmar</name>
+    </rtept>
+  </rte>
+</gpx>

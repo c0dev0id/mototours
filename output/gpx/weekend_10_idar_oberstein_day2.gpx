@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Weekend 10, Day 2: Hunsrück Heights &amp; Nahe Valley Home</name>
+    <desc>Ride through Birkenfeld and climb to the Hunsrück Hochwald near Thalfang (the Erbeskopf at 816 m is the highest point in Rhineland-Palatinate). Cross the highlands to Morbach, then descend to the Nahe valley at Bad Sobernheim. Follow the Nahe east to Bad Kreuznach, cross through the Alsenz valley to the Pfalz, and return via Bad Dürkheim and Speyer.</desc>
+  </metadata>
+  <wpt lat="49.714000" lon="7.308000">
+    <name>Idar-Oberstein</name>
+    <desc>Start day 2</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.649000" lon="7.163000">
+    <name>Birkenfeld</name>
+    <desc>Hunsrück</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.754000" lon="7.010000">
+    <name>Thalfang</name>
+    <desc>Erbeskopf nearby</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.720000" lon="7.060000">
+    <name>Hunsrück Hochwald</name>
+    <desc>Wild highlands</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.810000" lon="7.130000">
+    <name>Morbach</name>
+    <desc>Forest town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.783000" lon="7.647000">
+    <name>Bad Sobernheim</name>
+    <desc>Barefoot trail</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.842000" lon="7.867000">
+    <name>Bad Kreuznach</name>
+    <desc>Nahe wines</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.750000" lon="7.850000">
+    <name>Alsenz valley</name>
+    <desc>Through to Pfalz</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.462000" lon="8.172000">
+    <name>Bad Dürkheim</name>
+    <desc>Wine barrel</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.317000" lon="8.431000">
+    <name>Speyer</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End – home</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Hunsrück Heights &amp; Nahe Valley Home</name>
+    <desc>~210 km</desc>
+    <rtept lat="49.714000" lon="7.308000">
+      <name>Idar-Oberstein</name>
+    </rtept>
+    <rtept lat="49.649000" lon="7.163000">
+      <name>Birkenfeld</name>
+    </rtept>
+    <rtept lat="49.754000" lon="7.010000">
+      <name>Thalfang</name>
+    </rtept>
+    <rtept lat="49.720000" lon="7.060000">
+      <name>Hunsrück Hochwald</name>
+    </rtept>
+    <rtept lat="49.810000" lon="7.130000">
+      <name>Morbach</name>
+    </rtept>
+    <rtept lat="49.783000" lon="7.647000">
+      <name>Bad Sobernheim</name>
+    </rtept>
+    <rtept lat="49.842000" lon="7.867000">
+      <name>Bad Kreuznach</name>
+    </rtept>
+    <rtept lat="49.750000" lon="7.850000">
+      <name>Alsenz valley</name>
+    </rtept>
+    <rtept lat="49.462000" lon="8.172000">
+      <name>Bad Dürkheim</name>
+    </rtept>
+    <rtept lat="49.317000" lon="8.431000">
+      <name>Speyer</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

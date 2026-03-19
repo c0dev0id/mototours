@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 05, Day 4: Rhön Mountains</name>
+    <desc>Cross the Rhön—the “land of open spaces”—over the Wasserkuppe to Fulda and Alsfeld.</desc>
+  </metadata>
+  <wpt lat="50.556000" lon="10.417000">
+    <name>Meiningen</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.500000" lon="10.100000">
+    <name>Rhön</name>
+    <desc>Open highlands</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.498000" lon="9.937000">
+    <name>Wasserkuppe (950 m)</name>
+    <desc>Highest Hesse peak</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="50.453000" lon="9.920000">
+    <name>Gersfeld</name>
+    <desc>Rhön village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.550000" lon="9.676000">
+    <name>Fulda</name>
+    <desc>Baroque town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.749000" lon="9.271000">
+    <name>Alsfeld</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Rhön Mountains</name>
+    <desc>~200 km</desc>
+    <rtept lat="50.556000" lon="10.417000">
+      <name>Meiningen</name>
+    </rtept>
+    <rtept lat="50.500000" lon="10.100000">
+      <name>Rhön</name>
+    </rtept>
+    <rtept lat="50.498000" lon="9.937000">
+      <name>Wasserkuppe (950 m)</name>
+    </rtept>
+    <rtept lat="50.453000" lon="9.920000">
+      <name>Gersfeld</name>
+    </rtept>
+    <rtept lat="50.550000" lon="9.676000">
+      <name>Fulda</name>
+    </rtept>
+    <rtept lat="50.749000" lon="9.271000">
+      <name>Alsfeld</name>
+    </rtept>
+  </rte>
+</gpx>

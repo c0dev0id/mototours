@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour3d 02, Day 3: Route des Crêtes &amp; Colmar Return</name>
+    <desc>Ride through La Bresse and join the Route des Crêtes south to the Grand Ballon. Descend to Guebwiller, visit circular Eguisheim and Colmar’s “Little Venice,” then cross the Rhine and return north.</desc>
+  </metadata>
+  <wpt lat="48.073000" lon="6.879000">
+    <name>Gérardmer</name>
+    <desc>Start day 3</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.001000" lon="6.869000">
+    <name>La Bresse</name>
+    <desc>Ski resort</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.977000" lon="7.053000">
+    <name>Route des Crêtes</name>
+    <desc>Ridge road</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="47.902000" lon="7.099000">
+    <name>Grand Ballon (1424 m)</name>
+    <desc>Highest Vosges</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.912000" lon="7.210000">
+    <name>Guebwiller</name>
+    <desc>Rangen Grand Cru</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.042000" lon="7.306000">
+    <name>Eguisheim</name>
+    <desc>Circular wine village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.079000" lon="7.359000">
+    <name>Colmar</name>
+    <desc>Little Venice</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.260000" lon="7.453000">
+    <name>Sélestat</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.343000" lon="7.871000">
+    <name>Lahr</name>
+    <desc>A5 north</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End – home</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Route des Crêtes &amp; Colmar Return</name>
+    <desc>~210 km</desc>
+    <rtept lat="48.073000" lon="6.879000">
+      <name>Gérardmer</name>
+    </rtept>
+    <rtept lat="48.001000" lon="6.869000">
+      <name>La Bresse</name>
+    </rtept>
+    <rtept lat="47.977000" lon="7.053000">
+      <name>Route des Crêtes</name>
+    </rtept>
+    <rtept lat="47.902000" lon="7.099000">
+      <name>Grand Ballon (1424 m)</name>
+    </rtept>
+    <rtept lat="47.912000" lon="7.210000">
+      <name>Guebwiller</name>
+    </rtept>
+    <rtept lat="48.042000" lon="7.306000">
+      <name>Eguisheim</name>
+    </rtept>
+    <rtept lat="48.079000" lon="7.359000">
+      <name>Colmar</name>
+    </rtept>
+    <rtept lat="48.260000" lon="7.453000">
+      <name>Sélestat</name>
+    </rtept>
+    <rtept lat="48.343000" lon="7.871000">
+      <name>Lahr</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

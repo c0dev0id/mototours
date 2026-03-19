@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 03, Day 4: Altmühltal to Dinkelsbühl</name>
+    <desc>Through the Altmühltal to Eichstätt, Nördlingen’s meteor crater, and medieval Dinkelsbühl.</desc>
+  </metadata>
+  <wpt lat="49.452000" lon="11.077000">
+    <name>Nürnberg</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.280000" lon="11.460000">
+    <name>Neumarkt i.d. Oberpfalz</name>
+    <desc>Eastern Franconia</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.106000" lon="11.440000">
+    <name>Berching</name>
+    <desc>Medieval town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.892000" lon="11.184000">
+    <name>Eichstätt</name>
+    <desc>Baroque bishop’s town</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.897000" lon="10.966000">
+    <name>Solnhofen</name>
+    <desc>Fossil limestone</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.851000" lon="10.489000">
+    <name>Nördlingen</name>
+    <desc>Ries crater</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.067000" lon="10.319000">
+    <name>Dinkelsbühl</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Altmühltal to Dinkelsbühl</name>
+    <desc>~200 km</desc>
+    <rtept lat="49.452000" lon="11.077000">
+      <name>Nürnberg</name>
+    </rtept>
+    <rtept lat="49.280000" lon="11.460000">
+      <name>Neumarkt i.d. Oberpfalz</name>
+    </rtept>
+    <rtept lat="49.106000" lon="11.440000">
+      <name>Berching</name>
+    </rtept>
+    <rtept lat="48.892000" lon="11.184000">
+      <name>Eichstätt</name>
+    </rtept>
+    <rtept lat="48.897000" lon="10.966000">
+      <name>Solnhofen</name>
+    </rtept>
+    <rtept lat="48.851000" lon="10.489000">
+      <name>Nördlingen</name>
+    </rtept>
+    <rtept lat="49.067000" lon="10.319000">
+      <name>Dinkelsbühl</name>
+    </rtept>
+  </rte>
+</gpx>

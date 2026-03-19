@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Weekend 05, Day 1: Through Central Black Forest to Staufen</name>
+    <desc>Take the A5 to Offenburg and enter the Kinzigtal. Ride through Gengenbach, Haslach, and Wolfach to the stunning half-timbered Schiltach. Cut south through the Elztal to Waldkirch and past Freiburg to Staufen.</desc>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="48.473000" lon="7.954000">
+    <name>Offenburg</name>
+    <desc>Kinzigtal (via A5)</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.407000" lon="8.015000">
+    <name>Gengenbach</name>
+    <desc>Nice of the Black Forest</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.278000" lon="8.087000">
+    <name>Haslach</name>
+    <desc>Kinzigtal</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.293000" lon="8.219000">
+    <name>Wolfach</name>
+    <desc>Glassblowing</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.290000" lon="8.339000">
+    <name>Schiltach</name>
+    <desc>Half-timbered gem</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.173000" lon="8.071000">
+    <name>Elzach</name>
+    <desc>Elztal</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.094000" lon="7.959000">
+    <name>Waldkirch</name>
+    <desc>Kandel views</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.999000" lon="7.842000">
+    <name>Freiburg outskirts</name>
+    <desc>BF capital bypass</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.883000" lon="7.728000">
+    <name>Staufen im Breisgau</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Through Central Black Forest to Staufen</name>
+    <desc>~230 km</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="48.473000" lon="7.954000">
+      <name>Offenburg</name>
+    </rtept>
+    <rtept lat="48.407000" lon="8.015000">
+      <name>Gengenbach</name>
+    </rtept>
+    <rtept lat="48.278000" lon="8.087000">
+      <name>Haslach</name>
+    </rtept>
+    <rtept lat="48.293000" lon="8.219000">
+      <name>Wolfach</name>
+    </rtept>
+    <rtept lat="48.290000" lon="8.339000">
+      <name>Schiltach</name>
+    </rtept>
+    <rtept lat="48.173000" lon="8.071000">
+      <name>Elzach</name>
+    </rtept>
+    <rtept lat="48.094000" lon="7.959000">
+      <name>Waldkirch</name>
+    </rtept>
+    <rtept lat="47.999000" lon="7.842000">
+      <name>Freiburg outskirts</name>
+    </rtept>
+    <rtept lat="47.883000" lon="7.728000">
+      <name>Staufen im Breisgau</name>
+    </rtept>
+  </rte>
+</gpx>

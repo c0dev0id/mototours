@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour3d 03, Day 2: Franconian Wine to Rothenburg</name>
+    <desc>South from Würzburg through the Tauber valley to Rothenburg.</desc>
+  </metadata>
+  <wpt lat="49.792000" lon="9.934000">
+    <name>Würzburg</name>
+    <desc>Start day 2</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.664000" lon="10.063000">
+    <name>Ochsenfurt</name>
+    <desc>Medieval town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.623000" lon="9.663000">
+    <name>Tauberbischofsheim</name>
+    <desc>Tauber valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.493000" lon="9.773000">
+    <name>Bad Mergentheim</name>
+    <desc>Teutonic Knights</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.479000" lon="9.896000">
+    <name>Weikersheim</name>
+    <desc>Palace gardens</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.468000" lon="10.031000">
+    <name>Creglingen</name>
+    <desc>Riemenschneider altar</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.377000" lon="10.179000">
+    <name>Rothenburg o.d. Tauber</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Franconian Wine to Rothenburg</name>
+    <desc>~200 km</desc>
+    <rtept lat="49.792000" lon="9.934000">
+      <name>Würzburg</name>
+    </rtept>
+    <rtept lat="49.664000" lon="10.063000">
+      <name>Ochsenfurt</name>
+    </rtept>
+    <rtept lat="49.623000" lon="9.663000">
+      <name>Tauberbischofsheim</name>
+    </rtept>
+    <rtept lat="49.493000" lon="9.773000">
+      <name>Bad Mergentheim</name>
+    </rtept>
+    <rtept lat="49.479000" lon="9.896000">
+      <name>Weikersheim</name>
+    </rtept>
+    <rtept lat="49.468000" lon="10.031000">
+      <name>Creglingen</name>
+    </rtept>
+    <rtept lat="49.377000" lon="10.179000">
+      <name>Rothenburg o.d. Tauber</name>
+    </rtept>
+  </rte>
+</gpx>

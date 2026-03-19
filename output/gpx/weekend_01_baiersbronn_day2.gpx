@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Weekend 01, Day 2: Murgtal &amp; Schwarzwaldhochstraße Home</name>
+    <desc>Ride north along the Murg valley through Forbach with its unique covered wooden bridge. Climb to the Schwarzenbachtalsperre reservoir and Herrenwies, then join the legendary B500 at Sand. Ride the Schwarzwaldhochstraße past the Mummelsee to Bühlerhöhe, then descend to elegant Baden-Baden and home via the A5.</desc>
+  </metadata>
+  <wpt lat="48.504000" lon="8.378000">
+    <name>Baiersbronn</name>
+    <desc>Start day 2</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.548000" lon="8.364000">
+    <name>Schwarzenberg</name>
+    <desc>Into the Murg valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.685000" lon="8.347000">
+    <name>Forbach</name>
+    <desc>Covered wooden bridge</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.667000" lon="8.322000">
+    <name>Schwarzenbachtalsperre</name>
+    <desc>Reservoir</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.658000" lon="8.253000">
+    <name>Herrenwies</name>
+    <desc>Mountain village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.654000" lon="8.226000">
+    <name>Sand</name>
+    <desc>Join B500</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.596000" lon="8.201000">
+    <name>Mummelsee</name>
+    <desc>Mountain lake</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.683000" lon="8.223000">
+    <name>Bühlerhöhe</name>
+    <desc>Viewpoint</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.761000" lon="8.241000">
+    <name>Baden-Baden</name>
+    <desc>Spa city</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End – home</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Murgtal &amp; Schwarzwaldhochstraße Home</name>
+    <desc>~200 km</desc>
+    <rtept lat="48.504000" lon="8.378000">
+      <name>Baiersbronn</name>
+    </rtept>
+    <rtept lat="48.548000" lon="8.364000">
+      <name>Schwarzenberg</name>
+    </rtept>
+    <rtept lat="48.685000" lon="8.347000">
+      <name>Forbach</name>
+    </rtept>
+    <rtept lat="48.667000" lon="8.322000">
+      <name>Schwarzenbachtalsperre</name>
+    </rtept>
+    <rtept lat="48.658000" lon="8.253000">
+      <name>Herrenwies</name>
+    </rtept>
+    <rtept lat="48.654000" lon="8.226000">
+      <name>Sand</name>
+    </rtept>
+    <rtept lat="48.596000" lon="8.201000">
+      <name>Mummelsee</name>
+    </rtept>
+    <rtept lat="48.683000" lon="8.223000">
+      <name>Bühlerhöhe</name>
+    </rtept>
+    <rtept lat="48.761000" lon="8.241000">
+      <name>Baden-Baden</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>
