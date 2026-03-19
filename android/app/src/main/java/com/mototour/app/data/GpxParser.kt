@@ -37,7 +37,6 @@ object GpxParser {
         // Current element state
         var inMetadata = false
         var inWpt = false
-        var inRtePt = false
         var wptLat = 0.0
         var wptLon = 0.0
         var wptName = ""
@@ -59,7 +58,6 @@ object GpxParser {
                             wptName = ""; wptDesc = ""; wptSym = ""; wptType = ""
                         }
                         "rtept" -> {
-                            inRtePt = true
                             val lat = parser.getAttributeValue(null, "lat")?.toDoubleOrNull() ?: 0.0
                             val lon = parser.getAttributeValue(null, "lon")?.toDoubleOrNull() ?: 0.0
                             routePoints.add(GpxPoint(lat, lon))
@@ -85,7 +83,7 @@ object GpxParser {
                             waypoints.add(GpxWaypoint(wptName, wptLat, wptLon, wptDesc, wptSym, wptType))
                             inWpt = false
                         }
-                        "rtept" -> inRtePt = false
+                        "rtept" -> { /* route point fully consumed above */ }
                     }
                     currentTag = ""
                 }

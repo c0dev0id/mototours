@@ -200,14 +200,13 @@ class BundleManager(private val context: Context) {
         val tempDir = File(context.cacheDir, "loose_${System.currentTimeMillis()}")
         tempDir.mkdirs()
         try {
-            // Copy GPX files
-            val gpxFiles = gpxUris.mapIndexed { index, uri ->
+            // Copy GPX files into tempDir; importFromDir will scan the directory itself
+            gpxUris.forEachIndexed { index, uri ->
                 val dest = File(tempDir, "day${index + 1}.gpx")
                 context.contentResolver.openInputStream(uri)?.use { input ->
                     dest.outputStream().use { out -> input.copyTo(out) }
                 }
-                dest
-            }.filter { it.exists() }
+            }
 
             // Copy PDF if provided
             if (pdfUri != null) {
