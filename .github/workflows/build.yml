@@ -23,11 +23,12 @@ jobs:
           java-version: 17
 
       - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.7"
 
       - name: Run lint
-        env:
-          MAPTILER_KEY: ${{ secrets.MAPTILER_KEY }}
-        run: ./gradlew lint
+        working-directory: android
+        run: gradle lint
 
   build:
     if: github.event_name == 'push' || github.event.label.name == 'run-build'
@@ -44,17 +45,18 @@ jobs:
           java-version: 17
 
       - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.7"
 
       - name: Build debug APK
-        env:
-          MAPTILER_KEY: ${{ secrets.MAPTILER_KEY }}
-        run: ./gradlew assembleDebug
+        working-directory: android
+        run: gradle assembleDebug
 
       - name: Upload debug APK
         uses: actions/upload-artifact@v4
         with:
           name: app-debug
-          path: app/build/outputs/apk/debug/app-debug.apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
 
   sign:
     needs: build
@@ -113,8 +115,8 @@ jobs:
       - name: Rename APK
         run: |
           SHORT_SHA="${GITHUB_SHA:0:7}"
-          mv app-signed.apk "aWayToGo-dev-${SHORT_SHA}.apk"
-          echo "apk_name=aWayToGo-dev-${SHORT_SHA}.apk" >> "$GITHUB_ENV"
+          mv app-signed.apk "MotoTour-dev-${SHORT_SHA}.apk"
+          echo "apk_name=MotoTour-dev-${SHORT_SHA}.apk" >> "$GITHUB_ENV"
 
       - name: Delete existing dev release
         env:
