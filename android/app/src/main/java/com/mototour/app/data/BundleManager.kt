@@ -298,6 +298,8 @@ class BundleManager(private val context: Context) {
                     tempFile.outputStream().use { out -> input.copyTo(out) }
                 }
                 importZip(Uri.fromFile(tempFile))
+            } catch (_: Exception) {
+                // Skip bundles that fail; don't let one bad ZIP crash the app
             } finally {
                 tempFile.delete()
             }

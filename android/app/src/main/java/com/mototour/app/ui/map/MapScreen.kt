@@ -10,7 +10,6 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -20,7 +19,6 @@ import com.mototour.app.data.*
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import org.osmdroid.config.Configuration
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory
 import org.osmdroid.util.BoundingBox
 import org.osmdroid.util.GeoPoint
@@ -67,17 +65,8 @@ fun MapScreen(
     vm: MapViewModel = viewModel()
 ) {
     val state by vm.state.collectAsStateWithLifecycle()
-    val context = LocalContext.current
 
     LaunchedEffect(dayId) { vm.load(dayId) }
-
-    // Configure osmdroid
-    LaunchedEffect(Unit) {
-        Configuration.getInstance().apply {
-            userAgentValue = context.packageName
-            osmdroidTileCache = File(context.cacheDir, "osmdroid")
-        }
-    }
 
     when (val s = state) {
         MapState.Loading -> {
