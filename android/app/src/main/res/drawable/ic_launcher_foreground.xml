@@ -10,11 +10,10 @@
         android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"/>
     <!-- Simplified motorcycle/road icon -->
     <path
-        android:fillColor="#FFFFFF"
+        android:fillColor="@android:color/transparent"
         android:pathData="M34,58 Q44,38 54,48 Q64,58 74,42"
         android:strokeWidth="3"
-        android:strokeColor="#FFFFFF"
-        android:fillColor="@android:color/transparent"/>
+        android:strokeColor="#FFFFFF"/>
     <!-- Wheels -->
     <path
         android:fillColor="#FFFFFF"
