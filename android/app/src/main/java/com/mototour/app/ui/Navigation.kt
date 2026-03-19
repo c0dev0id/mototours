@@ -38,7 +38,7 @@ fun MotoTourNavHost() {
             Routes.TOUR_DETAIL,
             arguments = listOf(navArgument("tourId") { type = NavType.LongType })
         ) { entry ->
-            val tourId = entry.arguments!!.getLong("tourId")
+            val tourId = entry.arguments?.getLong("tourId") ?: return@composable
             TourDetailScreen(
                 tourId = tourId,
                 onDayMapClick = { dayId -> navController.navigate(Routes.map(dayId)) },
@@ -51,7 +51,7 @@ fun MotoTourNavHost() {
             Routes.MAP,
             arguments = listOf(navArgument("dayId") { type = NavType.LongType })
         ) { entry ->
-            val dayId = entry.arguments!!.getLong("dayId")
+            val dayId = entry.arguments?.getLong("dayId") ?: return@composable
             MapScreen(
                 dayId = dayId,
                 onBack = { navController.popBackStack() }
@@ -62,7 +62,7 @@ fun MotoTourNavHost() {
             Routes.PDF,
             arguments = listOf(navArgument("tourId") { type = NavType.LongType })
         ) { entry ->
-            val tourId = entry.arguments!!.getLong("tourId")
+            val tourId = entry.arguments?.getLong("tourId") ?: return@composable
             PdfScreen(
                 tourId = tourId,
                 onBack = { navController.popBackStack() }
