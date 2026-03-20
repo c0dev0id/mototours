@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 01, Day 3: Rhine Falls &amp; Lake Constance</name>
+    <desc>South to the Rhine Falls at Schaffhausen, then along Lake Constance to Meersburg.</desc>
+  </metadata>
+  <wpt lat="47.819000" lon="8.179000">
+    <name>Schluchsee</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.818000" lon="8.340000">
+    <name>Bonndorf</name>
+    <desc>Wutach gorge area</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.623000" lon="8.215000">
+    <name>Waldshut-Tiengen</name>
+    <desc>High Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.697000" lon="8.635000">
+    <name>Schaffhausen (Rhine Falls)</name>
+    <desc>Europe’s largest waterfall</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="47.660000" lon="8.860000">
+    <name>Stein am Rhein</name>
+    <desc>Medieval painted houses</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.658000" lon="9.175000">
+    <name>Konstanz</name>
+    <desc>Lake Constance</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.694000" lon="9.271000">
+    <name>Meersburg</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Rhine Falls &amp; Lake Constance</name>
+    <desc>~200 km</desc>
+    <rtept lat="47.819000" lon="8.179000">
+      <name>Schluchsee</name>
+    </rtept>
+    <rtept lat="47.818000" lon="8.340000">
+      <name>Bonndorf</name>
+    </rtept>
+    <rtept lat="47.623000" lon="8.215000">
+      <name>Waldshut-Tiengen</name>
+    </rtept>
+    <rtept lat="47.697000" lon="8.635000">
+      <name>Schaffhausen (Rhine Falls)</name>
+    </rtept>
+    <rtept lat="47.660000" lon="8.860000">
+      <name>Stein am Rhein</name>
+    </rtept>
+    <rtept lat="47.658000" lon="9.175000">
+      <name>Konstanz</name>
+    </rtept>
+    <rtept lat="47.694000" lon="9.271000">
+      <name>Meersburg</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 04, Day 5: Moselle Wine Towns</name>
+    <desc>Rhine to Koblenz, Moselle south through wine towns, up to Hunsrück.</desc>
+  </metadata>
+  <wpt lat="50.543000" lon="7.112000">
+    <name>Bad Neuenahr</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.578000" lon="7.233000">
+    <name>Remagen</name>
+    <desc>Bridge</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.354000" lon="7.599000">
+    <name>Koblenz</name>
+    <desc>Moselle start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.947000" lon="7.118000">
+    <name>Traben-Trarbach</name>
+    <desc>Art Nouveau</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.915000" lon="7.068000">
+    <name>Bernkastel-Kues</name>
+    <desc>Wine gem</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.810000" lon="7.130000">
+    <name>Morbach</name>
+    <desc>Hunsrück</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.714000" lon="7.308000">
+    <name>Idar-Oberstein</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Moselle Wine Towns</name>
+    <desc>~210 km</desc>
+    <rtept lat="50.543000" lon="7.112000">
+      <name>Bad Neuenahr</name>
+    </rtept>
+    <rtept lat="50.578000" lon="7.233000">
+      <name>Remagen</name>
+    </rtept>
+    <rtept lat="50.354000" lon="7.599000">
+      <name>Koblenz</name>
+    </rtept>
+    <rtept lat="49.947000" lon="7.118000">
+      <name>Traben-Trarbach</name>
+    </rtept>
+    <rtept lat="49.915000" lon="7.068000">
+      <name>Bernkastel-Kues</name>
+    </rtept>
+    <rtept lat="49.810000" lon="7.130000">
+      <name>Morbach</name>
+    </rtept>
+    <rtept lat="49.714000" lon="7.308000">
+      <name>Idar-Oberstein</name>
+    </rtept>
+  </rte>
+</gpx>

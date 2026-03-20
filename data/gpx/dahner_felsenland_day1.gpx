@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 02: Dahner Felsenland – Sandstone Wonders</name>
+    <desc>Ride into the dramatic Dahner Felsenland, where massive sandstone towers and bizarre rock formations rise from dense forest. This is the wildest landscape in the Pfälzerwald, with twisting roads carved through a geological wonderland.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.317000" lon="8.431000">
+    <name>Speyer</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.199000" lon="8.117000">
+    <name>Landau in der Pfalz</name>
+    <desc>Head south</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.204000" lon="7.969000">
+    <name>Annweiler am Trifels</name>
+    <desc>Enter the forest</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.192000" lon="7.855000">
+    <name>Hauenstein</name>
+    <desc>Forest village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.151000" lon="7.790000">
+    <name>Dahn</name>
+    <desc>Sandstone rock landscape – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.104000" lon="7.658000">
+    <name>Fischbach bei Dahn</name>
+    <desc>Deep in the rocks</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.201000" lon="7.605000">
+    <name>Pirmasens</name>
+    <desc>Turn north</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.281000" lon="7.656000">
+    <name>Waldfischbach-Burgalben</name>
+    <desc>Forest road</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.431000" lon="7.894000">
+    <name>Hochspeyer</name>
+    <desc>Northern Pfälzerwald</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.355000" lon="8.142000">
+    <name>Neustadt a.d. Weinstraße</name>
+    <desc>Back to wine country</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.317000" lon="8.431000">
+    <name>Speyer</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 02: Dahner Felsenland – Sandstone Wonders</name>
+    <desc>Pfälzerwald | ~250 km | Moderate</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.317000" lon="8.431000">
+      <name>Speyer</name>
+    </rtept>
+    <rtept lat="49.199000" lon="8.117000">
+      <name>Landau in der Pfalz</name>
+    </rtept>
+    <rtept lat="49.204000" lon="7.969000">
+      <name>Annweiler am Trifels</name>
+    </rtept>
+    <rtept lat="49.192000" lon="7.855000">
+      <name>Hauenstein</name>
+    </rtept>
+    <rtept lat="49.151000" lon="7.790000">
+      <name>Dahn</name>
+    </rtept>
+    <rtept lat="49.104000" lon="7.658000">
+      <name>Fischbach bei Dahn</name>
+    </rtept>
+    <rtept lat="49.201000" lon="7.605000">
+      <name>Pirmasens</name>
+    </rtept>
+    <rtept lat="49.281000" lon="7.656000">
+      <name>Waldfischbach-Burgalben</name>
+    </rtept>
+    <rtept lat="49.431000" lon="7.894000">
+      <name>Hochspeyer</name>
+    </rtept>
+    <rtept lat="49.355000" lon="8.142000">
+      <name>Neustadt a.d. Weinstraße</name>
+    </rtept>
+    <rtept lat="49.317000" lon="8.431000">
+      <name>Speyer</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

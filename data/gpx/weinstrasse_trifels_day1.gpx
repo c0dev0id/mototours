@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 01: Deutsche Weinstraße &amp; Trifels</name>
+    <desc>Wind your way through Germany’s oldest wine route, sampling the charm of sun-drenched Palatinate villages before climbing to the legendary Trifels Castle—where Richard the Lionheart was once held captive—then plunging into the green heart of the Pfälzerwald on winding forest roads.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.317000" lon="8.431000">
+    <name>Speyer</name>
+    <desc>Cross the Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.355000" lon="8.142000">
+    <name>Neustadt a.d. Weinstraße</name>
+    <desc>Gateway to the wine route</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.306000" lon="8.132000">
+    <name>Maikammer</name>
+    <desc>Wine village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.284000" lon="8.120000">
+    <name>Edenkoben</name>
+    <desc>Villa Ludwigshöhe</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.269000" lon="8.110000">
+    <name>Rhodt unter Rietburg</name>
+    <desc>Charming wine village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.199000" lon="8.117000">
+    <name>Landau in der Pfalz</name>
+    <desc>Turn west</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.204000" lon="7.969000">
+    <name>Annweiler am Trifels</name>
+    <desc>Approach Trifels</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.207000" lon="7.982000">
+    <name>Burg Trifels</name>
+    <desc>Imperial castle – midpoint stop</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.244000" lon="7.974000">
+    <name>Ramberg</name>
+    <desc>Into the forest</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.348000" lon="7.850000">
+    <name>Johanniskreuz</name>
+    <desc>Legendary forest crossroads</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.373000" lon="8.080000">
+    <name>Lambrecht</name>
+    <desc>Exit forest</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.355000" lon="8.142000">
+    <name>Neustadt a.d. Weinstraße</name>
+    <desc>Return to wine country</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.317000" lon="8.431000">
+    <name>Speyer</name>
+    <desc>Cross Rhine back</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 01: Deutsche Weinstraße &amp; Trifels</name>
+    <desc>Pfälzerwald | ~200 km | Moderate</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.317000" lon="8.431000">
+      <name>Speyer</name>
+    </rtept>
+    <rtept lat="49.355000" lon="8.142000">
+      <name>Neustadt a.d. Weinstraße</name>
+    </rtept>
+    <rtept lat="49.306000" lon="8.132000">
+      <name>Maikammer</name>
+    </rtept>
+    <rtept lat="49.284000" lon="8.120000">
+      <name>Edenkoben</name>
+    </rtept>
+    <rtept lat="49.269000" lon="8.110000">
+      <name>Rhodt unter Rietburg</name>
+    </rtept>
+    <rtept lat="49.199000" lon="8.117000">
+      <name>Landau in der Pfalz</name>
+    </rtept>
+    <rtept lat="49.204000" lon="7.969000">
+      <name>Annweiler am Trifels</name>
+    </rtept>
+    <rtept lat="49.207000" lon="7.982000">
+      <name>Burg Trifels</name>
+    </rtept>
+    <rtept lat="49.244000" lon="7.974000">
+      <name>Ramberg</name>
+    </rtept>
+    <rtept lat="49.348000" lon="7.850000">
+      <name>Johanniskreuz</name>
+    </rtept>
+    <rtept lat="49.373000" lon="8.080000">
+      <name>Lambrecht</name>
+    </rtept>
+    <rtept lat="49.355000" lon="8.142000">
+      <name>Neustadt a.d. Weinstraße</name>
+    </rtept>
+    <rtept lat="49.317000" lon="8.431000">
+      <name>Speyer</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

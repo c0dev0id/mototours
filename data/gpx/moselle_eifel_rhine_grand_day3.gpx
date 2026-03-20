@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 04, Day 3: Rhine to Eifel</name>
+    <desc>Rhine north to Koblenz, into the Eifel via Mayen, Burg Eltz to Cochem.</desc>
+  </metadata>
+  <wpt lat="50.059000" lon="7.770000">
+    <name>Bacharach</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.966000" lon="7.895000">
+    <name>Bingen</name>
+    <desc>Rhine-Nahe</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.354000" lon="7.599000">
+    <name>Koblenz</name>
+    <desc>Rhine north</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.440000" lon="7.404000">
+    <name>Andernach</name>
+    <desc>Eifel approach</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.328000" lon="7.223000">
+    <name>Mayen</name>
+    <desc>Eifel</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="50.205000" lon="7.337000">
+    <name>Burg Eltz</name>
+    <desc>Fairy-tale castle</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.146000" lon="7.167000">
+    <name>Cochem</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Rhine to Eifel</name>
+    <desc>~210 km</desc>
+    <rtept lat="50.059000" lon="7.770000">
+      <name>Bacharach</name>
+    </rtept>
+    <rtept lat="49.966000" lon="7.895000">
+      <name>Bingen</name>
+    </rtept>
+    <rtept lat="50.354000" lon="7.599000">
+      <name>Koblenz</name>
+    </rtept>
+    <rtept lat="50.440000" lon="7.404000">
+      <name>Andernach</name>
+    </rtept>
+    <rtept lat="50.328000" lon="7.223000">
+      <name>Mayen</name>
+    </rtept>
+    <rtept lat="50.205000" lon="7.337000">
+      <name>Burg Eltz</name>
+    </rtept>
+    <rtept lat="50.146000" lon="7.167000">
+      <name>Cochem</name>
+    </rtept>
+  </rte>
+</gpx>

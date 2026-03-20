@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 05, Day 2: Into the Thüringer Wald</name>
+    <desc>North to Coburg (Luther’s fortress), through the Frankenwald to the Thüringer Wald.</desc>
+  </metadata>
+  <wpt lat="49.891000" lon="10.886000">
+    <name>Bamberg</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.259000" lon="10.964000">
+    <name>Coburg</name>
+    <desc>Veste Coburg</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="50.241000" lon="11.328000">
+    <name>Kronach</name>
+    <desc>Festung Rosenberg</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.648000" lon="11.364000">
+    <name>Saalfeld</name>
+    <desc>Fairy grottoes</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.622000" lon="11.200000">
+    <name>Schwarzatal</name>
+    <desc>Deep valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.685000" lon="10.919000">
+    <name>Ilmenau</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Into the Thüringer Wald</name>
+    <desc>~210 km</desc>
+    <rtept lat="49.891000" lon="10.886000">
+      <name>Bamberg</name>
+    </rtept>
+    <rtept lat="50.259000" lon="10.964000">
+      <name>Coburg</name>
+    </rtept>
+    <rtept lat="50.241000" lon="11.328000">
+      <name>Kronach</name>
+    </rtept>
+    <rtept lat="50.648000" lon="11.364000">
+      <name>Saalfeld</name>
+    </rtept>
+    <rtept lat="50.622000" lon="11.200000">
+      <name>Schwarzatal</name>
+    </rtept>
+    <rtept lat="50.685000" lon="10.919000">
+      <name>Ilmenau</name>
+    </rtept>
+  </rte>
+</gpx>

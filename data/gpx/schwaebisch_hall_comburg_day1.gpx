@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 22: Schwäbisch Hall &amp; Comburg</name>
+    <desc>A full-day ride to one of southern Germany’s most spectacular medieval towns—Schwäbisch Hall, with its theatrical market square—and the imposing Comburg monastery fortress perched on a hill above.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.253000" lon="8.879000">
+    <name>Sinsheim</name>
+    <desc>Head east</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.142000" lon="9.220000">
+    <name>Heilbronn</name>
+    <desc>Bypass south</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.151000" lon="9.286000">
+    <name>Weinsberg</name>
+    <desc>Weibertreu castle</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.093000" lon="9.380000">
+    <name>Löwenstein</name>
+    <desc>Löwensteiner Berge</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.079000" lon="9.558000">
+    <name>Mainhardt</name>
+    <desc>Roman Limes</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.112000" lon="9.738000">
+    <name>Schwäbisch Hall</name>
+    <desc>Theatrical Marktplatz – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.101000" lon="9.743000">
+    <name>Comburg</name>
+    <desc>Monastery fortress</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.995000" lon="9.770000">
+    <name>Gaildorf</name>
+    <desc>Kocher valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.978000" lon="9.586000">
+    <name>Murrhardt</name>
+    <desc>Swabian Forest</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.879000" lon="9.474000">
+    <name>Sulzbach an der Murr</name>
+    <desc>Forest edge</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.948000" lon="9.432000">
+    <name>Backnang</name>
+    <desc>Return west</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.142000" lon="9.220000">
+    <name>Heilbronn</name>
+    <desc>A6 west</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End (via A6)</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 22: Schwäbisch Hall &amp; Comburg</name>
+    <desc>Hohenloher Land | ~270 km | Moderate</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.253000" lon="8.879000">
+      <name>Sinsheim</name>
+    </rtept>
+    <rtept lat="49.142000" lon="9.220000">
+      <name>Heilbronn</name>
+    </rtept>
+    <rtept lat="49.151000" lon="9.286000">
+      <name>Weinsberg</name>
+    </rtept>
+    <rtept lat="49.093000" lon="9.380000">
+      <name>Löwenstein</name>
+    </rtept>
+    <rtept lat="49.079000" lon="9.558000">
+      <name>Mainhardt</name>
+    </rtept>
+    <rtept lat="49.112000" lon="9.738000">
+      <name>Schwäbisch Hall</name>
+    </rtept>
+    <rtept lat="49.101000" lon="9.743000">
+      <name>Comburg</name>
+    </rtept>
+    <rtept lat="48.995000" lon="9.770000">
+      <name>Gaildorf</name>
+    </rtept>
+    <rtept lat="48.978000" lon="9.586000">
+      <name>Murrhardt</name>
+    </rtept>
+    <rtept lat="48.879000" lon="9.474000">
+      <name>Sulzbach an der Murr</name>
+    </rtept>
+    <rtept lat="48.948000" lon="9.432000">
+      <name>Backnang</name>
+    </rtept>
+    <rtept lat="49.142000" lon="9.220000">
+      <name>Heilbronn</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Weekend 04, Day 2: Schwäbische Alb Escarpment Home</name>
+    <desc>Head east to Reutlingen and climb to Bad Urach for the famous waterfall. Continue to Schloss Lichtenstein, perched on a cliff like a fairy-tale illustration. Cross the Alb plateau through Münsingen and Römerstein, then descend the spectacular Alb escarpment to Owen and Kirchheim. Pass through medieval Esslingen and return north via Vaihingen.</desc>
+  </metadata>
+  <wpt lat="48.522000" lon="9.057000">
+    <name>Tübingen</name>
+    <desc>Start day 2</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.492000" lon="9.214000">
+    <name>Reutlingen</name>
+    <desc>Gateway to the Alb</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.494000" lon="9.397000">
+    <name>Bad Urach</name>
+    <desc>Waterfall</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.408000" lon="9.260000">
+    <name>Schloss Lichtenstein</name>
+    <desc>Fairy-tale castle</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.412000" lon="9.497000">
+    <name>Münsingen</name>
+    <desc>Alb plateau</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.490000" lon="9.541000">
+    <name>Römerstein</name>
+    <desc>Alb edge</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.586000" lon="9.453000">
+    <name>Owen</name>
+    <desc>Teck castle views</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.647000" lon="9.450000">
+    <name>Kirchheim unter Teck</name>
+    <desc>Town at the Alb foot</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.740000" lon="9.310000">
+    <name>Esslingen am Neckar</name>
+    <desc>Medieval gem</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.933000" lon="8.962000">
+    <name>Vaihingen an der Enz</name>
+    <desc>Return north</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End – home</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Schwäbische Alb Escarpment Home</name>
+    <desc>~200 km</desc>
+    <rtept lat="48.522000" lon="9.057000">
+      <name>Tübingen</name>
+    </rtept>
+    <rtept lat="48.492000" lon="9.214000">
+      <name>Reutlingen</name>
+    </rtept>
+    <rtept lat="48.494000" lon="9.397000">
+      <name>Bad Urach</name>
+    </rtept>
+    <rtept lat="48.408000" lon="9.260000">
+      <name>Schloss Lichtenstein</name>
+    </rtept>
+    <rtept lat="48.412000" lon="9.497000">
+      <name>Münsingen</name>
+    </rtept>
+    <rtept lat="48.490000" lon="9.541000">
+      <name>Römerstein</name>
+    </rtept>
+    <rtept lat="48.586000" lon="9.453000">
+      <name>Owen</name>
+    </rtept>
+    <rtept lat="48.647000" lon="9.450000">
+      <name>Kirchheim unter Teck</name>
+    </rtept>
+    <rtept lat="48.740000" lon="9.310000">
+      <name>Esslingen am Neckar</name>
+    </rtept>
+    <rtept lat="48.933000" lon="8.962000">
+      <name>Vaihingen an der Enz</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour3d 01, Day 2: Titisee, Belchen &amp; Staufen</name>
+    <desc>Ride to Furtwangen (clock museum), then to the Titisee. Continue past the Feldberg to Todtnau, climb the Belchen, and descend through the Münstertal to Staufen.</desc>
+  </metadata>
+  <wpt lat="48.133000" lon="8.237000">
+    <name>Triberg</name>
+    <desc>Start day 2</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.055000" lon="8.208000">
+    <name>Furtwangen</name>
+    <desc>Clock museum</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.903000" lon="8.157000">
+    <name>Titisee</name>
+    <desc>Iconic lake</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="47.874000" lon="8.005000">
+    <name>Feldberg area</name>
+    <desc>Highest BF peak</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.826000" lon="7.946000">
+    <name>Todtnau</name>
+    <desc>Waterfall town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.822000" lon="7.831000">
+    <name>Belchen (1414 m)</name>
+    <desc>Finest panorama</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.856000" lon="7.770000">
+    <name>Münstertal</name>
+    <desc>Southern valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.883000" lon="7.728000">
+    <name>Staufen im Breisgau</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Titisee, Belchen &amp; Staufen</name>
+    <desc>~220 km</desc>
+    <rtept lat="48.133000" lon="8.237000">
+      <name>Triberg</name>
+    </rtept>
+    <rtept lat="48.055000" lon="8.208000">
+      <name>Furtwangen</name>
+    </rtept>
+    <rtept lat="47.903000" lon="8.157000">
+      <name>Titisee</name>
+    </rtept>
+    <rtept lat="47.874000" lon="8.005000">
+      <name>Feldberg area</name>
+    </rtept>
+    <rtept lat="47.826000" lon="7.946000">
+      <name>Todtnau</name>
+    </rtept>
+    <rtept lat="47.822000" lon="7.831000">
+      <name>Belchen (1414 m)</name>
+    </rtept>
+    <rtept lat="47.856000" lon="7.770000">
+      <name>Münstertal</name>
+    </rtept>
+    <rtept lat="47.883000" lon="7.728000">
+      <name>Staufen im Breisgau</name>
+    </rtept>
+  </rte>
+</gpx>

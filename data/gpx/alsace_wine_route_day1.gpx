@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 18: Alsace Wine Route</name>
+    <desc>Cross into France for a day on the famous Route des Vins d’Alsace—half-timbered villages, vineyards climbing steep hillsides, and some of the best food in Europe. Alsatian cuisine is the perfect midpoint reward.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="48.761000" lon="8.241000">
+    <name>Baden-Baden</name>
+    <desc>Head south (via A5)</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.822000" lon="8.148000">
+    <name>Iffezheim</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.815000" lon="7.791000">
+    <name>Haguenau</name>
+    <desc>French side</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.622000" lon="7.492000">
+    <name>Marlenheim</name>
+    <desc>Start of wine route</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.496000" lon="7.471000">
+    <name>Rosheim</name>
+    <desc>Romanesque church</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.462000" lon="7.483000">
+    <name>Obernai</name>
+    <desc>Alsatian jewel – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.407000" lon="7.449000">
+    <name>Barr</name>
+    <desc>Wine capital</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.387000" lon="7.417000">
+    <name>Andlau</name>
+    <desc>Romanesque abbey</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.260000" lon="7.453000">
+    <name>Sélestat</name>
+    <desc>Humanist Library</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.167000" lon="7.544000">
+    <name>Marckolsheim</name>
+    <desc>Cross Rhine back</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End (via A5)</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 18: Alsace Wine Route</name>
+    <desc>Elsass / Alsace | ~260 km | Easy to Moderate</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="48.761000" lon="8.241000">
+      <name>Baden-Baden</name>
+    </rtept>
+    <rtept lat="48.822000" lon="8.148000">
+      <name>Iffezheim</name>
+    </rtept>
+    <rtept lat="48.815000" lon="7.791000">
+      <name>Haguenau</name>
+    </rtept>
+    <rtept lat="48.622000" lon="7.492000">
+      <name>Marlenheim</name>
+    </rtept>
+    <rtept lat="48.496000" lon="7.471000">
+      <name>Rosheim</name>
+    </rtept>
+    <rtept lat="48.462000" lon="7.483000">
+      <name>Obernai</name>
+    </rtept>
+    <rtept lat="48.407000" lon="7.449000">
+      <name>Barr</name>
+    </rtept>
+    <rtept lat="48.387000" lon="7.417000">
+      <name>Andlau</name>
+    </rtept>
+    <rtept lat="48.260000" lon="7.453000">
+      <name>Sélestat</name>
+    </rtept>
+    <rtept lat="48.167000" lon="7.544000">
+      <name>Marckolsheim</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

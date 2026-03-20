@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 04: Johanniskreuz – Heart of the Pfälzerwald</name>
+    <desc>Ride through the enchanting Elmstein Valley, the scenic gorge slicing through the Pfälzerwald, to reach Johanniskreuz—the legendary forest crossroads that has been a favorite biker meeting point for decades.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.317000" lon="8.431000">
+    <name>Speyer</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.355000" lon="8.142000">
+    <name>Neustadt a.d. Weinstraße</name>
+    <desc>Enter wine country</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.373000" lon="8.080000">
+    <name>Lambrecht</name>
+    <desc>Enter Elmstein Valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.360000" lon="7.940000">
+    <name>Elmstein</name>
+    <desc>Valley village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.347000" lon="7.890000">
+    <name>Iggelbach</name>
+    <desc>Deeper into forest</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.348000" lon="7.850000">
+    <name>Johanniskreuz</name>
+    <desc>Legendary crossroads – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.431000" lon="7.894000">
+    <name>Hochspeyer</name>
+    <desc>North exit</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.394000" lon="7.971000">
+    <name>Frankenstein</name>
+    <desc>Castle ruin</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.383000" lon="7.923000">
+    <name>Weidenthal</name>
+    <desc>Forest village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.378000" lon="8.042000">
+    <name>Neidenfels</name>
+    <desc>Back to the valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.373000" lon="8.080000">
+    <name>Lambrecht</name>
+    <desc>Exit valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.355000" lon="8.142000">
+    <name>Neustadt a.d. Weinstraße</name>
+    <desc>Return</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.317000" lon="8.431000">
+    <name>Speyer</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 04: Johanniskreuz – Heart of the Pfälzerwald</name>
+    <desc>Pfälzerwald | ~185 km | Moderate</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.317000" lon="8.431000">
+      <name>Speyer</name>
+    </rtept>
+    <rtept lat="49.355000" lon="8.142000">
+      <name>Neustadt a.d. Weinstraße</name>
+    </rtept>
+    <rtept lat="49.373000" lon="8.080000">
+      <name>Lambrecht</name>
+    </rtept>
+    <rtept lat="49.360000" lon="7.940000">
+      <name>Elmstein</name>
+    </rtept>
+    <rtept lat="49.347000" lon="7.890000">
+      <name>Iggelbach</name>
+    </rtept>
+    <rtept lat="49.348000" lon="7.850000">
+      <name>Johanniskreuz</name>
+    </rtept>
+    <rtept lat="49.431000" lon="7.894000">
+      <name>Hochspeyer</name>
+    </rtept>
+    <rtept lat="49.394000" lon="7.971000">
+      <name>Frankenstein</name>
+    </rtept>
+    <rtept lat="49.383000" lon="7.923000">
+      <name>Weidenthal</name>
+    </rtept>
+    <rtept lat="49.378000" lon="8.042000">
+      <name>Neidenfels</name>
+    </rtept>
+    <rtept lat="49.373000" lon="8.080000">
+      <name>Lambrecht</name>
+    </rtept>
+    <rtept lat="49.355000" lon="8.142000">
+      <name>Neustadt a.d. Weinstraße</name>
+    </rtept>
+    <rtept lat="49.317000" lon="8.431000">
+      <name>Speyer</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 02, Day 6: Kinzigtal &amp; B500 Home</name>
+    <desc>Through Kinzigtal, flower village Sasbachwalden, B500 and Baden-Baden home.</desc>
+  </metadata>
+  <wpt lat="48.133000" lon="8.237000">
+    <name>Triberg</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.290000" lon="8.339000">
+    <name>Schiltach</name>
+    <desc>Half-timbered</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.293000" lon="8.219000">
+    <name>Wolfach</name>
+    <desc>Kinzigtal</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.407000" lon="8.015000">
+    <name>Gengenbach</name>
+    <desc>Nice of the BF</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.619000" lon="8.120000">
+    <name>Sasbachwalden</name>
+    <desc>Flower village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.654000" lon="8.226000">
+    <name>B500</name>
+    <desc>Hochstraße</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.761000" lon="8.241000">
+    <name>Baden-Baden</name>
+    <desc>Spa city</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End – home</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Kinzigtal &amp; B500 Home</name>
+    <desc>~210 km</desc>
+    <rtept lat="48.133000" lon="8.237000">
+      <name>Triberg</name>
+    </rtept>
+    <rtept lat="48.290000" lon="8.339000">
+      <name>Schiltach</name>
+    </rtept>
+    <rtept lat="48.293000" lon="8.219000">
+      <name>Wolfach</name>
+    </rtept>
+    <rtept lat="48.407000" lon="8.015000">
+      <name>Gengenbach</name>
+    </rtept>
+    <rtept lat="48.619000" lon="8.120000">
+      <name>Sasbachwalden</name>
+    </rtept>
+    <rtept lat="48.654000" lon="8.226000">
+      <name>B500</name>
+    </rtept>
+    <rtept lat="48.761000" lon="8.241000">
+      <name>Baden-Baden</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 24: Zabergäu &amp; Heuchelberg</name>
+    <desc>A shorter, relaxed tour through the gentle wine hills of the Zabergäu and Heuchelberg—discover the UNESCO-listed Maulbronn Monastery and charming wine villages without breaking a sweat.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.294000" lon="8.698000">
+    <name>Wiesloch</name>
+    <desc>Head southeast</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.136000" lon="8.912000">
+    <name>Eppingen</name>
+    <desc>Fachwerkstadt</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.064000" lon="9.001000">
+    <name>Güglingen</name>
+    <desc>Wine country</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.077000" lon="9.067000">
+    <name>Brackenheim</name>
+    <desc>Wine capital – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.056000" lon="8.928000">
+    <name>Zaberfeld</name>
+    <desc>Zabergäu</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.043000" lon="9.031000">
+    <name>Cleebronn</name>
+    <desc>Tripsdrill</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.040000" lon="9.093000">
+    <name>Bönnigheim</name>
+    <desc>Wine town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.933000" lon="8.962000">
+    <name>Vaihingen an der Enz</name>
+    <desc>Enz valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.002000" lon="8.812000">
+    <name>Maulbronn</name>
+    <desc>UNESCO monastery</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.036000" lon="8.707000">
+    <name>Bretten</name>
+    <desc>Melanchthon</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 24: Zabergäu &amp; Heuchelberg</name>
+    <desc>Kraichgau / Zabergäu | ~175 km | Easy</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.294000" lon="8.698000">
+      <name>Wiesloch</name>
+    </rtept>
+    <rtept lat="49.136000" lon="8.912000">
+      <name>Eppingen</name>
+    </rtept>
+    <rtept lat="49.064000" lon="9.001000">
+      <name>Güglingen</name>
+    </rtept>
+    <rtept lat="49.077000" lon="9.067000">
+      <name>Brackenheim</name>
+    </rtept>
+    <rtept lat="49.056000" lon="8.928000">
+      <name>Zaberfeld</name>
+    </rtept>
+    <rtept lat="49.043000" lon="9.031000">
+      <name>Cleebronn</name>
+    </rtept>
+    <rtept lat="49.040000" lon="9.093000">
+      <name>Bönnigheim</name>
+    </rtept>
+    <rtept lat="48.933000" lon="8.962000">
+      <name>Vaihingen an der Enz</name>
+    </rtept>
+    <rtept lat="49.002000" lon="8.812000">
+      <name>Maulbronn</name>
+    </rtept>
+    <rtept lat="49.036000" lon="8.707000">
+      <name>Bretten</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

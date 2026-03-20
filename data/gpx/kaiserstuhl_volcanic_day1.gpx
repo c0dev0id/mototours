@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 26: Kaiserstuhl – Volcanic Hills</name>
+    <desc>Ride to the Kaiserstuhl—a volcanic hill rising from the Rhine plain like a Mediterranean island, with terraced vineyards, exotic vegetation, and the warmest climate in Germany. Wine and food here are exceptional.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="48.343000" lon="7.871000">
+    <name>Lahr</name>
+    <desc>Enter Kaiserstuhl area (via A5)</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.257000" lon="7.813000">
+    <name>Ettenheim</name>
+    <desc>Baroque town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.142000" lon="7.700000">
+    <name>Endingen am Kaiserstuhl</name>
+    <desc>Wine town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.092000" lon="7.655000">
+    <name>Vogtsburg im Kaiserstuhl</name>
+    <desc>Wine village – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.042000" lon="7.651000">
+    <name>Ihringen</name>
+    <desc>Warmest place in Germany</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.028000" lon="7.583000">
+    <name>Breisach am Rhein</name>
+    <desc>Rhine fortress</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.085000" lon="7.619000">
+    <name>Burkheim</name>
+    <desc>Fortified wine village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.136000" lon="7.613000">
+    <name>Sasbach am Kaiserstuhl</name>
+    <desc>Northern Kaiserstuhl</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End (via A5)</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 26: Kaiserstuhl – Volcanic Hills</name>
+    <desc>Oberrhein / Kaiserstuhl | ~240 km | Easy to Moderate</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="48.343000" lon="7.871000">
+      <name>Lahr</name>
+    </rtept>
+    <rtept lat="48.257000" lon="7.813000">
+      <name>Ettenheim</name>
+    </rtept>
+    <rtept lat="48.142000" lon="7.700000">
+      <name>Endingen am Kaiserstuhl</name>
+    </rtept>
+    <rtept lat="48.092000" lon="7.655000">
+      <name>Vogtsburg im Kaiserstuhl</name>
+    </rtept>
+    <rtept lat="48.042000" lon="7.651000">
+      <name>Ihringen</name>
+    </rtept>
+    <rtept lat="48.028000" lon="7.583000">
+      <name>Breisach am Rhein</name>
+    </rtept>
+    <rtept lat="48.085000" lon="7.619000">
+      <name>Burkheim</name>
+    </rtept>
+    <rtept lat="48.136000" lon="7.613000">
+      <name>Sasbach am Kaiserstuhl</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

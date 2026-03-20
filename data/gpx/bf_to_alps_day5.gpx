@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 01, Day 5: Allgäu to Ulm</name>
+    <desc>Through the Allgäu foothills via Kempten and Ottobeuren to Ulm.</desc>
+  </metadata>
+  <wpt lat="47.408000" lon="10.279000">
+    <name>Oberstdorf</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.515000" lon="10.281000">
+    <name>Sonthofen</name>
+    <desc>Allgäu town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.560000" lon="10.219000">
+    <name>Immenstadt</name>
+    <desc>Alpsee</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.726000" lon="10.316000">
+    <name>Kempten</name>
+    <desc>Roman town</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="47.941000" lon="10.300000">
+    <name>Ottobeuren</name>
+    <desc>Baroque basilica</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.987000" lon="10.181000">
+    <name>Memmingen</name>
+    <desc>Medieval old town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.401000" lon="9.987000">
+    <name>Ulm</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Allgäu to Ulm</name>
+    <desc>~200 km</desc>
+    <rtept lat="47.408000" lon="10.279000">
+      <name>Oberstdorf</name>
+    </rtept>
+    <rtept lat="47.515000" lon="10.281000">
+      <name>Sonthofen</name>
+    </rtept>
+    <rtept lat="47.560000" lon="10.219000">
+      <name>Immenstadt</name>
+    </rtept>
+    <rtept lat="47.726000" lon="10.316000">
+      <name>Kempten</name>
+    </rtept>
+    <rtept lat="47.941000" lon="10.300000">
+      <name>Ottobeuren</name>
+    </rtept>
+    <rtept lat="47.987000" lon="10.181000">
+      <name>Memmingen</name>
+    </rtept>
+    <rtept lat="48.401000" lon="9.987000">
+      <name>Ulm</name>
+    </rtept>
+  </rte>
+</gpx>

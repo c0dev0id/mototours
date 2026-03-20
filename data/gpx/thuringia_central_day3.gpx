@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 05, Day 3: Thüringer Wald to Meiningen</name>
+    <desc>Along the Rennsteig ridge through the Thüringer Wald to Meiningen.</desc>
+  </metadata>
+  <wpt lat="50.685000" lon="10.919000">
+    <name>Ilmenau</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.721000" lon="10.732000">
+    <name>Oberhof</name>
+    <desc>Winter sports</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="50.610000" lon="10.693000">
+    <name>Suhl</name>
+    <desc>Weapons museum</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.724000" lon="10.449000">
+    <name>Schmalkalden</name>
+    <desc>Half-timbered</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.556000" lon="10.417000">
+    <name>Meiningen</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Thüringer Wald to Meiningen</name>
+    <desc>~190 km</desc>
+    <rtept lat="50.685000" lon="10.919000">
+      <name>Ilmenau</name>
+    </rtept>
+    <rtept lat="50.721000" lon="10.732000">
+      <name>Oberhof</name>
+    </rtept>
+    <rtept lat="50.610000" lon="10.693000">
+      <name>Suhl</name>
+    </rtept>
+    <rtept lat="50.724000" lon="10.449000">
+      <name>Schmalkalden</name>
+    </rtept>
+    <rtept lat="50.556000" lon="10.417000">
+      <name>Meiningen</name>
+    </rtept>
+  </rte>
+</gpx>

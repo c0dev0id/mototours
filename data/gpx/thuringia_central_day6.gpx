@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 05, Day 6: Taunus, Rheingau &amp; Pfalz Home</name>
+    <desc>Through Taunus to Rheingau (Rüdesheim wine), then south through the Pfalz home.</desc>
+  </metadata>
+  <wpt lat="50.387000" lon="8.063000">
+    <name>Limburg an der Lahn</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.222000" lon="8.268000">
+    <name>Idstein</name>
+    <desc>Taunus</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.978000" lon="7.920000">
+    <name>Rüdesheim</name>
+    <desc>Rheingau wine</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.966000" lon="7.895000">
+    <name>Bingen</name>
+    <desc>Rhine-Nahe</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.747000" lon="8.116000">
+    <name>Alzey</name>
+    <desc>Rheinhessen</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.462000" lon="8.172000">
+    <name>Bad Dürkheim</name>
+    <desc>Pfalz wine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.317000" lon="8.431000">
+    <name>Speyer</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End – home</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Taunus, Rheingau &amp; Pfalz Home</name>
+    <desc>~210 km</desc>
+    <rtept lat="50.387000" lon="8.063000">
+      <name>Limburg an der Lahn</name>
+    </rtept>
+    <rtept lat="50.222000" lon="8.268000">
+      <name>Idstein</name>
+    </rtept>
+    <rtept lat="49.978000" lon="7.920000">
+      <name>Rüdesheim</name>
+    </rtept>
+    <rtept lat="49.966000" lon="7.895000">
+      <name>Bingen</name>
+    </rtept>
+    <rtept lat="49.747000" lon="8.116000">
+      <name>Alzey</name>
+    </rtept>
+    <rtept lat="49.462000" lon="8.172000">
+      <name>Bad Dürkheim</name>
+    </rtept>
+    <rtept lat="49.317000" lon="8.431000">
+      <name>Speyer</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 01, Day 1: Schwarzwaldhochstraße to Baiersbronn</name>
+    <desc>B500 from Baden-Baden to Freudenstadt, overnight in Baiersbronn.</desc>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="48.761000" lon="8.241000">
+    <name>Baden-Baden</name>
+    <desc>Via A5</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.683000" lon="8.223000">
+    <name>Bühlerhöhe</name>
+    <desc>Join B500</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.596000" lon="8.201000">
+    <name>Mummelsee</name>
+    <desc>Mountain lake</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.561000" lon="8.221000">
+    <name>Ruhestein</name>
+    <desc>Nationalpark</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.462000" lon="8.411000">
+    <name>Freudenstadt</name>
+    <desc>Marktplatz</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.504000" lon="8.378000">
+    <name>Baiersbronn</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Schwarzwaldhochstraße to Baiersbronn</name>
+    <desc>~210 km</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="48.761000" lon="8.241000">
+      <name>Baden-Baden</name>
+    </rtept>
+    <rtept lat="48.683000" lon="8.223000">
+      <name>Bühlerhöhe</name>
+    </rtept>
+    <rtept lat="48.596000" lon="8.201000">
+      <name>Mummelsee</name>
+    </rtept>
+    <rtept lat="48.561000" lon="8.221000">
+      <name>Ruhestein</name>
+    </rtept>
+    <rtept lat="48.462000" lon="8.411000">
+      <name>Freudenstadt</name>
+    </rtept>
+    <rtept lat="48.504000" lon="8.378000">
+      <name>Baiersbronn</name>
+    </rtept>
+  </rte>
+</gpx>

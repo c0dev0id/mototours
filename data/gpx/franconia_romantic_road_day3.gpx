@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 03, Day 3: Fränkische Schweiz</name>
+    <desc>Through the Fränkische Schweiz—dramatic karst landscape with castle-topped cliffs and caves—to Nürnberg.</desc>
+  </metadata>
+  <wpt lat="49.891000" lon="10.886000">
+    <name>Bamberg</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.771000" lon="11.408000">
+    <name>Pottenstein</name>
+    <desc>Castle on the cliff</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.770000" lon="11.337000">
+    <name>Gößweinstein</name>
+    <desc>Pilgrimage basilica</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.782000" lon="11.185000">
+    <name>Ebermannstadt</name>
+    <desc>Wiesent valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.720000" lon="11.058000">
+    <name>Forchheim</name>
+    <desc>Half-timbered</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.452000" lon="11.077000">
+    <name>Nürnberg</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Fränkische Schweiz</name>
+    <desc>~190 km</desc>
+    <rtept lat="49.891000" lon="10.886000">
+      <name>Bamberg</name>
+    </rtept>
+    <rtept lat="49.771000" lon="11.408000">
+      <name>Pottenstein</name>
+    </rtept>
+    <rtept lat="49.770000" lon="11.337000">
+      <name>Gößweinstein</name>
+    </rtept>
+    <rtept lat="49.782000" lon="11.185000">
+      <name>Ebermannstadt</name>
+    </rtept>
+    <rtept lat="49.720000" lon="11.058000">
+      <name>Forchheim</name>
+    </rtept>
+    <rtept lat="49.452000" lon="11.077000">
+      <name>Nürnberg</name>
+    </rtept>
+  </rte>
+</gpx>

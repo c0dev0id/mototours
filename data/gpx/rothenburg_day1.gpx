@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Weekend 06, Day 1: Through Hohenlohe to Rothenburg</name>
+    <desc>Ride east through Sinsheim to Bad Wimpfen (hilltop Kaiserpfalz), then follow the Jagst valley through Jagsthausen and Kloster Schöntal. Continue through the Hohenlohe heartland via Künzelsau and Langenburg to Rothenburg ob der Tauber.</desc>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.253000" lon="8.879000">
+    <name>Sinsheim</name>
+    <desc>Head east</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.231000" lon="9.165000">
+    <name>Bad Wimpfen</name>
+    <desc>Kaiserpfalz</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.309000" lon="9.469000">
+    <name>Jagsthausen</name>
+    <desc>Götzenburg</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.328000" lon="9.500000">
+    <name>Kloster Schöntal</name>
+    <desc>Baroque abbey</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.282000" lon="9.685000">
+    <name>Künzelsau</name>
+    <desc>Hohenlohe capital</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.254000" lon="9.858000">
+    <name>Langenburg</name>
+    <desc>Castle &amp; car museum</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.201000" lon="9.982000">
+    <name>Kirchberg a.d. Jagst</name>
+    <desc>Hilltop town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.377000" lon="10.179000">
+    <name>Rothenburg o.d. Tauber</name>
+    <desc>Overnight</desc>
+    <type>Via</type>
+  </wpt>
+  <rte>
+    <name>Through Hohenlohe to Rothenburg</name>
+    <desc>~210 km</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.253000" lon="8.879000">
+      <name>Sinsheim</name>
+    </rtept>
+    <rtept lat="49.231000" lon="9.165000">
+      <name>Bad Wimpfen</name>
+    </rtept>
+    <rtept lat="49.309000" lon="9.469000">
+      <name>Jagsthausen</name>
+    </rtept>
+    <rtept lat="49.328000" lon="9.500000">
+      <name>Kloster Schöntal</name>
+    </rtept>
+    <rtept lat="49.282000" lon="9.685000">
+      <name>Künzelsau</name>
+    </rtept>
+    <rtept lat="49.254000" lon="9.858000">
+      <name>Langenburg</name>
+    </rtept>
+    <rtept lat="49.201000" lon="9.982000">
+      <name>Kirchberg a.d. Jagst</name>
+    </rtept>
+    <rtept lat="49.377000" lon="10.179000">
+      <name>Rothenburg o.d. Tauber</name>
+    </rtept>
+  </rte>
+</gpx>

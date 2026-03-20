@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Weekend 08, Day 2: Gutachtal &amp; Schwarzwaldhochstraße Home</name>
+    <desc>Ride north through the Gutachtal past the Vogtsbauernhof, then through the Kinzigtal to beautiful Gengenbach. Climb to Sasbachwalden and join the B500 at Sand. Ride the Schwarzwaldhochstraße past the Mummelsee and descend through Baden-Baden. A5 north home.</desc>
+  </metadata>
+  <wpt lat="48.133000" lon="8.237000">
+    <name>Triberg</name>
+    <desc>Start day 2</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.212000" lon="8.228000">
+    <name>Hornberg</name>
+    <desc>Valley town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.256000" lon="8.180000">
+    <name>Gutach (Vogtsbauernhof)</name>
+    <desc>Open-air museum</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.282000" lon="8.175000">
+    <name>Hausach</name>
+    <desc>Kinzigtal</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.407000" lon="8.015000">
+    <name>Gengenbach</name>
+    <desc>Nice of the BF</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.619000" lon="8.120000">
+    <name>Sasbachwalden</name>
+    <desc>Flower village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.654000" lon="8.226000">
+    <name>B500 Sand</name>
+    <desc>Join Hochstraße</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.596000" lon="8.201000">
+    <name>Mummelsee</name>
+    <desc>Mountain lake</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.761000" lon="8.241000">
+    <name>Baden-Baden</name>
+    <desc>Spa city</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End – home</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Gutachtal &amp; Schwarzwaldhochstraße Home</name>
+    <desc>~200 km</desc>
+    <rtept lat="48.133000" lon="8.237000">
+      <name>Triberg</name>
+    </rtept>
+    <rtept lat="48.212000" lon="8.228000">
+      <name>Hornberg</name>
+    </rtept>
+    <rtept lat="48.256000" lon="8.180000">
+      <name>Gutach (Vogtsbauernhof)</name>
+    </rtept>
+    <rtept lat="48.282000" lon="8.175000">
+      <name>Hausach</name>
+    </rtept>
+    <rtept lat="48.407000" lon="8.015000">
+      <name>Gengenbach</name>
+    </rtept>
+    <rtept lat="48.619000" lon="8.120000">
+      <name>Sasbachwalden</name>
+    </rtept>
+    <rtept lat="48.654000" lon="8.226000">
+      <name>B500 Sand</name>
+    </rtept>
+    <rtept lat="48.596000" lon="8.201000">
+      <name>Mummelsee</name>
+    </rtept>
+    <rtept lat="48.761000" lon="8.241000">
+      <name>Baden-Baden</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

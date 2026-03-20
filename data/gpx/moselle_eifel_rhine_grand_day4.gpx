@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 04, Day 4: Nürburgring &amp; Ahr Valley</name>
+    <desc>Through volcanic Eifel, Nürburgring, then the Ahr valley.</desc>
+  </metadata>
+  <wpt lat="50.146000" lon="7.167000">
+    <name>Cochem</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.210000" lon="6.975000">
+    <name>Ulmen</name>
+    <desc>Maar lake</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.196000" lon="6.831000">
+    <name>Daun</name>
+    <desc>Volcanic Eifel</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="50.336000" lon="6.943000">
+    <name>Nürburgring</name>
+    <desc>Green Hell</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.383000" lon="6.931000">
+    <name>Adenau</name>
+    <desc>Eifel village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.518000" lon="6.985000">
+    <name>Altenahr</name>
+    <desc>Ahr gorge</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.543000" lon="7.112000">
+    <name>Bad Neuenahr</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Nürburgring &amp; Ahr Valley</name>
+    <desc>~200 km</desc>
+    <rtept lat="50.146000" lon="7.167000">
+      <name>Cochem</name>
+    </rtept>
+    <rtept lat="50.210000" lon="6.975000">
+      <name>Ulmen</name>
+    </rtept>
+    <rtept lat="50.196000" lon="6.831000">
+      <name>Daun</name>
+    </rtept>
+    <rtept lat="50.336000" lon="6.943000">
+      <name>Nürburgring</name>
+    </rtept>
+    <rtept lat="50.383000" lon="6.931000">
+      <name>Adenau</name>
+    </rtept>
+    <rtept lat="50.518000" lon="6.985000">
+      <name>Altenahr</name>
+    </rtept>
+    <rtept lat="50.543000" lon="7.112000">
+      <name>Bad Neuenahr</name>
+    </rtept>
+  </rte>
+</gpx>

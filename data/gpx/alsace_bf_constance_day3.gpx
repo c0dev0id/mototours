@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 02, Day 3: Across to Freiburg</name>
+    <desc>Southern Alsace villages, cross Rhine at Breisach, Kaiserstuhl, Staufen to Freiburg.</desc>
+  </metadata>
+  <wpt lat="48.079000" lon="7.359000">
+    <name>Colmar</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.042000" lon="7.306000">
+    <name>Eguisheim</name>
+    <desc>Circular village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.956000" lon="7.299000">
+    <name>Rouffach</name>
+    <desc>Wine village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.028000" lon="7.583000">
+    <name>Breisach am Rhein</name>
+    <desc>Cross Rhine</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.092000" lon="7.655000">
+    <name>Kaiserstuhl</name>
+    <desc>Volcanic hills</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.883000" lon="7.728000">
+    <name>Staufen im Breisgau</name>
+    <desc>Faust town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.999000" lon="7.842000">
+    <name>Freiburg</name>
+    <desc>Overnight</desc>
+    <sym>Hotel</sym>
+    <type>Overnight</type>
+  </wpt>
+  <rte>
+    <name>Across to Freiburg</name>
+    <desc>~190 km</desc>
+    <rtept lat="48.079000" lon="7.359000">
+      <name>Colmar</name>
+    </rtept>
+    <rtept lat="48.042000" lon="7.306000">
+      <name>Eguisheim</name>
+    </rtept>
+    <rtept lat="47.956000" lon="7.299000">
+      <name>Rouffach</name>
+    </rtept>
+    <rtept lat="48.028000" lon="7.583000">
+      <name>Breisach am Rhein</name>
+    </rtept>
+    <rtept lat="48.092000" lon="7.655000">
+      <name>Kaiserstuhl</name>
+    </rtept>
+    <rtept lat="47.883000" lon="7.728000">
+      <name>Staufen im Breisgau</name>
+    </rtept>
+    <rtept lat="47.999000" lon="7.842000">
+      <name>Freiburg</name>
+    </rtept>
+  </rte>
+</gpx>

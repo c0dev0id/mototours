@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 23: Hohenloher Land</name>
+    <desc>Discover the gentle hills and castle-studded villages of the Hohenloher Land—“the Balcony of Franconia”—with its aristocratic residences, car museum at Langenburg, and sweeping views from Waldenburg’s ridge-top setting.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.253000" lon="8.879000">
+    <name>Sinsheim</name>
+    <desc>Head east</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.239000" lon="8.993000">
+    <name>Bad Rappenau</name>
+    <desc>Saline</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.192000" lon="9.225000">
+    <name>Neckarsulm</name>
+    <desc>Motorcycle Museum</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.201000" lon="9.501000">
+    <name>Öhringen</name>
+    <desc>Hohenlohe residency</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.201000" lon="9.578000">
+    <name>Neuenstein</name>
+    <desc>Castle</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.189000" lon="9.632000">
+    <name>Waldenburg</name>
+    <desc>Balcony of Hohenlohe – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.254000" lon="9.858000">
+    <name>Langenburg</name>
+    <desc>Castle, car museum</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.201000" lon="9.982000">
+    <name>Kirchberg an der Jagst</name>
+    <desc>Hilltop town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.253000" lon="9.919000">
+    <name>Gerabronn</name>
+    <desc>Rolling farmland</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.134000" lon="10.072000">
+    <name>Crailsheim</name>
+    <desc>Eastern edge</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.112000" lon="9.738000">
+    <name>Schwäbisch Hall</name>
+    <desc>Bypass south</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End (via A6)</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 23: Hohenloher Land</name>
+    <desc>Hohenloher Land | ~260 km | Easy to Moderate</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.253000" lon="8.879000">
+      <name>Sinsheim</name>
+    </rtept>
+    <rtept lat="49.239000" lon="8.993000">
+      <name>Bad Rappenau</name>
+    </rtept>
+    <rtept lat="49.192000" lon="9.225000">
+      <name>Neckarsulm</name>
+    </rtept>
+    <rtept lat="49.201000" lon="9.501000">
+      <name>Öhringen</name>
+    </rtept>
+    <rtept lat="49.201000" lon="9.578000">
+      <name>Neuenstein</name>
+    </rtept>
+    <rtept lat="49.189000" lon="9.632000">
+      <name>Waldenburg</name>
+    </rtept>
+    <rtept lat="49.254000" lon="9.858000">
+      <name>Langenburg</name>
+    </rtept>
+    <rtept lat="49.201000" lon="9.982000">
+      <name>Kirchberg an der Jagst</name>
+    </rtept>
+    <rtept lat="49.253000" lon="9.919000">
+      <name>Gerabronn</name>
+    </rtept>
+    <rtept lat="49.134000" lon="10.072000">
+      <name>Crailsheim</name>
+    </rtept>
+    <rtept lat="49.112000" lon="9.738000">
+      <name>Schwäbisch Hall</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

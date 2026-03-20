@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 07: Nibelungenstraße</name>
+    <desc>Trace the route of the Nibelungen through the deep Odenwald on the legendary B47—a road steeped in mythology and motorcycle legend alike. Dense forest, tight curves, and the charming hilltop town of Lindenfels.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="49.409000" lon="8.693000">
+    <name>Heidelberg</name>
+    <desc>Head east</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.474000" lon="8.750000">
+    <name>Wilhelmsfeld</name>
+    <desc>Into the hills</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.438000" lon="8.811000">
+    <name>Schönau</name>
+    <desc>Climbing</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.467000" lon="8.988000">
+    <name>Eberbach</name>
+    <desc>Neckar crossing</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.530000" lon="8.960000">
+    <name>Oberzent</name>
+    <desc>Deep forest</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.568000" lon="8.780000">
+    <name>Lindenfels</name>
+    <desc>Pearl of the Odenwald – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="49.650000" lon="8.773000">
+    <name>Fürth im Odenwald</name>
+    <desc>Continue north</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.621000" lon="8.761000">
+    <name>Rimbach</name>
+    <desc>Forest edge</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.597000" lon="8.735000">
+    <name>Mörlenbach</name>
+    <desc>Descending</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.550000" lon="8.667000">
+    <name>Weinheim</name>
+    <desc>Bergstraße</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End (via A5)</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 07: Nibelungenstraße</name>
+    <desc>Odenwald | ~210 km | Moderate</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.409000" lon="8.693000">
+      <name>Heidelberg</name>
+    </rtept>
+    <rtept lat="49.474000" lon="8.750000">
+      <name>Wilhelmsfeld</name>
+    </rtept>
+    <rtept lat="49.438000" lon="8.811000">
+      <name>Schönau</name>
+    </rtept>
+    <rtept lat="49.467000" lon="8.988000">
+      <name>Eberbach</name>
+    </rtept>
+    <rtept lat="49.530000" lon="8.960000">
+      <name>Oberzent</name>
+    </rtept>
+    <rtept lat="49.568000" lon="8.780000">
+      <name>Lindenfels</name>
+    </rtept>
+    <rtept lat="49.650000" lon="8.773000">
+      <name>Fürth im Odenwald</name>
+    </rtept>
+    <rtept lat="49.621000" lon="8.761000">
+      <name>Rimbach</name>
+    </rtept>
+    <rtept lat="49.597000" lon="8.735000">
+      <name>Mörlenbach</name>
+    </rtept>
+    <rtept lat="49.550000" lon="8.667000">
+      <name>Weinheim</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour6d 01, Day 6: Schwäbische Alb Return Home</name>
+    <desc>Cross the Alb via Blaubeuren and Lichtenstein, then through Tübingen and Calw home.</desc>
+  </metadata>
+  <wpt lat="48.401000" lon="9.987000">
+    <name>Ulm</name>
+    <desc>Start</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.412000" lon="9.783000">
+    <name>Blaubeuren</name>
+    <desc>Blautopf spring</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.412000" lon="9.497000">
+    <name>Münsingen</name>
+    <desc>Alb plateau</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.494000" lon="9.397000">
+    <name>Bad Urach</name>
+    <desc>Waterfall</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.408000" lon="9.260000">
+    <name>Schloss Lichtenstein</name>
+    <desc>Fairy-tale castle</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.522000" lon="9.057000">
+    <name>Tübingen</name>
+    <desc>University town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.714000" lon="8.741000">
+    <name>Calw</name>
+    <desc>Hesse’s town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.891000" lon="8.704000">
+    <name>Pforzheim</name>
+    <desc>Gold city</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End – home</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Schwäbische Alb Return Home</name>
+    <desc>~210 km</desc>
+    <rtept lat="48.401000" lon="9.987000">
+      <name>Ulm</name>
+    </rtept>
+    <rtept lat="48.412000" lon="9.783000">
+      <name>Blaubeuren</name>
+    </rtept>
+    <rtept lat="48.412000" lon="9.497000">
+      <name>Münsingen</name>
+    </rtept>
+    <rtept lat="48.494000" lon="9.397000">
+      <name>Bad Urach</name>
+    </rtept>
+    <rtept lat="48.408000" lon="9.260000">
+      <name>Schloss Lichtenstein</name>
+    </rtept>
+    <rtept lat="48.522000" lon="9.057000">
+      <name>Tübingen</name>
+    </rtept>
+    <rtept lat="48.714000" lon="8.741000">
+      <name>Calw</name>
+    </rtept>
+    <rtept lat="48.891000" lon="8.704000">
+      <name>Pforzheim</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

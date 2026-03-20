@@ -1,0 +1,1707 @@
+[
+  {
+    "slug": "allerheiligen_renchtal",
+    "name": "Allerheiligen Waterfalls & Renchtal",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Schwarzwald",
+    "totalDistanceKm": 230,
+    "dayCount": 1,
+    "overview": "A stunning loop combining the atmospheric ruins of Allerheiligen monastery, its cascading waterfalls, and the beautiful Renchtal—finished off with a stretch of the legendary B500.",
+    "highlights": "Allerheiligen – atmospheric ruined monastery in the forest, 83 m cascading waterfalls below the monastery, Steep mountain climbing through dense forest, Connection to the B500 Schwarzwaldhochstraße, Kappelrodeck red wine village",
+    "roadCharacter": "Challenging and rewarding. The climb from Ottenhöfen to Allerheiligen is steep with tight switchbacks—the best technical riding in this collection. The descent to Oppenau is equally demanding. The B500 section is more relaxed with sweeping ridge curves.",
+    "days": [
+      {
+        "name": "Allerheiligen Waterfalls & Renchtal",
+        "distance_km": 230,
+        "description": "Take the A5 to Achern and climb into the hills through Kappelrodeck, the heart of the Baden red wine country. Continue up through Ottenhöfen into the mountains, climbing steeply to the ruins of Allerheiligen—a Gothic monastery in a forest clearing with spectacular waterfalls cascading down below. Cross the Zuflucht pass and descend into the Renchtal at Oppenau. Ride south to Bad Peterstal-Griesbach, then climb to Kniebis and join the B500 northbound at Ruhestein. Ride the Schwarzwaldhochstraße to Sand and Baden-Baden, then return via the A5."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "allerheiligen_renchtal_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "alsace_wine_route",
+    "name": "Alsace Wine Route",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Elsass / Alsace",
+    "totalDistanceKm": 260,
+    "dayCount": 1,
+    "overview": "Cross into France for a day on the famous Route des Vins d’Alsace—half-timbered villages, vineyards climbing steep hillsides, and some of the best food in Europe. Alsatian cuisine is the perfect midpoint reward.",
+    "highlights": "Alsace Wine Route – one of France’s most scenic drives, Obernai – jewel of Alsatian architecture, Half-timbered villages draped in flowers, Alsatian cuisine – France’s most hearty and Germanic, Stork nests, vineyards, and castle ruins at every turn",
+    "roadCharacter": "Relaxed and scenic—the wine route winds gently through villages and vineyards without demanding technical riding. The charm is in the scenery, not the curves. Perfect for a day focused on eating and sightseeing rather than fast riding.",
+    "days": [
+      {
+        "name": "Alsace Wine Route",
+        "distance_km": 260,
+        "description": "Head south to Baden-Baden, cross the Rhine at Iffezheim, and ride through Haguenau to Marlenheim, where the Alsace Wine Route begins. Head south through a succession of wine villages—each more picturesque than the last—with their distinctive colombage (half-timbered) houses, window boxes overflowing with geraniums, and stork nests on every chimney. Rosheim and Obernai are gems. Continue to Barr, the wine capital of the northern Route des Vins, and Andlau with its Romanesque abbey. Ride south to Sélestat and cross back to Germany at Marckolsheim, returning north on the A5."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "alsace_wine_route_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "bergstrasse_melibokus",
+    "name": "Bergstraße & Melibokus",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Odenwald / Bergstraße",
+    "totalDistanceKm": 175,
+    "dayCount": 1,
+    "overview": "A relaxed ride along the Bergstraße—Germany’s “spring garden” with its Mediterranean microclimate—combined with a loop through the western Odenwald hills and the panoramic Auerbacher Schloss.",
+    "highlights": "Bergstraße’s Mediterranean microclimate – almond and peach trees, Auerbacher Schloss – largest castle ruin on the Bergstraße, Zwingenberg – oldest town on the Bergstraße, Relaxed pace, perfect for a shorter day or riding two-up",
+    "roadCharacter": "Gentle and flowing—this is one of the easiest tours in the collection. The Bergstraße is smooth and scenic, the Odenwald section has moderate curves through orchards and forest. Ideal for a relaxed day.",
+    "days": [
+      {
+        "name": "Bergstraße & Melibokus",
+        "distance_km": 175,
+        "description": "Head north to Weinheim, known for its exotic castle gardens, then turn east into the Odenwald via Birkenau. Ride through the Gorxheimertal and over the hills to Rimbach and Lindenfels. Descend west to Bensheim on the Bergstraße, then continue north to Auerbach where the impressive Auerbacher Schloss overlooks the Rhine plain. Continue through the charming towns of Zwingenberg, Alsbach, and Seeheim before returning south to Hockenheim."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "bergstrasse_melibokus_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "bergstrasse_otzberg",
+    "name": "Bergstraße Express – North to Otzberg",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Bergstraße / Odenwald",
+    "totalDistanceKm": 280,
+    "dayCount": 1,
+    "overview": "A long northern arc combining the Bergstraße, two impressive castles—Veste Otzberg and Burg Breuberg—and the scenic Odenwald heartland. An ambitious day exploring the northern reaches of the riding area.",
+    "highlights": "Veste Otzberg – white tower visible across the Odenwald, Burg Breuberg – one of Hesse’s best-preserved castles, The full Bergstraße from Hockenheim to Zwingenberg, Michelstadt’s fairy-tale Rathaus (second chance if you missed Tour 8)",
+    "roadCharacter": "The Bergstraße heading north is smooth and flowing along the Odenwald edge. The eastern section through Otzberg and Breuberg is rolling farmland with gentle curves. The Odenwald section from Bad König south through Lindenfels is the riding highlight—winding forest roads with good surfaces.",
+    "days": [
+      {
+        "name": "Bergstraße Express – North to Otzberg",
+        "distance_km": 280,
+        "description": "Ride north along the Bergstraße through Weinheim, Bensheim, and Zwingenberg, then turn east to Reinheim. Continue to the striking Veste Otzberg (with its iconic white tower visible for miles) and Burg Breuberg, one of the best-preserved medieval castles in southern Hesse. Descend into the Odenwald through Höchst and Bad König to Michelstadt for lunch, then ride south through Erbach and Lindenfels to Heppenheim, a vibrant wine town at the northern end of the Baden Bergstraße. Return via the A5."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "bergstrasse_otzberg_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "burg_hornberg_neckar",
+    "name": "Burg Hornberg & Neckar Loop",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Neckartal",
+    "totalDistanceKm": 180,
+    "dayCount": 1,
+    "overview": "A relaxed loop along the middle Neckar valley, visiting some of the finest castles in Baden-Württemberg and the stunning hilltop town of Bad Wimpfen with its imperial palace ruins.",
+    "highlights": "Bad Wimpfen – dramatic hilltop Kaiserpfalz and Altstadt, Burg Hornberg – Götz von Berlichingen’s castle with wine estate, Burg Guttenberg – live raptor demonstrations, Scenic Neckar valley riding",
+    "roadCharacter": "Gentle, scenic valley riding. The roads follow the Neckar through open landscape with views of castles on every hilltop. Well-surfaced, moderate curves, rarely congested. Ideal for a relaxed day or when riding two-up.",
+    "days": [
+      {
+        "name": "Burg Hornberg & Neckar Loop",
+        "distance_km": 180,
+        "description": "Head east through Sinsheim to Bad Rappenau, then continue to Bad Wimpfen—spectacularly perched on a ridge above the Neckar, with the remains of the largest imperial palace north of the Alps. Follow the Neckar south to Gundelsheim and Burg Guttenberg, home to a famous birds of prey center. Continue to Neckarzimmern, where Burg Hornberg—the castle of the legendary knight Götz von Berlichingen—produces excellent wines from its own terraced vineyard. Loop through Mosbach and return via quieter roads through Obrigheim to Sinsheim."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "burg_hornberg_neckar_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "col_de_saverne",
+    "name": "Col de Saverne & Vosges Loop",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Elsass / Pfalz / Vosges",
+    "totalDistanceKm": 240,
+    "dayCount": 1,
+    "overview": "A grand cross-border loop from the Pfälzerwald into the French Vosges mountains via the Col de Saverne. Combines German forest roads with French mountain passes and the impressive Citadel of Bitche.",
+    "highlights": "Cross-border loop through two countries, Citadel of Bitche – Vauban’s masterpiece fortress, Col de Saverne – historic mountain pass, Combines Pfälzerwald and Vosges mountain riding",
+    "roadCharacter": "A diverse tour mixing Pfälzerwald forest roads, French departmental roads through the Vosges, and mountain pass climbing. The French roads are generally quieter and well-surfaced. The Col de Saverne is not technically demanding but atmospherically rewarding. A long, varied day.",
+    "days": [
+      {
+        "name": "Col de Saverne & Vosges Loop",
+        "distance_km": 240,
+        "description": "From Speyer, ride through the Pfälzerwald to Johanniskreuz, then continue west past Pirmasens and across into France. Visit the impressive Citadel of Bitche, a Vauban fortress atop sandstone cliffs, then ride south through the Vosges forest to Saverne, a charming town dominated by its massive red sandstone château. Cross the Col de Saverne, then loop through Marmoutier (Romanesque abbey) and Phalsbourg. Head north through the Vosges and Pfälzerwald, re-entering Germany at Wissembourg for the return via Speyer."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "col_de_saverne_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "dahner_felsenland",
+    "name": "Dahner Felsenland – Sandstone Wonders",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Pfälzerwald",
+    "totalDistanceKm": 250,
+    "dayCount": 1,
+    "overview": "Ride into the dramatic Dahner Felsenland, where massive sandstone towers and bizarre rock formations rise from dense forest. This is the wildest landscape in the Pfälzerwald, with twisting roads carved through a geological wonderland.",
+    "highlights": "Bizarre sandstone rock formations rising from the forest, Altdahn castle complex on three rock pinnacles, Tight, twisting forest roads with minimal traffic, One of the most unusual landscapes in Germany",
+    "roadCharacter": "Flowing forest roads with medium-radius curves south of Annweiler. Around Dahn, the roads become tighter and more technical as they weave between rock formations. The northern return through Waldfischbach has faster, sweeping curves through open forest.",
+    "days": [
+      {
+        "name": "Dahner Felsenland – Sandstone Wonders",
+        "distance_km": 250,
+        "description": "Cross the Rhine at Speyer and cut through Landau to Annweiler, then continue south through the forest to Hauenstein, where the road begins winding between towering sandstone formations. Dahn is the heart of the Felsenland—a small town surrounded by castle-topped rock pinnacles and bizarre natural sandstone sculptures. Continue south to Fischbach bei Dahn, deep in the rock landscape, then swing east to Pirmasens and north through Waldfischbach-Burgalben. Follow forest roads past Hochspeyer, then descend to Neustadt and return via Speyer."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "dahner_felsenland_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "michelstadt_amorbach",
+    "name": "Deep Odenwald – Michelstadt & Amorbach",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Odenwald",
+    "totalDistanceKm": 230,
+    "dayCount": 1,
+    "overview": "Penetrate the most remote reaches of the Odenwald to discover Amorbach’s stunning Baroque abbey and Michelstadt’s fairy-tale medieval Rathaus. Long stretches through dark forest with barely a village in sight.",
+    "highlights": "Michelstadt Rathaus – one of Germany’s finest half-timbered buildings, Amorbach Abbey – stunning Baroque interior in a tiny forest town, Remote, traffic-free forest roads through deep Odenwald, Erbach’s unexpected ivory carving museum",
+    "roadCharacter": "This is the most remote tour in the Odenwald. Long stretches of forest road with flowing curves and very little traffic. The roads around Mudau are narrow but well-surfaced. Technical but never intimidating—a rewarding ride for confident riders.",
+    "days": [
+      {
+        "name": "Deep Odenwald – Michelstadt & Amorbach",
+        "distance_km": 230,
+        "description": "From Heidelberg, ride through Neckargemünd and Schönau into the rising hills, continuing east to Waldbrunn and deeper into the Odenwald. The forest becomes denser and villages rarer as you approach Mudau. Continue north to Amorbach, where an unexpectedly magnificent Baroque abbey awaits in this tiny town. Then ride west to Michelstadt, home to one of Germany’s most photographed half-timbered Rathaus buildings. From neighboring Erbach (famous for its ivory carving tradition), head south through Reichelsheim and Lindenfels, descending to the Bergstraße at Bensheim before returning via the A5."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "michelstadt_amorbach_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "weinstrasse_trifels",
+    "name": "Deutsche Weinstraße & Trifels",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Pfälzerwald",
+    "totalDistanceKm": 200,
+    "dayCount": 1,
+    "overview": "Wind your way through Germany’s oldest wine route, sampling the charm of sun-drenched Palatinate villages before climbing to the legendary Trifels Castle—where Richard the Lionheart was once held captive—then plunging into the green heart of the Pfälzerwald on winding forest roads.",
+    "highlights": "Deutsche Weinstraße villages with vineyards and half-timbered houses, Burg Trifels – imperial castle with stunning views and deep history, Winding forest roads through the heart of the Pfälzerwald, Johanniskreuz – the legendary biker crossroads in the forest",
+    "roadCharacter": "The wine route is smooth and scenic with gentle curves. The road up to Trifels has steeper switchbacks. The forest roads between Ramberg and Johanniskreuz are the highlight: flowing, well-surfaced curves through dense forest with virtually no traffic.",
+    "days": [
+      {
+        "name": "Deutsche Weinstraße & Trifels",
+        "distance_km": 200,
+        "description": "From Hockenheim, cross the Rhine at Speyer and head west to Neustadt an der Weinstraße, the gateway to the Deutsche Weinstraße. Follow the wine route south through a string of picturesque villages—Maikammer, Edenkoben, and Rhodt unter Rietburg—where vineyards climb gentle hills and half-timbered houses line narrow streets. At Landau, turn west toward Annweiler and climb to Burg Trifels, perched dramatically on a sandstone pinnacle. After your stop, head north through the Pfälzerwald via Ramberg to Johanniskreuz, the legendary crossroads in the heart of the forest, then descend through Lambrecht back to Neustadt. Return to Hockenheim via Speyer."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "weinstrasse_trifels_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "enztal_besigheim",
+    "name": "Enztal to Besigheim",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Enztal / Württemberg",
+    "totalDistanceKm": 220,
+    "dayCount": 1,
+    "overview": "Follow the Enz river from Maulbronn’s UNESCO monastery to the stunning wine terraces of Besigheim and Hessigheim, where vineyards cling to dramatic limestone cliffs above the river.",
+    "highlights": "Besigheim – hilltop wine town between two rivers, Hessigheim Felsengärten – vineyards on sheer cliffs, Maulbronn – UNESCO World Heritage monastery, Lauffen – birthplace of Friedrich Hölderlin, Württemberg wine terraces at their finest",
+    "roadCharacter": "Flowing valley roads following the Enz and Neckar rivers. Moderate curves through vine-covered hills. The roads through the wine terraces between Besigheim and Mundelsheim are particularly scenic with some narrow sections. Generally relaxed riding.",
+    "days": [
+      {
+        "name": "Enztal to Besigheim",
+        "distance_km": 220,
+        "description": "Head south through Bruchsal and Bretten to Maulbronn—pause at this exceptional UNESCO monastery. Follow the Enz downstream through Mühlacker and Vaihingen to its confluence with the Neckar at Bietigheim-Bissingen. Continue to Besigheim, where a hilltop old town is hemmed between the Enz and Neckar. Just downstream, the Felsengärten at Hessigheim feature vineyards on sheer limestone cliffs—one of the most spectacular vineyard landscapes in Germany. Continue through Mundelsheim and Lauffen (Hölderlin’s birthplace) to Brackenheim and return via Eppingen."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "enztal_besigheim_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "fleckenstein_vosges",
+    "name": "Fleckenstein & Northern Vosges",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Elsass / Alsace",
+    "totalDistanceKm": 230,
+    "dayCount": 1,
+    "overview": "Cross into France to discover the Château du Fleckenstein—a medieval fortress carved into a 30-meter sandstone cliff—and ride the forested roads of the northern Vosges, a UNESCO Biosphere Reserve.",
+    "highlights": "Château du Fleckenstein – castle carved from a sandstone cliff, Cross-border riding (Germany → France → Germany), Northern Vosges forest roads (UNESCO Biosphere Reserve), Wissembourg – charming Alsatian-German border town, Niederbronn-les-Bains thermal spa",
+    "roadCharacter": "The German side is familiar Pfälzerwald riding. Once in France, the forest roads become even quieter with excellent surfaces and flowing curves. The northern Vosges has a wilder, more remote feel than the Pfälzerwald. Watch for different traffic rules in France.",
+    "days": [
+      {
+        "name": "Fleckenstein & Northern Vosges",
+        "distance_km": 230,
+        "description": "Cross the Rhine at Speyer, ride through Landau and Bad Bergzabern to Wissembourg, then cross into France. Follow the D3 to Lembach and turn south to the Château du Fleckenstein, one of the most spectacular castle ruins in Europe—half-built, half-carved from a massive sandstone pillar. Continue through the northern Vosges forest to Niederbronn-les-Bains, a charming thermal spa town. Head east through the forest to Wörth-sur-Sauer, then back to Germany at Lauterbourg. Return via Germersheim."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "fleckenstein_vosges_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "hohenloher_land",
+    "name": "Hohenloher Land",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Hohenloher Land",
+    "totalDistanceKm": 260,
+    "dayCount": 1,
+    "overview": "Discover the gentle hills and castle-studded villages of the Hohenloher Land—“the Balcony of Franconia”—with its aristocratic residences, car museum at Langenburg, and sweeping views from Waldenburg’s ridge-top setting.",
+    "highlights": "Waldenburg – ridge-top town with 360° panoramic views, Langenburg Castle – with automobile museum, Öhringen – elegant Hohenlohe residency town, Rolling Hohenlohe countryside with minimal traffic",
+    "roadCharacter": "Gentle, sweeping roads through rolling farmland. The Hohenloher Land is flat-to-hilly, so curves are moderate but continuous. Very light traffic once east of Öhringen. Relaxed riding through beautiful, open countryside.",
+    "days": [
+      {
+        "name": "Hohenloher Land",
+        "distance_km": 260,
+        "description": "Head east through Sinsheim and Neckarsulm to Öhringen, the former Hohenlohe residence. Continue through Neuenstein (impressive moated castle) to Waldenburg, spectacularly perched on a narrow ridge 150 m above the Hohenlohe plain—justifying its “Balcony of Hohenlohe” nickname. Head north to Langenburg, where the hilltop castle houses an excellent automobile museum. Loop through Kirchberg and Gerabronn, then south through Crailsheim and past Schwäbisch Hall back to the A6."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "hohenloher_land_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "jagsttal_kochertal",
+    "name": "Jagsttal & Kochertal",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Hohenloher Land",
+    "totalDistanceKm": 250,
+    "dayCount": 1,
+    "overview": "Explore the peaceful Jagst and Kocher valleys—parallel river valleys winding through the gentle Hohenloher Land, where time seems to have stopped in the Baroque era. Discover monasteries, castles, and the Deutsches Zweirad-Museum (German Motorcycle Museum) in Neckarsulm.",
+    "highlights": "Jagst and Kocher valleys – parallel river valleys with castle views, Kloster Schöntal – magnificent Baroque abbey, Deutsches Zweirad-Museum (Neckarsulm) – THE motorcycle museum, Forchtenberg – birthplace of Sophie Scholl, Peaceful Hohenloher countryside",
+    "roadCharacter": "Gentle, flowing river-valley roads ideal for relaxed riding. The Jagst and Kocher valleys wind through open farmland with occasional forest stretches. Long, sweeping curves rather than tight switchbacks. Very light traffic.",
+    "days": [
+      {
+        "name": "Jagsttal & Kochertal",
+        "distance_km": 250,
+        "description": "Head east through Sinsheim and Bad Rappenau to Bad Friedrichshall, then follow the Jagst valley north through Jagsthausen (another Götz von Berlichingen castle) and Berlichingen village. Visit Kloster Schöntal, a magnificent Baroque abbey in the valley. Continue to Künzelsau, the Hohenlohe capital, then trace the Kocher valley back south through Ingelfingen, Forchtenberg (birthplace of Sophie Scholl), and Öhringen. Finish at Neckarsulm, where the Deutsches Zweirad-Museum—Germany’s motorcycle museum—is an absolute must-visit for any rider."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "jagsttal_kochertal_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "johanniskreuz_elmstein",
+    "name": "Johanniskreuz – Heart of the Pfälzerwald",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Pfälzerwald",
+    "totalDistanceKm": 185,
+    "dayCount": 1,
+    "overview": "Ride through the enchanting Elmstein Valley, the scenic gorge slicing through the Pfälzerwald, to reach Johanniskreuz—the legendary forest crossroads that has been a favorite biker meeting point for decades.",
+    "highlights": "Elmstein Valley – one of the best motorcycle roads in the Pfalz, Johanniskreuz – legendary biker crossroads with great food, Burg Frankenstein ruins (the Pfalz version!), Continuous flowing curves through pristine forest",
+    "roadCharacter": "Pure motorcycling bliss. The Elmstein Valley road is a flowing sequence of medium-radius curves following the stream, perfectly surfaced and rarely congested. The forest roads around Johanniskreuz are wider and faster. The Frankenstein loop adds some tighter technical sections.",
+    "days": [
+      {
+        "name": "Johanniskreuz – Heart of the Pfälzerwald",
+        "distance_km": 185,
+        "description": "From Speyer, ride west to Neustadt and turn into the Elmstein Valley at Lambrecht. This narrow valley road is a motorcyclist’s dream—flowing curves following the Speyerbach stream through dense forest. Pass through tiny Elmstein and Iggelbach to reach Johanniskreuz, the crossroads in the heart of the Pfälzerwald where four forest roads meet. This has been a gathering point for motorcyclists for generations. After lunch, head north to Hochspeyer, then loop back south through Frankenstein (with its ruined castle) and Weidenthal, returning through the valley to Lambrecht and back via Speyer."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "johanniskreuz_elmstein_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "kaiserstuhl_volcanic",
+    "name": "Kaiserstuhl – Volcanic Hills",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Oberrhein / Kaiserstuhl",
+    "totalDistanceKm": 240,
+    "dayCount": 1,
+    "overview": "Ride to the Kaiserstuhl—a volcanic hill rising from the Rhine plain like a Mediterranean island, with terraced vineyards, exotic vegetation, and the warmest climate in Germany. Wine and food here are exceptional.",
+    "highlights": "Kaiserstuhl – volcanic hills with Mediterranean microclimate, Terraced vineyards unlike anywhere else in Germany, Ihringen – warmest place in Germany, Breisach – Rhine fortress with views to Alsace, Exceptional wines – Spätburgunder at its German best",
+    "roadCharacter": "The Kaiserstuhl panoramic road is narrow and winding, looping around the volcanic slopes between terraced vineyards. The curves are moderate but the views are distracting. The approach via the A5 is fast but necessary. Once on the Kaiserstuhl, everything slows down.",
+    "days": [
+      {
+        "name": "Kaiserstuhl – Volcanic Hills",
+        "distance_km": 240,
+        "description": "Take the A5 south past Offenburg to Lahr and Ettenheim, then head west to the Kaiserstuhl. This volcanic massif rises unexpectedly from the flat Rhine plain, creating a unique microclimate where orchids, lizards, and even praying mantises thrive. Explore the terraced vineyards via the Kaiserstuhl panoramic road through Endingen and Vogtsburg. Visit Ihringen, officially the warmest place in Germany. Ride down to Breisach am Rhein, a fortress town on the Rhine with views to France, then loop back through the medieval fortified wine village of Burkheim and Sasbach before returning north."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "kaiserstuhl_volcanic_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "kalmit_wine_villages",
+    "name": "Kalmit Summit & Wine Villages",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Pfälzerwald",
+    "totalDistanceKm": 165,
+    "dayCount": 1,
+    "overview": "A shorter tour perfect for a relaxed afternoon, climbing to the highest peak of the Pfälzerwald and weaving through the sun-blessed wine villages of the southern Deutsche Weinstraße.",
+    "highlights": "Kalmit summit – highest point of the Pfälzerwald with sweeping panorama, Sankt Martin – one of the prettiest wine villages in Germany, The steep, winding Kalmithöhenstraße, Southern Weinstraße villages with their relaxed Mediterranean atmosphere",
+    "roadCharacter": "The approach through wine villages is gentle and scenic. The climb to the Kalmit is the thrill—a narrow, steep road with tight hairpins through forest. The southern Weinstraße is relaxed riding through vineyard-lined roads.",
+    "days": [
+      {
+        "name": "Kalmit Summit & Wine Villages",
+        "distance_km": 165,
+        "description": "From Hockenheim, cross at Speyer and head to Neustadt. Turn south to the picturesque village of Sankt Martin, nestled against the Haardt mountains. Follow the narrow road climbing steeply to the Kalmit, at 672 meters the highest summit in the Pfälzerwald. After enjoying the panorama, descend via Hohe Loog and Maikammer, then follow the wine route south through Edenkoben—stop briefly at the Italianate Villa Ludwigshöhe—continuing through Gleiszellen and Bad Bergzabern. Return north through Landau and Speyer."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "kalmit_wine_villages_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "katzenbuckel_mosbach",
+    "name": "Katzenbuckel & Mosbach",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Odenwald",
+    "totalDistanceKm": 195,
+    "dayCount": 1,
+    "overview": "Climb to the Katzenbuckel—at 626 m the highest peak in the Odenwald—on switchback roads through dense forest, then discover the beautifully preserved half-timbered town of Mosbach.",
+    "highlights": "Katzenbuckel (626 m) – Odenwald’s highest peak with viewing tower, Mosbach – outstanding half-timbered Altstadt, Burg Hornberg – castle of Götz von Berlichingen, Technical switchback climb to the summit",
+    "roadCharacter": "The approach through the hills is flowing and pleasant. The climb to the Katzenbuckel is the highlight—tight switchbacks through forest. The Mudau-to-Mosbach descent features continuous curves. Good road surfaces throughout.",
+    "days": [
+      {
+        "name": "Katzenbuckel & Mosbach",
+        "distance_km": 195,
+        "description": "Ride east through Sinsheim into the rolling hills via Neckarbischofsheim. Cross the Neckar at Schwarzach and head into the forest toward Eberbach and Strümpfelbrunn. A winding road leads up to the Katzenbuckel (626 m), the Odenwald’s highest point—an ancient volcanic plug now wooded to the summit with a viewing tower. Continue to Waldbrunn and loop through Mudau before descending south to Mosbach, where the Altstadt is a treasure chest of half-timbered architecture. Pass Neckarzimmern—note Burg Hornberg, the castle of the knight Götz von Berlichingen—and return through Gundelsheim and Bad Rappenau."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "katzenbuckel_mosbach_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "kinzigtal_gutachtal",
+    "name": "Kinzigtal & Gutachtal",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Schwarzwald",
+    "totalDistanceKm": 270,
+    "dayCount": 1,
+    "overview": "Explore the central Black Forest’s most scenic valleys—the Kinzigtal and Gutachtal—with their traditional farmhouses, half-timbered towns, and the famous Vogtsbauernhof open-air museum.",
+    "highlights": "Gengenbach – “the Nice of the Black Forest,” stunning Altstadt, Vogtsbauernhof – premier open-air museum of Black Forest culture, Schiltach – one of Germany’s best-preserved half-timbered towns, Alpirsbach Klosterbräu brewery, Continuous valley curves through the central Black Forest",
+    "roadCharacter": "Valley roads that follow rivers—sweeping and flowing with a good mix of straights and curves. Well-surfaced and mostly wide enough for comfortable riding. The Gutachtal is narrower and more technical than the Kinzigtal.",
+    "days": [
+      {
+        "name": "Kinzigtal & Gutachtal",
+        "distance_km": 270,
+        "description": "Take the A5 south to Offenburg and enter the Kinzigtal at Gengenbach, a stunningly beautiful town often called “the Nice of the Black Forest.” Follow the Kinzig river through Haslach to Hausach, then turn into the Gutachtal to reach the Vogtsbauernhof, the premier open-air museum of Black Forest farmhouse architecture. Continue through Wolfach, known for its glassblowing tradition, to Schiltach—a half-timbered masterpiece where every building seems to lean at a different angle. Press on to Alpirsbach for the famous Klosterbräu brewery, then up to Freudenstadt and back via Offenburg."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "kinzigtal_gutachtal_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "kraichgau_huegelland",
+    "name": "Kraichgau Hügelland",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Kraichgau",
+    "totalDistanceKm": 165,
+    "dayCount": 1,
+    "overview": "Explore the Kraichgau—the rolling hill country between the Rhine and the Odenwald that’s often called the “land of a thousand hills.” Gentle curves through orchards and vineyards with the Burg Steinsberg as the panoramic highlight.",
+    "highlights": "Burg Steinsberg – panoramic “Compass of the Kraichgau”, Sinsheim Technik Museum – Concorde, Tupolev Tu-144, Buran, Rolling Kraichgau landscape – “land of a thousand hills”, Closest tour to home – perfect for a spontaneous afternoon ride",
+    "roadCharacter": "Very gentle riding through softly rolling hills. The Kraichgau is characterized by long, sweeping curves through open farmland, orchards, and vineyards. Well-surfaced minor roads with minimal traffic.",
+    "days": [
+      {
+        "name": "Kraichgau Hügelland",
+        "distance_km": 165,
+        "description": "Head east through Walldorf and Wiesloch into the heart of the Kraichgau. Ride through Meckesheim and Zuzenhausen to Burg Steinsberg, known as the “Compass of the Kraichgau” for its prominence—a volcanic hill topped by an octagonal tower with views in every direction. Continue to Sinsheim (consider a stop at the Technik Museum with its Concorde and Soviet space shuttle). Loop south through Ittlingen and Eppingen, then west through Sulzfeld and Bretten to Bruchsal and home."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "kraichgau_huegelland_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "murgtal_northern_heights",
+    "name": "Murgtal & Northern Heights",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Schwarzwald",
+    "totalDistanceKm": 220,
+    "dayCount": 1,
+    "overview": "Ride through the dramatic Murg valley—a deep gorge cutting into the Black Forest—past a stunning reservoir and up to the ridge, combining valley drama with mountain panoramas.",
+    "highlights": "Murg valley – a dramatic gorge with continuous curves, Forbach’s covered wooden bridge, Schwarzenbachtalsperre – atmospheric forest reservoir, Connection to the legendary B500, Impressive elevation gain from valley to ridge",
+    "roadCharacter": "The Murgtal road is demanding—narrow, with tight curves following the river through the gorge. The climb from Forbach to the ridge is steep with switchbacks. Well-surfaced but technically engaging. This tour rewards confident, precise riding.",
+    "days": [
+      {
+        "name": "Murgtal & Northern Heights",
+        "distance_km": 220,
+        "description": "From Rastatt, follow the B462 into the Murgtal at Gaggenau. The valley narrows dramatically at Gernsbach, and the road begins its winding course along the rushing Murg river. Continue through Weisenbach to Forbach, where a unique covered wooden bridge spans the gorge. Above Forbach, detour to the Schwarzenbachtalsperre, a reservoir surrounded by dark forest. Climb to Herrenwies and join the B500 at Sand for a taste of the Schwarzwaldhochstraße. Descend via Bühlerhöhe to Bühl and return on the A5."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "murgtal_northern_heights_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "nagoldtal_calw",
+    "name": "Nagoldtal & Calw",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Schwarzwald",
+    "totalDistanceKm": 260,
+    "dayCount": 1,
+    "overview": "Explore the eastern Black Forest through the winding Nagold valley and the charming town of Calw—birthplace of Hermann Hesse. Forested valleys, castle ruins, and thermal spa towns.",
+    "highlights": "Calw – Hermann Hesse’s birthplace, beautiful Nagold-river setting, Nagold valley curves through dense Black Forest, Zavelstein castle ruin with panoramic views, Enzklösterle – remote forest village, Eastern Black Forest character – different from the western ridge",
+    "roadCharacter": "The Nagold valley is winding and picturesque—flowing curves following the river. The forest roads around Enzklösterle are narrower and more technical. Overall well-surfaced with moderate traffic. Good mix of fast and slow sections.",
+    "days": [
+      {
+        "name": "Nagoldtal & Calw",
+        "distance_km": 260,
+        "description": "Head south through Wiesloch and Bretten to Pforzheim, the “Gold City” at the northern gate of the Black Forest. Turn south through Tiefenbronn to Calw, beautifully set on the Nagold river—this is where Hermann Hesse was born, and his spirit pervades the half-timbered Altstadt. Continue south through Bad Teinach and detour to the ruined castle of Zavelstein with its stunning views. Ride north to Bad Liebenzell, then cut west through the deep forest to Enzklösterle. Return via Bad Wildbad, famous for its thermal springs, and Pforzheim."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "nagoldtal_calw_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "nibelungenstrasse",
+    "name": "Nibelungenstraße",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Odenwald",
+    "totalDistanceKm": 210,
+    "dayCount": 1,
+    "overview": "Trace the route of the Nibelungen through the deep Odenwald on the legendary B47—a road steeped in mythology and motorcycle legend alike. Dense forest, tight curves, and the charming hilltop town of Lindenfels.",
+    "highlights": "The legendary Nibelungenstraße (B47) through deep forest, Lindenfels castle ruins with panoramic views, Dense Odenwald forest with excellent curves, Mythology and motorcycling combined",
+    "roadCharacter": "The Nibelungenstraße is a proper motorcycle road—well-surfaced with a mix of flowing and tight curves through dense forest. The climb to Lindenfels features some rewarding switchbacks. Watch for logging trucks on weekdays.",
+    "days": [
+      {
+        "name": "Nibelungenstraße",
+        "distance_km": 210,
+        "description": "From Heidelberg, climb into the hills via Wilhelmsfeld and Schönau, gaining altitude as the forest thickens. Join the Neckar briefly at Eberbach, then turn north into the deep Odenwald. The B47—the Nibelungenstraße—cuts through dense forest on a winding path supposedly traced by the Nibelungen on their journey to the Huns. Climb to Lindenfels, the “Pearl of the Odenwald,” a hilltop town with a ruined castle offering sweeping views. Continue north through Fürth and Rimbach, descending through Mörlenbach to Weinheim at the foot of the Bergstraße, then return south to Hockenheim."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "nibelungenstrasse_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "pfaelzerwald_grand_tour",
+    "name": "Pfälzerwald Grand Tour",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Pfälzerwald",
+    "totalDistanceKm": 290,
+    "dayCount": 1,
+    "overview": "The ultimate Pfälzerwald experience—a grand loop covering the entire forest from north to south. Bad Dürkheim’s famous Wurstmarkt grounds, the legendary Johanniskreuz, the wild Dahner Felsenland, and the wine route. A full day of forest riding.",
+    "highlights": "Complete Pfälzerwald circuit – forest from end to end, Bad Dürkheim – world’s largest wine barrel, Otterberg – hidden Cistercian abbey, Johanniskreuz AND Dahner Felsenland in one ride, The full Deutsche Weinstraße on the return leg",
+    "roadCharacter": "This is the most demanding Pfälzerwald tour—290 km of mostly forest roads requiring focus and stamina. The roads are well-surfaced but endlessly winding. The northern Pfälzerwald has faster, more flowing curves; the south around Dahn is tighter and more technical. Plan fuel stops carefully—gas stations are sparse in the forest.",
+    "days": [
+      {
+        "name": "Pfälzerwald Grand Tour",
+        "distance_km": 290,
+        "description": "Cross the Rhine at Speyer and head north to Bad Dürkheim—home of the Dürkheimer Wurstmarkt, the world’s largest wine festival. Continue north through Enkenbach to Otterberg, with its magnificent Cistercian abbey. Swing past Kaiserslautern and deep into the forest to Johanniskreuz. Ride south through Elmstein and the western Pfälzerwald to Heltersberg and Pirmasens, then into the Dahner Felsenland. After exploring Dahn’s rock landscape, head east through Annweiler and Landau, following the Weinstraße north through Edenkoben back to Speyer."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "pfaelzerwald_grand_tour_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "romantic_neckartal",
+    "name": "Romantic Neckartal",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Odenwald",
+    "totalDistanceKm": 190,
+    "dayCount": 1,
+    "overview": "Follow the winding Neckar river through its most romantic stretch—a narrow valley lined with castle ruins, medieval towns, and forested slopes. The road hugs the river through countless curves as you pass through four-castle Neckarsteinach, Hirschhorn, and Eberbach.",
+    "highlights": "Neckarsteinach – four medieval castles on one hillside, Hirschhorn – “Pearl of the Neckar Valley”, Zwingenberg Castle – dramatic clifftop position, Continuous river-following curves with castle views",
+    "roadCharacter": "The B37 along the Neckar is a flowing river road—sweeping curves that follow every bend of the water. Well-surfaced but watch for cyclists and tourist traffic on sunny weekends. The return via Sinsheim is faster and more open.",
+    "days": [
+      {
+        "name": "Romantic Neckartal",
+        "distance_km": 190,
+        "description": "Head east to Heidelberg and pick up the Neckar valley road (B37). The valley narrows dramatically east of Neckargemünd, and the road begins its dance with the river. Pass Neckarsteinach—known as the “Four Castle Town” for its quartet of hilltop ruins—and continue to Hirschhorn, where a massive castle towers over a river bend. Follow the Neckar to Eberbach, a well-preserved medieval town perfect for lunch. Continue south along the river to Zwingenberg, where a castle perches impossibly on a cliff face, and on to Mosbach with its beautiful half-timbered old town. Return westward through Bad Rappenau and Sinsheim to Hockenheim."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "romantic_neckartal_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "schwarzwaldhochstrasse",
+    "name": "Schwarzwaldhochstraße – The Classic",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Schwarzwald",
+    "totalDistanceKm": 250,
+    "dayCount": 1,
+    "overview": "Germany’s most famous motorcycle road. The B500 Schwarzwaldhochstraße runs along the northern Black Forest ridge at over 1000 m altitude, with panoramic views, alpine meadows, and sweeping curves that make this an absolute must-ride.",
+    "highlights": "B500 Schwarzwaldhochstraße – Germany’s most iconic motorcycle road, Mummelsee – legendary mountain lake at 1036 m, Hornisgrinde (1164 m) – highest peak of the northern Black Forest, Over 60 km of continuous ridge-top curves, Alpirsbach Klosterbräu – one of Germany’s finest small breweries",
+    "roadCharacter": "This is THE ride. The B500 serves up sweeping, well-surfaced curves along the ridge with spectacular views. Speed is tempting but watch for slower traffic and tourists, especially on weekends. The road is in excellent condition and offers curves of every radius. After Freudenstadt, the roads become quieter and faster.",
+    "days": [
+      {
+        "name": "Schwarzwaldhochstraße – The Classic",
+        "distance_km": 250,
+        "description": "Head south on the A5 to elegant Baden-Baden, then climb into the Black Forest via Geroldsau. Join the legendary B500 at Bühlerhöhe—from here, the Schwarzwaldhochstraße follows the ridge for over 60 km of pure riding pleasure. Pass through Unterstmatt to the Mummelsee, a mystical circular lake at 1036 m. Continue past the Hornisgrinde (1164 m, highest peak of the northern Black Forest) and the Ruhestein, gateway to the Black Forest National Park. The road eventually descends through Kniebis to Freudenstadt, laid out on Germany’s largest market square. Continue to Alpirsbach (excellent brewery!) and return via Offenburg and the A5."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "schwarzwaldhochstrasse_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "schwaebisch_hall_comburg",
+    "name": "Schwäbisch Hall & Comburg",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Hohenloher Land",
+    "totalDistanceKm": 270,
+    "dayCount": 1,
+    "overview": "A full-day ride to one of southern Germany’s most spectacular medieval towns—Schwäbisch Hall, with its theatrical market square—and the imposing Comburg monastery fortress perched on a hill above.",
+    "highlights": "Schwäbisch Hall – theatrical Marktplatz and medieval Altstadt, Comburg – hilltop monastery fortress of extraordinary presence, Roman Limes at Mainhardt, Weibertreu castle at Weinsberg – a great story, Diverse landscape from vineyards to forest",
+    "roadCharacter": "Mixed riding. The Löwensteiner Berge offer enjoyable hilly curves. The approach to Schwäbisch Hall winds through forest and farmland. The return through the Swabian Forest via Murrhardt features flowing curves through mixed terrain. A long day requiring good planning.",
+    "days": [
+      {
+        "name": "Schwäbisch Hall & Comburg",
+        "distance_km": 270,
+        "description": "Head east through Sinsheim and past Heilbronn to Weinsberg, where the hilltop Weibertreu castle tells the story of loyal wives who carried their husbands to safety. Climb through the Löwensteiner Berge and Mainhardt, where the Roman Limes once marked the border of the empire, to Schwäbisch Hall. This magnificent town centers on a theatrical Marktplatz with a broad staircase rising to St. Michael’s church. Across the valley, Comburg is a fortified monastery of extraordinary presence. Return via Gaildorf and Murrhardt through the Swabian Forest."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "schwaebisch_hall_comburg_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "three_bf_valleys",
+    "name": "Three Black Forest Valleys",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Schwarzwald",
+    "totalDistanceKm": 250,
+    "dayCount": 1,
+    "overview": "Three distinct Black Forest valleys in one tour—climb through Bühlertal to the B500, descend into the flower-bedecked village of Sasbachwalden, then ride the Renchtal south before looping back through Freudenstadt.",
+    "highlights": "Bühlertal switchbacks – steep, technical Black Forest climbing, A taste of the B500 Schwarzwaldhochstraße, Sasbachwalden – one of the Black Forest’s prettiest villages, Renchtal – classic Black Forest valley riding, Three distinct valley characters in one tour",
+    "roadCharacter": "Varied and engaging. The Bühlertal climb is steep and technical with tight switchbacks—the most challenging start of any tour. The B500 section is sweeping and fast. The descent to Sasbachwalden is moderate. The Renchtal is flowing valley riding. A good all-round tour that tests different skills.",
+    "days": [
+      {
+        "name": "Three Black Forest Valleys",
+        "distance_km": 250,
+        "description": "Take the A5 to Bühl and climb through Bühlertal—a steep, switchback-rich ascent to the Black Forest ridge. Join the B500 briefly at Sand, riding south to Unterstmatt, then descend westward to Sasbachwalden, one of the most beautiful Black Forest villages. Famous for its flower displays and half-timbered houses against a mountain backdrop. After lunch, drop to Achern and head south into the Renchtal at Oberkirch. Follow the Rench river through Oppenau and Bad Peterstal-Griesbach—classic Black Forest valley riding. Climb east to Freudenstadt and Alpirsbach, then return through Offenburg."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "three_bf_valleys_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "titisee_southern_bf",
+    "name": "Titisee & Southern Black Forest",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Schwarzwald",
+    "totalDistanceKm": 300,
+    "dayCount": 1,
+    "overview": "The longest tour in the collection reaches deep into the southern Black Forest to the iconic Titisee lake, returning through the dramatic Höllental (Hell Valley). A full-day adventure through the most dramatic Black Forest landscapes.",
+    "highlights": "Titisee – iconic Black Forest lake at 858 m, Höllental (Hell Valley) – dramatic gorge with sheer walls, Furtwangen German Clock Museum – cuckoo clock tradition, Freiburg – one of Germany’s most livable cities, Full spectrum of Black Forest landscapes",
+    "roadCharacter": "A long tour requiring stamina. The approach via the Elztal is flowing and fast. The roads around Titisee are well-surfaced with moderate curves. The Höllental is the showpiece—a steep, winding descent through the gorge with tunnels and dramatic views. Allow a full day.",
+    "days": [
+      {
+        "name": "Titisee & Southern Black Forest",
+        "distance_km": 300,
+        "description": "Take the A5 south past Offenburg and enter the Black Forest through the Elztal. Climb through increasingly wild forest to Furtwangen, home of the German Clock Museum and cuckoo clock tradition. Continue south to the Titisee, the Black Forest’s most famous lake, set at 858 m between dark forested hills. After lunch, ride west through Hinterzarten and plunge into the Höllental—the “Hell Valley”—a dramatic gorge with near-vertical walls. The famous Hirschsprung narrows are breathtaking. Emerge at Kirchzarten and continue to Freiburg, the “capital” of the Black Forest, before returning on the A5."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "titisee_southern_bf_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "wasgau_wine_gate",
+    "name": "Wasgau & the German Wine Gate",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Pfälzerwald",
+    "totalDistanceKm": 240,
+    "dayCount": 1,
+    "overview": "Ride to the southern tip of the Deutsche Weinstraße, where Germany meets France. The Wasgau region offers romantic castle ruins, a brief French border crossing, and the iconic Deutsches Weintor—the monumental gate marking the start of the German wine route.",
+    "highlights": "Deutsches Weintor – the iconic start of the German Wine Route, Dörrenbach – “prettiest village in the Pfalz”, Brief border crossing into Alsace (Wissembourg), Full length of the southern Deutsche Weinstraße",
+    "roadCharacter": "Mostly gentle curves through wine country with some tighter sections through villages. The roads south of Bad Bergzabern become more winding as you enter the hilly border region. Quiet and unhurried—perfect for enjoying the scenery.",
+    "days": [
+      {
+        "name": "Wasgau & the German Wine Gate",
+        "distance_km": 240,
+        "description": "From Speyer, head southwest through Landau and Annweiler to Bad Bergzabern, then continue south to Dörrenbach—officially voted the prettiest village in the Pfalz with its half-timbered houses and central linden tree. Ride to Schweigen-Rechtenbach where the Deutsche Weinstraße begins (or ends) at the monumental Deutsches Weintor. Cross briefly into Wissembourg in France for coffee, then return through quiet border-region villages—Schweighofen, Steinfeld—heading north through Klingenmünster and Rhodt unter Rietburg. Follow the Weinstraße back to Neustadt and return via Speyer."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "wasgau_wine_gate_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "zabergaeu_heuchelberg",
+    "name": "Zabergäu & Heuchelberg",
+    "category": "DAY",
+    "categoryLabel": "Day Tour",
+    "region": "Kraichgau / Zabergäu",
+    "totalDistanceKm": 175,
+    "dayCount": 1,
+    "overview": "A shorter, relaxed tour through the gentle wine hills of the Zabergäu and Heuchelberg—discover the UNESCO-listed Maulbronn Monastery and charming wine villages without breaking a sweat.",
+    "highlights": "Kloster Maulbronn – UNESCO World Heritage monastery, Brackenheim – Württemberg’s wine capital, Eppingen – outstanding half-timbered architecture, Gentle Zabergäu wine hills – perfect for a half-day ride",
+    "roadCharacter": "Very easy riding through gentle, vineyard-covered hills. The roads wind between villages on well-surfaced minor roads with sweeping curves. Minimal traffic, no steep climbs, no technical challenges. Pure relaxation.",
+    "days": [
+      {
+        "name": "Zabergäu & Heuchelberg",
+        "distance_km": 175,
+        "description": "Head southeast through Wiesloch to Eppingen, a well-preserved Fachwerkstadt. Continue south through the Zabergäu wine country to Güglingen and Brackenheim—birthplace of Theodor Heuss, Germany’s first Federal President. The rolling Heuchelberg ridge offers panoramic views over vineyards. Loop through Zaberfeld, Cleebronn, and Bönnigheim, then turn west to the magnificent Kloster Maulbronn—the best-preserved medieval monastery north of the Alps, a UNESCO World Heritage Site. Return via Bretten."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "zabergaeu_heuchelberg_day1.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "baiersbronn",
+    "name": "Baiersbronn – Black Forest Gourmet",
+    "category": "WEEKEND",
+    "categoryLabel": "Weekend",
+    "region": "Schwarzwald",
+    "totalDistanceKm": 410,
+    "dayCount": 2,
+    "overview": "A weekend in Germany’s gourmet capital, Baiersbronn—home to three Michelin-starred restaurants set amid deep Black Forest valleys. The outbound ride weaves through the Nagold valley; the return takes the legendary Schwarzwaldhochstraße.",
+    "highlights": "Baiersbronn – Germany’s Michelin-star capital, Nagold valley curves through dense forest, B500 Schwarzwaldhochstraße on the return, Mummelsee and Hornisgrinde summit",
+    "roadCharacter": "",
+    "days": [
+      {
+        "name": "Through the Nagold Valley to Baiersbronn",
+        "distance_km": 210,
+        "description": "Head south through Bretten and Pforzheim to Calw, Hermann Hesse’s birthplace on the Nagold river. Follow the winding Nagold valley south through Bad Teinach and Nagold, with continuous flowing curves through dense forest. At Altensteig, enjoy the castle views before climbing to Freudenstadt. A short ride east brings you to Baiersbronn."
+      },
+      {
+        "name": "Murgtal & Schwarzwaldhochstraße Home",
+        "distance_km": 200,
+        "description": "Ride north along the Murg valley through Forbach with its unique covered wooden bridge. Climb to the Schwarzenbachtalsperre reservoir and Herrenwies, then join the legendary B500 at Sand. Ride the Schwarzwaldhochstraße past the Mummelsee to Bühlerhöhe, then descend to elegant Baden-Baden and home via the A5."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "baiersbronn_day1.gpx"
+      },
+      {
+        "dayNumber": 2,
+        "file": "baiersbronn_day2.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "bernkastel_kues",
+    "name": "Bernkastel-Kues – Moselle Wine",
+    "category": "WEEKEND",
+    "categoryLabel": "Weekend",
+    "region": "Mosel",
+    "totalDistanceKm": 440,
+    "dayCount": 2,
+    "overview": "Ride through the Pfälzerwald and Hunsrück highlands to reach Bernkastel-Kues, one of the most romantic wine towns on the Moselle. Return along the Nahe valley for a completely different landscape.",
+    "highlights": "Bernkastel-Kues – half-timbered Moselle gem, Pfälzerwald and Hunsrück forest roads, Moselle valley curves, Nahe valley – Germany’s hidden wine region",
+    "roadCharacter": "",
+    "days": [
+      {
+        "name": "Through Pfälzerwald & Hunsrück to the Moselle",
+        "distance_km": 220,
+        "description": "Cross the Rhine at Speyer and ride through the Pfälzerwald to Johanniskreuz. Continue northwest through Lauterecken to Kusel, overlooked by the largest castle ruin in the Palatinate. Cross through Idar-Oberstein, the gemstone capital carved into a gorge, and over the Hunsrück highlands to descend to the Moselle at Bernkastel-Kues."
+      },
+      {
+        "name": "Nahe Valley & Pfalz Return",
+        "distance_km": 220,
+        "description": "Follow the Moselle south to Neumagen-Dhron (Germany’s oldest wine town), then climb back over the Hunsrück to Idar-Oberstein. Pick up the Nahe valley at Kirn and follow this beautiful, underrated wine river east through Bad Sobernheim and Bad Kreuznach. Cross into the Pfalz at Bad Dürkheim and ride the Weinstraße south to Speyer."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "bernkastel_kues_day1.gpx"
+      },
+      {
+        "dayNumber": 2,
+        "file": "bernkastel_kues_day2.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "idar_oberstein",
+    "name": "Idar-Oberstein – Hunsrück Gemstone Country",
+    "category": "WEEKEND",
+    "categoryLabel": "Weekend",
+    "region": "Hunsrück / Nahe",
+    "totalDistanceKm": 410,
+    "dayCount": 2,
+    "overview": "Discover the wild Hunsrück highlands and the gemstone city of Idar-Oberstein—where a church is built into a cliff face and precious stones have been cut for centuries.",
+    "highlights": "Idar-Oberstein – Felsenkirche built into a cliff, Hunsrück Hochwald – wild highland landscape, Nahe valley wine region, Pfälzerwald forest roads",
+    "roadCharacter": "",
+    "days": [
+      {
+        "name": "Pfälzerwald & Hunsrück to Idar-Oberstein",
+        "distance_km": 200,
+        "description": "Cross the Rhine at Speyer and ride through the Pfälzerwald to Johanniskreuz. Continue northwest through Lauterecken and the medieval town of Meisenheim, then up the Nahe to Kirn and Idar-Oberstein."
+      },
+      {
+        "name": "Hunsrück Heights & Nahe Valley Home",
+        "distance_km": 210,
+        "description": "Ride through Birkenfeld and climb to the Hunsrück Hochwald near Thalfang (the Erbeskopf at 816 m is the highest point in Rhineland-Palatinate). Cross the highlands to Morbach, then descend to the Nahe valley at Bad Sobernheim. Follow the Nahe east to Bad Kreuznach, cross through the Alsenz valley to the Pfalz, and return via Bad Dürkheim and Speyer."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "idar_oberstein_day1.gpx"
+      },
+      {
+        "dayNumber": 2,
+        "file": "idar_oberstein_day2.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "kaysersberg",
+    "name": "Kaysersberg – Alsatian Wine Village",
+    "category": "WEEKEND",
+    "categoryLabel": "Weekend",
+    "region": "Elsass / Alsace",
+    "totalDistanceKm": 420,
+    "dayCount": 2,
+    "overview": "Cross into France for a night in Kaysersberg—Albert Schweitzer’s birthplace and one of Alsace’s most beautiful villages. The outbound ride goes through the Pfälzerwald and northern Alsace; the return takes the Vosges heights.",
+    "highlights": "Kaysersberg – voted France’s favorite village, Alsace Wine Route villages, Vosges mountain passes on the return, Cross-border riding through three landscapes",
+    "roadCharacter": "",
+    "days": [
+      {
+        "name": "Through Pfälzerwald & Alsace to Kaysersberg",
+        "distance_km": 210,
+        "description": "Cross the Rhine at Speyer, ride through Landau and into France at Wissembourg. Follow the northern Vosges through Niederbronn to Saverne, then pick up the Alsace Wine Route at Marlenheim. Ride south through Obernai, Ribeauvillé, and a string of flower-draped villages to Kaysersberg."
+      },
+      {
+        "name": "Vosges Passes & Kaiserstuhl Return",
+        "distance_km": 210,
+        "description": "Ride into the Munster valley (famous cheese!), then climb to the Col de la Schlucht (1139 m). Join the Route des Crêtes—the legendary Vosges ridge road—south to the Grand Ballon (1424 m), the highest peak in the Vosges. Descend through Guebwiller and Rouffach, cross the Rhine at Breisach, detour through the volcanic Kaiserstuhl, and return north on the A5."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "kaysersberg_day1.gpx"
+      },
+      {
+        "dayNumber": 2,
+        "file": "kaysersberg_day2.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "munster_vosges",
+    "name": "Munster – Vosges Mountain Passes",
+    "category": "WEEKEND",
+    "categoryLabel": "Weekend",
+    "region": "Elsass / Vosges",
+    "totalDistanceKm": 420,
+    "dayCount": 2,
+    "overview": "Cross into France for a night in the Munster valley—famous for its pungent cheese—surrounded by the highest peaks of the Vosges mountains. Two days of mountain pass riding.",
+    "highlights": "Munster valley – cheese and mountain meadows, Col de la Schlucht – classic Vosges pass, Route des Crêtes – WWI ridge road, Grand Ballon (1424 m) – highest Vosges summit",
+    "roadCharacter": "",
+    "days": [
+      {
+        "name": "Alsace Wine Route to Munster",
+        "distance_km": 200,
+        "description": "Cross the Rhine south of Baden-Baden and ride through Haguenau to the Alsace Wine Route. Head south through a parade of half-timbered villages—Obernai, Barr, Andlau, Ribeauvillé, Kaysersberg—to the Munster valley."
+      },
+      {
+        "name": "Vosges Passes & Grand Ballon Return",
+        "distance_km": 220,
+        "description": "Climb to the Col de la Schlucht, then ride the Route des Crêtes—the dramatic ridge road with views into both valleys. Summit the Grand Ballon (1424 m), descend to Guebwiller, detour through Colmar’s “Little Venice,” cross the Rhine at Breisach, and ride home on the A5."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "munster_vosges_day1.gpx"
+      },
+      {
+        "dayNumber": 2,
+        "file": "munster_vosges_day2.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "rothenburg",
+    "name": "Rothenburg ob der Tauber – Medieval Dream",
+    "category": "WEEKEND",
+    "categoryLabel": "Weekend",
+    "region": "Franken / Hohenlohe",
+    "totalDistanceKm": 430,
+    "dayCount": 2,
+    "overview": "A weekend visiting Germany’s most famous medieval town, riding through the Hohenlohe countryside on the way there and the romantic Tauber valley on the return.",
+    "highlights": "Rothenburg ob der Tauber – medieval time capsule, Hohenlohe countryside – castles at every village, Tauber valley – romantic river road, Michelstadt or Mosbach on the return",
+    "roadCharacter": "",
+    "days": [
+      {
+        "name": "Through Hohenlohe to Rothenburg",
+        "distance_km": 210,
+        "description": "Ride east through Sinsheim to Bad Wimpfen (hilltop Kaiserpfalz), then follow the Jagst valley through Jagsthausen and Kloster Schöntal. Continue through the Hohenlohe heartland via Künzelsau and Langenburg to Rothenburg ob der Tauber."
+      },
+      {
+        "name": "Tauber Valley & Odenwald Return",
+        "distance_km": 220,
+        "description": "Follow the Tauber valley south through Creglingen (Riemenschneider altar), Weikersheim (Renaissance palace), Bad Mergentheim, and Tauberbischofsheim. At Wertheim, join the Main briefly, then head into the Odenwald via Miltenberg and Amorbach to Michelstadt. Return through Eberbach and the Neckar valley."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "rothenburg_day1.gpx"
+      },
+      {
+        "dayNumber": 2,
+        "file": "rothenburg_day2.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "staufen_southern_bf",
+    "name": "Staufen – Faust & Southern Black Forest",
+    "category": "WEEKEND",
+    "categoryLabel": "Weekend",
+    "region": "Schwarzwald",
+    "totalDistanceKm": 450,
+    "dayCount": 2,
+    "overview": "Ride deep into the southern Black Forest to Staufen im Breisgau—the town where Doctor Faust supposedly met the devil. The return takes you over the Belchen and through the dramatic Höllental gorge.",
+    "highlights": "Staufen – Faust legend, charming wine town, Belchen (1414 m) – finest panorama in the Black Forest, Höllental – dramatic “Hell Valley” gorge, Titisee – iconic Black Forest lake",
+    "roadCharacter": "",
+    "days": [
+      {
+        "name": "Through Central Black Forest to Staufen",
+        "distance_km": 230,
+        "description": "Take the A5 to Offenburg and enter the Kinzigtal. Ride through Gengenbach, Haslach, and Wolfach to the stunning half-timbered Schiltach. Cut south through the Elztal to Waldkirch and past Freiburg to Staufen."
+      },
+      {
+        "name": "Belchen, Titisee & Höllental Home",
+        "distance_km": 220,
+        "description": "Ride through the Münstertal and climb the spectacular Belchen road to 1414 m—the finest panorama in the Black Forest. Descend to Schönau and Todtnau, then past the Feldberg to Titisee for lunch. Return through Hinterzarten and plunge into the Höllental—a dramatic gorge with sheer walls—to Freiburg. A5 north home."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "staufen_southern_bf_day1.gpx"
+      },
+      {
+        "dayNumber": 2,
+        "file": "staufen_southern_bf_day2.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "triberg_waterfalls",
+    "name": "Triberg – Black Forest Waterfalls",
+    "category": "WEEKEND",
+    "categoryLabel": "Weekend",
+    "region": "Schwarzwald",
+    "totalDistanceKm": 420,
+    "dayCount": 2,
+    "overview": "Ride into the heart of the Black Forest to Triberg—home of Germany’s highest waterfalls and the cuckoo clock tradition. Outbound through the Renchtal, return via the Schwarzwaldhochstraße.",
+    "highlights": "Triberg waterfalls – Germany’s highest (163 m), Cuckoo clock tradition – world’s largest cuckoo clock, Allerheiligen ruins & waterfalls on the approach, B500 Schwarzwaldhochstraße on the return",
+    "roadCharacter": "",
+    "days": [
+      {
+        "name": "Renchtal & Allerheiligen to Triberg",
+        "distance_km": 220,
+        "description": "Take the A5 to Achern and climb through Kappelrodeck to Allerheiligen—the atmospheric ruined monastery with its 83 m cascading waterfalls. Cross to the Renchtal, ride south through Oppenau, then east to Freudenstadt. Continue through Schiltach to Triberg."
+      },
+      {
+        "name": "Gutachtal & Schwarzwaldhochstraße Home",
+        "distance_km": 200,
+        "description": "Ride north through the Gutachtal past the Vogtsbauernhof, then through the Kinzigtal to beautiful Gengenbach. Climb to Sasbachwalden and join the B500 at Sand. Ride the Schwarzwaldhochstraße past the Mummelsee and descend through Baden-Baden. A5 north home."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "triberg_waterfalls_day1.gpx"
+      },
+      {
+        "dayNumber": 2,
+        "file": "triberg_waterfalls_day2.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "tuebingen_alb",
+    "name": "Tübingen – Schwäbische Alb",
+    "category": "WEEKEND",
+    "categoryLabel": "Weekend",
+    "region": "Schwäbische Alb",
+    "totalDistanceKm": 400,
+    "dayCount": 2,
+    "overview": "Ride to the charming university town of Tübingen on the Neckar, then return over the dramatic Schwäbische Alb escarpment—with its fairy-tale Schloss Lichtenstein and the waterfall at Bad Urach.",
+    "highlights": "Tübingen – romantic university town on the Neckar, Schloss Lichtenstein – Swabia’s fairy-tale castle, Bad Urach waterfall, Alb escarpment curves with panoramic views",
+    "roadCharacter": "",
+    "days": [
+      {
+        "name": "Through the Black Forest Edge to Tübingen",
+        "distance_km": 200,
+        "description": "Head south through Bretten and Maulbronn (UNESCO monastery) to Pforzheim, then into the Black Forest edge via Calw and the Nagold valley. Wind through Haiterbach and Horb am Neckar, following the young Neckar river to Rottenburg (bishop’s town) and on to Tübingen."
+      },
+      {
+        "name": "Schwäbische Alb Escarpment Home",
+        "distance_km": 200,
+        "description": "Head east to Reutlingen and climb to Bad Urach for the famous waterfall. Continue to Schloss Lichtenstein, perched on a cliff like a fairy-tale illustration. Cross the Alb plateau through Münsingen and Römerstein, then descend the spectacular Alb escarpment to Owen and Kirchheim. Pass through medieval Esslingen and return north via Vaihingen."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "tuebingen_alb_day1.gpx"
+      },
+      {
+        "dayNumber": 2,
+        "file": "tuebingen_alb_day2.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "wuerzburg",
+    "name": "Würzburg – Baroque & Franconian Wine",
+    "category": "WEEKEND",
+    "categoryLabel": "Weekend",
+    "region": "Franken",
+    "totalDistanceKm": 430,
+    "dayCount": 2,
+    "overview": "Ride through the Odenwald and Main valley to Würzburg—home of the UNESCO Residenz and Franconia’s best wines. Return through the Tauber valley and Hohenlohe.",
+    "highlights": "Würzburg Residenz – UNESCO Baroque palace, Franconian wine country on the Main, Main valley curves through forested hills, Return via Tauber and Hohenlohe",
+    "roadCharacter": "",
+    "days": [
+      {
+        "name": "Odenwald & Main Valley to Würzburg",
+        "distance_km": 210,
+        "description": "Ride east through the Neckar valley to Eberbach, then climb into the deep Odenwald to Beerfelden and Amorbach. Descend to the Main at Miltenberg and follow the river north through Wertheim to Würzburg."
+      },
+      {
+        "name": "Tauber Valley & Hohenlohe Return",
+        "distance_km": 220,
+        "description": "Head south from Würzburg through Ochsenfurt and into the Tauber valley. Visit Bad Mergentheim (Teutonic Knights castle) and Weikersheim, then ride through Hohenlohe to Schwäbisch Hall. Return via Öhringen and Neckarsulm—stop at the Deutsches Zweirad-Museum!"
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "wuerzburg_day1.gpx"
+      },
+      {
+        "dayNumber": 2,
+        "file": "wuerzburg_day2.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "alsace_vosges",
+    "name": "Alsace & Vosges Explorer",
+    "category": "THREE_DAY",
+    "categoryLabel": "3-Day",
+    "region": "Elsass / Vosges",
+    "totalDistanceKm": 620,
+    "dayCount": 3,
+    "overview": "Three days exploring Alsace from north to south—the wine route, the Vosges mountain passes, and the southern vineyard villages. An immersion in France’s most Germanic and gastronomic region.",
+    "highlights": "Full Alsace Wine Route from north to south, Vosges passes – Col du Donon, Col de la Schlucht, Route des Crêtes ridge road, Colmar, Riquewihr, Kaysersberg – Alsatian jewels",
+    "roadCharacter": "",
+    "days": [
+      {
+        "name": "Pfälzerwald to Northern Alsace",
+        "distance_km": 210,
+        "description": "Cross into France at Wissembourg, visit Château Fleckenstein, then ride to Bitche’s Vauban citadel. Cross the Col du Donon and descend to Obernai."
+      },
+      {
+        "name": "Wine Route & Vosges Passes",
+        "distance_km": 200,
+        "description": "Visit Mont Sainte-Odile, then ride the wine route south through Barr, Ribeauvillé, Riquewihr, and Kaysersberg. Climb through the Munster valley to the Col de la Schlucht and descend to Gérardmer."
+      },
+      {
+        "name": "Route des Crêtes & Colmar Return",
+        "distance_km": 210,
+        "description": "Ride through La Bresse and join the Route des Crêtes south to the Grand Ballon. Descend to Guebwiller, visit circular Eguisheim and Colmar’s “Little Venice,” then cross the Rhine and return north."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "alsace_vosges_day1.gpx"
+      },
+      {
+        "dayNumber": 2,
+        "file": "alsace_vosges_day2.gpx"
+      },
+      {
+        "dayNumber": 3,
+        "file": "alsace_vosges_day3.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "bf_grand_circuit",
+    "name": "Black Forest Grand Circuit",
+    "category": "THREE_DAY",
+    "categoryLabel": "3-Day",
+    "region": "Schwarzwald",
+    "totalDistanceKm": 640,
+    "dayCount": 3,
+    "overview": "Three days through the full length of the Black Forest—from the B500 ridge in the north to the Belchen and Höllental in the south. The definitive Black Forest motorcycle tour.",
+    "highlights": "B500 Schwarzwaldhochstraße – complete ridge ride, Triberg waterfalls and Kinzigtal, Titisee, Feldberg & Belchen summits, Höllental gorge and Freiburg",
+    "roadCharacter": "",
+    "days": [
+      {
+        "name": "Schwarzwaldhochstraße to Triberg",
+        "distance_km": 210,
+        "description": "Ride the full B500 from Baden-Baden to Freudenstadt, then south through Alpirsbach and Schiltach to Triberg."
+      },
+      {
+        "name": "Titisee, Belchen & Staufen",
+        "distance_km": 220,
+        "description": "Ride to Furtwangen (clock museum), then to the Titisee. Continue past the Feldberg to Todtnau, climb the Belchen, and descend through the Münstertal to Staufen."
+      },
+      {
+        "name": "Höllental & Kinzigtal Home",
+        "distance_km": 210,
+        "description": "From Staufen, ride through Freiburg and up the dramatic Höllental gorge. Continue through Hinterzarten and the Elztal north to Wolfach and Gengenbach. Return from Offenburg via the A5."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "bf_grand_circuit_day1.gpx"
+      },
+      {
+        "dayNumber": 2,
+        "file": "bf_grand_circuit_day2.gpx"
+      },
+      {
+        "dayNumber": 3,
+        "file": "bf_grand_circuit_day3.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "franconia_tauber",
+    "name": "Franconia & Tauber Valley",
+    "category": "THREE_DAY",
+    "categoryLabel": "3-Day",
+    "region": "Franken / Tauber",
+    "totalDistanceKm": 620,
+    "dayCount": 3,
+    "overview": "Three days through Franconia—Germany’s wine and culture heartland. Würzburg’s Baroque splendor, Rothenburg’s medieval walls, and the romantic Tauber valley.",
+    "highlights": "Würzburg Residenz (UNESCO) and Franconian wine, Rothenburg ob der Tauber, Romantic Tauber valley, Odenwald forest roads",
+    "roadCharacter": "",
+    "days": [
+      {
+        "name": "Odenwald & Main to Würzburg",
+        "distance_km": 210,
+        "description": "Through the Odenwald to Amorbach and the Main valley to Würzburg."
+      },
+      {
+        "name": "Franconian Wine to Rothenburg",
+        "distance_km": 200,
+        "description": "South from Würzburg through the Tauber valley to Rothenburg."
+      },
+      {
+        "name": "Hohenlohe & Neckar Return",
+        "distance_km": 210,
+        "description": "Through Hohenlohe via Schwäbisch Hall, the motorcycle museum, and Bad Wimpfen home."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "franconia_tauber_day1.gpx"
+      },
+      {
+        "dayNumber": 2,
+        "file": "franconia_tauber_day2.gpx"
+      },
+      {
+        "dayNumber": 3,
+        "file": "franconia_tauber_day3.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "moselle_eifel_rhine",
+    "name": "Moselle, Eifel & Rhine",
+    "category": "THREE_DAY",
+    "categoryLabel": "3-Day",
+    "region": "Mosel / Eifel / Rhein",
+    "totalDistanceKm": 630,
+    "dayCount": 3,
+    "overview": "Three days through western Germany’s most dramatic river valleys—the Moselle, the Ahr, and the Rhine—with a detour to the Nürburgring and the volcanic Eifel.",
+    "highlights": "Bernkastel-Kues and Cochem – Moselle wine towns, Nürburgring – legendary circuit, Ahr valley – red wine gorge, Loreley and Rhine gorge castles",
+    "roadCharacter": "",
+    "days": [
+      {
+        "name": "Pfälzerwald to the Moselle",
+        "distance_km": 220,
+        "description": "Through the Pfälzerwald and Hunsrück to Bernkastel, then along the Moselle to Cochem."
+      },
+      {
+        "name": "Eifel, Nürburgring & Ahr Valley",
+        "distance_km": 200,
+        "description": "Visit Burg Eltz, ride through the Eifel to the Nürburgring, then through the Ahr valley."
+      },
+      {
+        "name": "Rhine Gorge & Nahe Valley Home",
+        "distance_km": 210,
+        "description": "Rhine south from Koblenz through the Loreley gorge, then Nahe valley and Pfalz home."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "moselle_eifel_rhine_day1.gpx"
+      },
+      {
+        "dayNumber": 2,
+        "file": "moselle_eifel_rhine_day2.gpx"
+      },
+      {
+        "dayNumber": 3,
+        "file": "moselle_eifel_rhine_day3.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "schwaebische_alb",
+    "name": "Schwäbische Alb & Danube Sources",
+    "category": "THREE_DAY",
+    "categoryLabel": "3-Day",
+    "region": "Schwäbische Alb",
+    "totalDistanceKm": 610,
+    "dayCount": 3,
+    "overview": "Three days exploring the Schwäbische Alb—the limestone escarpment south of Stuttgart with spectacular castle ruins, caves, and the young Danube.",
+    "highlights": "Schwäbisch Hall – theatrical medieval town, Blaubeuren Blautopf – magical blue spring, Schloss Lichtenstein – fairy-tale castle, Alb escarpment switchbacks",
+    "roadCharacter": "",
+    "days": [
+      {
+        "name": "Through Hohenlohe to Heidenheim",
+        "distance_km": 210,
+        "description": "East through Heilbronn to Schwäbisch Hall, then south through the Kocher valley to Heidenheim."
+      },
+      {
+        "name": "Eastern Alb to Tübingen",
+        "distance_km": 200,
+        "description": "Cross the Alb to Blaubeuren’s blue spring, visit Lichtenstein and Bad Urach, descend to Tübingen."
+      },
+      {
+        "name": "Nagoldtal & Black Forest Edge Home",
+        "distance_km": 200,
+        "description": "Follow the young Neckar to Horb, then the Nagold valley north through Calw and Pforzheim home."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "schwaebische_alb_day1.gpx"
+      },
+      {
+        "dayNumber": 2,
+        "file": "schwaebische_alb_day2.gpx"
+      },
+      {
+        "dayNumber": 3,
+        "file": "schwaebische_alb_day3.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "alsace_bf_constance",
+    "name": "Alsace, Black Forest & Lake Constance",
+    "category": "SIX_DAY",
+    "categoryLabel": "6-Day",
+    "region": "Elsass / Schwarzwald / Bodensee",
+    "totalDistanceKm": 1220,
+    "dayCount": 6,
+    "overview": "A six-day grand loop through three countries: France (Alsace & Vosges), Germany (Black Forest), and briefly Switzerland (Rhine Falls). Wine, mountains, lakes, and valleys.",
+    "highlights": "Northern Vosges – UNESCO Biosphere, Alsace Wine Route in full, Vosges mountain passes (Grand Ballon), Freiburg and Höllental gorge, Rhine Falls & Lake Constance, Central Black Forest valleys",
+    "roadCharacter": "",
+    "days": [
+      {
+        "name": "Into the Northern Vosges",
+        "distance_km": 210,
+        "description": "Through Pfälzerwald to Wissembourg, Château Fleckenstein, northern Vosges to Obernai."
+      },
+      {
+        "name": "Wine Route & Vosges Passes",
+        "distance_km": 200,
+        "description": "Wine route, Vosges passes, Grand Ballon, down to Colmar."
+      },
+      {
+        "name": "Across to Freiburg",
+        "distance_km": 190,
+        "description": "Southern Alsace villages, cross Rhine at Breisach, Kaiserstuhl, Staufen to Freiburg."
+      },
+      {
+        "name": "Southern Black Forest & Rhine Falls",
+        "distance_km": 210,
+        "description": "Höllental, Titisee, south to Rhine Falls, then Lake Constance."
+      },
+      {
+        "name": "Lake Constance to Triberg",
+        "distance_km": 200,
+        "description": "Along Lake Constance, then north through Donaueschingen (Danube source) to Triberg."
+      },
+      {
+        "name": "Kinzigtal & B500 Home",
+        "distance_km": 210,
+        "description": "Through Kinzigtal, flower village Sasbachwalden, B500 and Baden-Baden home."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "alsace_bf_constance_day1.gpx"
+      },
+      {
+        "dayNumber": 2,
+        "file": "alsace_bf_constance_day2.gpx"
+      },
+      {
+        "dayNumber": 3,
+        "file": "alsace_bf_constance_day3.gpx"
+      },
+      {
+        "dayNumber": 4,
+        "file": "alsace_bf_constance_day4.gpx"
+      },
+      {
+        "dayNumber": 5,
+        "file": "alsace_bf_constance_day5.gpx"
+      },
+      {
+        "dayNumber": 6,
+        "file": "alsace_bf_constance_day6.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "bf_to_alps",
+    "name": "Black Forest to the Alps",
+    "category": "SIX_DAY",
+    "categoryLabel": "6-Day",
+    "region": "Schwarzwald / Bodensee / Allgäu",
+    "totalDistanceKm": 1240,
+    "dayCount": 6,
+    "overview": "The ultimate southwest Germany tour—ride the full Black Forest from ridge to lake, cross to Lake Constance, reach the Allgäu Alps, and return over the Schwäbische Alb. Six days, six different landscapes.",
+    "highlights": "B500 Schwarzwaldhochstraße, Titisee, Belchen & southern Black Forest, Rhine Falls at Schaffhausen, Lake Constance (Meersburg), Allgäu Alps (Oberstdorf), Schwäbische Alb return",
+    "roadCharacter": "",
+    "days": [
+      {
+        "name": "Schwarzwaldhochstraße to Baiersbronn",
+        "distance_km": 210,
+        "description": "B500 from Baden-Baden to Freudenstadt, overnight in Baiersbronn."
+      },
+      {
+        "name": "Central Black Forest to Schluchsee",
+        "distance_km": 210,
+        "description": "Through Schiltach and Triberg to Titisee and Schluchsee."
+      },
+      {
+        "name": "Rhine Falls & Lake Constance",
+        "distance_km": 200,
+        "description": "South to the Rhine Falls at Schaffhausen, then along Lake Constance to Meersburg."
+      },
+      {
+        "name": "Lake Constance to the Alps",
+        "distance_km": 210,
+        "description": "Along Lake Constance to Lindau and Bregenz, then through the Bregenzerwald to Oberstdorf."
+      },
+      {
+        "name": "Allgäu to Ulm",
+        "distance_km": 200,
+        "description": "Through the Allgäu foothills via Kempten and Ottobeuren to Ulm."
+      },
+      {
+        "name": "Schwäbische Alb Return Home",
+        "distance_km": 210,
+        "description": "Cross the Alb via Blaubeuren and Lichtenstein, then through Tübingen and Calw home."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "bf_to_alps_day1.gpx"
+      },
+      {
+        "dayNumber": 2,
+        "file": "bf_to_alps_day2.gpx"
+      },
+      {
+        "dayNumber": 3,
+        "file": "bf_to_alps_day3.gpx"
+      },
+      {
+        "dayNumber": 4,
+        "file": "bf_to_alps_day4.gpx"
+      },
+      {
+        "dayNumber": 5,
+        "file": "bf_to_alps_day5.gpx"
+      },
+      {
+        "dayNumber": 6,
+        "file": "bf_to_alps_day6.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "franconia_romantic_road",
+    "name": "Franconia & Romantic Road",
+    "category": "SIX_DAY",
+    "categoryLabel": "6-Day",
+    "region": "Franken / Romantische Straße",
+    "totalDistanceKm": 1210,
+    "dayCount": 6,
+    "overview": "Six days through Franconia—from the Main valley and Würzburg through the Franconian Switzerland karst landscape to Nürnberg, the Altmühltal, and the Romantic Road. Return through Hohenlohe.",
+    "highlights": "Würzburg Residenz (UNESCO), Bamberg – UNESCO old town, Fränkische Schweiz – castles and caves, Altmühltal nature park, Dinkelsbühl & Rothenburg – Romantic Road, Schwäbisch Hall & Hohenlohe return",
+    "roadCharacter": "",
+    "days": [
+      {
+        "name": "Odenwald to Würzburg",
+        "distance_km": 210,
+        "description": "Through the Odenwald and Main valley to Würzburg."
+      },
+      {
+        "name": "Franconian Wine to Bamberg",
+        "distance_km": 200,
+        "description": "Through Franconian wine country along the Main to UNESCO Bamberg."
+      },
+      {
+        "name": "Fränkische Schweiz",
+        "distance_km": 190,
+        "description": "Through the Fränkische Schweiz—dramatic karst landscape with castle-topped cliffs and caves—to Nürnberg."
+      },
+      {
+        "name": "Altmühltal to Dinkelsbühl",
+        "distance_km": 200,
+        "description": "Through the Altmühltal to Eichstätt, Nördlingen’s meteor crater, and medieval Dinkelsbühl."
+      },
+      {
+        "name": "Romantic Road to Schwäbisch Hall",
+        "distance_km": 210,
+        "description": "Romantic Road through Rothenburg, then Hohenlohe to Schwäbisch Hall."
+      },
+      {
+        "name": "Hohenlohe & Neckar Home",
+        "distance_km": 200,
+        "description": "Through Hohenlohe, motorcycle museum, Bad Wimpfen, Neckar valley home."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "franconia_romantic_road_day1.gpx"
+      },
+      {
+        "dayNumber": 2,
+        "file": "franconia_romantic_road_day2.gpx"
+      },
+      {
+        "dayNumber": 3,
+        "file": "franconia_romantic_road_day3.gpx"
+      },
+      {
+        "dayNumber": 4,
+        "file": "franconia_romantic_road_day4.gpx"
+      },
+      {
+        "dayNumber": 5,
+        "file": "franconia_romantic_road_day5.gpx"
+      },
+      {
+        "dayNumber": 6,
+        "file": "franconia_romantic_road_day6.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "moselle_eifel_rhine_grand",
+    "name": "Moselle, Eifel & Rhine Grand Loop",
+    "category": "SIX_DAY",
+    "categoryLabel": "6-Day",
+    "region": "Mosel / Eifel / Rhein / Lahn / Taunus",
+    "totalDistanceKm": 1230,
+    "dayCount": 6,
+    "overview": "A grand clockwise loop through western Germany’s finest river valleys and mountain ranges—Taunus, Lahn, Rhine, Eifel, Moselle, Hunsrück, and Nahe.",
+    "highlights": "Taunus mountain roads, Koblenz Deutsches Eck, Eifel & Nürburgring, Moselle wine towns (Cochem, Bernkastel), Rhine gorge & Loreley, Nahe valley return",
+    "roadCharacter": "",
+    "days": [
+      {
+        "name": "Bergstraße & Taunus",
+        "distance_km": 210,
+        "description": "North along the Bergstraße, through the Taunus to Limburg and Weilburg."
+      },
+      {
+        "name": "Lahn Valley to Koblenz",
+        "distance_km": 200,
+        "description": "Lahn valley to Koblenz, then Rhine south through the Loreley gorge."
+      },
+      {
+        "name": "Rhine to Eifel",
+        "distance_km": 210,
+        "description": "Rhine north to Koblenz, into the Eifel via Mayen, Burg Eltz to Cochem."
+      },
+      {
+        "name": "Nürburgring & Ahr Valley",
+        "distance_km": 200,
+        "description": "Through volcanic Eifel, Nürburgring, then the Ahr valley."
+      },
+      {
+        "name": "Moselle Wine Towns",
+        "distance_km": 210,
+        "description": "Rhine to Koblenz, Moselle south through wine towns, up to Hunsrück."
+      },
+      {
+        "name": "Nahe & Pfälzerwald Home",
+        "distance_km": 200,
+        "description": "Nahe valley east, then Pfalz wine country home."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "moselle_eifel_rhine_grand_day1.gpx"
+      },
+      {
+        "dayNumber": 2,
+        "file": "moselle_eifel_rhine_grand_day2.gpx"
+      },
+      {
+        "dayNumber": 3,
+        "file": "moselle_eifel_rhine_grand_day3.gpx"
+      },
+      {
+        "dayNumber": 4,
+        "file": "moselle_eifel_rhine_grand_day4.gpx"
+      },
+      {
+        "dayNumber": 5,
+        "file": "moselle_eifel_rhine_grand_day5.gpx"
+      },
+      {
+        "dayNumber": 6,
+        "file": "moselle_eifel_rhine_grand_day6.gpx"
+      }
+    ]
+  },
+  {
+    "slug": "thuringia_central",
+    "name": "Thuringia & Central Germany",
+    "category": "SIX_DAY",
+    "categoryLabel": "6-Day",
+    "region": "Franken / Thüringen / Hessen",
+    "totalDistanceKm": 1230,
+    "dayCount": 6,
+    "overview": "The most adventurous tour heads northeast into Thuringia—the green heart of Germany. Six days through the Main valley, Thüringer Wald, Rhön mountains, and back through Hesse and the Taunus. Completely different from the other tours.",
+    "highlights": "Bamberg – UNESCO old town, Thüringer Wald – Germany’s green heart, Rhön – Wasserkuppe (highest Hesse peak), Marburg – fairy-tale university town, Lahn valley & Taunus, Rheingau wine on the return",
+    "roadCharacter": "",
+    "days": [
+      {
+        "name": "Main Valley to Bamberg",
+        "distance_km": 210,
+        "description": "Through Odenwald and Main valley, past Würzburg to Bamberg."
+      },
+      {
+        "name": "Into the Thüringer Wald",
+        "distance_km": 210,
+        "description": "North to Coburg (Luther’s fortress), through the Frankenwald to the Thüringer Wald."
+      },
+      {
+        "name": "Thüringer Wald to Meiningen",
+        "distance_km": 190,
+        "description": "Along the Rennsteig ridge through the Thüringer Wald to Meiningen."
+      },
+      {
+        "name": "Rhön Mountains",
+        "distance_km": 200,
+        "description": "Cross the Rhön—the “land of open spaces”—over the Wasserkuppe to Fulda and Alsfeld."
+      },
+      {
+        "name": "Hesse to the Lahn",
+        "distance_km": 210,
+        "description": "To fairy-tale Marburg, then through the Hessisches Hinterland to the Lahn valley."
+      },
+      {
+        "name": "Taunus, Rheingau & Pfalz Home",
+        "distance_km": 210,
+        "description": "Through Taunus to Rheingau (Rüdesheim wine), then south through the Pfalz home."
+      }
+    ],
+    "hasPdf": true,
+    "gpxFiles": [
+      {
+        "dayNumber": 1,
+        "file": "thuringia_central_day1.gpx"
+      },
+      {
+        "dayNumber": 2,
+        "file": "thuringia_central_day2.gpx"
+      },
+      {
+        "dayNumber": 3,
+        "file": "thuringia_central_day3.gpx"
+      },
+      {
+        "dayNumber": 4,
+        "file": "thuringia_central_day4.gpx"
+      },
+      {
+        "dayNumber": 5,
+        "file": "thuringia_central_day5.gpx"
+      },
+      {
+        "dayNumber": 6,
+        "file": "thuringia_central_day6.gpx"
+      }
+    ]
+  }
+]

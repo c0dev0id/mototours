@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
+  <metadata>
+    <name>Tour 12: Murgtal &amp; Northern Heights</name>
+    <desc>Ride through the dramatic Murg valley—a deep gorge cutting into the Black Forest—past a stunning reservoir and up to the ridge, combining valley drama with mountain panoramas.</desc>
+    <author>
+      <name>Hockenheim Motorcycle Tours</name>
+    </author>
+  </metadata>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>Start/End</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <wpt lat="48.858000" lon="8.204000">
+    <name>Rastatt</name>
+    <desc>Enter valley (via A5)</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.809000" lon="8.320000">
+    <name>Gaggenau</name>
+    <desc>Industrial town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.771000" lon="8.364000">
+    <name>Gernsbach</name>
+    <desc>Old town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.732000" lon="8.365000">
+    <name>Weisenbach</name>
+    <desc>Valley deepens</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.685000" lon="8.347000">
+    <name>Forbach</name>
+    <desc>Wooden bridge – midpoint</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.667000" lon="8.322000">
+    <name>Schwarzenbachtalsperre</name>
+    <desc>Forest reservoir</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.658000" lon="8.253000">
+    <name>Herrenwies</name>
+    <desc>Mountain village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.654000" lon="8.226000">
+    <name>Sand</name>
+    <desc>Join B500</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.683000" lon="8.223000">
+    <name>Bühlerhöhe</name>
+    <desc>Viewpoint</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.696000" lon="8.136000">
+    <name>Bühl</name>
+    <desc>Ortenau</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End (via A5)</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Tour 12: Murgtal &amp; Northern Heights</name>
+    <desc>Schwarzwald | ~220 km | Moderate to Challenging</desc>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="48.858000" lon="8.204000">
+      <name>Rastatt</name>
+    </rtept>
+    <rtept lat="48.809000" lon="8.320000">
+      <name>Gaggenau</name>
+    </rtept>
+    <rtept lat="48.771000" lon="8.364000">
+      <name>Gernsbach</name>
+    </rtept>
+    <rtept lat="48.732000" lon="8.365000">
+      <name>Weisenbach</name>
+    </rtept>
+    <rtept lat="48.685000" lon="8.347000">
+      <name>Forbach</name>
+    </rtept>
+    <rtept lat="48.667000" lon="8.322000">
+      <name>Schwarzenbachtalsperre</name>
+    </rtept>
+    <rtept lat="48.658000" lon="8.253000">
+      <name>Herrenwies</name>
+    </rtept>
+    <rtept lat="48.654000" lon="8.226000">
+      <name>Sand</name>
+    </rtept>
+    <rtept lat="48.683000" lon="8.223000">
+      <name>Bühlerhöhe</name>
+    </rtept>
+    <rtept lat="48.696000" lon="8.136000">
+      <name>Bühl</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

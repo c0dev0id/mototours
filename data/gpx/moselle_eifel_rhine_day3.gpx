@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Tour3d 04, Day 3: Rhine Gorge &amp; Nahe Valley Home</name>
+    <desc>Rhine south from Koblenz through the Loreley gorge, then Nahe valley and Pfalz home.</desc>
+  </metadata>
+  <wpt lat="50.543000" lon="7.112000">
+    <name>Bad Neuenahr-Ahrweiler</name>
+    <desc>Start day 3</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.578000" lon="7.233000">
+    <name>Remagen</name>
+    <desc>Bridge at Remagen</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.354000" lon="7.599000">
+    <name>Koblenz</name>
+    <desc>Deutsches Eck</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.230000" lon="7.593000">
+    <name>Boppard</name>
+    <desc>Rhine bend</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.153000" lon="7.711000">
+    <name>St. Goar / Loreley</name>
+    <desc>Legendary rock</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="50.059000" lon="7.770000">
+    <name>Bacharach</name>
+    <desc>Rhine wine town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.966000" lon="7.895000">
+    <name>Bingen</name>
+    <desc>Nahe confluence</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.842000" lon="7.867000">
+    <name>Bad Kreuznach</name>
+    <desc>Nahe wines</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.462000" lon="8.172000">
+    <name>Bad Dürkheim</name>
+    <desc>Wine barrel</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End – home</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Rhine Gorge &amp; Nahe Valley Home</name>
+    <desc>~210 km</desc>
+    <rtept lat="50.543000" lon="7.112000">
+      <name>Bad Neuenahr-Ahrweiler</name>
+    </rtept>
+    <rtept lat="50.578000" lon="7.233000">
+      <name>Remagen</name>
+    </rtept>
+    <rtept lat="50.354000" lon="7.599000">
+      <name>Koblenz</name>
+    </rtept>
+    <rtept lat="50.230000" lon="7.593000">
+      <name>Boppard</name>
+    </rtept>
+    <rtept lat="50.153000" lon="7.711000">
+      <name>St. Goar / Loreley</name>
+    </rtept>
+    <rtept lat="50.059000" lon="7.770000">
+      <name>Bacharach</name>
+    </rtept>
+    <rtept lat="49.966000" lon="7.895000">
+      <name>Bingen</name>
+    </rtept>
+    <rtept lat="49.842000" lon="7.867000">
+      <name>Bad Kreuznach</name>
+    </rtept>
+    <rtept lat="49.462000" lon="8.172000">
+      <name>Bad Dürkheim</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

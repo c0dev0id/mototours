@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Weekend 03, Day 2: Vosges Passes &amp; Kaiserstuhl Return</name>
+    <desc>Ride into the Munster valley (famous cheese!), then climb to the Col de la Schlucht (1139 m). Join the Route des Crêtes—the legendary Vosges ridge road—south to the Grand Ballon (1424 m), the highest peak in the Vosges. Descend through Guebwiller and Rouffach, cross the Rhine at Breisach, detour through the volcanic Kaiserstuhl, and return north on the A5.</desc>
+  </metadata>
+  <wpt lat="48.140000" lon="7.264000">
+    <name>Kaysersberg</name>
+    <desc>Start day 2</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.042000" lon="7.137000">
+    <name>Munster</name>
+    <desc>Cheese valley</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.063000" lon="7.023000">
+    <name>Col de la Schlucht</name>
+    <desc>Mountain pass (1139 m)</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="47.977000" lon="7.053000">
+    <name>Route des Crêtes</name>
+    <desc>Ridge road</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.902000" lon="7.099000">
+    <name>Grand Ballon (1424 m)</name>
+    <desc>Highest Vosges peak</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.912000" lon="7.210000">
+    <name>Guebwiller</name>
+    <desc>Rangen Grand Cru</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.956000" lon="7.299000">
+    <name>Rouffach</name>
+    <desc>Wine village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.028000" lon="7.583000">
+    <name>Breisach am Rhein</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.092000" lon="7.655000">
+    <name>Kaiserstuhl</name>
+    <desc>Volcanic wine hills</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End – home</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Vosges Passes &amp; Kaiserstuhl Return</name>
+    <desc>~210 km</desc>
+    <rtept lat="48.140000" lon="7.264000">
+      <name>Kaysersberg</name>
+    </rtept>
+    <rtept lat="48.042000" lon="7.137000">
+      <name>Munster</name>
+    </rtept>
+    <rtept lat="48.063000" lon="7.023000">
+      <name>Col de la Schlucht</name>
+    </rtept>
+    <rtept lat="47.977000" lon="7.053000">
+      <name>Route des Crêtes</name>
+    </rtept>
+    <rtept lat="47.902000" lon="7.099000">
+      <name>Grand Ballon (1424 m)</name>
+    </rtept>
+    <rtept lat="47.912000" lon="7.210000">
+      <name>Guebwiller</name>
+    </rtept>
+    <rtept lat="47.956000" lon="7.299000">
+      <name>Rouffach</name>
+    </rtept>
+    <rtept lat="48.028000" lon="7.583000">
+      <name>Breisach am Rhein</name>
+    </rtept>
+    <rtept lat="48.092000" lon="7.655000">
+      <name>Kaiserstuhl</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>

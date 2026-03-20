@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
+  <metadata>
+    <name>Weekend 09, Day 2: Vosges Passes &amp; Grand Ballon Return</name>
+    <desc>Climb to the Col de la Schlucht, then ride the Route des Crêtes—the dramatic ridge road with views into both valleys. Summit the Grand Ballon (1424 m), descend to Guebwiller, detour through Colmar’s “Little Venice,” cross the Rhine at Breisach, and ride home on the A5.</desc>
+  </metadata>
+  <wpt lat="48.042000" lon="7.137000">
+    <name>Munster</name>
+    <desc>Start day 2</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.063000" lon="7.023000">
+    <name>Col de la Schlucht (1139 m)</name>
+    <desc>Mountain pass</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.040000" lon="7.007000">
+    <name>Hohneck (1363 m)</name>
+    <desc>Vosges peak views</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.977000" lon="7.053000">
+    <name>Route des Crêtes</name>
+    <desc>Ridge road</desc>
+    <sym>Restaurant</sym>
+    <type>Midpoint</type>
+  </wpt>
+  <wpt lat="47.929000" lon="7.032000">
+    <name>Le Markstein</name>
+    <desc>Ski station</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.902000" lon="7.099000">
+    <name>Grand Ballon (1424 m)</name>
+    <desc>Highest Vosges peak</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.912000" lon="7.210000">
+    <name>Guebwiller</name>
+    <desc>Rangen vineyard</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.079000" lon="7.359000">
+    <name>Colmar</name>
+    <desc>Little Venice</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.028000" lon="7.583000">
+    <name>Breisach am Rhein</name>
+    <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="49.322000" lon="8.548000">
+    <name>Hockenheim</name>
+    <desc>End – home</desc>
+    <sym>Flag, Blue</sym>
+    <type>Start/End</type>
+  </wpt>
+  <rte>
+    <name>Vosges Passes &amp; Grand Ballon Return</name>
+    <desc>~220 km</desc>
+    <rtept lat="48.042000" lon="7.137000">
+      <name>Munster</name>
+    </rtept>
+    <rtept lat="48.063000" lon="7.023000">
+      <name>Col de la Schlucht (1139 m)</name>
+    </rtept>
+    <rtept lat="48.040000" lon="7.007000">
+      <name>Hohneck (1363 m)</name>
+    </rtept>
+    <rtept lat="47.977000" lon="7.053000">
+      <name>Route des Crêtes</name>
+    </rtept>
+    <rtept lat="47.929000" lon="7.032000">
+      <name>Le Markstein</name>
+    </rtept>
+    <rtept lat="47.902000" lon="7.099000">
+      <name>Grand Ballon (1424 m)</name>
+    </rtept>
+    <rtept lat="47.912000" lon="7.210000">
+      <name>Guebwiller</name>
+    </rtept>
+    <rtept lat="48.079000" lon="7.359000">
+      <name>Colmar</name>
+    </rtept>
+    <rtept lat="48.028000" lon="7.583000">
+      <name>Breisach am Rhein</name>
+    </rtept>
+    <rtept lat="49.322000" lon="8.548000">
+      <name>Hockenheim</name>
+    </rtept>
+  </rte>
+</gpx>
