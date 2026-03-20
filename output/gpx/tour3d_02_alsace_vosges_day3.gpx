@@ -2,7 +2,7 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
   <metadata>
     <name>Tour3d 02, Day 3: Route des Crêtes &amp; Colmar Return</name>
-    <desc>Ride through La Bresse and join the Route des Crêtes south to the Grand Ballon. Descend to Guebwiller, visit circular Eguisheim and Colmar’s “Little Venice,” then cross the Rhine and return north.</desc>
+    <desc>Ride through La Bresse and join the Route des Crêtes south to the Grand Ballon. Descend to Guebwiller, visit circular Eguisheim and Colmar’s “Little Venice,” then cross the Rhine at Rhinau and return via Offenburg and Baden-Baden.</desc>
   </metadata>
   <wpt lat="48.073000" lon="6.879000">
     <name>Gérardmer</name>
@@ -40,14 +40,19 @@
     <desc>Little Venice</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.260000" lon="7.453000">
-    <name>Sélestat</name>
+  <wpt lat="48.318000" lon="7.711000">
+    <name>Rhinau</name>
     <desc>Cross Rhine</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.343000" lon="7.871000">
-    <name>Lahr</name>
-    <desc>A5 north</desc>
+  <wpt lat="48.473000" lon="7.954000">
+    <name>Offenburg</name>
+    <desc>Ortenau</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.761000" lon="8.241000">
+    <name>Baden-Baden</name>
+    <desc>Spa city</desc>
     <type>Via</type>
   </wpt>
   <wpt lat="49.322000" lon="8.548000">
@@ -58,7 +63,7 @@
   </wpt>
   <rte>
     <name>Route des Crêtes &amp; Colmar Return</name>
-    <desc>~210 km</desc>
+    <desc>~340 km</desc>
     <rtept lat="48.073000" lon="6.879000">
       <name>Gérardmer</name>
     </rtept>
@@ -80,11 +85,14 @@
     <rtept lat="48.079000" lon="7.359000">
       <name>Colmar</name>
     </rtept>
-    <rtept lat="48.260000" lon="7.453000">
-      <name>Sélestat</name>
+    <rtept lat="48.318000" lon="7.711000">
+      <name>Rhinau</name>
     </rtept>
-    <rtept lat="48.343000" lon="7.871000">
-      <name>Lahr</name>
+    <rtept lat="48.473000" lon="7.954000">
+      <name>Offenburg</name>
+    </rtept>
+    <rtept lat="48.761000" lon="8.241000">
+      <name>Baden-Baden</name>
     </rtept>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>

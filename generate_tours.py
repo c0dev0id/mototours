@@ -655,23 +655,23 @@ TOURS = [
         "name": "Schwarzwaldhochstra\u00dfe \u2013 The Classic",
         "slug": "schwarzwaldhochstrasse",
         "region": "Schwarzwald",
-        "distance_km": 250,
+        "distance_km": 280,
         "difficulty": "Moderate to Challenging",
         "waypoints": [
             ("Hockenheim", 49.322, 8.548, "Start/End", False),
-            ("Baden-Baden", 48.761, 8.241, "Spa city (via A5)", False),
+            ("Karlsruhe", 49.006, 8.404, "A5 south", False),
+            ("Baden-Baden", 48.761, 8.241, "Spa city", False),
             ("Geroldsau", 48.722, 8.240, "Waterfall", False),
             ("B\u00fchlerh\u00f6he", 48.683, 8.223, "Join B500", False),
             ("Sand", 48.654, 8.226, "B500 junction", False),
             ("Unterstmatt", 48.620, 8.210, "Ridge road", False),
             ("Mummelsee (1036 m)", 48.596, 8.201, "Mountain lake \u2013 midpoint", True),
-            ("Hornisgrinde (1164 m)", 48.604, 8.204, "Highest peak, northern BF", False),
             ("Ruhestein", 48.561, 8.221, "Nationalpark center", False),
             ("Kniebis", 48.483, 8.287, "Pass village", False),
             ("Freudenstadt", 48.462, 8.411, "Germany\u2019s largest Marktplatz", False),
-            ("Alpirsbach", 48.346, 8.403, "Klosterbr\u00e4u brewery", False),
-            ("Offenburg", 48.473, 7.954, "Ortenau (via B33)", False),
-            ("Hockenheim", 49.322, 8.548, "End (via A5)", False),
+            ("Calw", 48.714, 8.741, "Hermann Hesse\u2019s birthplace", False),
+            ("Pforzheim", 48.891, 8.704, "Gold City", False),
+            ("Hockenheim", 49.322, 8.548, "End", False),
         ],
         "overview": (
             "Germany\u2019s most famous motorcycle road. The B500 "
@@ -680,16 +680,15 @@ TOURS = [
             "sweeping curves that make this an absolute must-ride."
         ),
         "route_description": (
-            "Head south on the A5 to elegant Baden-Baden, then climb into the Black "
-            "Forest via Geroldsau. Join the legendary B500 at B\u00fchlerh\u00f6he\u2014from "
-            "here, the Schwarzwaldhochstra\u00dfe follows the ridge for over 60 km of "
-            "pure riding pleasure. Pass through Unterstmatt to the Mummelsee, a "
-            "mystical circular lake at 1036 m. Continue past the Hornisgrinde "
-            "(1164 m, highest peak of the northern Black Forest) and the Ruhestein, "
-            "gateway to the Black Forest National Park. The road eventually descends "
-            "through Kniebis to Freudenstadt, laid out on Germany\u2019s largest market "
-            "square. Continue to Alpirsbach (excellent brewery!) and return via "
-            "Offenburg and the A5."
+            "Head south on the A5 past Karlsruhe to elegant Baden-Baden, then climb "
+            "into the Black Forest via Geroldsau. Join the legendary B500 at "
+            "B\u00fchlerh\u00f6he\u2014from here, the Schwarzwaldhochstra\u00dfe follows the ridge for "
+            "over 60 km of pure riding pleasure. Pass through Unterstmatt to the "
+            "Mummelsee, a mystical circular lake at 1036 m. Continue past the "
+            "Ruhestein, gateway to the Black Forest National Park. The road "
+            "eventually descends through Kniebis to Freudenstadt, laid out on "
+            "Germany\u2019s largest market square. Return east through the scenic "
+            "Nagoldtal via Calw\u2014Hermann Hesse\u2019s birthplace\u2014and Pforzheim."
         ),
         "midpoint_name": "Mummelsee (1036 m)",
         "midpoint_description": (
@@ -720,7 +719,7 @@ TOURS = [
         "name": "Murgtal & Northern Heights",
         "slug": "murgtal_northern_heights",
         "region": "Schwarzwald",
-        "distance_km": 220,
+        "distance_km": 270,
         "difficulty": "Moderate to Challenging",
         "waypoints": [
             ("Hockenheim", 49.322, 8.548, "Start/End", False),
@@ -778,21 +777,23 @@ TOURS = [
         "name": "Kinzigtal & Gutachtal",
         "slug": "kinzigtal_gutachtal",
         "region": "Schwarzwald",
-        "distance_km": 270,
+        "distance_km": 340,
         "difficulty": "Moderate",
         "waypoints": [
             ("Hockenheim", 49.322, 8.548, "Start/End", False),
-            ("Offenburg", 48.473, 7.954, "Enter Kinzigtal (via A5)", False),
-            ("Gengenbach", 48.407, 8.015, "Beautiful old town", False),
-            ("Haslach im Kinzigtal", 48.278, 8.087, "Trachtmuseum", False),
-            ("Hausach", 48.282, 8.175, "Valley junction", False),
-            ("Vogtsbauernhof, Gutach", 48.256, 8.180, "Open-air museum \u2013 midpoint", True),
-            ("Wolfach", 48.293, 8.219, "Glassblowing", False),
-            ("Schiltach", 48.290, 8.339, "Half-timbered gem", False),
-            ("Alpirsbach", 48.346, 8.403, "Klosterbr\u00e4u brewery", False),
+            ("Pforzheim", 48.891, 8.704, "Gold City", False),
+            ("Calw", 48.714, 8.741, "Hermann Hesse\u2019s birthplace", False),
             ("Freudenstadt", 48.462, 8.411, "Largest Marktplatz", False),
-            ("Offenburg", 48.473, 7.954, "Return (via B28/B33)", False),
-            ("Hockenheim", 49.322, 8.548, "End (via A5)", False),
+            ("Alpirsbach", 48.346, 8.403, "Klosterbr\u00e4u brewery", False),
+            ("Schiltach", 48.290, 8.339, "Half-timbered gem", False),
+            ("Wolfach", 48.293, 8.219, "Glassblowing", False),
+            ("Vogtsbauernhof, Gutach", 48.256, 8.180, "Open-air museum \u2013 midpoint", True),
+            ("Hausach", 48.282, 8.175, "Valley junction", False),
+            ("Haslach im Kinzigtal", 48.278, 8.087, "Trachtmuseum", False),
+            ("Gengenbach", 48.407, 8.015, "Beautiful old town", False),
+            ("Oberkirch", 48.528, 8.078, "Renchtal", False),
+            ("Baden-Baden", 48.761, 8.241, "Spa city", False),
+            ("Hockenheim", 49.322, 8.548, "End", False),
         ],
         "overview": (
             "Explore the central Black Forest\u2019s most scenic valleys\u2014the Kinzigtal "
@@ -800,15 +801,14 @@ TOURS = [
             "and the famous Vogtsbauernhof open-air museum."
         ),
         "route_description": (
-            "Take the A5 south to Offenburg and enter the Kinzigtal at Gengenbach, "
-            "a stunningly beautiful town often called \u201cthe Nice of the Black "
-            "Forest.\u201d Follow the Kinzig river through Haslach to Hausach, then "
-            "turn into the Gutachtal to reach the Vogtsbauernhof, the premier "
-            "open-air museum of Black Forest farmhouse architecture. Continue "
-            "through Wolfach, known for its glassblowing tradition, to "
-            "Schiltach\u2014a half-timbered masterpiece where every building seems to "
-            "lean at a different angle. Press on to Alpirsbach for the famous "
-            "Klosterbr\u00e4u brewery, then up to Freudenstadt and back via Offenburg."
+            "Head south through Pforzheim and Calw\u2014Hermann Hesse\u2019s birthplace on "
+            "the Nagold river\u2014descending through the Nagoldtal to Freudenstadt. "
+            "Continue to Alpirsbach for the famous Klosterbr\u00e4u brewery, then into "
+            "the central valleys. Follow the Kinzig through Schiltach\u2014a half-timbered "
+            "masterpiece\u2014and Wolfach to the Vogtsbauernhof, the premier open-air "
+            "museum of Black Forest farmhouse architecture. Exit the Kinzigtal "
+            "through Gengenbach, one of the Black Forest\u2019s most beautiful towns. "
+            "Return north through the Renchtal via Oberkirch and Baden-Baden."
         ),
         "midpoint_name": "Vogtsbauernhof (Open-Air Museum)",
         "midpoint_description": (
@@ -838,11 +838,12 @@ TOURS = [
         "name": "Allerheiligen Waterfalls & Renchtal",
         "slug": "allerheiligen_renchtal",
         "region": "Schwarzwald",
-        "distance_km": 230,
+        "distance_km": 320,
         "difficulty": "Moderate to Challenging",
         "waypoints": [
             ("Hockenheim", 49.322, 8.548, "Start/End", False),
-            ("Achern", 48.628, 8.075, "Enter hills (via A5)", False),
+            ("Rastatt", 48.858, 8.204, "Via Rhine valley", False),
+            ("Achern", 48.628, 8.075, "Enter hills", False),
             ("Kappelrodeck", 48.592, 8.113, "Red wine village", False),
             ("Ottenh\u00f6fen", 48.570, 8.152, "Valley end", False),
             ("Kloster Allerheiligen", 48.538, 8.132, "Ruined monastery \u2013 midpoint", True),
@@ -861,7 +862,7 @@ TOURS = [
             "Renchtal\u2014finished off with a stretch of the legendary B500."
         ),
         "route_description": (
-            "Take the A5 to Achern and climb into the hills through Kappelrodeck, "
+            "Head south through Rastatt to Achern and climb into the hills through Kappelrodeck, "
             "the heart of the Baden red wine country. Continue up through "
             "Ottenh\u00f6fen into the mountains, climbing steeply to the ruins of "
             "Allerheiligen\u2014a Gothic monastery in a forest clearing with "
@@ -959,37 +960,42 @@ TOURS = [
         "name": "Titisee & Southern Black Forest",
         "slug": "titisee_southern_bf",
         "region": "Schwarzwald",
-        "distance_km": 300,
+        "distance_km": 530,
         "difficulty": "Moderate to Challenging",
         "waypoints": [
             ("Hockenheim", 49.322, 8.548, "Start/End", False),
-            ("Offenburg", 48.473, 7.954, "Enter Black Forest (via A5)", False),
-            ("Elztal", 48.170, 8.070, "Into the forest", False),
+            ("Pforzheim", 48.891, 8.704, "Gold City", False),
+            ("Calw", 48.714, 8.741, "Hermann Hesse\u2019s birthplace", False),
+            ("Freudenstadt", 48.462, 8.411, "Marktplatz", False),
+            ("Schiltach", 48.290, 8.339, "Half-timbered town", False),
+            ("Triberg", 48.133, 8.237, "Black Forest waterfalls", False),
             ("Furtwangen", 48.055, 8.208, "Cuckoo clock museum", False),
             ("Titisee", 47.903, 8.157, "Iconic lake \u2013 midpoint", True),
             ("Hinterzarten", 47.906, 8.110, "Health resort", False),
             ("H\u00f6llental", 47.897, 8.050, "Hell Valley gorge", False),
             ("Kirchzarten", 47.963, 7.952, "Valley exit", False),
             ("Freiburg im Breisgau", 47.999, 7.842, "Black Forest capital", False),
+            ("Offenburg", 48.473, 7.954, "Ortenau", False),
+            ("Baden-Baden", 48.761, 8.241, "Spa city", False),
             ("Hockenheim", 49.322, 8.548, "End (via A5)", False),
         ],
         "overview": (
             "The longest tour in the collection reaches deep into the southern "
-            "Black Forest to the iconic Titisee lake, returning through the "
-            "dramatic H\u00f6llental (Hell Valley). A full-day adventure through the "
-            "most dramatic Black Forest landscapes."
+            "Black Forest to the iconic Titisee lake via scenic forest roads, "
+            "returning through the dramatic H\u00f6llental (Hell Valley). A full-day "
+            "adventure through the most dramatic Black Forest landscapes."
         ),
         "route_description": (
-            "Take the A5 south past Offenburg and enter the Black Forest through "
-            "the Elztal. Climb through increasingly wild forest to Furtwangen, "
-            "home of the German Clock Museum and cuckoo clock tradition. Continue "
-            "south to the Titisee, the Black Forest\u2019s most famous lake, set at "
-            "858 m between dark forested hills. After lunch, ride west through "
-            "Hinterzarten and plunge into the H\u00f6llental\u2014the \u201cHell Valley\u201d\u2014a "
-            "dramatic gorge with near-vertical walls. The famous Hirschsprung "
-            "narrows are breathtaking. Emerge at Kirchzarten and continue to "
-            "Freiburg, the \u201ccapital\u201d of the Black Forest, before returning on "
-            "the A5."
+            "Head south through Pforzheim and Calw into the Black Forest interior "
+            "via the Nagoldtal to Freudenstadt. Continue through Schiltach and "
+            "into the Kinzigtal, stopping at Triberg\u2019s famous waterfalls. Climb "
+            "to Furtwangen, home of the German Clock Museum, then south to the "
+            "Titisee, the Black Forest\u2019s most famous lake, set at 858 m between "
+            "dark forested hills. After lunch, ride west through Hinterzarten and "
+            "plunge into the H\u00f6llental\u2014the \u201cHell Valley\u201d\u2014a dramatic gorge with "
+            "near-vertical walls. Emerge at Kirchzarten and continue to Freiburg, "
+            "the \u201ccapital\u201d of the Black Forest, before returning north via "
+            "Offenburg and Baden-Baden."
         ),
         "midpoint_name": "Titisee",
         "midpoint_description": (
@@ -1080,21 +1086,23 @@ TOURS = [
         "name": "Alsace Wine Route",
         "slug": "alsace_wine_route",
         "region": "Elsass / Alsace",
-        "distance_km": 260,
+        "distance_km": 370,
         "difficulty": "Easy to Moderate",
         "waypoints": [
             ("Hockenheim", 49.322, 8.548, "Start/End", False),
-            ("Baden-Baden", 48.761, 8.241, "Head south (via A5)", False),
-            ("Iffezheim", 48.822, 8.148, "Cross Rhine", False),
-            ("Haguenau", 48.815, 7.791, "French side", False),
-            ("Marlenheim", 48.622, 7.492, "Start of wine route", False),
+            ("Karlsruhe", 49.006, 8.404, "A5 south", False),
+            ("Kehl", 48.572, 7.818, "Cross Rhine", False),
+            ("Strasbourg", 48.573, 7.752, "Alsatian capital", False),
+            ("Molsheim", 48.542, 7.493, "Bugatti birthplace", False),
             ("Rosheim", 48.496, 7.471, "Romanesque church", False),
             ("Obernai", 48.462, 7.483, "Alsatian jewel \u2013 midpoint", True),
             ("Barr", 48.407, 7.449, "Wine capital", False),
             ("Andlau", 48.387, 7.417, "Romanesque abbey", False),
             ("S\u00e9lestat", 48.260, 7.453, "Humanist Library", False),
-            ("Marckolsheim", 48.167, 7.544, "Cross Rhine back", False),
-            ("Hockenheim", 49.322, 8.548, "End (via A5)", False),
+            ("Rhinau", 48.318, 7.711, "Cross Rhine back", False),
+            ("Lahr", 48.343, 7.871, "Return to Germany", False),
+            ("Baden-Baden", 48.761, 8.241, "Spa city", False),
+            ("Hockenheim", 49.322, 8.548, "End", False),
         ],
         "overview": (
             "Cross into France for a day on the famous Route des Vins "
@@ -1103,15 +1111,15 @@ TOURS = [
             "midpoint reward."
         ),
         "route_description": (
-            "Head south to Baden-Baden, cross the Rhine at Iffezheim, and ride "
-            "through Haguenau to Marlenheim, where the Alsace Wine Route begins. "
-            "Head south through a succession of wine villages\u2014each more "
+            "Head south on the A5 to Kehl, cross the Rhine into Strasbourg, and "
+            "ride through Molsheim\u2014birthplace of Bugatti\u2014to join the Alsace Wine "
+            "Route. Head south through a succession of wine villages\u2014each more "
             "picturesque than the last\u2014with their distinctive colombage "
             "(half-timbered) houses, window boxes overflowing with geraniums, and "
             "stork nests on every chimney. Rosheim and Obernai are gems. Continue "
-            "to Barr, the wine capital of the northern Route des Vins, and Andlau "
-            "with its Romanesque abbey. Ride south to S\u00e9lestat and cross back to "
-            "Germany at Marckolsheim, returning north on the A5."
+            "to Barr, the wine capital, and Andlau with its Romanesque abbey. "
+            "Ride south to S\u00e9lestat, cross back to Germany at Rhinau, and "
+            "return north via Lahr and Baden-Baden."
         ),
         "midpoint_name": "Obernai",
         "midpoint_description": (
@@ -1141,7 +1149,7 @@ TOURS = [
         "name": "Col de Saverne & Vosges Loop",
         "slug": "col_de_saverne",
         "region": "Elsass / Pfalz / Vosges",
-        "distance_km": 240,
+        "distance_km": 320,
         "difficulty": "Moderate",
         "waypoints": [
             ("Hockenheim", 49.322, 8.548, "Start/End", False),
@@ -1152,8 +1160,8 @@ TOURS = [
             ("Bitche", 49.052, 7.430, "Vauban citadel (France)", False),
             ("Saverne", 48.742, 7.362, "Rose City \u2013 midpoint", True),
             ("Col de Saverne", 48.736, 7.303, "Historic mountain pass", False),
-            ("Marmoutier", 48.689, 7.386, "Romanesque abbey", False),
-            ("Phalsbourg", 48.768, 7.262, "Fortified town", False),
+            ("Bouxwiller", 48.824, 7.484, "Alsatian village", False),
+            ("Niederbronn-les-Bains", 48.952, 7.643, "Spa town", False),
             ("Wissembourg", 49.037, 7.945, "Back to Germany", False),
             ("Schweigen-Rechtenbach", 49.049, 8.054, "Wine Gate", False),
             ("Speyer", 49.317, 8.431, "Cross Rhine", False),
@@ -1171,9 +1179,9 @@ TOURS = [
             "impressive Citadel of Bitche, a Vauban fortress atop sandstone "
             "cliffs, then ride south through the Vosges forest to Saverne, a "
             "charming town dominated by its massive red sandstone ch\u00e2teau. Cross "
-            "the Col de Saverne, then loop through Marmoutier (Romanesque abbey) "
-            "and Phalsbourg. Head north through the Vosges and Pf\u00e4lzerwald, "
-            "re-entering Germany at Wissembourg for the return via Speyer."
+            "the Col de Saverne, then head northeast through Bouxwiller and "
+            "Niederbronn-les-Bains\u2014a charming spa town in the northern Vosges. "
+            "Re-enter Germany at Wissembourg for the return via Speyer."
         ),
         "midpoint_name": "Saverne",
         "midpoint_description": (
@@ -1391,7 +1399,7 @@ TOURS = [
         "name": "Hohenloher Land",
         "slug": "hohenloher_land",
         "region": "Hohenloher Land",
-        "distance_km": 260,
+        "distance_km": 360,
         "difficulty": "Easy to Moderate",
         "waypoints": [
             ("Hockenheim", 49.322, 8.548, "Start/End", False),
@@ -1406,6 +1414,7 @@ TOURS = [
             ("Gerabronn", 49.253, 9.919, "Rolling farmland", False),
             ("Crailsheim", 49.134, 10.072, "Eastern edge", False),
             ("Schw\u00e4bisch Hall", 49.112, 9.738, "Bypass south", False),
+            ("Heilbronn", 49.142, 9.220, "Return west", False),
             ("Hockenheim", 49.322, 8.548, "End (via A6)", False),
         ],
         "overview": (
@@ -1569,11 +1578,12 @@ TOURS = [
         "name": "Kaiserstuhl \u2013 Volcanic Hills",
         "slug": "kaiserstuhl_volcanic",
         "region": "Oberrhein / Kaiserstuhl",
-        "distance_km": 240,
+        "distance_km": 400,
         "difficulty": "Easy to Moderate",
         "waypoints": [
             ("Hockenheim", 49.322, 8.548, "Start/End", False),
-            ("Lahr", 48.343, 7.871, "Enter Kaiserstuhl area (via A5)", False),
+            ("Karlsruhe", 49.006, 8.404, "A5 south", False),
+            ("Offenburg", 48.473, 7.954, "Ortenau", False),
             ("Ettenheim", 48.257, 7.813, "Baroque town", False),
             ("Endingen am Kaiserstuhl", 48.142, 7.700, "Wine town", False),
             ("Vogtsburg im Kaiserstuhl", 48.092, 7.655, "Wine village \u2013 midpoint", True),
@@ -1581,7 +1591,10 @@ TOURS = [
             ("Breisach am Rhein", 48.028, 7.583, "Rhine fortress", False),
             ("Burkheim", 48.085, 7.619, "Fortified wine village", False),
             ("Sasbach am Kaiserstuhl", 48.136, 7.613, "Northern Kaiserstuhl", False),
-            ("Hockenheim", 49.322, 8.548, "End (via A5)", False),
+            ("Emmendingen", 48.121, 7.849, "Markgr\u00e4flerland", False),
+            ("Lahr", 48.343, 7.871, "Return to A5", False),
+            ("Baden-Baden", 48.761, 8.241, "Spa city", False),
+            ("Hockenheim", 49.322, 8.548, "End", False),
         ],
         "overview": (
             "Ride to the Kaiserstuhl\u2014a volcanic hill rising from the Rhine "
@@ -1590,16 +1603,16 @@ TOURS = [
             "are exceptional."
         ),
         "route_description": (
-            "Take the A5 south past Offenburg to Lahr and Ettenheim, then head "
-            "west to the Kaiserstuhl. This volcanic massif rises unexpectedly "
+            "Take the A5 south via Karlsruhe and Offenburg to Ettenheim, then "
+            "head west to the Kaiserstuhl. This volcanic massif rises unexpectedly "
             "from the flat Rhine plain, creating a unique microclimate where "
             "orchids, lizards, and even praying mantises thrive. Explore the "
             "terraced vineyards via the Kaiserstuhl panoramic road through "
             "Endingen and Vogtsburg. Visit Ihringen, officially the warmest "
             "place in Germany. Ride down to Breisach am Rhein, a fortress town "
             "on the Rhine with views to France, then loop back through the "
-            "medieval fortified wine village of Burkheim and Sasbach before "
-            "returning north."
+            "medieval fortified wine village of Burkheim and Sasbach. Return "
+            "north via Emmendingen, Lahr, and Baden-Baden."
         ),
         "midpoint_name": "Vogtsburg im Kaiserstuhl",
         "midpoint_description": (
@@ -1823,13 +1836,12 @@ TOURS = [
         "name": "Three Black Forest Valleys",
         "slug": "three_bf_valleys",
         "region": "Schwarzwald",
-        "distance_km": 250,
+        "distance_km": 320,
         "difficulty": "Moderate",
         "waypoints": [
             ("Hockenheim", 49.322, 8.548, "Start/End", False),
             ("B\u00fchl", 48.696, 8.136, "Enter Black Forest (via A5)", False),
             ("B\u00fchlertal", 48.669, 8.168, "Valley climb", False),
-            ("Pl\u00e4ttig", 48.660, 8.229, "Mountain road", False),
             ("Sand", 48.654, 8.226, "B500 junction", False),
             ("Unterstmatt", 48.620, 8.210, "Leave B500 west", False),
             ("Sasbachwalden", 48.619, 8.120, "Flower village \u2013 midpoint", True),
@@ -1838,9 +1850,9 @@ TOURS = [
             ("Oppenau", 48.474, 8.161, "Deep Renchtal", False),
             ("Bad Peterstal-Griesbach", 48.427, 8.202, "Spa", False),
             ("Freudenstadt", 48.462, 8.411, "Marktplatz", False),
-            ("Alpirsbach", 48.346, 8.403, "Brewery", False),
-            ("Offenburg", 48.473, 7.954, "Return (via B33)", False),
-            ("Hockenheim", 49.322, 8.548, "End (via A5)", False),
+            ("Calw", 48.714, 8.741, "Hermann Hesse\u2019s birthplace", False),
+            ("Pforzheim", 48.891, 8.704, "Gold City", False),
+            ("Hockenheim", 49.322, 8.548, "End", False),
         ],
         "overview": (
             "Three distinct Black Forest valleys in one tour\u2014climb through "
@@ -1857,8 +1869,8 @@ TOURS = [
             "against a mountain backdrop. After lunch, drop to Achern and head "
             "south into the Renchtal at Oberkirch. Follow the Rench river "
             "through Oppenau and Bad Peterstal-Griesbach\u2014classic Black Forest "
-            "valley riding. Climb east to Freudenstadt and Alpirsbach, then "
-            "return through Offenburg."
+            "valley riding. Climb east to Freudenstadt, then return through "
+            "the scenic Nagoldtal via Calw and Pforzheim."
         ),
         "midpoint_name": "Sasbachwalden",
         "midpoint_description": (

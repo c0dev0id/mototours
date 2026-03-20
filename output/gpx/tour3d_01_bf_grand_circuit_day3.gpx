@@ -2,7 +2,7 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
   <metadata>
     <name>Tour3d 01, Day 3: Höllental &amp; Kinzigtal Home</name>
-    <desc>From Staufen, ride through Freiburg and up the dramatic Höllental gorge. Continue through Hinterzarten and the Elztal north to Wolfach and Gengenbach. Return from Offenburg via the A5.</desc>
+    <desc>From Staufen, ride through Freiburg and up the dramatic Höllental gorge. Continue through Hinterzarten and the Elztal north to Wolfach and Gengenbach. Return via Oberkirch and Baden-Baden.</desc>
   </metadata>
   <wpt lat="47.883000" lon="7.728000">
     <name>Staufen im Breisgau</name>
@@ -45,9 +45,14 @@
     <desc>Gengenbach</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.473000" lon="7.954000">
-    <name>Offenburg</name>
-    <desc>A5 north</desc>
+  <wpt lat="48.528000" lon="8.078000">
+    <name>Oberkirch</name>
+    <desc>Renchtal</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.761000" lon="8.241000">
+    <name>Baden-Baden</name>
+    <desc>Spa city</desc>
     <type>Via</type>
   </wpt>
   <wpt lat="49.322000" lon="8.548000">
@@ -58,7 +63,7 @@
   </wpt>
   <rte>
     <name>Höllental &amp; Kinzigtal Home</name>
-    <desc>~210 km</desc>
+    <desc>~350 km</desc>
     <rtept lat="47.883000" lon="7.728000">
       <name>Staufen im Breisgau</name>
     </rtept>
@@ -83,8 +88,11 @@
     <rtept lat="48.407000" lon="8.015000">
       <name>Gengenbach</name>
     </rtept>
-    <rtept lat="48.473000" lon="7.954000">
-      <name>Offenburg</name>
+    <rtept lat="48.528000" lon="8.078000">
+      <name>Oberkirch</name>
+    </rtept>
+    <rtept lat="48.761000" lon="8.241000">
+      <name>Baden-Baden</name>
     </rtept>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>

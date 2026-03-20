@@ -220,7 +220,7 @@ WEEKEND_TOURS = [
             {
                 "day": 2,
                 "title": "Nahe Valley & Pfalz Return",
-                "distance_km": 220,
+                "distance_km": 270,
                 "waypoints": [
                     ("Bernkastel-Kues", 49.915, 7.068, "Start day 2", False),
                     ("Neumagen-Dhron", 49.854, 6.895, "Oldest wine town", False),
@@ -280,7 +280,7 @@ WEEKEND_TOURS = [
             {
                 "day": 1,
                 "title": "Through Pf\u00e4lzerwald & Alsace to Kaysersberg",
-                "distance_km": 210,
+                "distance_km": 270,
                 "waypoints": [
                     H_START,
                     ("Speyer", 49.317, 8.431, "Cross Rhine", False),
@@ -323,8 +323,8 @@ WEEKEND_TOURS = [
             },
             {
                 "day": 2,
-                "title": "Vosges Passes & Kaiserstuhl Return",
-                "distance_km": 210,
+                "title": "Vosges Passes & Rhine Return",
+                "distance_km": 390,
                 "waypoints": [
                     ("Kaysersberg", 48.140, 7.264, "Start day 2", False),
                     ("Munster", 48.042, 7.137, "Cheese valley", False),
@@ -333,8 +333,10 @@ WEEKEND_TOURS = [
                     ("Grand Ballon (1424 m)", 47.902, 7.099, "Highest Vosges peak", False),
                     ("Guebwiller", 47.912, 7.210, "Rangen Grand Cru", False),
                     ("Rouffach", 47.956, 7.299, "Wine village", False),
-                    ("Breisach am Rhein", 48.028, 7.583, "Cross Rhine", False),
-                    ("Kaiserstuhl", 48.092, 7.655, "Volcanic wine hills", False),
+                    ("Colmar", 48.079, 7.359, "Little Venice", False),
+                    ("Rhinau", 48.318, 7.711, "Cross Rhine", False),
+                    ("Offenburg", 48.473, 7.954, "Ortenau", False),
+                    ("Baden-Baden", 48.761, 8.241, "Spa city", False),
                     H_END,
                 ],
                 "description": (
@@ -342,9 +344,9 @@ WEEKEND_TOURS = [
                     "to the Col de la Schlucht (1139 m). Join the Route des "
                     "Cr\u00eates\u2014the legendary Vosges ridge road\u2014south to the "
                     "Grand Ballon (1424 m), the highest peak in the Vosges. "
-                    "Descend through Guebwiller and Rouffach, cross the Rhine "
-                    "at Breisach, detour through the volcanic Kaiserstuhl, "
-                    "and return north on the A5."
+                    "Descend through Guebwiller and Rouffach to Colmar, cross "
+                    "the Rhine at Rhinau, and return via Offenburg and "
+                    "Baden-Baden."
                 ),
                 "midpoint_name": "Col de la Schlucht & Route des Cr\u00eates",
                 "midpoint_description": (
@@ -429,7 +431,7 @@ WEEKEND_TOURS = [
             {
                 "day": 2,
                 "title": "Schw\u00e4bische Alb Escarpment Home",
-                "distance_km": 200,
+                "distance_km": 260,
                 "waypoints": [
                     ("T\u00fcbingen", 48.522, 9.057, "Start day 2", False),
                     ("Reutlingen", 48.492, 9.214, "Gateway to the Alb", False),
@@ -490,24 +492,25 @@ WEEKEND_TOURS = [
             {
                 "day": 1,
                 "title": "Through Central Black Forest to Staufen",
-                "distance_km": 230,
+                "distance_km": 280,
                 "waypoints": [
                     H_START,
-                    ("Offenburg", 48.473, 7.954, "Kinzigtal (via A5)", False),
-                    ("Gengenbach", 48.407, 8.015, "Nice of the Black Forest", False),
-                    ("Haslach", 48.278, 8.087, "Kinzigtal", False),
-                    ("Wolfach", 48.293, 8.219, "Glassblowing", False),
+                    ("Pforzheim", 48.891, 8.704, "Gold City", False),
+                    ("Calw", 48.714, 8.741, "Hermann Hesse\u2019s town", False),
+                    ("Freudenstadt", 48.462, 8.411, "Marktplatz", False),
                     ("Schiltach", 48.290, 8.339, "Half-timbered gem", True),
+                    ("Wolfach", 48.293, 8.219, "Glassblowing", False),
                     ("Elzach", 48.173, 8.071, "Elztal", False),
                     ("Waldkirch", 48.094, 7.959, "Kandel views", False),
                     ("Freiburg outskirts", 47.999, 7.842, "BF capital bypass", False),
                     ("Staufen im Breisgau", 47.883, 7.728, "Overnight", False),
                 ],
                 "description": (
-                    "Take the A5 to Offenburg and enter the Kinzigtal. Ride "
-                    "through Gengenbach, Haslach, and Wolfach to the stunning "
-                    "half-timbered Schiltach. Cut south through the Elztal to "
-                    "Waldkirch and past Freiburg to Staufen."
+                    "Head south through Pforzheim and Calw into the Black "
+                    "Forest via the Nagoldtal to Freudenstadt. Continue to "
+                    "the stunning half-timbered Schiltach, then through "
+                    "Wolfach and the Elztal to Waldkirch. Pass Freiburg "
+                    "to reach Staufen."
                 ),
                 "midpoint_name": "Schiltach",
                 "midpoint_description": (
@@ -533,7 +536,7 @@ WEEKEND_TOURS = [
             {
                 "day": 2,
                 "title": "Belchen, Titisee & H\u00f6llental Home",
-                "distance_km": 220,
+                "distance_km": 310,
                 "waypoints": [
                     ("Staufen im Breisgau", 47.883, 7.728, "Start day 2", False),
                     ("M\u00fcnstertal", 47.856, 7.770, "Valley south", False),
@@ -545,6 +548,8 @@ WEEKEND_TOURS = [
                     ("Hinterzarten", 47.906, 8.110, "Health resort", False),
                     ("H\u00f6llental", 47.897, 8.050, "Hell Valley gorge", False),
                     ("Freiburg", 47.999, 7.842, "BF capital", False),
+                    ("Offenburg", 48.473, 7.954, "Ortenau", False),
+                    ("Baden-Baden", 48.761, 8.241, "Spa city", False),
                     H_END,
                 ],
                 "description": (
@@ -553,7 +558,8 @@ WEEKEND_TOURS = [
                     "Forest. Descend to Sch\u00f6nau and Todtnau, then past the "
                     "Feldberg to Titisee for lunch. Return through Hinterzarten "
                     "and plunge into the H\u00f6llental\u2014a dramatic gorge with sheer "
-                    "walls\u2014to Freiburg. A5 north home."
+                    "walls\u2014to Freiburg. Return north via Offenburg and "
+                    "Baden-Baden."
                 ),
                 "midpoint_name": "Belchen (1414 m)",
                 "midpoint_description": (
@@ -733,7 +739,7 @@ WEEKEND_TOURS = [
             {
                 "day": 2,
                 "title": "Tauber Valley & Hohenlohe Return",
-                "distance_km": 220,
+                "distance_km": 290,
                 "waypoints": [
                     ("W\u00fcrzburg", 49.792, 9.934, "Start day 2", False),
                     ("Ochsenfurt", 49.664, 10.063, "Main valley south", False),
@@ -794,7 +800,8 @@ WEEKEND_TOURS = [
                 "distance_km": 220,
                 "waypoints": [
                     H_START,
-                    ("Achern", 48.628, 8.075, "Enter hills (via A5)", False),
+                    ("Rastatt", 48.858, 8.204, "Via Rhine valley", False),
+                    ("Achern", 48.628, 8.075, "Enter hills", False),
                     ("Kappelrodeck", 48.592, 8.113, "Red wine village", False),
                     ("Ottenh\u00f6fen", 48.570, 8.152, "Valley end", False),
                     ("Kloster Allerheiligen", 48.538, 8.132, "Ruined monastery", True),
@@ -835,7 +842,7 @@ WEEKEND_TOURS = [
             {
                 "day": 2,
                 "title": "Gutachtal & Schwarzwaldhochstra\u00dfe Home",
-                "distance_km": 200,
+                "distance_km": 250,
                 "waypoints": [
                     ("Triberg", 48.133, 8.237, "Start day 2", False),
                     ("Hornberg", 48.212, 8.228, "Valley town", False),
@@ -890,12 +897,12 @@ WEEKEND_TOURS = [
             {
                 "day": 1,
                 "title": "Alsace Wine Route to Munster",
-                "distance_km": 200,
+                "distance_km": 270,
                 "waypoints": [
                     H_START,
-                    ("Baden-Baden", 48.761, 8.241, "Head south (via A5)", False),
-                    ("Iffezheim", 48.822, 8.148, "Cross Rhine", False),
-                    ("Haguenau", 48.815, 7.791, "French side", False),
+                    ("Karlsruhe", 49.006, 8.404, "A5 south", False),
+                    ("Kehl", 48.572, 7.818, "Cross Rhine", False),
+                    ("Strasbourg", 48.573, 7.752, "Alsatian capital", False),
                     ("Obernai", 48.462, 7.483, "Alsatian gem", True),
                     ("Barr", 48.407, 7.449, "Wine capital", False),
                     ("Andlau", 48.387, 7.417, "Romanesque abbey", False),
@@ -904,10 +911,11 @@ WEEKEND_TOURS = [
                     ("Munster", 48.042, 7.137, "Overnight", False),
                 ],
                 "description": (
-                    "Cross the Rhine south of Baden-Baden and ride through "
-                    "Haguenau to the Alsace Wine Route. Head south through "
-                    "a parade of half-timbered villages\u2014Obernai, Barr, "
-                    "Andlau, Ribeauvill\u00e9, Kaysersberg\u2014to the Munster valley."
+                    "Head south on the A5 to Kehl, cross the Rhine into "
+                    "Strasbourg, then join the Alsace Wine Route. Head south "
+                    "through a parade of half-timbered villages\u2014Obernai, "
+                    "Barr, Andlau, Ribeauvill\u00e9, Kaysersberg\u2014to the Munster "
+                    "valley."
                 ),
                 "midpoint_name": "Obernai",
                 "midpoint_description": (
@@ -931,7 +939,7 @@ WEEKEND_TOURS = [
             {
                 "day": 2,
                 "title": "Vosges Passes & Grand Ballon Return",
-                "distance_km": 220,
+                "distance_km": 320,
                 "waypoints": [
                     ("Munster", 48.042, 7.137, "Start day 2", False),
                     ("Col de la Schlucht (1139 m)", 48.063, 7.023, "Mountain pass", False),
@@ -941,7 +949,9 @@ WEEKEND_TOURS = [
                     ("Grand Ballon (1424 m)", 47.902, 7.099, "Highest Vosges peak", False),
                     ("Guebwiller", 47.912, 7.210, "Rangen vineyard", False),
                     ("Colmar", 48.079, 7.359, "Little Venice", False),
-                    ("Breisach am Rhein", 48.028, 7.583, "Cross Rhine", False),
+                    ("Rhinau", 48.318, 7.711, "Cross Rhine", False),
+                    ("Offenburg", 48.473, 7.954, "Ortenau", False),
+                    ("Baden-Baden", 48.761, 8.241, "Spa city", False),
                     H_END,
                 ],
                 "description": (
@@ -949,7 +959,8 @@ WEEKEND_TOURS = [
                     "des Cr\u00eates\u2014the dramatic ridge road with views into both "
                     "valleys. Summit the Grand Ballon (1424 m), descend to "
                     "Guebwiller, detour through Colmar\u2019s \u201cLittle Venice,\u201d "
-                    "cross the Rhine at Breisach, and ride home on the A5."
+                    "cross the Rhine at Rhinau, and return via Offenburg and "
+                    "Baden-Baden."
                 ),
                 "midpoint_name": "Route des Cr\u00eates & Grand Ballon",
                 "midpoint_description": (
@@ -1029,7 +1040,7 @@ WEEKEND_TOURS = [
             {
                 "day": 2,
                 "title": "Hunsr\u00fcck Heights & Nahe Valley Home",
-                "distance_km": 210,
+                "distance_km": 280,
                 "waypoints": [
                     ("Idar-Oberstein", 49.714, 7.308, "Start day 2", False),
                     ("Birkenfeld", 49.649, 7.163, "Hunsr\u00fcck", False),
@@ -1122,11 +1133,12 @@ THREE_DAY_TOURS = [
             {
                 "day": 2,
                 "title": "Titisee, Belchen & Staufen",
-                "distance_km": 220,
+                "distance_km": 170,
                 "waypoints": [
                     ("Triberg", 48.133, 8.237, "Start day 2", False),
                     ("Furtwangen", 48.055, 8.208, "Clock museum", False),
                     ("Titisee", 47.903, 8.157, "Iconic lake", True),
+                    ("Hinterzarten", 47.906, 8.110, "Health resort", False),
                     ("Feldberg area", 47.874, 8.005, "Highest BF peak", False),
                     ("Todtnau", 47.826, 7.946, "Waterfall town", False),
                     ("Belchen (1414 m)", 47.822, 7.831, "Finest panorama", False),
@@ -1135,8 +1147,9 @@ THREE_DAY_TOURS = [
                 ],
                 "description": (
                     "Ride to Furtwangen (clock museum), then to the Titisee. "
-                    "Continue past the Feldberg to Todtnau, climb the Belchen, "
-                    "and descend through the M\u00fcnstertal to Staufen."
+                    "Continue through Hinterzarten past the Feldberg to "
+                    "Todtnau, climb the Belchen, and descend through the "
+                    "M\u00fcnstertal to Staufen."
                 ),
                 "midpoint_name": "Titisee",
                 "midpoint_description": "Iconic Black Forest lake at 858 m. Lakeside lunch.",
@@ -1149,7 +1162,7 @@ THREE_DAY_TOURS = [
             {
                 "day": 3,
                 "title": "H\u00f6llental & Kinzigtal Home",
-                "distance_km": 210,
+                "distance_km": 350,
                 "waypoints": [
                     ("Staufen im Breisgau", 47.883, 7.728, "Start day 3", False),
                     ("Freiburg", 47.999, 7.842, "BF capital", False),
@@ -1159,14 +1172,15 @@ THREE_DAY_TOURS = [
                     ("Elzach", 48.173, 8.071, "Elztal", False),
                     ("Wolfach", 48.293, 8.219, "Kinzigtal", False),
                     ("Gengenbach", 48.407, 8.015, "Gengenbach", False),
-                    ("Offenburg", 48.473, 7.954, "A5 north", False),
+                    ("Oberkirch", 48.528, 8.078, "Renchtal", False),
+                    ("Baden-Baden", 48.761, 8.241, "Spa city", False),
                     H_END,
                 ],
                 "description": (
                     "From Staufen, ride through Freiburg and up the dramatic "
                     "H\u00f6llental gorge. Continue through Hinterzarten and the "
-                    "Elztal north to Wolfach and Gengenbach. Return from "
-                    "Offenburg via the A5."
+                    "Elztal north to Wolfach and Gengenbach. Return via "
+                    "Oberkirch and Baden-Baden."
                 ),
                 "midpoint_name": "H\u00f6llental",
                 "midpoint_description": "Dramatic gorge with sheer walls and the famous Hirschsprung narrows.",
@@ -1198,7 +1212,7 @@ THREE_DAY_TOURS = [
             {
                 "day": 1,
                 "title": "Pf\u00e4lzerwald to Northern Alsace",
-                "distance_km": 210,
+                "distance_km": 270,
                 "waypoints": [
                     H_START,
                     ("Speyer", 49.317, 8.431, "Cross Rhine", False),
@@ -1226,7 +1240,7 @@ THREE_DAY_TOURS = [
             {
                 "day": 2,
                 "title": "Wine Route & Vosges Passes",
-                "distance_km": 200,
+                "distance_km": 130,
                 "waypoints": [
                     ("Obernai", 48.462, 7.483, "Start day 2", False),
                     ("Mont Sainte-Odile", 48.437, 7.404, "Pilgrimage site", False),
@@ -1255,7 +1269,7 @@ THREE_DAY_TOURS = [
             {
                 "day": 3,
                 "title": "Route des Cr\u00eates & Colmar Return",
-                "distance_km": 210,
+                "distance_km": 340,
                 "waypoints": [
                     ("G\u00e9rardmer", 48.073, 6.879, "Start day 3", False),
                     ("La Bresse", 48.001, 6.869, "Ski resort", False),
@@ -1264,15 +1278,17 @@ THREE_DAY_TOURS = [
                     ("Guebwiller", 47.912, 7.210, "Rangen Grand Cru", False),
                     ("Eguisheim", 48.042, 7.306, "Circular wine village", False),
                     ("Colmar", 48.079, 7.359, "Little Venice", False),
-                    ("S\u00e9lestat", 48.260, 7.453, "Cross Rhine", False),
-                    ("Lahr", 48.343, 7.871, "A5 north", False),
+                    ("Rhinau", 48.318, 7.711, "Cross Rhine", False),
+                    ("Offenburg", 48.473, 7.954, "Ortenau", False),
+                    ("Baden-Baden", 48.761, 8.241, "Spa city", False),
                     H_END,
                 ],
                 "description": (
                     "Ride through La Bresse and join the Route des Cr\u00eates "
                     "south to the Grand Ballon. Descend to Guebwiller, visit "
                     "circular Eguisheim and Colmar\u2019s \u201cLittle Venice,\u201d then "
-                    "cross the Rhine and return north."
+                    "cross the Rhine at Rhinau and return via Offenburg and "
+                    "Baden-Baden."
                 ),
                 "midpoint_name": "Route des Cr\u00eates",
                 "midpoint_description": "The Vosges ridge road at 1200\u20131400 m. Alpine views on clear days.",
@@ -1319,7 +1335,7 @@ THREE_DAY_TOURS = [
             },
             {
                 "day": 2, "title": "Franconian Wine to Rothenburg",
-                "distance_km": 200,
+                "distance_km": 130,
                 "waypoints": [
                     ("W\u00fcrzburg", 49.792, 9.934, "Start day 2", False),
                     ("Ochsenfurt", 49.664, 10.063, "Medieval town", False),
@@ -1376,7 +1392,7 @@ THREE_DAY_TOURS = [
         "days": [
             {
                 "day": 1, "title": "Pf\u00e4lzerwald to the Moselle",
-                "distance_km": 220,
+                "distance_km": 280,
                 "waypoints": [
                     H_START,
                     ("Speyer", 49.317, 8.431, "Cross Rhine", False),
@@ -1395,7 +1411,7 @@ THREE_DAY_TOURS = [
             },
             {
                 "day": 2, "title": "Eifel, N\u00fcrburgring & Ahr Valley",
-                "distance_km": 200,
+                "distance_km": 130,
                 "waypoints": [
                     ("Cochem", 50.146, 7.167, "Start day 2", False),
                     ("Burg Eltz", 50.205, 7.337, "Fairy-tale castle", False),
@@ -1412,7 +1428,7 @@ THREE_DAY_TOURS = [
             },
             {
                 "day": 3, "title": "Rhine Gorge & Nahe Valley Home",
-                "distance_km": 210,
+                "distance_km": 270,
                 "waypoints": [
                     ("Bad Neuenahr-Ahrweiler", 50.543, 7.112, "Start day 3", False),
                     ("Remagen", 50.578, 7.233, "Bridge at Remagen", False),
@@ -1537,7 +1553,7 @@ SIX_DAY_TOURS = [
         "days": [
             {
                 "day": 1, "title": "Schwarzwaldhochstra\u00dfe to Baiersbronn",
-                "distance_km": 210,
+                "distance_km": 160,
                 "waypoints": [
                     H_START,
                     ("Baden-Baden", 48.761, 8.241, "Via A5", False),
@@ -1554,7 +1570,7 @@ SIX_DAY_TOURS = [
             },
             {
                 "day": 2, "title": "Central Black Forest to Schluchsee",
-                "distance_km": 210,
+                "distance_km": 140,
                 "waypoints": [
                     ("Baiersbronn", 48.504, 8.378, "Start", False),
                     ("Schiltach", 48.290, 8.339, "Half-timbered", False),
@@ -1587,24 +1603,26 @@ SIX_DAY_TOURS = [
             },
             {
                 "day": 4, "title": "Lake Constance to the Alps",
-                "distance_km": 210,
+                "distance_km": 170,
                 "waypoints": [
                     ("Meersburg", 47.694, 9.271, "Start", False),
                     ("Friedrichshafen", 47.655, 9.479, "Zeppelin town", False),
                     ("Lindau", 47.545, 9.682, "Island town", False),
                     ("Bregenz", 47.503, 9.741, "Austria (briefly)", True),
+                    ("Egg", 47.430, 9.897, "Bregenzerwald village", False),
+                    ("Bezau", 47.386, 9.902, "Valley village", False),
                     ("Hittisau", 47.460, 9.957, "Bregenzerwald", False),
                     ("Balderschwang", 47.457, 10.106, "Remote mountain village", False),
                     ("Oberstdorf", 47.408, 10.279, "Overnight", False),
                 ],
-                "description": "Along Lake Constance to Lindau and Bregenz, then through the Bregenzerwald to Oberstdorf.",
+                "description": "Along Lake Constance to Lindau and Bregenz, then through the scenic Bregenzerwald via Egg and Bezau to Oberstdorf.",
                 "midpoint_name": "Bregenz & Bregenzerwald", "midpoint_description": "Austrian lakefront, then dramatic mountain roads.",
                 "overnight": {"name": "Oberstdorf", "description": "Alpine resort at the southern tip of Germany. Nebelhornbahn for panoramic views. Das Fetzwerk restaurant."},
                 "road_character": "Lakeside, then mountain switchbacks through the Bregenzerwald. The most alpine day.",
             },
             {
                 "day": 5, "title": "Allg\u00e4u to Ulm",
-                "distance_km": 200,
+                "distance_km": 150,
                 "waypoints": [
                     ("Oberstdorf", 47.408, 10.279, "Start", False),
                     ("Sonthofen", 47.515, 10.281, "Allg\u00e4u town", False),
@@ -1621,7 +1639,7 @@ SIX_DAY_TOURS = [
             },
             {
                 "day": 6, "title": "Schw\u00e4bische Alb Return Home",
-                "distance_km": 210,
+                "distance_km": 260,
                 "waypoints": [
                     ("Ulm", 48.401, 9.987, "Start", False),
                     ("Blaubeuren", 48.412, 9.783, "Blautopf spring", True),
@@ -1698,7 +1716,7 @@ SIX_DAY_TOURS = [
             },
             {
                 "day": 3, "title": "Across to Freiburg",
-                "distance_km": 190,
+                "distance_km": 120,
                 "waypoints": [
                     ("Colmar", 48.079, 7.359, "Start", False),
                     ("Eguisheim", 48.042, 7.306, "Circular village", False),
@@ -1732,7 +1750,7 @@ SIX_DAY_TOURS = [
             },
             {
                 "day": 5, "title": "Lake Constance to Triberg",
-                "distance_km": 200,
+                "distance_km": 150,
                 "waypoints": [
                     ("Meersburg", 47.694, 9.271, "Start", False),
                     ("\u00dcberlingen", 47.769, 9.160, "Lake town", False),
@@ -1803,7 +1821,7 @@ SIX_DAY_TOURS = [
                 "road_character": "Forest curves and flowing river valley.",
             },
             {
-                "day": 2, "title": "Franconian Wine to Bamberg", "distance_km": 200,
+                "day": 2, "title": "Franconian Wine to Bamberg", "distance_km": 130,
                 "waypoints": [
                     ("W\u00fcrzburg", 49.792, 9.934, "Start", False),
                     ("Volkach", 49.866, 10.227, "Mainschleife", True),
@@ -1817,7 +1835,7 @@ SIX_DAY_TOURS = [
                 "road_character": "Gentle wine country roads along the Main.",
             },
             {
-                "day": 3, "title": "Fr\u00e4nkische Schweiz", "distance_km": 190,
+                "day": 3, "title": "Fr\u00e4nkische Schweiz", "distance_km": 130,
                 "waypoints": [
                     ("Bamberg", 49.891, 10.886, "Start", False),
                     ("Pottenstein", 49.771, 11.408, "Castle on the cliff", True),
@@ -1848,7 +1866,7 @@ SIX_DAY_TOURS = [
                 "road_character": "Altm\u00fchl valley\u2014gentle curves through limestone landscape.",
             },
             {
-                "day": 5, "title": "Romantic Road to Schw\u00e4bisch Hall", "distance_km": 210,
+                "day": 5, "title": "Romantic Road to Schw\u00e4bisch Hall", "distance_km": 150,
                 "waypoints": [
                     ("Dinkelsb\u00fchl", 49.067, 10.319, "Start", False),
                     ("Feuchtwangen", 49.167, 10.328, "Romantic Road", False),
@@ -1917,7 +1935,7 @@ SIX_DAY_TOURS = [
                 "road_character": "Bergstra\u00dfe, then Taunus forest curves. Good start.",
             },
             {
-                "day": 2, "title": "Lahn Valley to Koblenz", "distance_km": 200,
+                "day": 2, "title": "Lahn Valley to Koblenz", "distance_km": 140,
                 "waypoints": [
                     ("Weilburg", 50.486, 8.262, "Start", False),
                     ("Nassau", 50.315, 7.795, "Lahn valley", False),
@@ -1949,17 +1967,19 @@ SIX_DAY_TOURS = [
                 "road_character": "Rhine valley, then Eifel highland curves to Moselle.",
             },
             {
-                "day": 4, "title": "N\u00fcrburgring & Ahr Valley", "distance_km": 200,
+                "day": 4, "title": "N\u00fcrburgring & Ahr Valley", "distance_km": 150,
                 "waypoints": [
                     ("Cochem", 50.146, 7.167, "Start", False),
                     ("Ulmen", 50.210, 6.975, "Maar lake", False),
                     ("Daun", 50.196, 6.831, "Volcanic Eifel", True),
+                    ("Manderscheid", 50.091, 6.808, "Twin castles", False),
+                    ("Kelberg", 50.281, 6.909, "Eifel ridge", False),
                     ("N\u00fcrburgring", 50.336, 6.943, "Green Hell", False),
                     ("Adenau", 50.383, 6.931, "Eifel village", False),
                     ("Altenahr", 50.518, 6.985, "Ahr gorge", False),
                     ("Bad Neuenahr", 50.543, 7.112, "Overnight", False),
                 ],
-                "description": "Through volcanic Eifel, N\u00fcrburgring, then the Ahr valley.",
+                "description": "Through volcanic Eifel via Daun and Manderscheid, N\u00fcrburgring, then the scenic Ahr valley.",
                 "midpoint_name": "Daun & Vulkaneifel", "midpoint_description": "Volcanic maar lakes\u2014round, deep, mysterious.",
                 "overnight": {"name": "Bad Neuenahr", "description": "Ahr valley wine, rebuilt after the 2021 flood."},
                 "road_character": "Eifel highland sweepers, then tight Ahr gorge curves.",
@@ -2021,7 +2041,7 @@ SIX_DAY_TOURS = [
         ],
         "days": [
             {
-                "day": 1, "title": "Main Valley to Bamberg", "distance_km": 210,
+                "day": 1, "title": "Main Valley to Bamberg", "distance_km": 270,
                 "waypoints": [
                     H_START, ("Michelstadt", 49.676, 9.004, "Odenwald", False),
                     ("Miltenberg", 49.703, 9.265, "Main valley", False),
@@ -2050,21 +2070,23 @@ SIX_DAY_TOURS = [
                 "road_character": "Frankenwald and Th\u00fcringer Wald\u2014dense forest and winding roads.",
             },
             {
-                "day": 3, "title": "Th\u00fcringer Wald to Meiningen", "distance_km": 190,
+                "day": 3, "title": "Th\u00fcringer Wald to Meiningen", "distance_km": 140,
                 "waypoints": [
                     ("Ilmenau", 50.685, 10.919, "Start", False),
                     ("Oberhof", 50.721, 10.732, "Winter sports", True),
-                    ("Suhl", 50.610, 10.693, "Weapons museum", False),
+                    ("Tabarz", 50.875, 10.524, "Near Inselsberg", False),
+                    ("Friedrichroda", 50.859, 10.558, "Crystal cave", False),
+                    ("Brotterode", 50.817, 10.437, "Inselsberg area", False),
                     ("Schmalkalden", 50.724, 10.449, "Half-timbered", False),
                     ("Meiningen", 50.556, 10.417, "Overnight", False),
                 ],
-                "description": "Along the Rennsteig ridge through the Th\u00fcringer Wald to Meiningen.",
+                "description": "Along the Rennsteig ridge via Oberhof, loop north to the Inselsberg area through Tabarz and Friedrichroda, then south to Schmalkalden and Meiningen.",
                 "midpoint_name": "Oberhof & Rennsteig", "midpoint_description": "The Rennsteig is Germany\u2019s oldest and most famous long-distance trail.",
                 "overnight": {"name": "Meiningen", "description": "Theater town. Impressive Schloss Elisabethenburg. Henneberger Haus."},
                 "road_character": "Mountain ridge roads through dense forest. Excellent curves.",
             },
             {
-                "day": 4, "title": "Rh\u00f6n Mountains", "distance_km": 200,
+                "day": 4, "title": "Rh\u00f6n Mountains", "distance_km": 140,
                 "waypoints": [
                     ("Meiningen", 50.556, 10.417, "Start", False),
                     ("Rh\u00f6n", 50.500, 10.100, "Open highlands", False),
@@ -2079,7 +2101,7 @@ SIX_DAY_TOURS = [
                 "road_character": "Open Rh\u00f6n highlands\u2014sweeping roads with endless views.",
             },
             {
-                "day": 5, "title": "Hesse to the Lahn", "distance_km": 210,
+                "day": 5, "title": "Hesse to the Lahn", "distance_km": 170,
                 "waypoints": [
                     ("Alsfeld", 50.749, 9.271, "Start", False),
                     ("Marburg", 50.810, 8.770, "University town", True),

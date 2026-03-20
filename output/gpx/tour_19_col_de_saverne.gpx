@@ -49,14 +49,14 @@
     <desc>Historic mountain pass</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.689000" lon="7.386000">
-    <name>Marmoutier</name>
-    <desc>Romanesque abbey</desc>
+  <wpt lat="48.824000" lon="7.484000">
+    <name>Bouxwiller</name>
+    <desc>Alsatian village</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.768000" lon="7.262000">
-    <name>Phalsbourg</name>
-    <desc>Fortified town</desc>
+  <wpt lat="48.952000" lon="7.643000">
+    <name>Niederbronn-les-Bains</name>
+    <desc>Spa town</desc>
     <type>Via</type>
   </wpt>
   <wpt lat="49.037000" lon="7.945000">
@@ -82,7 +82,7 @@
   </wpt>
   <rte>
     <name>Tour 19: Col de Saverne &amp; Vosges Loop</name>
-    <desc>Elsass / Pfalz / Vosges | ~240 km | Moderate</desc>
+    <desc>Elsass / Pfalz / Vosges | ~320 km | Moderate</desc>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>
     </rtept>
@@ -107,11 +107,11 @@
     <rtept lat="48.736000" lon="7.303000">
       <name>Col de Saverne</name>
     </rtept>
-    <rtept lat="48.689000" lon="7.386000">
-      <name>Marmoutier</name>
+    <rtept lat="48.824000" lon="7.484000">
+      <name>Bouxwiller</name>
     </rtept>
-    <rtept lat="48.768000" lon="7.262000">
-      <name>Phalsbourg</name>
+    <rtept lat="48.952000" lon="7.643000">
+      <name>Niederbronn-les-Bains</name>
     </rtept>
     <rtept lat="49.037000" lon="7.945000">
       <name>Wissembourg</name>

@@ -2,7 +2,7 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
   <metadata>
     <name>Weekend 09, Day 2: Vosges Passes &amp; Grand Ballon Return</name>
-    <desc>Climb to the Col de la Schlucht, then ride the Route des Crêtes—the dramatic ridge road with views into both valleys. Summit the Grand Ballon (1424 m), descend to Guebwiller, detour through Colmar’s “Little Venice,” cross the Rhine at Breisach, and ride home on the A5.</desc>
+    <desc>Climb to the Col de la Schlucht, then ride the Route des Crêtes—the dramatic ridge road with views into both valleys. Summit the Grand Ballon (1424 m), descend to Guebwiller, detour through Colmar’s “Little Venice,” cross the Rhine at Rhinau, and return via Offenburg and Baden-Baden.</desc>
   </metadata>
   <wpt lat="48.042000" lon="7.137000">
     <name>Munster</name>
@@ -45,9 +45,19 @@
     <desc>Little Venice</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.028000" lon="7.583000">
-    <name>Breisach am Rhein</name>
+  <wpt lat="48.318000" lon="7.711000">
+    <name>Rhinau</name>
     <desc>Cross Rhine</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.473000" lon="7.954000">
+    <name>Offenburg</name>
+    <desc>Ortenau</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.761000" lon="8.241000">
+    <name>Baden-Baden</name>
+    <desc>Spa city</desc>
     <type>Via</type>
   </wpt>
   <wpt lat="49.322000" lon="8.548000">
@@ -58,7 +68,7 @@
   </wpt>
   <rte>
     <name>Vosges Passes &amp; Grand Ballon Return</name>
-    <desc>~220 km</desc>
+    <desc>~320 km</desc>
     <rtept lat="48.042000" lon="7.137000">
       <name>Munster</name>
     </rtept>
@@ -83,8 +93,14 @@
     <rtept lat="48.079000" lon="7.359000">
       <name>Colmar</name>
     </rtept>
-    <rtept lat="48.028000" lon="7.583000">
-      <name>Breisach am Rhein</name>
+    <rtept lat="48.318000" lon="7.711000">
+      <name>Rhinau</name>
+    </rtept>
+    <rtept lat="48.473000" lon="7.954000">
+      <name>Offenburg</name>
+    </rtept>
+    <rtept lat="48.761000" lon="8.241000">
+      <name>Baden-Baden</name>
     </rtept>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>

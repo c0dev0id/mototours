@@ -2,7 +2,7 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tour Planner">
   <metadata>
     <name>Tour 16: Titisee &amp; Southern Black Forest</name>
-    <desc>The longest tour in the collection reaches deep into the southern Black Forest to the iconic Titisee lake, returning through the dramatic Höllental (Hell Valley). A full-day adventure through the most dramatic Black Forest landscapes.</desc>
+    <desc>The longest tour in the collection reaches deep into the southern Black Forest to the iconic Titisee lake via scenic forest roads, returning through the dramatic Höllental (Hell Valley). A full-day adventure through the most dramatic Black Forest landscapes.</desc>
     <author>
       <name>Hockenheim Motorcycle Tours</name>
     </author>
@@ -13,14 +13,29 @@
     <sym>Flag, Blue</sym>
     <type>Start/End</type>
   </wpt>
-  <wpt lat="48.473000" lon="7.954000">
-    <name>Offenburg</name>
-    <desc>Enter Black Forest (via A5)</desc>
+  <wpt lat="48.891000" lon="8.704000">
+    <name>Pforzheim</name>
+    <desc>Gold City</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.170000" lon="8.070000">
-    <name>Elztal</name>
-    <desc>Into the forest</desc>
+  <wpt lat="48.714000" lon="8.741000">
+    <name>Calw</name>
+    <desc>Hermann Hesse’s birthplace</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.462000" lon="8.411000">
+    <name>Freudenstadt</name>
+    <desc>Marktplatz</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.290000" lon="8.339000">
+    <name>Schiltach</name>
+    <desc>Half-timbered town</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.133000" lon="8.237000">
+    <name>Triberg</name>
+    <desc>Black Forest waterfalls</desc>
     <type>Via</type>
   </wpt>
   <wpt lat="48.055000" lon="8.208000">
@@ -54,6 +69,16 @@
     <desc>Black Forest capital</desc>
     <type>Via</type>
   </wpt>
+  <wpt lat="48.473000" lon="7.954000">
+    <name>Offenburg</name>
+    <desc>Ortenau</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.761000" lon="8.241000">
+    <name>Baden-Baden</name>
+    <desc>Spa city</desc>
+    <type>Via</type>
+  </wpt>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>
     <desc>End (via A5)</desc>
@@ -62,15 +87,24 @@
   </wpt>
   <rte>
     <name>Tour 16: Titisee &amp; Southern Black Forest</name>
-    <desc>Schwarzwald | ~300 km | Moderate to Challenging</desc>
+    <desc>Schwarzwald | ~530 km | Moderate to Challenging</desc>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>
     </rtept>
-    <rtept lat="48.473000" lon="7.954000">
-      <name>Offenburg</name>
+    <rtept lat="48.891000" lon="8.704000">
+      <name>Pforzheim</name>
     </rtept>
-    <rtept lat="48.170000" lon="8.070000">
-      <name>Elztal</name>
+    <rtept lat="48.714000" lon="8.741000">
+      <name>Calw</name>
+    </rtept>
+    <rtept lat="48.462000" lon="8.411000">
+      <name>Freudenstadt</name>
+    </rtept>
+    <rtept lat="48.290000" lon="8.339000">
+      <name>Schiltach</name>
+    </rtept>
+    <rtept lat="48.133000" lon="8.237000">
+      <name>Triberg</name>
     </rtept>
     <rtept lat="48.055000" lon="8.208000">
       <name>Furtwangen</name>
@@ -89,6 +123,12 @@
     </rtept>
     <rtept lat="47.999000" lon="7.842000">
       <name>Freiburg im Breisgau</name>
+    </rtept>
+    <rtept lat="48.473000" lon="7.954000">
+      <name>Offenburg</name>
+    </rtept>
+    <rtept lat="48.761000" lon="8.241000">
+      <name>Baden-Baden</name>
     </rtept>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>

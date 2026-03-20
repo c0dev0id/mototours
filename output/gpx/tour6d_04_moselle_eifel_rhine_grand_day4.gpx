@@ -2,7 +2,7 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
   <metadata>
     <name>Tour6d 04, Day 4: Nürburgring &amp; Ahr Valley</name>
-    <desc>Through volcanic Eifel, Nürburgring, then the Ahr valley.</desc>
+    <desc>Through volcanic Eifel via Daun and Manderscheid, Nürburgring, then the scenic Ahr valley.</desc>
   </metadata>
   <wpt lat="50.146000" lon="7.167000">
     <name>Cochem</name>
@@ -19,6 +19,16 @@
     <desc>Volcanic Eifel</desc>
     <sym>Restaurant</sym>
     <type>Midpoint</type>
+  </wpt>
+  <wpt lat="50.091000" lon="6.808000">
+    <name>Manderscheid</name>
+    <desc>Twin castles</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="50.281000" lon="6.909000">
+    <name>Kelberg</name>
+    <desc>Eifel ridge</desc>
+    <type>Via</type>
   </wpt>
   <wpt lat="50.336000" lon="6.943000">
     <name>Nürburgring</name>
@@ -43,7 +53,7 @@
   </wpt>
   <rte>
     <name>Nürburgring &amp; Ahr Valley</name>
-    <desc>~200 km</desc>
+    <desc>~150 km</desc>
     <rtept lat="50.146000" lon="7.167000">
       <name>Cochem</name>
     </rtept>
@@ -52,6 +62,12 @@
     </rtept>
     <rtept lat="50.196000" lon="6.831000">
       <name>Daun</name>
+    </rtept>
+    <rtept lat="50.091000" lon="6.808000">
+      <name>Manderscheid</name>
+    </rtept>
+    <rtept lat="50.281000" lon="6.909000">
+      <name>Kelberg</name>
     </rtept>
     <rtept lat="50.336000" lon="6.943000">
       <name>Nürburgring</name>

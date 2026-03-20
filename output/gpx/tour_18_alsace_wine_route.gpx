@@ -13,24 +13,24 @@
     <sym>Flag, Blue</sym>
     <type>Start/End</type>
   </wpt>
-  <wpt lat="48.761000" lon="8.241000">
-    <name>Baden-Baden</name>
-    <desc>Head south (via A5)</desc>
+  <wpt lat="49.006000" lon="8.404000">
+    <name>Karlsruhe</name>
+    <desc>A5 south</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.822000" lon="8.148000">
-    <name>Iffezheim</name>
+  <wpt lat="48.572000" lon="7.818000">
+    <name>Kehl</name>
     <desc>Cross Rhine</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.815000" lon="7.791000">
-    <name>Haguenau</name>
-    <desc>French side</desc>
+  <wpt lat="48.573000" lon="7.752000">
+    <name>Strasbourg</name>
+    <desc>Alsatian capital</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.622000" lon="7.492000">
-    <name>Marlenheim</name>
-    <desc>Start of wine route</desc>
+  <wpt lat="48.542000" lon="7.493000">
+    <name>Molsheim</name>
+    <desc>Bugatti birthplace</desc>
     <type>Via</type>
   </wpt>
   <wpt lat="48.496000" lon="7.471000">
@@ -59,34 +59,44 @@
     <desc>Humanist Library</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.167000" lon="7.544000">
-    <name>Marckolsheim</name>
+  <wpt lat="48.318000" lon="7.711000">
+    <name>Rhinau</name>
     <desc>Cross Rhine back</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.343000" lon="7.871000">
+    <name>Lahr</name>
+    <desc>Return to Germany</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.761000" lon="8.241000">
+    <name>Baden-Baden</name>
+    <desc>Spa city</desc>
     <type>Via</type>
   </wpt>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>
-    <desc>End (via A5)</desc>
+    <desc>End</desc>
     <sym>Flag, Blue</sym>
     <type>Start/End</type>
   </wpt>
   <rte>
     <name>Tour 18: Alsace Wine Route</name>
-    <desc>Elsass / Alsace | ~260 km | Easy to Moderate</desc>
+    <desc>Elsass / Alsace | ~370 km | Easy to Moderate</desc>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>
     </rtept>
-    <rtept lat="48.761000" lon="8.241000">
-      <name>Baden-Baden</name>
+    <rtept lat="49.006000" lon="8.404000">
+      <name>Karlsruhe</name>
     </rtept>
-    <rtept lat="48.822000" lon="8.148000">
-      <name>Iffezheim</name>
+    <rtept lat="48.572000" lon="7.818000">
+      <name>Kehl</name>
     </rtept>
-    <rtept lat="48.815000" lon="7.791000">
-      <name>Haguenau</name>
+    <rtept lat="48.573000" lon="7.752000">
+      <name>Strasbourg</name>
     </rtept>
-    <rtept lat="48.622000" lon="7.492000">
-      <name>Marlenheim</name>
+    <rtept lat="48.542000" lon="7.493000">
+      <name>Molsheim</name>
     </rtept>
     <rtept lat="48.496000" lon="7.471000">
       <name>Rosheim</name>
@@ -103,8 +113,14 @@
     <rtept lat="48.260000" lon="7.453000">
       <name>Sélestat</name>
     </rtept>
-    <rtept lat="48.167000" lon="7.544000">
-      <name>Marckolsheim</name>
+    <rtept lat="48.318000" lon="7.711000">
+      <name>Rhinau</name>
+    </rtept>
+    <rtept lat="48.343000" lon="7.871000">
+      <name>Lahr</name>
+    </rtept>
+    <rtept lat="48.761000" lon="8.241000">
+      <name>Baden-Baden</name>
     </rtept>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>
