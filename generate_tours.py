@@ -126,7 +126,6 @@ TOURS = [
             ("Annweiler am Trifels", 49.204, 7.969, "Enter the forest", False),
             ("Hauenstein", 49.192, 7.855, "Forest village", False),
             ("Dahn", 49.151, 7.790, "Sandstone rock landscape \u2013 midpoint", True),
-            ("Fischbach bei Dahn", 49.104, 7.658, "Deep in the rocks", False),
             ("Pirmasens", 49.201, 7.605, "Turn north", False),
             ("Waldfischbach-Burgalben", 49.281, 7.656, "Forest road", False),
             ("Hochspeyer", 49.431, 7.894, "Northern Pf\u00e4lzerwald", False),

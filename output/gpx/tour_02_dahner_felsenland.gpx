@@ -39,11 +39,6 @@
     <sym>Restaurant</sym>
     <type>Midpoint</type>
   </wpt>
-  <wpt lat="49.104000" lon="7.658000">
-    <name>Fischbach bei Dahn</name>
-    <desc>Deep in the rocks</desc>
-    <type>Via</type>
-  </wpt>
   <wpt lat="49.201000" lon="7.605000">
     <name>Pirmasens</name>
     <desc>Turn north</desc>
@@ -95,9 +90,6 @@
     </rtept>
     <rtept lat="49.151000" lon="7.790000">
       <name>Dahn</name>
-    </rtept>
-    <rtept lat="49.104000" lon="7.658000">
-      <name>Fischbach bei Dahn</name>
     </rtept>
     <rtept lat="49.201000" lon="7.605000">
       <name>Pirmasens</name>
