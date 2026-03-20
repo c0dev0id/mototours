@@ -137,8 +137,8 @@ const SYM_ICON = {
 }
 
 function makeLeafletIcon(L, type, symbol = '') {
-  // VIA waypoints with a recognised symbol get a category-specific icon
-  if (type === 'VIA' && symbol && SYM_ICON[symbol]) {
+  // VIA and OPTIONAL waypoints with a recognised symbol get a category-specific icon
+  if ((type === 'VIA' || type === 'OPTIONAL') && symbol && SYM_ICON[symbol]) {
     const iconFn = ICONS[SYM_ICON[symbol]]
     return L.divIcon({
       html: iconFn(),
