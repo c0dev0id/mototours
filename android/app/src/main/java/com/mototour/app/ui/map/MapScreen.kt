@@ -23,7 +23,6 @@ import org.osmdroid.tileprovider.tilesource.TileSourceFactory
 import org.osmdroid.util.BoundingBox
 import org.osmdroid.util.GeoPoint
 import org.osmdroid.views.MapView
-import org.osmdroid.views.overlay.Marker
 import org.osmdroid.views.overlay.Polyline
 import java.io.File
 
@@ -143,15 +142,9 @@ fun MapScreen(
                                 mapView.overlays.add(polyline)
                             }
 
-                            // Add waypoint markers
+                            // Add waypoint markers with POI icons
                             for (wpt in waypoints) {
-                                val marker = Marker(mapView).apply {
-                                    position = GeoPoint(wpt.lat, wpt.lon)
-                                    title = wpt.name
-                                    snippet = wpt.description
-                                    setAnchor(Marker.ANCHOR_CENTER, Marker.ANCHOR_BOTTOM)
-                                }
-                                mapView.overlays.add(marker)
+                                mapView.overlays.add(WaypointMarkerUtils.createMarker(mapView, wpt))
                             }
 
                             // Zoom to fit route

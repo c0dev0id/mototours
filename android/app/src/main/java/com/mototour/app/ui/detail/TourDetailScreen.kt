@@ -28,6 +28,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.mototour.app.data.*
+import com.mototour.app.ui.map.WaypointMarkerUtils
 import com.mototour.app.ui.theme.Accent
 import com.mototour.app.ui.theme.Blue
 import kotlinx.coroutines.Dispatchers
@@ -39,7 +40,6 @@ import org.osmdroid.tileprovider.tilesource.TileSourceFactory
 import org.osmdroid.util.BoundingBox
 import org.osmdroid.util.GeoPoint
 import org.osmdroid.views.MapView
-import org.osmdroid.views.overlay.Marker
 import org.osmdroid.views.overlay.Polyline
 import java.io.File
 
@@ -341,15 +341,9 @@ private fun TourOverviewMap(dayRoutes: List<DayRouteData>) {
                             }
                             overlays.add(polyline)
 
-                            // Add markers for start/end/overnight waypoints
+                            // Add markers for start/end/overnight waypoints with POI icons
                             for (wpt in dayRoute.startEnd) {
-                                val marker = Marker(this).apply {
-                                    position = GeoPoint(wpt.lat, wpt.lon)
-                                    title = wpt.name
-                                    snippet = wpt.description
-                                    setAnchor(Marker.ANCHOR_CENTER, Marker.ANCHOR_BOTTOM)
-                                }
-                                overlays.add(marker)
+                                overlays.add(WaypointMarkerUtils.createMarker(this, wpt))
                             }
                         }
 
