@@ -66,4 +66,39 @@
       <name>Bacharach</name>
     </rtept>
   </rte>
+  <wpt lat="50.064233" lon="7.538021">
+    <name>Bubacher Burg</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="50.087554" lon="7.535958">
+    <name>Dudenrother Schanze</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="50.231094" lon="7.549731">
+    <name>6 Hubertus-Viadukt</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="50.237464" lon="7.545102">
+    <name>Mühltalblick</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="50.274807" lon="7.537099">
+    <name>Heidekreuz</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="50.310680" lon="7.542810">
+    <name>Am Layer Berg</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="50.464641" lon="7.547217">
+    <name>Schauinsland</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
 </gpx>

@@ -66,4 +66,39 @@
       <name>Meersburg</name>
     </rtept>
   </rte>
+  <wpt lat="47.585299" lon="8.283289">
+    <name>Hochwacht</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="47.641610" lon="8.251691">
+    <name>Bunkerruine</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="47.576689" lon="8.239216">
+    <name>BirdLife-Naturzentrum Klingnauer Stausee</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="47.567961" lon="8.353029">
+    <name>Dorfmuseum Mellikon</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="47.592098" lon="8.290478">
+    <name>Dracolorium</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="47.587185" lon="8.303708">
+    <name>Museum Küssaburg</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="47.604554" lon="8.296671">
+    <name>Barzmühle</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
 </gpx>

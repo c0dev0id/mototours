@@ -50,6 +50,7 @@
     <name>Freiburg outskirts</name>
     <desc>BF capital bypass</desc>
     <type>Via</type>
+    <sym>Summit</sym>
   </wpt>
   <wpt lat="47.883000" lon="7.728000">
     <name>Staufen im Breisgau</name>

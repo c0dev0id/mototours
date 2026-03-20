@@ -13,6 +13,7 @@
     <name>Neumagen-Dhron</name>
     <desc>Oldest wine town</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="49.754000" lon="7.010000">
     <name>Thalfang</name>
@@ -39,6 +40,7 @@
     <name>Bad Kreuznach</name>
     <desc>Spa town</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="49.462000" lon="8.172000">
     <name>Bad Dürkheim</name>
@@ -49,6 +51,7 @@
     <name>Neustadt a.d. Weinstraße</name>
     <desc>Wine route</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="49.317000" lon="8.431000">
     <name>Speyer</name>
@@ -98,4 +101,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="49.263093" lon="7.256917">
+    <name>Wasserbunker mit Pferdetränke</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.283291" lon="7.241181">
+    <name>Heimat- und Burgmuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.271397" lon="7.277293">
+    <name>Kanzel</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.279017" lon="7.260527">
+    <name>Peters Eiche</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.259208" lon="7.232587">
+    <name>Gänshorn</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.268740" lon="7.283415">
+    <name>Auf dem Schucht</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.275679" lon="7.244101">
+    <name>Hutschucker Kupp</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>

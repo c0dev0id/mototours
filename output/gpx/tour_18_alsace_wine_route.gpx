@@ -37,6 +37,7 @@
     <name>Rosheim</name>
     <desc>Romanesque church</desc>
     <type>Via</type>
+    <sym>Monastery</sym>
   </wpt>
   <wpt lat="48.462000" lon="7.483000">
     <name>Obernai</name>
@@ -53,6 +54,7 @@
     <name>Andlau</name>
     <desc>Romanesque abbey</desc>
     <type>Via</type>
+    <sym>Monastery</sym>
   </wpt>
   <wpt lat="48.260000" lon="7.453000">
     <name>Sélestat</name>
@@ -73,6 +75,7 @@
     <name>Baden-Baden</name>
     <desc>Spa city</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>

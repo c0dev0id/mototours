@@ -100,7 +100,8 @@ object GpxParser {
             WaypointType.START
         }
         wpt.symbol == "Restaurant" -> WaypointType.MIDPOINT
-        wpt.symbol == "Hotel" -> WaypointType.OVERNIGHT
+        wpt.symbol == "Hotel"      -> WaypointType.OVERNIGHT
+        wpt.type.lowercase() == "optional" -> WaypointType.OPTIONAL
         else -> WaypointType.VIA
     }
 

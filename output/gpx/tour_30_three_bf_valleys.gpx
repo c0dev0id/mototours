@@ -58,6 +58,7 @@
     <name>Bad Peterstal-Griesbach</name>
     <desc>Spa</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="48.462000" lon="8.411000">
     <name>Freudenstadt</name>
@@ -126,4 +127,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="48.377085" lon="8.019200">
+    <name>Schanze</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.404069" lon="8.016972">
+    <name>Kloster Gengenbach</name>
+    <type>Optional</type>
+    <sym>Monastery</sym>
+  </wpt>
+  <wpt lat="48.403609" lon="8.015602">
+    <name>Museum Haus Löwenberg</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.402992" lon="8.016002">
+    <name>Wehrgeschichtliches Museum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.406473" lon="8.028173">
+    <name>Rempeneck</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="48.394401" lon="8.070608">
+    <name>Maileseckle</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="48.406262" lon="8.072496">
+    <name>Katzenstein</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
 </gpx>

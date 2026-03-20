@@ -67,4 +67,39 @@
       <name>Würzburg</name>
     </rtept>
   </rte>
+  <wpt lat="49.281403" lon="8.781441">
+    <name>Horrenburg</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.311449" lon="8.748814">
+    <name>Hohenhardter Hof</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.338730" lon="8.757089">
+    <name>Wasserburg Gauangelloch</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.341722" lon="8.797953">
+    <name>Urgeschichtliches Museum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.339396" lon="8.799472">
+    <name>Homo heidelbergensis</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.359546" lon="8.783859">
+    <name>Heimatmuseum Bammental</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.362030" lon="8.802569">
+    <name>Alte Ziegelei Wiesenbach</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
 </gpx>

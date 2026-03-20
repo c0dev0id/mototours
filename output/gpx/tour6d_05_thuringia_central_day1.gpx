@@ -59,4 +59,39 @@
       <name>Bamberg</name>
     </rtept>
   </rte>
+  <wpt lat="49.280284" lon="9.479432">
+    <name>Sindringer Schloss</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.276107" lon="9.601471">
+    <name>Schloss Hermersberg</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.327772" lon="9.348379">
+    <name>Alte Bürg</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.319094" lon="9.423046">
+    <name>Burg Widdern</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.645825" lon="9.222277">
+    <name>Bahnhofmuseum Amorbach</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.282702" lon="9.374025">
+    <name>DLR Forum - Faszination Raumfahrt</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.291900" lon="9.514587">
+    <name>Kocherwerk</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
 </gpx>

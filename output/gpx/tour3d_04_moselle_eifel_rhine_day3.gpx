@@ -34,6 +34,7 @@
     <name>Bacharach</name>
     <desc>Rhine wine town</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="49.966000" lon="7.895000">
     <name>Bingen</name>

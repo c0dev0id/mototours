@@ -98,4 +98,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="49.401722" lon="7.285016">
+    <name>Fördermaschinenhaus</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.402432" lon="7.285113">
+    <name>Maschinenhaus</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.306491" lon="7.303484">
+    <name>Aussichtsplattform Biotop Bliesaue</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.306579" lon="7.306589">
+    <name>Aussichtsturm Biotop Bliesaue</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.268740" lon="7.283415">
+    <name>Auf dem Schucht</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.287500" lon="7.293977">
+    <name>Klosterberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.293416" lon="7.289442">
+    <name>Rödersberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>

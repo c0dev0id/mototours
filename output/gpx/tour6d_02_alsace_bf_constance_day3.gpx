@@ -18,6 +18,7 @@
     <name>Rouffach</name>
     <desc>Wine village</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="48.028000" lon="7.583000">
     <name>Breisach am Rhein</name>
@@ -66,4 +67,39 @@
       <name>Freiburg</name>
     </rtept>
   </rte>
+  <wpt lat="47.959197" lon="7.242015">
+    <name>Château Wagenbourg</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="47.824302" lon="7.514545">
+    <name>La Grange à Bécanes - Musée Rhenan de la Moto</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="47.956174" lon="7.299502">
+    <name>Musée du Baillage</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="47.865329" lon="7.352107">
+    <name>Musée de la Regence</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="47.912906" lon="7.538299">
+    <name>Espace muséographique Victor Schoelcher, son oeuvre</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.015757" lon="7.525851">
+    <name>Musée Vauban</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.015327" lon="7.526456">
+    <name>MAUSA Vauban</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
 </gpx>

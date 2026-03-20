@@ -29,6 +29,7 @@
     <name>Ottobeuren</name>
     <desc>Baroque basilica</desc>
     <type>Via</type>
+    <sym>Monastery</sym>
   </wpt>
   <wpt lat="47.987000" lon="10.181000">
     <name>Memmingen</name>
@@ -66,4 +67,39 @@
       <name>Ulm</name>
     </rtept>
   </rte>
+  <wpt lat="47.463315" lon="9.951280">
+    <name>Känzele</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="47.446504" lon="9.983156">
+    <name>Hittisberg westlicher Aussichtspunkt</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="47.464639" lon="9.986873">
+    <name>Kapelle</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="47.496325" lon="9.982419">
+    <name>Steinernes Tor</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="47.516770" lon="9.990004">
+    <name>Dreiländer-Blick</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="47.406327" lon="10.013656">
+    <name>Patennerkopf</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="47.404829" lon="10.026528">
+    <name>Stellerhöhe</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>

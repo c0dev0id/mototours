@@ -27,6 +27,7 @@
     <name>Bad Bergzabern</name>
     <desc>Spa town</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="49.037000" lon="7.945000">
     <name>Wissembourg</name>
@@ -48,6 +49,7 @@
     <name>Niederbronn-les-Bains</name>
     <desc>Thermal spa</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="48.937401" lon="7.737265">
     <name>Wörth-sur-Sauer</name>
@@ -110,4 +112,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="48.947260" lon="7.650506">
+    <name>Maison de l'Archéologie des Vosges du Nord</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.942021" lon="7.606333">
+    <name>Buckelstein</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="48.965186" lon="7.626547">
+    <name>Hauts de Lichtereck</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="48.966133" lon="7.645020">
+    <name>Belvédère du Heidenkopf</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="48.883000" lon="7.626078">
+    <name>Hederichsberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="48.892651" lon="7.617269">
+    <name>Suessenberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="48.888215" lon="7.619193">
+    <name>Palzenberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>

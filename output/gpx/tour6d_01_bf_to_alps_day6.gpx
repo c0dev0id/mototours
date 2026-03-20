@@ -24,11 +24,13 @@
     <name>Bad Urach</name>
     <desc>Waterfall</desc>
     <type>Via</type>
+    <sym>Waterfall</sym>
   </wpt>
   <wpt lat="48.408679" lon="9.260315">
     <name>Schloss Lichtenstein</name>
     <desc>Fairy-tale castle</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
   <wpt lat="48.522000" lon="9.057000">
     <name>Tübingen</name>

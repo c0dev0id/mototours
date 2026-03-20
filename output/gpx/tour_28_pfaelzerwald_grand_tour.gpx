@@ -37,11 +37,13 @@
     <name>Otterberg</name>
     <desc>Cistercian abbey</desc>
     <type>Via</type>
+    <sym>Monastery</sym>
   </wpt>
   <wpt lat="49.445000" lon="7.769000">
     <name>Kaiserslautern</name>
     <desc>Brief pass</desc>
     <type>Via</type>
+    <sym>Summit</sym>
   </wpt>
   <wpt lat="49.348000" lon="7.850000">
     <name>Johanniskreuz</name>
@@ -73,11 +75,13 @@
     <name>Annweiler am Trifels</name>
     <desc>Trifels Castle</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
   <wpt lat="49.199000" lon="8.117000">
     <name>Landau in der Pfalz</name>
     <desc>Wine route</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="49.283267" lon="8.119929">
     <name>Edenkoben</name>
@@ -150,4 +154,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="49.101693" lon="7.637054">
+    <name>WH b 750</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.119476" lon="7.632167">
+    <name>WH 328</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.119378" lon="7.634637">
+    <name>WH 329</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.118334" lon="7.637478">
+    <name>WH 332</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.108981" lon="7.585138">
+    <name>Eulenfels</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.108795" lon="7.611567">
+    <name>Krappenfels</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.111063" lon="7.612607">
+    <name>Christkindlfelsen</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
 </gpx>

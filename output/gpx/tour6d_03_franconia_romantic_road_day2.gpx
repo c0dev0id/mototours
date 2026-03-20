@@ -24,6 +24,7 @@
     <name>Iphofen</name>
     <desc>Wine town</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="49.891000" lon="10.886000">
     <name>Bamberg</name>
@@ -50,4 +51,39 @@
       <name>Bamberg</name>
     </rtept>
   </rte>
+  <wpt lat="49.650715" lon="9.946170">
+    <name>Geyerruine</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.689573" lon="10.016753">
+    <name>Bierkeller</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.652979" lon="10.024999">
+    <name>Kartäusermuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.665723" lon="10.064243">
+    <name>Trachtenmuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.666035" lon="10.063287">
+    <name>Heimatmuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.673733" lon="10.048222">
+    <name>Trias-Museum an der Ochsenfurt</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.672051" lon="9.914496">
+    <name>Ingolstädter Höhe</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>

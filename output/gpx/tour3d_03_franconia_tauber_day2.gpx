@@ -66,4 +66,39 @@
       <name>Rothenburg o.d. Tauber</name>
     </rtept>
   </rte>
+  <wpt lat="49.408919" lon="9.610986">
+    <name>Schloss Neunstetten</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.479177" lon="9.642379">
+    <name>Burgruine Boxberg</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.387398" lon="9.636062">
+    <name>Johanniter-Museum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.480282" lon="9.640444">
+    <name>Heimatmuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.351531" lon="9.619484">
+    <name>Mühlberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.327682" lon="9.621030">
+    <name>Endberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.422823" lon="9.711522">
+    <name>Mönchshöhe</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>

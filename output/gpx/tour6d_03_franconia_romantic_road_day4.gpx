@@ -66,4 +66,39 @@
       <name>Dinkelsbühl</name>
     </rtept>
   </rte>
+  <wpt lat="48.812560" lon="10.431468">
+    <name>Alte Bürg</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.842360" lon="10.395170">
+    <name>Wasserschloss Trochtelfingen</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.888770" lon="10.473656">
+    <name>Altes Schloss Wallerstein</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.870479" lon="10.427197">
+    <name>Goldbergmuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.850624" lon="10.435011">
+    <name>Geschichte der jüdischen Gemeinde in Pflaumloch</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.818624" lon="10.450219">
+    <name>Ipfblick</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="48.815472" lon="10.459030">
+    <name>Aussichtspunkt 5</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
 </gpx>

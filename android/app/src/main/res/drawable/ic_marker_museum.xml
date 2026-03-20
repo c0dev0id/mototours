@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Classical building / columns (museum) -->
+    <path
+        android:fillColor="#5d6d7e"
+        android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2z" />
+    <!-- Pediment -->
+    <path android:fillColor="#FFFFFF" android:pathData="M12,6 L5,11 H19 Z" />
+    <!-- Columns -->
+    <rect android:fillColor="#FFFFFF" android:x="6" android:y="11" android:width="2" android:height="7" />
+    <rect android:fillColor="#FFFFFF" android:x="11" android:y="11" android:width="2" android:height="7" />
+    <rect android:fillColor="#FFFFFF" android:x="16" android:y="11" android:width="2" android:height="7" />
+    <!-- Base -->
+    <rect android:fillColor="#FFFFFF" android:x="5" android:y="18" android:width="14" android:height="1.5" />
+</vector>

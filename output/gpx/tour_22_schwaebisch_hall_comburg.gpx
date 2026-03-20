@@ -22,11 +22,13 @@
     <name>Heilbronn</name>
     <desc>Bypass south</desc>
     <type>Via</type>
+    <sym>Summit</sym>
   </wpt>
   <wpt lat="49.151000" lon="9.286000">
     <name>Weinsberg</name>
     <desc>Weibertreu castle</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
   <wpt lat="49.093000" lon="9.380000">
     <name>Löwenstein</name>
@@ -48,6 +50,7 @@
     <name>Comburg</name>
     <desc>Monastery fortress</desc>
     <type>Via</type>
+    <sym>Monastery</sym>
   </wpt>
   <wpt lat="48.995000" lon="9.770000">
     <name>Gaildorf</name>
@@ -126,4 +129,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="48.868879" lon="8.682317">
+    <name>Rabeneck</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.865985" lon="8.677655">
+    <name>Eisenbahnmuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.878052" lon="8.723718">
+    <name>DDR Museum Pforzheim</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.890708" lon="8.672850">
+    <name>Stadtmuseum Pforzheim</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.890801" lon="8.673150">
+    <name>St. Martinskirche Stadtmuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.890115" lon="8.673225">
+    <name>Haus der Landsmannschaften</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.883334" lon="8.695714">
+    <name>Technisches Museum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
 </gpx>

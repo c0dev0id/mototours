@@ -24,6 +24,7 @@
     <name>Bad Mergentheim</name>
     <desc>Teutonic Order castle</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
   <wpt lat="49.623000" lon="9.663000">
     <name>Tauberbischofsheim</name>
@@ -44,6 +45,7 @@
     <name>Amorbach</name>
     <desc>Baroque abbey</desc>
     <type>Via</type>
+    <sym>Monastery</sym>
   </wpt>
   <wpt lat="49.676000" lon="9.004000">
     <name>Michelstadt</name>
@@ -98,4 +100,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="49.314766" lon="8.885615">
+    <name>Burg Neidenstein</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.301331" lon="9.007514">
+    <name>Burg Flinsbach</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.344474" lon="8.974482">
+    <name>Burg Aglasterhausen</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.378546" lon="8.988927">
+    <name>Wasserschloss Schwarzach</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.286934" lon="9.156472">
+    <name>Siebenbürgisches Museum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.316262" lon="8.865238">
+    <name>Freilichtmuseum Sellemols Agger</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.320702" lon="8.865996">
+    <name>Schreiner- und Heimatmuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
 </gpx>

@@ -22,11 +22,13 @@
     <name>Neustadt a.d. Weinstraße</name>
     <desc>Wine route</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="49.302000" lon="8.106000">
     <name>Sankt Martin</name>
     <desc>Charming wine village</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="49.326000" lon="8.075000">
     <name>Kalmit (672 m)</name>
@@ -38,11 +40,13 @@
     <name>Hohe Loog</name>
     <desc>Viewpoint</desc>
     <type>Via</type>
+    <sym>Scenic Area</sym>
   </wpt>
   <wpt lat="49.306000" lon="8.132000">
     <name>Maikammer</name>
     <desc>Wine village</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="49.283267" lon="8.119929">
     <name>Edenkoben</name>
@@ -53,11 +57,13 @@
     <name>Gleiszellen-Gleishorbach</name>
     <desc>Southern wine route</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="49.100000" lon="8.001000">
     <name>Bad Bergzabern</name>
     <desc>Spa town</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="49.199000" lon="8.117000">
     <name>Landau in der Pfalz</name>
@@ -118,4 +124,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="49.060283" lon="7.950032">
+    <name>S' Weschbrinnel</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.077690" lon="7.962407">
+    <name>Dierbach-Brücke</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.050141" lon="8.034270">
+    <name>Höckerlinienreste</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.045794" lon="8.034321">
+    <name>Höckerlinie</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.067539" lon="8.098637">
+    <name>Hohes Haus</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.044192" lon="8.017104">
+    <name>fifty's museum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.052355" lon="8.268218">
+    <name>Haus der Künstler</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
 </gpx>

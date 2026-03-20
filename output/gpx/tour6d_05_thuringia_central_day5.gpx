@@ -58,4 +58,39 @@
       <name>Limburg an der Lahn</name>
     </rtept>
   </rte>
+  <wpt lat="50.333247" lon="8.303059">
+    <name>Ohlandsburg</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="50.336995" lon="8.333959">
+    <name>Bethaus</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="50.332662" lon="8.358645">
+    <name>Eisenhütte Milsenberg</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="50.336269" lon="8.356422">
+    <name>Schneebach</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="50.329338" lon="8.371550">
+    <name>Wüstrod</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="50.330982" lon="8.377564">
+    <name>Wehrholz</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="50.391991" lon="8.188553">
+    <name>Vogteiburg Villmar</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
 </gpx>

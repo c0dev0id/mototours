@@ -34,6 +34,7 @@
     <name>Bad Liebenzell</name>
     <desc>Thermal springs</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="48.891000" lon="8.704000">
     <name>Pforzheim</name>
@@ -82,4 +83,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="48.388096" lon="8.493747">
+    <name>Burg Sterneck</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.429004" lon="8.589425">
+    <name>Burg Hohendießen</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.416580" lon="8.639942">
+    <name>Burg Altneuneck &quot;Schlössle&quot;</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.447490" lon="8.682615">
+    <name>Ruine Altheimer Tor</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.446336" lon="8.687831">
+    <name>Ringmauerturm (Rest)</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.407165" lon="8.771990">
+    <name>Sanatoriumsruinen</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.445042" lon="8.686628">
+    <name>Dominikanerinnen-Kloster</name>
+    <type>Optional</type>
+    <sym>Monastery</sym>
+  </wpt>
 </gpx>

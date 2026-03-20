@@ -42,6 +42,7 @@
     <name>Amorbach</name>
     <desc>Baroque abbey</desc>
     <type>Via</type>
+    <sym>Monastery</sym>
   </wpt>
   <wpt lat="49.676000" lon="9.004000">
     <name>Michelstadt</name>
@@ -53,6 +54,7 @@
     <name>Erbach</name>
     <desc>Ivory museum</desc>
     <type>Via</type>
+    <sym>Museum</sym>
   </wpt>
   <wpt lat="49.710000" lon="8.837000">
     <name>Reichelsheim</name>
@@ -118,4 +120,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="49.277529" lon="8.724288">
+    <name>Burg Dielheim</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.297902" lon="8.712648">
+    <name>Ehemalige Wasserburg (Altwiesloch)</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.292806" lon="8.523581">
+    <name>Turmuhrenmuseum Neulußheim</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.294814" lon="8.577693">
+    <name>Heimatmuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.265820" lon="8.706898">
+    <name>Winzermuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.272701" lon="8.720708">
+    <name>Aussichtspunkt Mühlberg</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.278093" lon="8.688054">
+    <name>Gänsberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>

@@ -39,6 +39,7 @@
     <name>Rouffach</name>
     <desc>Wine village</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="48.079302" lon="7.360023">
     <name>Colmar</name>
@@ -59,6 +60,7 @@
     <name>Baden-Baden</name>
     <desc>Spa city</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>

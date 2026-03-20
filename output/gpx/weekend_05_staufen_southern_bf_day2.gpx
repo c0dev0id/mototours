@@ -29,6 +29,7 @@
     <name>Todtnau</name>
     <desc>Waterfall town</desc>
     <type>Via</type>
+    <sym>Waterfall</sym>
   </wpt>
   <wpt lat="47.874000" lon="8.005000">
     <name>Feldberg area</name>
@@ -39,6 +40,7 @@
     <name>Titisee</name>
     <desc>Iconic lake</desc>
     <type>Via</type>
+    <sym>Lake</sym>
   </wpt>
   <wpt lat="47.905487" lon="8.109600">
     <name>Hinterzarten</name>
@@ -64,6 +66,7 @@
     <name>Baden-Baden</name>
     <desc>Spa city</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>

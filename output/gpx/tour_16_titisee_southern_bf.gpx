@@ -37,11 +37,13 @@
     <name>Triberg</name>
     <desc>Black Forest waterfalls</desc>
     <type>Via</type>
+    <sym>Waterfall</sym>
   </wpt>
   <wpt lat="48.054612" lon="8.208417">
     <name>Furtwangen</name>
     <desc>Cuckoo clock museum</desc>
     <type>Via</type>
+    <sym>Museum</sym>
   </wpt>
   <wpt lat="47.903000" lon="8.157000">
     <name>Titisee</name>
@@ -78,6 +80,7 @@
     <name>Baden-Baden</name>
     <desc>Spa city</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>
@@ -134,4 +137,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="48.138739" lon="7.814136">
+    <name>Bürgle</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.145015" lon="7.894718">
+    <name>ehemalige ZIsterziensterabei Tennenbach</name>
+    <type>Optional</type>
+    <sym>Monastery</sym>
+  </wpt>
+  <wpt lat="48.128398" lon="7.811784">
+    <name>Hilla-von-Rebay-Erinnerungsstätte</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.139000" lon="7.805815">
+    <name>Franzfelder Heimatstube</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.121566" lon="7.849515">
+    <name>Fotomuseum Hirsmüller</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.121542" lon="7.849605">
+    <name>Stadtgeschichtliche Sammlung</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.116825" lon="7.900340">
+    <name>Hochburgmuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
 </gpx>

@@ -27,6 +27,7 @@
     <name>Maulbronn</name>
     <desc>UNESCO monastery</desc>
     <type>Via</type>
+    <sym>Monastery</sym>
   </wpt>
   <wpt lat="48.948000" lon="8.839000">
     <name>Mühlacker</name>
@@ -126,4 +127,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="48.905927" lon="8.497234">
+    <name>Burg Langensteinbach</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.906090" lon="8.496469">
+    <name>Kapellruine St. Barbara</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.887538" lon="8.547864">
+    <name>Wasserschloss Weiler</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.878052" lon="8.723718">
+    <name>DDR Museum Pforzheim</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.903729" lon="8.575991">
+    <name>Heimatmuseum Alte Kelter</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.953884" lon="8.507995">
+    <name>Heimatmuseum Stupferich</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.874094" lon="8.512012">
+    <name>Panoramatafel Schwarzwaldverein</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
 </gpx>

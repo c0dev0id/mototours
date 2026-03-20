@@ -53,6 +53,7 @@
     <name>Frankenstein</name>
     <desc>Castle ruin</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
   <wpt lat="49.383721" lon="7.921809">
     <name>Weidenthal</name>
@@ -134,4 +135,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="49.269534" lon="7.804749">
+    <name>Mühlenberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.297143" lon="7.801169">
+    <name>Kirchberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.270446" lon="7.827329">
+    <name>Hortenkopf</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.260354" lon="7.840902">
+    <name>Geiskopf</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.264038" lon="7.863251">
+    <name>Eiderberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.279960" lon="7.834613">
+    <name>Hinterer Blosenberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.273997" lon="7.846030">
+    <name>Vorderer Blosenberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>

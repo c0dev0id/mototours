@@ -18,6 +18,11 @@ from reportlab.platypus import (
 )
 from reportlab.lib.styles import ParagraphStyle
 
+try:
+    from optional_pois import OPTIONAL_POIS
+except ImportError:
+    OPTIONAL_POIS = {}
+
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
@@ -28,7 +33,7 @@ OUTPUT_DIR = "output"
 GPX_DIR = os.path.join(OUTPUT_DIR, "gpx")
 PDF_FILE = os.path.join(OUTPUT_DIR, "motorcycle_multiday_tours_hockenheim.pdf")
 
-FONT_DIR = "/usr/local/share/fonts/noto"
+FONT_DIR = "/usr/share/fonts/truetype/liberation"
 
 GREEN = HexColor("#2C5530")
 DARK = HexColor("#333333")
@@ -2150,6 +2155,28 @@ def _gpx_pretty(root):
     return minidom.parseString(rough).toprettyxml(indent="  ", encoding="UTF-8")
 
 
+_POI_KEYWORDS = [
+    ("Summit",     ["pass", "col ", "col du", "col de", "historic mountain", "pass village"]),
+    ("Scenic Area",["viewpoint", "panorama", "scenic", "belvedere"]),
+    ("Castle",     ["castle", "burg", "schloss", "festung", "veste", "trifels", "ruin"]),
+    ("Waterfall",  ["waterfall", "wasserfall"]),
+    ("Lake",       [" lake", "mummelsee", "titisee", "schluchsee", "bodensee", "edersee"]),
+    ("Museum",     ["museum", "musée"]),
+    ("Monastery",  ["monastery", "abbey", "kloster", "cistercian", "romanesque", "baroque"]),
+    ("Spa",        ["spa", "thermal", "bad "]),
+    ("Winery",     ["winery", "brewery", "brauerei", "wine route", "wine village", "wine town"]),
+]
+
+
+def _poi_sym(desc: str) -> str:
+    """Return a GPX <sym> category string based on description keywords, or '' for generic."""
+    d = desc.lower()
+    for sym, keywords in _POI_KEYWORDS:
+        if any(k in d for k in keywords):
+            return sym
+    return ""
+
+
 def generate_gpx_day(tour, day, prefix, outdir):
     """Write one GPX file for a single day leg. Return the filename."""
     gpx = ET.Element("gpx")
@@ -2185,6 +2212,9 @@ def generate_gpx_day(tour, day, prefix, outdir):
             ET.SubElement(wpt, "type").text = "Overnight"
         else:
             ET.SubElement(wpt, "type").text = "Via"
+            sym = _poi_sym(desc or "")
+            if sym:
+                ET.SubElement(wpt, "sym").text = sym
 
     rte = ET.SubElement(gpx, "rte")
     ET.SubElement(rte, "name").text = day["title"]
@@ -2194,6 +2224,16 @@ def generate_gpx_day(tour, day, prefix, outdir):
         rtept.set("lat", f"{lat:.6f}")
         rtept.set("lon", f"{lon:.6f}")
         ET.SubElement(rtept, "name").text = name
+
+    # Optional POIs — <wpt> only, not in <rtept>, so routing is unaffected
+    day_key = f"{tour['slug']}_day{day['day']}"
+    for opt_name, opt_lat, opt_lon, opt_sym in OPTIONAL_POIS.get(day_key, []):
+        wpt = ET.SubElement(gpx, "wpt")
+        wpt.set("lat", f"{opt_lat:.6f}")
+        wpt.set("lon", f"{opt_lon:.6f}")
+        ET.SubElement(wpt, "name").text = opt_name
+        ET.SubElement(wpt, "type").text = "Optional"
+        ET.SubElement(wpt, "sym").text = opt_sym
 
     fname = f"{prefix}_{tour['number']:02d}_{tour['slug']}_day{day['day']}.gpx"
     path = os.path.join(outdir, fname)
@@ -2207,11 +2247,11 @@ def generate_gpx_day(tour, day, prefix, outdir):
 # ---------------------------------------------------------------------------
 def _register_fonts():
     for name, fn in {
-        "NotoSans": "NotoSans-Regular.ttf",
-        "NotoSans-Bold": "NotoSans-Bold.ttf",
-        "NotoSans-Italic": "NotoSans-Italic.ttf",
-        "NotoSans-BoldItalic": "NotoSans-BoldItalic.ttf",
-        "NotoSerif-Bold": "NotoSerif-Bold.ttf",
+        "NotoSans": "LiberationSans-Regular.ttf",
+        "NotoSans-Bold": "LiberationSans-Bold.ttf",
+        "NotoSans-Italic": "LiberationSans-Italic.ttf",
+        "NotoSans-BoldItalic": "LiberationSans-BoldItalic.ttf",
+        "NotoSerif-Bold": "LiberationSerif-Bold.ttf",
     }.items():
         p = os.path.join(FONT_DIR, fn)
         if os.path.exists(p):

@@ -34,6 +34,7 @@
     <name>Burg Eltz</name>
     <desc>Fairy-tale castle</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
   <wpt lat="50.146000" lon="7.167000">
     <name>Cochem</name>
@@ -66,4 +67,39 @@
       <name>Cochem</name>
     </rtept>
   </rte>
+  <wpt lat="49.910813" lon="7.561994">
+    <name>Ruine Wildburg</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.923320" lon="7.128546">
+    <name>Uhufels</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.923420" lon="7.124547">
+    <name>Wirtzfels</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.912788" lon="7.508810">
+    <name>Hohe Klopp</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.909699" lon="7.767355">
+    <name>Donnersberg-Blick</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.912999" lon="7.822582">
+    <name>Soonwaldblick</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.926281" lon="7.833676">
+    <name>Dombergkuppel</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
 </gpx>

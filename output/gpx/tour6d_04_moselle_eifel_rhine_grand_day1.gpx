@@ -67,4 +67,39 @@
       <name>Weilburg</name>
     </rtept>
   </rte>
+  <wpt lat="49.457389" lon="8.012128">
+    <name>Obere Isenach Wolfenhütte</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.460494" lon="8.025308">
+    <name>Forsthaus  mittlere Isenach. Matternshütte</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.426094" lon="8.046505">
+    <name>West-Fels</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.421276" lon="8.052464">
+    <name>Süd-Fels</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.414487" lon="8.016610">
+    <name>Gr. Mainzer Berg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.428504" lon="8.005625">
+    <name>Wolfsberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.423386" lon="8.010983">
+    <name>Engelskopf</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>

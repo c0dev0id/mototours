@@ -73,7 +73,7 @@ data class WaypointEntity(
 )
 
 enum class WaypointType {
-    START, END, VIA, MIDPOINT, OVERNIGHT
+    START, END, VIA, MIDPOINT, OVERNIGHT, OPTIONAL
 }
 
 /** Tour with all its days, for list/detail display. */

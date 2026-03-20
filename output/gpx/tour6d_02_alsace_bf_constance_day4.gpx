@@ -19,11 +19,13 @@
     <name>Titisee</name>
     <desc>Black Forest lake</desc>
     <type>Via</type>
+    <sym>Lake</sym>
   </wpt>
   <wpt lat="47.819000" lon="8.179000">
     <name>Schluchsee</name>
     <desc>High lake</desc>
     <type>Via</type>
+    <sym>Lake</sym>
   </wpt>
   <wpt lat="47.623199" lon="8.215840">
     <name>Waldshut</name>
@@ -34,6 +36,7 @@
     <name>Schaffhausen (Rhine Falls)</name>
     <desc>Waterfall</desc>
     <type>Via</type>
+    <sym>Waterfall</sym>
   </wpt>
   <wpt lat="47.694000" lon="9.271000">
     <name>Meersburg</name>
@@ -66,4 +69,39 @@
       <name>Meersburg</name>
     </rtept>
   </rte>
+  <wpt lat="47.585299" lon="8.283289">
+    <name>Hochwacht</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="47.564380" lon="8.059857">
+    <name>Heimatmuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="47.604210" lon="8.202188">
+    <name>Festungsmuseum Reuenthal</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="47.576689" lon="8.239216">
+    <name>BirdLife-Naturzentrum Klingnauer Stausee</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="47.567961" lon="8.353029">
+    <name>Dorfmuseum Mellikon</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="47.592098" lon="8.290478">
+    <name>Dracolorium</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="47.611697" lon="8.101168">
+    <name>Peterskanzel</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
 </gpx>

@@ -24,6 +24,7 @@
     <name>Kusel</name>
     <desc>Burg Lichtenberg</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
   <wpt lat="49.714000" lon="7.308000">
     <name>Idar-Oberstein</name>
@@ -83,4 +84,39 @@
       <name>Cochem</name>
     </rtept>
   </rte>
+  <wpt lat="49.443228" lon="7.320317">
+    <name>Kirschenlandmuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.438918" lon="7.338751">
+    <name>Wartturm</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.298370" lon="7.332302">
+    <name>Webersberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.280217" lon="7.360705">
+    <name>Auf der Weißen Trisch</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.294427" lon="7.340462">
+    <name>Ebersberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.293391" lon="7.357459">
+    <name>Am Gabion</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.291119" lon="7.385651">
+    <name>Bannsteinhübel</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>

@@ -23,6 +23,7 @@
     <name>Lauda-Königshofen</name>
     <desc>Wine town</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="49.493000" lon="9.773000">
     <name>Bad Mergentheim</name>
@@ -49,6 +50,7 @@
     <name>Neckarsulm</name>
     <desc>Motorcycle museum!</desc>
     <type>Via</type>
+    <sym>Museum</sym>
   </wpt>
   <wpt lat="49.253000" lon="8.879000">
     <name>Sinsheim</name>
@@ -98,4 +100,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="49.077024" lon="9.066207">
+    <name>Theodor-Heuss-Museum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.078801" lon="9.063928">
+    <name>Galerie im Flüchttor</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.067094" lon="8.927081">
+    <name>Aussichtspunkt Gehrn</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.071423" lon="8.987600">
+    <name>Zabergäublick</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.076428" lon="9.156149">
+    <name>Blick auf die Regiswindiskirche</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.062278" lon="8.813022">
+    <name>Hungerberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.062357" lon="8.814104">
+    <name>Auf der Mauer</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>

@@ -63,6 +63,7 @@
     <name>Neckarzimmern</name>
     <desc>Burg Hornberg</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
   <wpt lat="49.285000" lon="9.159000">
     <name>Gundelsheim</name>

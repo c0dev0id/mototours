@@ -13,6 +13,7 @@
     <name>Col de la Schlucht (1139 m)</name>
     <desc>Mountain pass</desc>
     <type>Via</type>
+    <sym>Summit</sym>
   </wpt>
   <wpt lat="48.040000" lon="7.007000">
     <name>Hohneck (1363 m)</name>
@@ -59,6 +60,7 @@
     <name>Baden-Baden</name>
     <desc>Spa city</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>

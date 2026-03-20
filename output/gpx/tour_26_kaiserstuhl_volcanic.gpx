@@ -27,11 +27,13 @@
     <name>Ettenheim</name>
     <desc>Baroque town</desc>
     <type>Via</type>
+    <sym>Monastery</sym>
   </wpt>
   <wpt lat="48.142000" lon="7.700000">
     <name>Endingen am Kaiserstuhl</name>
     <desc>Wine town</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="48.092000" lon="7.655000">
     <name>Vogtsburg im Kaiserstuhl</name>
@@ -53,6 +55,7 @@
     <name>Burkheim</name>
     <desc>Fortified wine village</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="48.136000" lon="7.613000">
     <name>Sasbach am Kaiserstuhl</name>
@@ -73,6 +76,7 @@
     <name>Baden-Baden</name>
     <desc>Spa city</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>

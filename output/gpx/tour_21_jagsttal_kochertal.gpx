@@ -32,6 +32,7 @@
     <name>Jagsthausen</name>
     <desc>Götzenburg</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
   <wpt lat="49.302000" lon="9.451000">
     <name>Berlichingen</name>
@@ -42,6 +43,7 @@
     <name>Kloster Schöntal</name>
     <desc>Baroque abbey</desc>
     <type>Via</type>
+    <sym>Monastery</sym>
   </wpt>
   <wpt lat="49.282000" lon="9.685000">
     <name>Künzelsau</name>
@@ -53,6 +55,7 @@
     <name>Ingelfingen</name>
     <desc>Wine town</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="49.290000" lon="9.560000">
     <name>Forchtenberg</name>
@@ -73,6 +76,7 @@
     <name>Neckarsulm</name>
     <desc>Deutsches Zweirad-Museum!</desc>
     <type>Via</type>
+    <sym>Museum</sym>
   </wpt>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>
@@ -126,4 +130,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="49.193568" lon="8.796641">
+    <name>Burg Wigoldesberg</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.199461" lon="8.642655">
+    <name>Heimatmuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.220238" lon="8.660810">
+    <name>Puppenmuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.134215" lon="8.659735">
+    <name>Kindlesbrunnen</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.186126" lon="8.756824">
+    <name>Eulenberg</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.227671" lon="8.671589">
+    <name>Wasserturm</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.163944" lon="8.696784">
+    <name>Mausberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>

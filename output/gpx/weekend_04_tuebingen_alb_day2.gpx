@@ -24,6 +24,7 @@
     <name>Schloss Lichtenstein</name>
     <desc>Fairy-tale castle</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
   <wpt lat="48.412000" lon="9.497000">
     <name>Münsingen</name>
@@ -39,6 +40,7 @@
     <name>Owen</name>
     <desc>Teck castle views</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
   <wpt lat="48.647000" lon="9.450000">
     <name>Kirchheim unter Teck</name>

@@ -29,6 +29,7 @@
     <name>Col de la Schlucht</name>
     <desc>Pass (1139 m)</desc>
     <type>Via</type>
+    <sym>Summit</sym>
   </wpt>
   <wpt lat="47.977000" lon="7.053000">
     <name>Route des Crêtes</name>
@@ -74,4 +75,39 @@
       <name>Colmar</name>
     </rtept>
   </rte>
+  <wpt lat="47.875522" lon="7.029547">
+    <name>Musée Serret</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="47.859007" lon="7.014501">
+    <name>Point de vue</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="47.868679" lon="7.012741">
+    <name>Belle vue Mitzach</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="47.908670" lon="6.967540">
+    <name>Point de vue des trois chênes</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="47.885147" lon="6.976813">
+    <name>Huselberg</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="47.918919" lon="6.975485">
+    <name>Uhufels</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="47.857090" lon="7.039836">
+    <name>Colline du Bûcher</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
 </gpx>
