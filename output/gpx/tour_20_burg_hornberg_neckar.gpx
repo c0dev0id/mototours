@@ -11,7 +11,7 @@
     <name>Hockenheim</name>
     <desc>Start/End</desc>
     <sym>Flag, Blue</sym>
-    <type>Start/End</type>
+    <type>Start</type>
   </wpt>
   <wpt lat="49.253000" lon="8.879000">
     <name>Sinsheim</name>
@@ -68,7 +68,7 @@
     <name>Hockenheim</name>
     <desc>End</desc>
     <sym>Flag, Blue</sym>
-    <type>Start/End</type>
+    <type>End</type>
   </wpt>
   <rte>
     <name>Tour 20: Burg Hornberg &amp; Neckar Loop</name>

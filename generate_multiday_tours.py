@@ -2166,7 +2166,8 @@ def generate_gpx_day(tour, day, prefix, outdir):
     )
     ET.SubElement(meta, "desc").text = day["description"]
 
-    for name, lat, lon, desc, is_mid in day["waypoints"]:
+    day_waypoints = day["waypoints"]
+    for i, (name, lat, lon, desc, is_mid) in enumerate(day_waypoints):
         wpt = ET.SubElement(gpx, "wpt")
         wpt.set("lat", f"{lat:.6f}")
         wpt.set("lon", f"{lon:.6f}")
@@ -2178,7 +2179,7 @@ def generate_gpx_day(tour, day, prefix, outdir):
             ET.SubElement(wpt, "type").text = "Midpoint"
         elif name == "Hockenheim":
             ET.SubElement(wpt, "sym").text = "Flag, Blue"
-            ET.SubElement(wpt, "type").text = "Start/End"
+            ET.SubElement(wpt, "type").text = "Start" if i == 0 else "End"
         elif day.get("overnight") and name == day["overnight"]["name"]:
             ET.SubElement(wpt, "sym").text = "Hotel"
             ET.SubElement(wpt, "type").text = "Overnight"

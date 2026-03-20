@@ -8,7 +8,7 @@
     <name>Hockenheim</name>
     <desc>Start</desc>
     <sym>Flag, Blue</sym>
-    <type>Start/End</type>
+    <type>Start</type>
   </wpt>
   <wpt lat="49.676000" lon="9.004000">
     <name>Michelstadt</name>

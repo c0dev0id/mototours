@@ -8,7 +8,7 @@
     <name>Hockenheim</name>
     <desc>Start</desc>
     <sym>Flag, Blue</sym>
-    <type>Start/End</type>
+    <type>Start</type>
   </wpt>
   <wpt lat="48.891000" lon="8.704000">
     <name>Pforzheim</name>

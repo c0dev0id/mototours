@@ -11,7 +11,7 @@
     <name>Hockenheim</name>
     <desc>Start/End</desc>
     <sym>Flag, Blue</sym>
-    <type>Start/End</type>
+    <type>Start</type>
   </wpt>
   <wpt lat="49.550000" lon="8.667000">
     <name>Weinheim</name>
@@ -78,7 +78,7 @@
     <name>Hockenheim</name>
     <desc>End (via A5)</desc>
     <sym>Flag, Blue</sym>
-    <type>Start/End</type>
+    <type>End</type>
   </wpt>
   <rte>
     <name>Tour 29: Bergstraße Express – North to Otzberg</name>

@@ -847,7 +847,6 @@ TOURS = [
             ("Kappelrodeck", 48.592, 8.113, "Red wine village", False),
             ("Ottenh\u00f6fen", 48.570, 8.152, "Valley end", False),
             ("Kloster Allerheiligen", 48.538, 8.132, "Ruined monastery \u2013 midpoint", True),
-            ("Zuflucht", 48.488, 8.175, "Mountain pass", False),
             ("Oppenau", 48.474, 8.161, "Renchtal", False),
             ("Bad Peterstal-Griesbach", 48.427, 8.202, "Spa village", False),
             ("Kniebis", 48.483, 8.287, "Pass", False),
@@ -1935,7 +1934,8 @@ def generate_gpx(tour, outdir):
     ET.SubElement(author, "name").text = "Hockenheim Motorcycle Tours"
 
     # Waypoints (POIs) -- start, midpoint, notable stops
-    for name, lat, lon, desc, is_mid in tour["waypoints"]:
+    waypoints = tour["waypoints"]
+    for i, (name, lat, lon, desc, is_mid) in enumerate(waypoints):
         wpt = ET.SubElement(gpx, "wpt")
         wpt.set("lat", f"{lat:.6f}")
         wpt.set("lon", f"{lon:.6f}")
@@ -1947,7 +1947,7 @@ def generate_gpx(tour, outdir):
             ET.SubElement(wpt, "type").text = "Midpoint"
         elif name == HOME_NAME:
             ET.SubElement(wpt, "sym").text = "Flag, Blue"
-            ET.SubElement(wpt, "type").text = "Start/End"
+            ET.SubElement(wpt, "type").text = "Start" if i == 0 else "End"
         else:
             ET.SubElement(wpt, "type").text = "Via"
 
