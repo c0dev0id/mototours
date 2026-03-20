@@ -1,12 +1,15 @@
 package com.mototour.app.ui.detail
 
 import android.app.Application
+import android.graphics.Color as AndroidColor
 import android.net.Uri
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.*
@@ -14,9 +17,12 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.viewinterop.AndroidView
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
@@ -24,9 +30,43 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.mototour.app.data.*
 import com.mototour.app.ui.theme.Accent
 import com.mototour.app.ui.theme.Blue
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import org.osmdroid.tileprovider.tilesource.TileSourceFactory
+import org.osmdroid.util.BoundingBox
+import org.osmdroid.util.GeoPoint
+import org.osmdroid.views.MapView
+import org.osmdroid.views.overlay.Marker
+import org.osmdroid.views.overlay.Polyline
+import java.io.File
+
+data class DayRouteData(
+    val dayNumber: Int,
+    val name: String,
+    val routePoints: List<GpxPoint>,
+    val startEnd: List<WaypointEntity>
+)
+
+private val routeColors = listOf(
+    AndroidColor.rgb(0x2C, 0x55, 0x30),  // Dark green
+    AndroidColor.rgb(0xC8, 0x61, 0x1A),  // Orange
+    AndroidColor.rgb(0x2B, 0x54, 0x7E),  // Blue
+    AndroidColor.rgb(0x8B, 0x23, 0x52),  // Burgundy
+    AndroidColor.rgb(0x6B, 0x8E, 0x23),  // Olive green
+    AndroidColor.rgb(0x80, 0x46, 0x00),  // Brown
+)
+
+private val routeComposeColors = listOf(
+    Color(0xFF2C5530),
+    Color(0xFFC8611A),
+    Color(0xFF2B547E),
+    Color(0xFF8B2352),
+    Color(0xFF6B8E23),
+    Color(0xFF804600),
+)
 
 class TourDetailViewModel(app: Application) : AndroidViewModel(app) {
     private val dao = AppDatabase.get(app).tourDao()
@@ -42,11 +82,28 @@ class TourDetailViewModel(app: Application) : AndroidViewModel(app) {
         viewModelScope.launch {
             val tour = dao.tourWithDays(tourId)
             val days = dao.daysWithWaypoints(tourId)
-            _state.value = if (tour != null) {
-                TourDetailState.Loaded(tour, days)
-            } else {
-                TourDetailState.Error
+            if (tour == null) {
+                _state.value = TourDetailState.Error
+                return@launch
             }
+
+            // Load GPX route data for overview map (multi-day tours only)
+            val dayRoutes = if (days.size > 1) {
+                withContext(Dispatchers.IO) {
+                    days.sortedBy { it.day.dayNumber }.mapNotNull { dw ->
+                        val gpxFile = File(dw.day.gpxPath)
+                        if (!gpxFile.exists()) return@mapNotNull null
+                        val gpxData = gpxFile.inputStream().use { GpxParser.parse(it) }
+                        val startEnd = dw.waypoints.filter {
+                            it.type == WaypointType.START || it.type == WaypointType.END ||
+                                    it.type == WaypointType.OVERNIGHT
+                        }
+                        DayRouteData(dw.day.dayNumber, dw.day.name, gpxData.routePoints, startEnd)
+                    }
+                }
+            } else emptyList()
+
+            _state.value = TourDetailState.Loaded(tour, days, dayRoutes)
         }
     }
 
@@ -71,7 +128,11 @@ class TourDetailViewModel(app: Application) : AndroidViewModel(app) {
 sealed interface TourDetailState {
     data object Loading : TourDetailState
     data object Error : TourDetailState
-    data class Loaded(val tour: TourWithDays, val days: List<DayWithWaypoints>) : TourDetailState
+    data class Loaded(
+        val tour: TourWithDays,
+        val days: List<DayWithWaypoints>,
+        val dayRoutes: List<DayRouteData> = emptyList()
+    ) : TourDetailState
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -118,6 +179,7 @@ fun TourDetailScreen(
         is TourDetailState.Loaded -> {
             val tour = s.tour.tour
             val days = s.days.sortedBy { it.day.dayNumber }
+            val dayRoutes = s.dayRoutes
 
             if (showDeleteDialog) {
                 AlertDialog(
@@ -190,6 +252,13 @@ fun TourDetailScreen(
                         }
                     }
 
+                    // Overview map for multi-day tours
+                    if (dayRoutes.isNotEmpty()) {
+                        item {
+                            TourOverviewMap(dayRoutes)
+                        }
+                    }
+
                     // Day cards
                     item {
                         Text(
@@ -202,6 +271,93 @@ fun TourDetailScreen(
 
                     items(days, key = { it.day.id }) { dayWithWaypoints ->
                         DayCard(dayWithWaypoints, onClick = { onDayMapClick(dayWithWaypoints.day.id) })
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun TourOverviewMap(dayRoutes: List<DayRouteData>) {
+    Card(
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+    ) {
+        Column {
+            Text(
+                "Tour Overview",
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.Bold,
+                modifier = Modifier.padding(start = 16.dp, top = 12.dp, end = 16.dp)
+            )
+
+            AndroidView(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(250.dp)
+                    .padding(horizontal = 8.dp, vertical = 8.dp),
+                factory = { ctx ->
+                    MapView(ctx).apply {
+                        setTileSource(TileSourceFactory.MAPNIK)
+                        setMultiTouchControls(true)
+                        isTilesScaledToDpi = true
+
+                        val allGeoPoints = mutableListOf<GeoPoint>()
+
+                        dayRoutes.forEachIndexed { index, dayRoute ->
+                            if (dayRoute.routePoints.isEmpty()) return@forEachIndexed
+                            val color = routeColors[index % routeColors.size]
+                            val geoPoints = dayRoute.routePoints.map { GeoPoint(it.lat, it.lon) }
+                            allGeoPoints.addAll(geoPoints)
+
+                            val polyline = Polyline().apply {
+                                outlinePaint.color = color
+                                outlinePaint.strokeWidth = 6f
+                                setPoints(geoPoints)
+                            }
+                            overlays.add(polyline)
+
+                            // Add markers for start/end/overnight waypoints
+                            for (wpt in dayRoute.startEnd) {
+                                val marker = Marker(this).apply {
+                                    position = GeoPoint(wpt.lat, wpt.lon)
+                                    title = wpt.name
+                                    snippet = wpt.description
+                                    setAnchor(Marker.ANCHOR_CENTER, Marker.ANCHOR_BOTTOM)
+                                }
+                                overlays.add(marker)
+                            }
+                        }
+
+                        if (allGeoPoints.isNotEmpty()) {
+                            val box = BoundingBox.fromGeoPoints(allGeoPoints)
+                            post {
+                                zoomToBoundingBox(box.increaseByScale(1.2f), true)
+                            }
+                        }
+                    }
+                }
+            )
+
+            // Legend
+            Column(
+                modifier = Modifier.padding(start = 16.dp, end = 16.dp, bottom = 12.dp),
+                verticalArrangement = Arrangement.spacedBy(4.dp)
+            ) {
+                dayRoutes.forEachIndexed { index, dayRoute ->
+                    val color = routeComposeColors[index % routeComposeColors.size]
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Box(
+                            Modifier
+                                .size(10.dp)
+                                .clip(CircleShape)
+                                .background(color)
+                        )
+                        Spacer(Modifier.width(8.dp))
+                        Text(
+                            dayRoute.name,
+                            style = MaterialTheme.typography.bodySmall
+                        )
                     }
                 }
             }
