@@ -28,7 +28,7 @@
     <desc>Kraichgau</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.351000" lon="8.824000">
+  <wpt lat="49.349728" lon="8.824247">
     <name>Zuzenhausen</name>
     <desc>Rolling hills</desc>
     <type>Via</type>
@@ -43,6 +43,7 @@
     <name>Sinsheim</name>
     <desc>Technik Museum</desc>
     <type>Via</type>
+    <sym>Museum</sym>
   </wpt>
   <wpt lat="49.198000" lon="8.933000">
     <name>Ittlingen</name>
@@ -58,6 +59,7 @@
     <name>Sulzfeld</name>
     <desc>Wine village with town wall</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="49.036000" lon="8.707000">
     <name>Bretten</name>
@@ -68,6 +70,7 @@
     <name>Bruchsal</name>
     <desc>Baroque palace</desc>
     <type>Via</type>
+    <sym>Monastery</sym>
   </wpt>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>
@@ -90,7 +93,7 @@
     <rtept lat="49.334000" lon="8.819000">
       <name>Meckesheim</name>
     </rtept>
-    <rtept lat="49.351000" lon="8.824000">
+    <rtept lat="49.349728" lon="8.824247">
       <name>Zuzenhausen</name>
     </rtept>
     <rtept lat="49.239000" lon="8.825000">
@@ -118,4 +121,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="49.048535" lon="8.550134">
+    <name>Burg Schmalenstein</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.085831" lon="8.556050">
+    <name>Heimatmuseum Untergrombach</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.013940" lon="8.507206">
+    <name>Riesenstuhl mit Blick auf die Oberrheineben</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="48.978358" lon="8.566020">
+    <name>Stranzenberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="48.984215" lon="8.588596">
+    <name>Einberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="48.997986" lon="8.526159">
+    <name>Hopfenberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.012426" lon="8.504458">
+    <name>Knittelberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>

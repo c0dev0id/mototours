@@ -74,4 +74,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="49.352199" lon="7.932704">
+    <name>Burg Elmstein</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.352067" lon="7.931860">
+    <name>Elmsteiner Wappenschmiede</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.355870" lon="7.928451">
+    <name>Ehrenfels</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.385952" lon="7.840180">
+    <name>Steinberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.394178" lon="7.841530">
+    <name>Kleiner Roßrück</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.394166" lon="7.853967">
+    <name>Weidensohler Berg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.377933" lon="7.866844">
+    <name>Leiterberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>

@@ -47,6 +47,7 @@ const TYPE_MAP = {
   via: 'VIA',
   midpoint: 'MIDPOINT',
   overnight: 'OVERNIGHT',
+  optional: 'OPTIONAL',
 }
 
 function normaliseType(raw) {

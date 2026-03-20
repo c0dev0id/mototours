@@ -14,10 +14,11 @@
     <desc>Valley town</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.256000" lon="8.180000">
+  <wpt lat="48.255812" lon="8.178635">
     <name>Gutach (Vogtsbauernhof)</name>
     <desc>Open-air museum</desc>
     <type>Via</type>
+    <sym>Museum</sym>
   </wpt>
   <wpt lat="48.282000" lon="8.175000">
     <name>Hausach</name>
@@ -35,7 +36,7 @@
     <desc>Flower village</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.654000" lon="8.226000">
+  <wpt lat="48.654527" lon="8.225886">
     <name>B500 Sand</name>
     <desc>Join Hochstraße</desc>
     <type>Via</type>
@@ -44,11 +45,13 @@
     <name>Mummelsee</name>
     <desc>Mountain lake</desc>
     <type>Via</type>
+    <sym>Lake</sym>
   </wpt>
   <wpt lat="48.761000" lon="8.241000">
     <name>Baden-Baden</name>
     <desc>Spa city</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>
@@ -65,7 +68,7 @@
     <rtept lat="48.212000" lon="8.228000">
       <name>Hornberg</name>
     </rtept>
-    <rtept lat="48.256000" lon="8.180000">
+    <rtept lat="48.255812" lon="8.178635">
       <name>Gutach (Vogtsbauernhof)</name>
     </rtept>
     <rtept lat="48.282000" lon="8.175000">
@@ -77,7 +80,7 @@
     <rtept lat="48.619000" lon="8.120000">
       <name>Sasbachwalden</name>
     </rtept>
-    <rtept lat="48.654000" lon="8.226000">
+    <rtept lat="48.654527" lon="8.225886">
       <name>B500 Sand</name>
     </rtept>
     <rtept lat="48.596000" lon="8.201000">
@@ -90,4 +93,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="48.227525" lon="8.069123">
+    <name>Heidburg</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.232688" lon="8.080570">
+    <name>auf dem Flachenberg</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="48.245502" lon="8.219807">
+    <name>225-315</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="48.240811" lon="8.301330">
+    <name>Fohrenbühl</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="48.230180" lon="8.346431">
+    <name>Pavillon</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="48.228710" lon="8.347864">
+    <name>Kreuzfelsen</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="48.250535" lon="7.963358">
+    <name>Brandbühl</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>

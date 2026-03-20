@@ -13,6 +13,7 @@
     <name>Ulmen</name>
     <desc>Maar lake</desc>
     <type>Via</type>
+    <sym>Lake</sym>
   </wpt>
   <wpt lat="50.196000" lon="6.831000">
     <name>Daun</name>
@@ -24,8 +25,9 @@
     <name>Manderscheid</name>
     <desc>Twin castles</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
-  <wpt lat="50.281000" lon="6.909000">
+  <wpt lat="50.281693" lon="6.908200">
     <name>Kelberg</name>
     <desc>Eifel ridge</desc>
     <type>Via</type>
@@ -40,7 +42,7 @@
     <desc>Eifel village</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="50.518000" lon="6.985000">
+  <wpt lat="50.518485" lon="6.984732">
     <name>Altenahr</name>
     <desc>Ahr gorge</desc>
     <type>Via</type>
@@ -66,7 +68,7 @@
     <rtept lat="50.091000" lon="6.808000">
       <name>Manderscheid</name>
     </rtept>
-    <rtept lat="50.281000" lon="6.909000">
+    <rtept lat="50.281693" lon="6.908200">
       <name>Kelberg</name>
     </rtept>
     <rtept lat="50.336000" lon="6.943000">
@@ -75,11 +77,46 @@
     <rtept lat="50.383000" lon="6.931000">
       <name>Adenau</name>
     </rtept>
-    <rtept lat="50.518000" lon="6.985000">
+    <rtept lat="50.518485" lon="6.984732">
       <name>Altenahr</name>
     </rtept>
     <rtept lat="50.543000" lon="7.112000">
       <name>Bad Neuenahr</name>
     </rtept>
   </rte>
+  <wpt lat="50.127483" lon="6.814917">
+    <name>Geisenburg</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="50.050669" lon="6.818957">
+    <name>Biederburg</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="50.092670" lon="6.812396">
+    <name>Heimatmuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="50.047921" lon="6.813633">
+    <name>Burgblick</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="50.081211" lon="6.780531">
+    <name>Aussichtsturm Mosenberg</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="50.106443" lon="6.757567">
+    <name>Landesblick</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="50.131966" lon="6.754048">
+    <name>Aussichtspunkt Schutz Schutzhütte Burberg</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
 </gpx>

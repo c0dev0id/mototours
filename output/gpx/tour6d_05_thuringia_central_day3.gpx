@@ -9,7 +9,7 @@
     <desc>Start</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="50.721000" lon="10.732000">
+  <wpt lat="50.723390" lon="10.733090">
     <name>Oberhof</name>
     <desc>Winter sports</desc>
     <sym>Restaurant</sym>
@@ -47,7 +47,7 @@
     <rtept lat="50.685000" lon="10.919000">
       <name>Ilmenau</name>
     </rtept>
-    <rtept lat="50.721000" lon="10.732000">
+    <rtept lat="50.723390" lon="10.733090">
       <name>Oberhof</name>
     </rtept>
     <rtept lat="50.875000" lon="10.524000">
@@ -66,4 +66,39 @@
       <name>Meiningen</name>
     </rtept>
   </rte>
+  <wpt lat="50.546821" lon="10.473174">
+    <name>Schloss Ellingshausen</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="50.498639" lon="10.390241">
+    <name>Schiller-Museum Bauerbach</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="50.502187" lon="10.378203">
+    <name>Fritzenberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="50.543154" lon="10.358678">
+    <name>Dippersberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="50.504568" lon="10.477685">
+    <name>Sanertberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="50.509838" lon="10.386723">
+    <name>Mehmelsfelder Berg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="50.517103" lon="10.381176">
+    <name>Hinterbühl</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>

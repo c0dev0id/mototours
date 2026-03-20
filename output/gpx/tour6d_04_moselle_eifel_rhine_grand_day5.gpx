@@ -19,7 +19,7 @@
     <desc>Moselle start</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.947000" lon="7.118000">
+  <wpt lat="49.947918" lon="7.118073">
     <name>Traben-Trarbach</name>
     <desc>Art Nouveau</desc>
     <sym>Restaurant</sym>
@@ -53,7 +53,7 @@
     <rtept lat="50.354000" lon="7.599000">
       <name>Koblenz</name>
     </rtept>
-    <rtept lat="49.947000" lon="7.118000">
+    <rtept lat="49.947918" lon="7.118073">
       <name>Traben-Trarbach</name>
     </rtept>
     <rtept lat="49.915000" lon="7.068000">
@@ -66,4 +66,39 @@
       <name>Idar-Oberstein</name>
     </rtept>
   </rte>
+  <wpt lat="49.679880" lon="7.124604">
+    <name>Wehlenstein</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.729294" lon="7.089633">
+    <name>Erbeskopfturm</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.730553" lon="7.088960">
+    <name>Windklang</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.777753" lon="7.094242">
+    <name>Kipp</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.875639" lon="7.017706">
+    <name>Startplatz Burgen-Veldenz</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.883851" lon="7.025194">
+    <name>Josefinenhöhe</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.851434" lon="7.029811">
+    <name>Barbelley</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
 </gpx>

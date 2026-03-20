@@ -19,13 +19,14 @@
     <name>Kronach</name>
     <desc>Festung Rosenberg</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
   <wpt lat="50.648000" lon="11.364000">
     <name>Saalfeld</name>
     <desc>Fairy grottoes</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="50.622000" lon="11.200000">
+  <wpt lat="50.620777" lon="11.200739">
     <name>Schwarzatal</name>
     <desc>Deep valley</desc>
     <type>Via</type>
@@ -51,11 +52,46 @@
     <rtept lat="50.648000" lon="11.364000">
       <name>Saalfeld</name>
     </rtept>
-    <rtept lat="50.622000" lon="11.200000">
+    <rtept lat="50.620777" lon="11.200739">
       <name>Schwarzatal</name>
     </rtept>
     <rtept lat="50.685000" lon="10.919000">
       <name>Ilmenau</name>
     </rtept>
   </rte>
+  <wpt lat="49.880507" lon="10.869215">
+    <name>Burg Altenburg</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.893761" lon="10.875932">
+    <name>Fränkisches Brauereimuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.896470" lon="10.876883">
+    <name>Kunstraum Kesselhaus</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.836563" lon="10.875753">
+    <name>Ebrachgrund-Blick</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.840496" lon="10.865894">
+    <name>Altenburg-Blick</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.891445" lon="10.871181">
+    <name>Villa Remeis</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.868656" lon="10.890684">
+    <name>Giraffe</name>
+    <type>Optional</type>
+    <sym>Attraction</sym>
+  </wpt>
 </gpx>

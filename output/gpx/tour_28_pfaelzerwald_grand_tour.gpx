@@ -28,7 +28,7 @@
     <desc>World’s largest wine barrel</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.486000" lon="7.907000">
+  <wpt lat="49.486685" lon="7.906614">
     <name>Enkenbach-Alsenborn</name>
     <desc>Northern Pfälzerwald</desc>
     <type>Via</type>
@@ -37,18 +37,20 @@
     <name>Otterberg</name>
     <desc>Cistercian abbey</desc>
     <type>Via</type>
+    <sym>Monastery</sym>
   </wpt>
   <wpt lat="49.445000" lon="7.769000">
     <name>Kaiserslautern</name>
     <desc>Brief pass</desc>
     <type>Via</type>
+    <sym>Summit</sym>
   </wpt>
   <wpt lat="49.348000" lon="7.850000">
     <name>Johanniskreuz</name>
     <desc>Forest crossroads</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.360000" lon="7.940000">
+  <wpt lat="49.359567" lon="7.939514">
     <name>Elmstein</name>
     <desc>Elmstein Valley</desc>
     <type>Via</type>
@@ -73,13 +75,15 @@
     <name>Annweiler am Trifels</name>
     <desc>Trifels Castle</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
   <wpt lat="49.199000" lon="8.117000">
     <name>Landau in der Pfalz</name>
     <desc>Wine route</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
-  <wpt lat="49.284000" lon="8.120000">
+  <wpt lat="49.283267" lon="8.119929">
     <name>Edenkoben</name>
     <desc>Weinstraße</desc>
     <type>Via</type>
@@ -110,7 +114,7 @@
     <rtept lat="49.462000" lon="8.172000">
       <name>Bad Dürkheim</name>
     </rtept>
-    <rtept lat="49.486000" lon="7.907000">
+    <rtept lat="49.486685" lon="7.906614">
       <name>Enkenbach-Alsenborn</name>
     </rtept>
     <rtept lat="49.504000" lon="7.770000">
@@ -122,7 +126,7 @@
     <rtept lat="49.348000" lon="7.850000">
       <name>Johanniskreuz</name>
     </rtept>
-    <rtept lat="49.360000" lon="7.940000">
+    <rtept lat="49.359567" lon="7.939514">
       <name>Elmstein</name>
     </rtept>
     <rtept lat="49.297000" lon="7.676000">
@@ -140,7 +144,7 @@
     <rtept lat="49.199000" lon="8.117000">
       <name>Landau in der Pfalz</name>
     </rtept>
-    <rtept lat="49.284000" lon="8.120000">
+    <rtept lat="49.283267" lon="8.119929">
       <name>Edenkoben</name>
     </rtept>
     <rtept lat="49.317000" lon="8.431000">
@@ -150,4 +154,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="49.101693" lon="7.637054">
+    <name>WH b 750</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.119476" lon="7.632167">
+    <name>WH 328</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.119378" lon="7.634637">
+    <name>WH 329</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.118334" lon="7.637478">
+    <name>WH 332</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.108981" lon="7.585138">
+    <name>Eulenfels</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.108795" lon="7.611567">
+    <name>Krappenfels</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.111063" lon="7.612607">
+    <name>Christkindlfelsen</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
 </gpx>

@@ -13,6 +13,7 @@
     <name>Burg Eltz</name>
     <desc>Fairy-tale castle</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
   <wpt lat="50.328000" lon="7.223000">
     <name>Mayen</name>
@@ -30,7 +31,7 @@
     <desc>Eifel village</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="50.518000" lon="6.985000">
+  <wpt lat="50.518485" lon="6.984732">
     <name>Altenahr</name>
     <desc>Ahr gorge</desc>
     <type>Via</type>
@@ -59,11 +60,46 @@
     <rtept lat="50.383000" lon="6.931000">
       <name>Adenau</name>
     </rtept>
-    <rtept lat="50.518000" lon="6.985000">
+    <rtept lat="50.518485" lon="6.984732">
       <name>Altenahr</name>
     </rtept>
     <rtept lat="50.543000" lon="7.112000">
       <name>Bad Neuenahr-Ahrweiler</name>
     </rtept>
   </rte>
+  <wpt lat="50.106103" lon="6.931039">
+    <name>altes Pulverhäuschen</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="50.125292" lon="7.103226">
+    <name>Dohrer Mühle</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="50.110112" lon="6.921081">
+    <name>Vulkanhaus Strohn</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="50.128621" lon="6.964629">
+    <name>Schulmuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="50.107185" lon="6.974797">
+    <name>Siebenbachtal</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="50.107360" lon="6.986839">
+    <name>Aussichtsplattform Achterhöhe</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="50.087782" lon="7.038004">
+    <name>Klidinger Wasserfall</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
 </gpx>

@@ -82,4 +82,39 @@
       <name>Oberstdorf</name>
     </rtept>
   </rte>
+  <wpt lat="47.396365" lon="9.282097">
+    <name>Ruine Rosenberg</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="47.347223" lon="9.411335">
+    <name>Ruine Clanx</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="47.385566" lon="9.278891">
+    <name>Museum Herisau</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="47.385141" lon="9.279808">
+    <name>Figurentheater-Museum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="47.410684" lon="9.323612">
+    <name>Kesselhaus Josephson</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="47.330891" lon="9.409855">
+    <name>Museum Appenzell</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="47.372914" lon="9.344609">
+    <name>Appenzeller Volkskunde-Museum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
 </gpx>

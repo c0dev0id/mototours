@@ -4,7 +4,7 @@
     <name>Weekend 03, Day 2: Vosges Passes &amp; Rhine Return</name>
     <desc>Ride into the Munster valley (famous cheese!), then climb to the Col de la Schlucht (1139 m). Join the Route des Crêtes—the legendary Vosges ridge road—south to the Grand Ballon (1424 m), the highest peak in the Vosges. Descend through Guebwiller and Rouffach to Colmar, cross the Rhine at Rhinau, and return via Offenburg and Baden-Baden.</desc>
   </metadata>
-  <wpt lat="48.140000" lon="7.264000">
+  <wpt lat="48.140544" lon="7.263610">
     <name>Kaysersberg</name>
     <desc>Start day 2</desc>
     <type>Via</type>
@@ -14,7 +14,7 @@
     <desc>Cheese valley</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.063000" lon="7.023000">
+  <wpt lat="48.063389" lon="7.023751">
     <name>Col de la Schlucht</name>
     <desc>Mountain pass (1139 m)</desc>
     <sym>Restaurant</sym>
@@ -25,7 +25,7 @@
     <desc>Ridge road</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="47.902000" lon="7.099000">
+  <wpt lat="47.901574" lon="7.100000">
     <name>Grand Ballon (1424 m)</name>
     <desc>Highest Vosges peak</desc>
     <type>Via</type>
@@ -39,8 +39,9 @@
     <name>Rouffach</name>
     <desc>Wine village</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
-  <wpt lat="48.079000" lon="7.359000">
+  <wpt lat="48.079302" lon="7.360023">
     <name>Colmar</name>
     <desc>Little Venice</desc>
     <type>Via</type>
@@ -59,6 +60,7 @@
     <name>Baden-Baden</name>
     <desc>Spa city</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>
@@ -69,19 +71,19 @@
   <rte>
     <name>Vosges Passes &amp; Rhine Return</name>
     <desc>~390 km</desc>
-    <rtept lat="48.140000" lon="7.264000">
+    <rtept lat="48.140544" lon="7.263610">
       <name>Kaysersberg</name>
     </rtept>
     <rtept lat="48.042000" lon="7.137000">
       <name>Munster</name>
     </rtept>
-    <rtept lat="48.063000" lon="7.023000">
+    <rtept lat="48.063389" lon="7.023751">
       <name>Col de la Schlucht</name>
     </rtept>
     <rtept lat="47.977000" lon="7.053000">
       <name>Route des Crêtes</name>
     </rtept>
-    <rtept lat="47.902000" lon="7.099000">
+    <rtept lat="47.901574" lon="7.100000">
       <name>Grand Ballon (1424 m)</name>
     </rtept>
     <rtept lat="47.912000" lon="7.210000">
@@ -90,7 +92,7 @@
     <rtept lat="47.956000" lon="7.299000">
       <name>Rouffach</name>
     </rtept>
-    <rtept lat="48.079000" lon="7.359000">
+    <rtept lat="48.079302" lon="7.360023">
       <name>Colmar</name>
     </rtept>
     <rtept lat="48.318000" lon="7.711000">

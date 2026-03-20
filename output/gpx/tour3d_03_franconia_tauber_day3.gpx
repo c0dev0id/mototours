@@ -34,8 +34,9 @@
     <name>Neckarsulm</name>
     <desc>Motorcycle museum</desc>
     <type>Via</type>
+    <sym>Museum</sym>
   </wpt>
-  <wpt lat="49.231000" lon="9.165000">
+  <wpt lat="49.231593" lon="9.165404">
     <name>Bad Wimpfen</name>
     <desc>Kaiserpfalz</desc>
     <type>Via</type>
@@ -72,7 +73,7 @@
     <rtept lat="49.192000" lon="9.225000">
       <name>Neckarsulm</name>
     </rtept>
-    <rtept lat="49.231000" lon="9.165000">
+    <rtept lat="49.231593" lon="9.165404">
       <name>Bad Wimpfen</name>
     </rtept>
     <rtept lat="49.253000" lon="8.879000">
@@ -82,4 +83,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="49.077024" lon="9.066207">
+    <name>Theodor-Heuss-Museum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.078801" lon="9.063928">
+    <name>Galerie im Flüchttor</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.071423" lon="8.987600">
+    <name>Zabergäublick</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.076428" lon="9.156149">
+    <name>Blick auf die Regiswindiskirche</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.061056" lon="9.180050">
+    <name>Krappenfelsen</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.085608" lon="9.208518">
+    <name>Steinbiegel Aussichtspunkt</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.052592" lon="8.962849">
+    <name>Seeberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>

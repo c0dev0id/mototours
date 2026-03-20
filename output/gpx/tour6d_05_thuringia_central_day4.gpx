@@ -9,7 +9,7 @@
     <desc>Start</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="50.500000" lon="10.100000">
+  <wpt lat="50.498602" lon="10.100089">
     <name>Rhön</name>
     <desc>Open highlands</desc>
     <type>Via</type>
@@ -29,6 +29,7 @@
     <name>Fulda</name>
     <desc>Baroque town</desc>
     <type>Via</type>
+    <sym>Monastery</sym>
   </wpt>
   <wpt lat="50.749000" lon="9.271000">
     <name>Alsfeld</name>
@@ -42,7 +43,7 @@
     <rtept lat="50.556000" lon="10.417000">
       <name>Meiningen</name>
     </rtept>
-    <rtept lat="50.500000" lon="10.100000">
+    <rtept lat="50.498602" lon="10.100089">
       <name>Rhön</name>
     </rtept>
     <rtept lat="50.498000" lon="9.937000">
@@ -58,4 +59,39 @@
       <name>Alsfeld</name>
     </rtept>
   </rte>
+  <wpt lat="50.423205" lon="9.405359">
+    <name>Schloss Freiensteinau</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="50.463061" lon="9.395216">
+    <name>Bonifatiuskanzel</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="50.447913" lon="9.349067">
+    <name>Hundsloh</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="50.414267" lon="9.393203">
+    <name>Winterberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="50.412851" lon="9.433450">
+    <name>Röllberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="50.429012" lon="9.387099">
+    <name>Röderküppel</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="50.448827" lon="9.391205">
+    <name>Naxberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>

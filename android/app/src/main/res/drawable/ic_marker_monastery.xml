@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Cross (monastery / abbey) -->
+    <path
+        android:fillColor="#6c3483"
+        android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2z" />
+    <!-- Vertical bar -->
+    <rect android:fillColor="#FFFFFF" android:x="10.5" android:y="5" android:width="3" android:height="14" android:rx="1" />
+    <!-- Horizontal bar -->
+    <rect android:fillColor="#FFFFFF" android:x="7" android:y="9" android:width="10" android:height="3" android:rx="1" />
+</vector>

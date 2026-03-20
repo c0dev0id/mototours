@@ -43,18 +43,21 @@
     <name>Bad Teinach</name>
     <desc>Spa in the valley</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="48.698000" lon="8.668000">
     <name>Zavelstein</name>
     <desc>Castle ruin</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
   <wpt lat="48.775000" lon="8.732000">
     <name>Bad Liebenzell</name>
     <desc>Thermal springs</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
-  <wpt lat="48.665000" lon="8.469000">
+  <wpt lat="48.664590" lon="8.468210">
     <name>Enzklösterle</name>
     <desc>Remote forest village</desc>
     <type>Via</type>
@@ -63,6 +66,7 @@
     <name>Bad Wildbad</name>
     <desc>Thermal spa</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="48.891000" lon="8.704000">
     <name>Pforzheim</name>
@@ -105,7 +109,7 @@
     <rtept lat="48.775000" lon="8.732000">
       <name>Bad Liebenzell</name>
     </rtept>
-    <rtept lat="48.665000" lon="8.469000">
+    <rtept lat="48.664590" lon="8.468210">
       <name>Enzklösterle</name>
     </rtept>
     <rtept lat="48.756000" lon="8.550000">
@@ -118,4 +122,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="48.609557" lon="8.519546">
+    <name>Burg Schildeck</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.620947" lon="8.745655">
+    <name>Nikolauskapelle</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.653231" lon="8.729855">
+    <name>Gaisburg</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.661910" lon="8.695681">
+    <name>Schwarzwälder Mineralienausstellung &quot;Kristallwelten&quot;</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.655340" lon="8.704958">
+    <name>Silberbergwerk Hella-Glück-Stollen</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.650801" lon="8.820268">
+    <name>Bürgerhaus Zehntscheuer Dorfmuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.706492" lon="8.433539">
+    <name>Infozentrum Kaltenbronn</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
 </gpx>

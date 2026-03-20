@@ -15,7 +15,7 @@
     <desc>Head east</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.231000" lon="9.165000">
+  <wpt lat="49.231593" lon="9.165404">
     <name>Bad Wimpfen</name>
     <desc>Kaiserpfalz</desc>
     <type>Via</type>
@@ -24,8 +24,9 @@
     <name>Jagsthausen</name>
     <desc>Götzenburg</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
-  <wpt lat="49.328000" lon="9.500000">
+  <wpt lat="49.328184" lon="9.499211">
     <name>Kloster Schöntal</name>
     <desc>Baroque abbey</desc>
     <sym>Restaurant</sym>
@@ -40,6 +41,7 @@
     <name>Langenburg</name>
     <desc>Castle &amp; car museum</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
   <wpt lat="49.201000" lon="9.982000">
     <name>Kirchberg a.d. Jagst</name>
@@ -60,13 +62,13 @@
     <rtept lat="49.253000" lon="8.879000">
       <name>Sinsheim</name>
     </rtept>
-    <rtept lat="49.231000" lon="9.165000">
+    <rtept lat="49.231593" lon="9.165404">
       <name>Bad Wimpfen</name>
     </rtept>
     <rtept lat="49.309000" lon="9.469000">
       <name>Jagsthausen</name>
     </rtept>
-    <rtept lat="49.328000" lon="9.500000">
+    <rtept lat="49.328184" lon="9.499211">
       <name>Kloster Schöntal</name>
     </rtept>
     <rtept lat="49.282000" lon="9.685000">
@@ -82,4 +84,39 @@
       <name>Rothenburg o.d. Tauber</name>
     </rtept>
   </rte>
+  <wpt lat="49.189658" lon="8.930793">
+    <name>Schloss Ittlingen</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.210938" lon="8.874581">
+    <name>Schlösschen</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.171101" lon="8.939823">
+    <name>Bauernmuseum Richen</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.253028" lon="8.876995">
+    <name>Stadtmuseum Sinsheim im Städtischen Kulturquartier</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.141073" lon="9.058430">
+    <name>Karl-Wagenplast-Heimatmuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.207486" lon="8.886322">
+    <name>Landschaftsfotorahmen</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.168894" lon="8.986221">
+    <name>Neuberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>

@@ -44,10 +44,11 @@
     <sym>Restaurant</sym>
     <type>Midpoint</type>
   </wpt>
-  <wpt lat="48.736000" lon="7.303000">
+  <wpt lat="48.735383" lon="7.303055">
     <name>Col de Saverne</name>
     <desc>Historic mountain pass</desc>
     <type>Via</type>
+    <sym>Summit</sym>
   </wpt>
   <wpt lat="48.824000" lon="7.484000">
     <name>Bouxwiller</name>
@@ -58,6 +59,7 @@
     <name>Niederbronn-les-Bains</name>
     <desc>Spa town</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="49.037000" lon="7.945000">
     <name>Wissembourg</name>
@@ -104,7 +106,7 @@
     <rtept lat="48.742000" lon="7.362000">
       <name>Saverne</name>
     </rtept>
-    <rtept lat="48.736000" lon="7.303000">
+    <rtept lat="48.735383" lon="7.303055">
       <name>Col de Saverne</name>
     </rtept>
     <rtept lat="48.824000" lon="7.484000">
@@ -126,4 +128,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="48.824953" lon="7.483510">
+    <name>Musée du Pays de Hanau</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.811767" lon="7.451184">
+    <name>Bastberg</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="48.677891" lon="7.431740">
+    <name>Schleifsteinberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="48.714833" lon="7.483618">
+    <name>Sternenberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="48.683085" lon="7.542318">
+    <name>Nonnenberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="48.734391" lon="7.454197">
+    <name>Kohlenberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="48.754016" lon="7.482572">
+    <name>Duerrenberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>

@@ -29,6 +29,7 @@
     <name>Langenburg</name>
     <desc>Castle</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
   <wpt lat="49.112000" lon="9.738000">
     <name>Schwäbisch Hall</name>
@@ -58,4 +59,39 @@
       <name>Schwäbisch Hall</name>
     </rtept>
   </rte>
+  <wpt lat="49.051138" lon="9.725556">
+    <name>Burg Vohenstein</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.051474" lon="9.755574">
+    <name>Burg Buchhorn</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.017430" lon="9.943378">
+    <name>Burg Holenstein</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.029080" lon="10.041553">
+    <name>Herlingssägmühle</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.025042" lon="10.050833">
+    <name>Schlipfenhof</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.124382" lon="9.692336">
+    <name>Burg Rinnen</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.020407" lon="10.033140">
+    <name>Museum Altes Rathaus Rosenberg</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
 </gpx>

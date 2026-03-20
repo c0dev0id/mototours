@@ -32,6 +32,7 @@
     <name>Bad Bergzabern</name>
     <desc>Spa town</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="49.082000" lon="8.006000">
     <name>Dörrenbach</name>
@@ -49,7 +50,7 @@
     <desc>Brief French detour</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.052000" lon="8.096000">
+  <wpt lat="49.052343" lon="8.097300">
     <name>Schweighofen</name>
     <desc>Border villages</desc>
     <type>Via</type>
@@ -59,15 +60,17 @@
     <desc>Quiet border region</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.135000" lon="8.015000">
+  <wpt lat="49.135104" lon="8.013845">
     <name>Klingenmünster</name>
     <desc>Wine village</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="49.269000" lon="8.110000">
     <name>Rhodt unter Rietburg</name>
     <desc>Northern wine route</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="49.355000" lon="8.142000">
     <name>Neustadt a.d. Weinstraße</name>
@@ -112,13 +115,13 @@
     <rtept lat="49.037000" lon="7.945000">
       <name>Wissembourg</name>
     </rtept>
-    <rtept lat="49.052000" lon="8.096000">
+    <rtept lat="49.052343" lon="8.097300">
       <name>Schweighofen</name>
     </rtept>
     <rtept lat="49.067000" lon="8.051000">
       <name>Steinfeld</name>
     </rtept>
-    <rtept lat="49.135000" lon="8.015000">
+    <rtept lat="49.135104" lon="8.013845">
       <name>Klingenmünster</name>
     </rtept>
     <rtept lat="49.269000" lon="8.110000">
@@ -134,4 +137,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="49.027722" lon="7.885958">
+    <name>Tour de la Scherhol</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.992292" lon="7.955043">
+    <name>Ruines du château de Riedseltz</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.013445" lon="7.954948">
+    <name>Château du Geisberg</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.050916" lon="7.940891">
+    <name>Saint-Paul</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.060283" lon="7.950032">
+    <name>S' Weschbrinnel</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.031648" lon="7.915427">
+    <name>Le Grand Pre</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.035575" lon="7.943919">
+    <name>Le Schlupf</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
 </gpx>

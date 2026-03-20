@@ -19,11 +19,13 @@
     <name>Heilbronn</name>
     <desc>Bypass</desc>
     <type>Via</type>
+    <sym>Summit</sym>
   </wpt>
   <wpt lat="49.151000" lon="9.286000">
     <name>Weinsberg</name>
     <desc>Weibertreu castle</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
   <wpt lat="49.112000" lon="9.738000">
     <name>Schwäbisch Hall</name>
@@ -36,10 +38,11 @@
     <desc>Kocher valley</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.837000" lon="10.093000">
+  <wpt lat="48.837126" lon="10.092300">
     <name>Aalen</name>
     <desc>Limes museum</desc>
     <type>Via</type>
+    <sym>Museum</sym>
   </wpt>
   <wpt lat="48.676000" lon="10.152000">
     <name>Heidenheim a.d. Brenz</name>
@@ -68,7 +71,7 @@
     <rtept lat="48.995000" lon="9.770000">
       <name>Gaildorf</name>
     </rtept>
-    <rtept lat="48.837000" lon="10.093000">
+    <rtept lat="48.837126" lon="10.092300">
       <name>Aalen</name>
     </rtept>
     <rtept lat="48.676000" lon="10.152000">

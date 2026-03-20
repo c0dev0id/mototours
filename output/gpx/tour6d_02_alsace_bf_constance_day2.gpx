@@ -15,7 +15,7 @@
     <sym>Restaurant</sym>
     <type>Midpoint</type>
   </wpt>
-  <wpt lat="48.140000" lon="7.264000">
+  <wpt lat="48.140544" lon="7.263610">
     <name>Kaysersberg</name>
     <desc>Schweitzer</desc>
     <type>Via</type>
@@ -25,22 +25,23 @@
     <desc>Cheese valley</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.063000" lon="7.023000">
+  <wpt lat="48.063389" lon="7.023751">
     <name>Col de la Schlucht</name>
     <desc>Pass (1139 m)</desc>
     <type>Via</type>
+    <sym>Summit</sym>
   </wpt>
   <wpt lat="47.977000" lon="7.053000">
     <name>Route des Crêtes</name>
     <desc>Ridge road</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="47.902000" lon="7.099000">
+  <wpt lat="47.901574" lon="7.100000">
     <name>Grand Ballon</name>
     <desc>Highest Vosges</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.079000" lon="7.359000">
+  <wpt lat="48.079302" lon="7.360023">
     <name>Colmar</name>
     <desc>Overnight</desc>
     <sym>Hotel</sym>
@@ -55,23 +56,58 @@
     <rtept lat="48.194000" lon="7.318000">
       <name>Ribeauvillé</name>
     </rtept>
-    <rtept lat="48.140000" lon="7.264000">
+    <rtept lat="48.140544" lon="7.263610">
       <name>Kaysersberg</name>
     </rtept>
     <rtept lat="48.042000" lon="7.137000">
       <name>Munster</name>
     </rtept>
-    <rtept lat="48.063000" lon="7.023000">
+    <rtept lat="48.063389" lon="7.023751">
       <name>Col de la Schlucht</name>
     </rtept>
     <rtept lat="47.977000" lon="7.053000">
       <name>Route des Crêtes</name>
     </rtept>
-    <rtept lat="47.902000" lon="7.099000">
+    <rtept lat="47.901574" lon="7.100000">
       <name>Grand Ballon</name>
     </rtept>
-    <rtept lat="48.079000" lon="7.359000">
+    <rtept lat="48.079302" lon="7.360023">
       <name>Colmar</name>
     </rtept>
   </rte>
+  <wpt lat="47.875522" lon="7.029547">
+    <name>Musée Serret</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="47.859007" lon="7.014501">
+    <name>Point de vue</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="47.868679" lon="7.012741">
+    <name>Belle vue Mitzach</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="47.908670" lon="6.967540">
+    <name>Point de vue des trois chênes</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="47.885147" lon="6.976813">
+    <name>Huselberg</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="47.918919" lon="6.975485">
+    <name>Uhufels</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="47.857090" lon="7.039836">
+    <name>Colline du Bûcher</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
 </gpx>

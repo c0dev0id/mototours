@@ -30,6 +30,7 @@
     <name>Niederbronn-les-Bains</name>
     <desc>Spa</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="48.742000" lon="7.362000">
     <name>Saverne</name>
@@ -67,4 +68,39 @@
       <name>Obernai</name>
     </rtept>
   </rte>
+  <wpt lat="48.450374" lon="7.517390">
+    <name>Château de Landsberg</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.557772" lon="7.459814">
+    <name>Observatoire d'Artillerie n°1</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.557264" lon="7.458460">
+    <name>Observatoire d'Artillerie n°2</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.562440" lon="7.531376">
+    <name>Château de Turckheim</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.560615" lon="7.533193">
+    <name>Château Hervé ou Bourcart</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.412946" lon="7.472651">
+    <name>Palais du Pain d'épices</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.558697" lon="7.457191">
+    <name>Fort de Mutzig</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
 </gpx>

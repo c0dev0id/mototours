@@ -30,6 +30,7 @@
     <name>Bad Teinach</name>
     <desc>Spa in the valley</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="48.551000" lon="8.724000">
     <name>Nagold</name>
@@ -40,6 +41,7 @@
     <name>Altensteig</name>
     <desc>Castle town</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
   <wpt lat="48.462000" lon="8.411000">
     <name>Freudenstadt</name>
@@ -83,4 +85,39 @@
       <name>Baiersbronn</name>
     </rtept>
   </rte>
+  <wpt lat="48.504110" lon="8.376109">
+    <name>Hauffs Märchen Museum Baiersbronn</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.411014" lon="8.334852">
+    <name>Burgbachfelsen</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="48.449329" lon="8.321286">
+    <name>Aussicht ins Wolftal</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="48.423664" lon="8.361623">
+    <name>Seeblick</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="48.470858" lon="8.368896">
+    <name>Seeger Ruhe</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="48.508686" lon="8.342061">
+    <name>Fegfeuerhütte</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="48.503045" lon="8.354427">
+    <name>Sprungschanze</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
 </gpx>

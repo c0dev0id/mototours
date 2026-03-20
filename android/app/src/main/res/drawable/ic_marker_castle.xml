@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Castle battlements -->
+    <path
+        android:fillColor="#7f8c8d"
+        android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2z" />
+    <!-- Left tower -->
+    <rect android:fillColor="#FFFFFF" android:x="5" android:y="11" android:width="4" android:height="7" />
+    <!-- Right tower -->
+    <rect android:fillColor="#FFFFFF" android:x="15" android:y="11" android:width="4" android:height="7" />
+    <!-- Left battlements -->
+    <rect android:fillColor="#FFFFFF" android:x="5" android:y="9" android:width="1.5" android:height="3" />
+    <rect android:fillColor="#FFFFFF" android:x="7.5" android:y="9" android:width="1.5" android:height="3" />
+    <!-- Right battlements -->
+    <rect android:fillColor="#FFFFFF" android:x="15" android:y="9" android:width="1.5" android:height="3" />
+    <rect android:fillColor="#FFFFFF" android:x="17.5" android:y="9" android:width="1.5" android:height="3" />
+    <!-- Gate -->
+    <rect android:fillColor="#7f8c8d" android:x="10.5" android:y="14" android:width="3" android:height="4" />
+</vector>

@@ -29,6 +29,7 @@
     <name>Niederbronn-les-Bains</name>
     <desc>Thermal spa</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="48.742000" lon="7.362000">
     <name>Saverne</name>
@@ -40,6 +41,7 @@
     <name>Marlenheim</name>
     <desc>Wine route starts</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="48.462000" lon="7.483000">
     <name>Obernai</name>
@@ -50,8 +52,9 @@
     <name>Ribeauvillé</name>
     <desc>Three castles</desc>
     <type>Via</type>
+    <sym>Castle</sym>
   </wpt>
-  <wpt lat="48.140000" lon="7.264000">
+  <wpt lat="48.140544" lon="7.263610">
     <name>Kaysersberg</name>
     <desc>Overnight</desc>
     <sym>Hotel</sym>
@@ -87,7 +90,7 @@
     <rtept lat="48.194000" lon="7.318000">
       <name>Ribeauvillé</name>
     </rtept>
-    <rtept lat="48.140000" lon="7.264000">
+    <rtept lat="48.140544" lon="7.263610">
       <name>Kaysersberg</name>
     </rtept>
   </rte>

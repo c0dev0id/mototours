@@ -18,6 +18,11 @@ from reportlab.platypus import (
 )
 from reportlab.lib.styles import ParagraphStyle
 
+try:
+    from optional_pois import OPTIONAL_POIS
+except ImportError:
+    OPTIONAL_POIS = {}
+
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
@@ -28,7 +33,7 @@ OUTPUT_DIR = "output"
 GPX_DIR = os.path.join(OUTPUT_DIR, "gpx")
 PDF_FILE = os.path.join(OUTPUT_DIR, "motorcycle_multiday_tours_hockenheim.pdf")
 
-FONT_DIR = "/usr/local/share/fonts/noto"
+FONT_DIR = "/usr/share/fonts/truetype/liberation"
 
 GREEN = HexColor("#2C5530")
 DARK = HexColor("#333333")
@@ -123,12 +128,12 @@ WEEKEND_TOURS = [
                 "waypoints": [
                     ("Baiersbronn", 48.504, 8.378, "Start day 2", False),
                     ("Schwarzenberg", 48.548, 8.364, "Into the Murg valley", False),
-                    ("Forbach", 48.685, 8.347, "Covered wooden bridge", True),
+                    ("Forbach", 48.684974, 8.348239, "Covered wooden bridge", True),
                     ("Schwarzenbachtalsperre", 48.667, 8.322, "Reservoir", False),
-                    ("Herrenwies", 48.658, 8.253, "Mountain village", False),
-                    ("Sand", 48.654, 8.226, "Join B500", False),
+                    ("Herrenwies", 48.658226, 8.255849, "Mountain village", False),
+                    ("Sand", 48.654527, 8.225886, "Join B500", False),
                     ("Mummelsee", 48.596, 8.201, "Mountain lake", False),
-                    ("B\u00fchlerh\u00f6he", 48.683, 8.223, "Viewpoint", False),
+                    ("B\u00fchlerh\u00f6he", 48.683338, 8.222543, "Viewpoint", False),
                     ("Baden-Baden", 48.761, 8.241, "Spa city", False),
                     H_END,
                 ],
@@ -291,7 +296,7 @@ WEEKEND_TOURS = [
                     ("Marlenheim", 48.622, 7.492, "Wine route starts", False),
                     ("Obernai", 48.462, 7.483, "Alsatian gem", False),
                     ("Ribeauvill\u00e9", 48.194, 7.318, "Three castles", False),
-                    ("Kaysersberg", 48.140, 7.264, "Overnight", False),
+                    ("Kaysersberg", 48.140544, 7.263610, "Overnight", False),
                 ],
                 "description": (
                     "Cross the Rhine at Speyer, ride through Landau and into "
@@ -326,14 +331,14 @@ WEEKEND_TOURS = [
                 "title": "Vosges Passes & Rhine Return",
                 "distance_km": 390,
                 "waypoints": [
-                    ("Kaysersberg", 48.140, 7.264, "Start day 2", False),
+                    ("Kaysersberg", 48.140544, 7.263610, "Start day 2", False),
                     ("Munster", 48.042, 7.137, "Cheese valley", False),
-                    ("Col de la Schlucht", 48.063, 7.023, "Mountain pass (1139 m)", True),
+                    ("Col de la Schlucht", 48.063389, 7.023751, "Mountain pass (1139 m)", True),
                     ("Route des Cr\u00eates", 47.977, 7.053, "Ridge road", False),
-                    ("Grand Ballon (1424 m)", 47.902, 7.099, "Highest Vosges peak", False),
+                    ("Grand Ballon (1424 m)", 47.901574, 7.100000, "Highest Vosges peak", False),
                     ("Guebwiller", 47.912, 7.210, "Rangen Grand Cru", False),
                     ("Rouffach", 47.956, 7.299, "Wine village", False),
-                    ("Colmar", 48.079, 7.359, "Little Venice", False),
+                    ("Colmar", 48.079302, 7.360023, "Little Venice", False),
                     ("Rhinau", 48.318, 7.711, "Cross Rhine", False),
                     ("Offenburg", 48.473, 7.954, "Ortenau", False),
                     ("Baden-Baden", 48.761, 8.241, "Spa city", False),
@@ -436,7 +441,7 @@ WEEKEND_TOURS = [
                     ("T\u00fcbingen", 48.522, 9.057, "Start day 2", False),
                     ("Reutlingen", 48.492, 9.214, "Gateway to the Alb", False),
                     ("Bad Urach", 48.494, 9.397, "Waterfall", True),
-                    ("Schloss Lichtenstein", 48.408, 9.260, "Fairy-tale castle", False),
+                    ("Schloss Lichtenstein", 48.408679, 9.260315, "Fairy-tale castle", False),
                     ("M\u00fcnsingen", 48.412, 9.497, "Alb plateau", False),
                     ("R\u00f6merstein", 48.490, 9.541, "Alb edge", False),
                     ("Owen", 48.586, 9.453, "Teck castle views", False),
@@ -540,13 +545,13 @@ WEEKEND_TOURS = [
                 "waypoints": [
                     ("Staufen im Breisgau", 47.883, 7.728, "Start day 2", False),
                     ("M\u00fcnstertal", 47.856, 7.770, "Valley south", False),
-                    ("Belchen (1414 m)", 47.822, 7.831, "Panoramic summit", True),
+                    ("Belchen (1414 m)", 47.819997, 7.834677, "Panoramic summit", True),
                     ("Sch\u00f6nau", 47.787, 7.893, "Black Forest village", False),
                     ("Todtnau", 47.826, 7.946, "Waterfall town", False),
                     ("Feldberg area", 47.874, 8.005, "Highest BF peak views", False),
                     ("Titisee", 47.903, 8.157, "Iconic lake", False),
-                    ("Hinterzarten", 47.906, 8.110, "Health resort", False),
-                    ("H\u00f6llental", 47.897, 8.050, "Hell Valley gorge", False),
+                    ("Hinterzarten", 47.905487, 8.109600, "Health resort", False),
+                    ("H\u00f6llental", 47.897408, 8.049594, "Hell Valley gorge", False),
                     ("Freiburg", 47.999, 7.842, "BF capital", False),
                     ("Offenburg", 48.473, 7.954, "Ortenau", False),
                     ("Baden-Baden", 48.761, 8.241, "Spa city", False),
@@ -602,9 +607,9 @@ WEEKEND_TOURS = [
                 "waypoints": [
                     H_START,
                     ("Sinsheim", 49.253, 8.879, "Head east", False),
-                    ("Bad Wimpfen", 49.231, 9.165, "Kaiserpfalz", False),
+                    ("Bad Wimpfen", 49.231593, 9.165404, "Kaiserpfalz", False),
                     ("Jagsthausen", 49.309, 9.469, "G\u00f6tzenburg", False),
-                    ("Kloster Sch\u00f6ntal", 49.328, 9.500, "Baroque abbey", True),
+                    ("Kloster Sch\u00f6ntal", 49.328184, 9.499211, "Baroque abbey", True),
                     ("K\u00fcnzelsau", 49.282, 9.685, "Hohenlohe capital", False),
                     ("Langenburg", 49.254, 9.858, "Castle & car museum", False),
                     ("Kirchberg a.d. Jagst", 49.201, 9.982, "Hilltop town", False),
@@ -644,7 +649,7 @@ WEEKEND_TOURS = [
                 "waypoints": [
                     ("Rothenburg o.d. Tauber", 49.377, 10.179, "Start day 2", False),
                     ("Creglingen", 49.468, 10.031, "Riemenschneider altar", False),
-                    ("Weikersheim", 49.479, 9.896, "Renaissance palace", True),
+                    ("Weikersheim", 49.480019, 9.896334, "Renaissance palace", True),
                     ("Bad Mergentheim", 49.493, 9.773, "Teutonic Order castle", False),
                     ("Tauberbischofsheim", 49.623, 9.663, "Tauber valley", False),
                     ("Wertheim", 49.759, 9.509, "Main confluence", False),
@@ -746,7 +751,7 @@ WEEKEND_TOURS = [
                     ("Tauberbischofsheim", 49.623, 9.663, "Tauber valley", False),
                     ("Lauda-K\u00f6nigshofen", 49.565, 9.710, "Wine town", False),
                     ("Bad Mergentheim", 49.493, 9.773, "Teutonic Knights", True),
-                    ("Weikersheim", 49.479, 9.896, "Palace", False),
+                    ("Weikersheim", 49.480019, 9.896334, "Palace", False),
                     ("Schwäbisch Hall", 49.112, 9.738, "Marktplatz", False),
                     ("\u00d6hringen", 49.201, 9.501, "Hohenlohe", False),
                     ("Neckarsulm", 49.192, 9.225, "Motorcycle museum!", False),
@@ -804,7 +809,7 @@ WEEKEND_TOURS = [
                     ("Achern", 48.628, 8.075, "Enter hills", False),
                     ("Kappelrodeck", 48.592, 8.113, "Red wine village", False),
                     ("Ottenh\u00f6fen", 48.570, 8.152, "Valley end", False),
-                    ("Kloster Allerheiligen", 48.538, 8.132, "Ruined monastery", True),
+                    ("Kloster Allerheiligen", 48.537973, 8.130656, "Ruined monastery", True),
                     ("Oppenau", 48.474, 8.161, "Renchtal", False),
                     ("Bad Peterstal", 48.427, 8.202, "Spa village", False),
                     ("Freudenstadt", 48.462, 8.411, "Marktplatz", False),
@@ -846,11 +851,11 @@ WEEKEND_TOURS = [
                 "waypoints": [
                     ("Triberg", 48.133, 8.237, "Start day 2", False),
                     ("Hornberg", 48.212, 8.228, "Valley town", False),
-                    ("Gutach (Vogtsbauernhof)", 48.256, 8.180, "Open-air museum", False),
+                    ("Gutach (Vogtsbauernhof)", 48.255812, 8.178635, "Open-air museum", False),
                     ("Hausach", 48.282, 8.175, "Kinzigtal", False),
                     ("Gengenbach", 48.407, 8.015, "Nice of the BF", True),
                     ("Sasbachwalden", 48.619, 8.120, "Flower village", False),
-                    ("B500 Sand", 48.654, 8.226, "Join Hochstra\u00dfe", False),
+                    ("B500 Sand", 48.654527, 8.225886, "Join Hochstra\u00dfe", False),
                     ("Mummelsee", 48.596, 8.201, "Mountain lake", False),
                     ("Baden-Baden", 48.761, 8.241, "Spa city", False),
                     H_END,
@@ -907,7 +912,7 @@ WEEKEND_TOURS = [
                     ("Barr", 48.407, 7.449, "Wine capital", False),
                     ("Andlau", 48.387, 7.417, "Romanesque abbey", False),
                     ("Ribeauvill\u00e9", 48.194, 7.318, "Three castles", False),
-                    ("Kaysersberg", 48.140, 7.264, "Albert Schweitzer", False),
+                    ("Kaysersberg", 48.140544, 7.263610, "Albert Schweitzer", False),
                     ("Munster", 48.042, 7.137, "Overnight", False),
                 ],
                 "description": (
@@ -942,13 +947,13 @@ WEEKEND_TOURS = [
                 "distance_km": 320,
                 "waypoints": [
                     ("Munster", 48.042, 7.137, "Start day 2", False),
-                    ("Col de la Schlucht (1139 m)", 48.063, 7.023, "Mountain pass", False),
+                    ("Col de la Schlucht (1139 m)", 48.063389, 7.023751, "Mountain pass", False),
                     ("Hohneck (1363 m)", 48.040, 7.007, "Vosges peak views", False),
                     ("Route des Cr\u00eates", 47.977, 7.053, "Ridge road", True),
-                    ("Le Markstein", 47.929, 7.032, "Ski station", False),
-                    ("Grand Ballon (1424 m)", 47.902, 7.099, "Highest Vosges peak", False),
+                    ("Le Markstein", 47.929049, 7.033024, "Ski station", False),
+                    ("Grand Ballon (1424 m)", 47.901574, 7.100000, "Highest Vosges peak", False),
                     ("Guebwiller", 47.912, 7.210, "Rangen vineyard", False),
-                    ("Colmar", 48.079, 7.359, "Little Venice", False),
+                    ("Colmar", 48.079302, 7.360023, "Little Venice", False),
                     ("Rhinau", 48.318, 7.711, "Cross Rhine", False),
                     ("Offenburg", 48.473, 7.954, "Ortenau", False),
                     ("Baden-Baden", 48.761, 8.241, "Spa city", False),
@@ -1045,11 +1050,11 @@ WEEKEND_TOURS = [
                     ("Idar-Oberstein", 49.714, 7.308, "Start day 2", False),
                     ("Birkenfeld", 49.649, 7.163, "Hunsr\u00fcck", False),
                     ("Thalfang", 49.754, 7.010, "Erbeskopf nearby", False),
-                    ("Hunsr\u00fcck Hochwald", 49.720, 7.060, "Wild highlands", True),
+                    ("Hunsr\u00fcck Hochwald", 49.721691, 7.059106, "Wild highlands", True),
                     ("Morbach", 49.810, 7.130, "Forest town", False),
                     ("Bad Sobernheim", 49.783, 7.647, "Barefoot trail", False),
                     ("Bad Kreuznach", 49.842, 7.867, "Nahe wines", False),
-                    ("Alsenz valley", 49.750, 7.850, "Through to Pfalz", False),
+                    ("Alsenz valley", 49.749941, 7.848917, "Through to Pfalz", False),
                     ("Bad D\u00fcrkheim", 49.462, 8.172, "Wine barrel", False),
                     ("Speyer", 49.317, 8.431, "Cross Rhine", False),
                     H_END,
@@ -1110,7 +1115,7 @@ THREE_DAY_TOURS = [
                 "waypoints": [
                     H_START,
                     ("Baden-Baden", 48.761, 8.241, "Spa city (via A5)", False),
-                    ("B\u00fchlerh\u00f6he", 48.683, 8.223, "Join B500", False),
+                    ("B\u00fchlerh\u00f6he", 48.683338, 8.222543, "Join B500", False),
                     ("Mummelsee", 48.596, 8.201, "Mountain lake", True),
                     ("Ruhestein", 48.561, 8.221, "National Park", False),
                     ("Freudenstadt", 48.462, 8.411, "Largest Marktplatz", False),
@@ -1136,12 +1141,12 @@ THREE_DAY_TOURS = [
                 "distance_km": 170,
                 "waypoints": [
                     ("Triberg", 48.133, 8.237, "Start day 2", False),
-                    ("Furtwangen", 48.055, 8.208, "Clock museum", False),
+                    ("Furtwangen", 48.054612, 8.208417, "Clock museum", False),
                     ("Titisee", 47.903, 8.157, "Iconic lake", True),
-                    ("Hinterzarten", 47.906, 8.110, "Health resort", False),
+                    ("Hinterzarten", 47.905487, 8.109600, "Health resort", False),
                     ("Feldberg area", 47.874, 8.005, "Highest BF peak", False),
                     ("Todtnau", 47.826, 7.946, "Waterfall town", False),
-                    ("Belchen (1414 m)", 47.822, 7.831, "Finest panorama", False),
+                    ("Belchen (1414 m)", 47.819997, 7.834677, "Finest panorama", False),
                     ("M\u00fcnstertal", 47.856, 7.770, "Southern valley", False),
                     ("Staufen im Breisgau", 47.883, 7.728, "Overnight", False),
                 ],
@@ -1167,8 +1172,8 @@ THREE_DAY_TOURS = [
                     ("Staufen im Breisgau", 47.883, 7.728, "Start day 3", False),
                     ("Freiburg", 47.999, 7.842, "BF capital", False),
                     ("Kirchzarten", 47.963, 7.952, "H\u00f6llental entrance", False),
-                    ("H\u00f6llental", 47.897, 8.050, "Hell Valley gorge", True),
-                    ("Hinterzarten", 47.906, 8.110, "Health resort", False),
+                    ("H\u00f6llental", 47.897408, 8.049594, "Hell Valley gorge", True),
+                    ("Hinterzarten", 47.905487, 8.109600, "Health resort", False),
                     ("Elzach", 48.173, 8.071, "Elztal", False),
                     ("Wolfach", 48.293, 8.219, "Kinzigtal", False),
                     ("Gengenbach", 48.407, 8.015, "Gengenbach", False),
@@ -1220,7 +1225,7 @@ THREE_DAY_TOURS = [
                     ("Lembach", 49.003, 7.788, "Ch\u00e2teau Fleckenstein", False),
                     ("Niederbronn-les-Bains", 48.952, 7.643, "Thermal spa", False),
                     ("Bitche", 49.052, 7.430, "Vauban citadel", True),
-                    ("Col du Donon (727 m)", 48.519, 7.131, "Vosges pass", False),
+                    ("Col du Donon (727 m)", 48.519625, 7.130593, "Vosges pass", False),
                     ("Schirmeck", 48.479, 7.220, "Vosges valley", False),
                     ("Obernai", 48.462, 7.483, "Overnight", False),
                 ],
@@ -1247,9 +1252,9 @@ THREE_DAY_TOURS = [
                     ("Barr", 48.407, 7.449, "Wine capital", False),
                     ("Ribeauvill\u00e9", 48.194, 7.318, "Three castles", True),
                     ("Riquewihr", 48.167, 7.298, "Walled wine village", False),
-                    ("Kaysersberg", 48.140, 7.264, "Schweitzer\u2019s birthplace", False),
+                    ("Kaysersberg", 48.140544, 7.263610, "Schweitzer\u2019s birthplace", False),
                     ("Munster", 48.042, 7.137, "Cheese valley", False),
-                    ("Col de la Schlucht", 48.063, 7.023, "Mountain pass (1139 m)", False),
+                    ("Col de la Schlucht", 48.063389, 7.023751, "Mountain pass (1139 m)", False),
                     ("G\u00e9rardmer", 48.073, 6.879, "Overnight", False),
                 ],
                 "description": (
@@ -1274,10 +1279,10 @@ THREE_DAY_TOURS = [
                     ("G\u00e9rardmer", 48.073, 6.879, "Start day 3", False),
                     ("La Bresse", 48.001, 6.869, "Ski resort", False),
                     ("Route des Cr\u00eates", 47.977, 7.053, "Ridge road", True),
-                    ("Grand Ballon (1424 m)", 47.902, 7.099, "Highest Vosges", False),
+                    ("Grand Ballon (1424 m)", 47.901574, 7.100000, "Highest Vosges", False),
                     ("Guebwiller", 47.912, 7.210, "Rangen Grand Cru", False),
                     ("Eguisheim", 48.042, 7.306, "Circular wine village", False),
-                    ("Colmar", 48.079, 7.359, "Little Venice", False),
+                    ("Colmar", 48.079302, 7.360023, "Little Venice", False),
                     ("Rhinau", 48.318, 7.711, "Cross Rhine", False),
                     ("Offenburg", 48.473, 7.954, "Ortenau", False),
                     ("Baden-Baden", 48.761, 8.241, "Spa city", False),
@@ -1341,7 +1346,7 @@ THREE_DAY_TOURS = [
                     ("Ochsenfurt", 49.664, 10.063, "Medieval town", False),
                     ("Tauberbischofsheim", 49.623, 9.663, "Tauber valley", False),
                     ("Bad Mergentheim", 49.493, 9.773, "Teutonic Knights", True),
-                    ("Weikersheim", 49.479, 9.896, "Palace gardens", False),
+                    ("Weikersheim", 49.480019, 9.896334, "Palace gardens", False),
                     ("Creglingen", 49.468, 10.031, "Riemenschneider altar", False),
                     ("Rothenburg o.d. Tauber", 49.377, 10.179, "Overnight", False),
                 ],
@@ -1360,7 +1365,7 @@ THREE_DAY_TOURS = [
                     ("Schw\u00e4bisch Hall", 49.112, 9.738, "Theatrical Marktplatz", True),
                     ("\u00d6hringen", 49.201, 9.501, "Hohenlohe", False),
                     ("Neckarsulm", 49.192, 9.225, "Motorcycle museum", False),
-                    ("Bad Wimpfen", 49.231, 9.165, "Kaiserpfalz", False),
+                    ("Bad Wimpfen", 49.231593, 9.165404, "Kaiserpfalz", False),
                     ("Sinsheim", 49.253, 8.879, "Return west", False),
                     H_END,
                 ],
@@ -1401,7 +1406,7 @@ THREE_DAY_TOURS = [
                     ("Idar-Oberstein", 49.714, 7.308, "Gemstone city", True),
                     ("Morbach", 49.810, 7.130, "Hunsr\u00fcck", False),
                     ("Bernkastel-Kues", 49.915, 7.068, "Moselle wine", False),
-                    ("Traben-Trarbach", 49.947, 7.118, "Art Nouveau town", False),
+                    ("Traben-Trarbach", 49.947918, 7.118073, "Art Nouveau town", False),
                     ("Cochem", 50.146, 7.167, "Overnight", False),
                 ],
                 "description": "Through the Pf\u00e4lzerwald and Hunsr\u00fcck to Bernkastel, then along the Moselle to Cochem.",
@@ -1418,7 +1423,7 @@ THREE_DAY_TOURS = [
                     ("Mayen", 50.328, 7.223, "Eifel town", False),
                     ("N\u00fcrburgring", 50.336, 6.943, "Legendary circuit", True),
                     ("Adenau", 50.383, 6.931, "Eifel village", False),
-                    ("Altenahr", 50.518, 6.985, "Ahr gorge", False),
+                    ("Altenahr", 50.518485, 6.984732, "Ahr gorge", False),
                     ("Bad Neuenahr-Ahrweiler", 50.543, 7.112, "Overnight", False),
                 ],
                 "description": "Visit Burg Eltz, ride through the Eifel to the N\u00fcrburgring, then through the Ahr valley.",
@@ -1434,7 +1439,7 @@ THREE_DAY_TOURS = [
                     ("Remagen", 50.578, 7.233, "Bridge at Remagen", False),
                     ("Koblenz", 50.354, 7.599, "Deutsches Eck", False),
                     ("Boppard", 50.230, 7.593, "Rhine bend", False),
-                    ("St. Goar / Loreley", 50.153, 7.711, "Legendary rock", True),
+                    ("St. Goar / Loreley", 50.152430, 7.710860, "Legendary rock", True),
                     ("Bacharach", 50.059, 7.770, "Rhine wine town", False),
                     ("Bingen", 49.966, 7.895, "Nahe confluence", False),
                     ("Bad Kreuznach", 49.842, 7.867, "Nahe wines", False),
@@ -1477,7 +1482,7 @@ THREE_DAY_TOURS = [
                     ("Weinsberg", 49.151, 9.286, "Weibertreu castle", False),
                     ("Schw\u00e4bisch Hall", 49.112, 9.738, "Marktplatz", True),
                     ("Gaildorf", 48.995, 9.770, "Kocher valley", False),
-                    ("Aalen", 48.837, 10.093, "Limes museum", False),
+                    ("Aalen", 48.837126, 10.092300, "Limes museum", False),
                     ("Heidenheim a.d. Brenz", 48.676, 10.152, "Overnight", False),
                 ],
                 "description": "East through Heilbronn to Schwäbisch Hall, then south through the Kocher valley to Heidenheim.",
@@ -1492,7 +1497,7 @@ THREE_DAY_TOURS = [
                     ("Heidenheim a.d. Brenz", 48.676, 10.152, "Start day 2", False),
                     ("Blaubeuren", 48.412, 9.783, "Blautopf spring", True),
                     ("M\u00fcnsingen", 48.412, 9.497, "Alb plateau", False),
-                    ("Schloss Lichtenstein", 48.408, 9.260, "Fairy-tale castle", False),
+                    ("Schloss Lichtenstein", 48.408679, 9.260315, "Fairy-tale castle", False),
                     ("Bad Urach", 48.494, 9.397, "Waterfall", False),
                     ("Reutlingen", 48.492, 9.214, "Alb foot", False),
                     ("T\u00fcbingen", 48.522, 9.057, "Overnight", False),
@@ -1557,7 +1562,7 @@ SIX_DAY_TOURS = [
                 "waypoints": [
                     H_START,
                     ("Baden-Baden", 48.761, 8.241, "Via A5", False),
-                    ("B\u00fchlerh\u00f6he", 48.683, 8.223, "Join B500", False),
+                    ("B\u00fchlerh\u00f6he", 48.683338, 8.222543, "Join B500", False),
                     ("Mummelsee", 48.596, 8.201, "Mountain lake", True),
                     ("Ruhestein", 48.561, 8.221, "Nationalpark", False),
                     ("Freudenstadt", 48.462, 8.411, "Marktplatz", False),
@@ -1575,7 +1580,7 @@ SIX_DAY_TOURS = [
                     ("Baiersbronn", 48.504, 8.378, "Start", False),
                     ("Schiltach", 48.290, 8.339, "Half-timbered", False),
                     ("Triberg", 48.133, 8.237, "Waterfalls", True),
-                    ("Furtwangen", 48.055, 8.208, "Clock museum", False),
+                    ("Furtwangen", 48.054612, 8.208417, "Clock museum", False),
                     ("Titisee", 47.903, 8.157, "Iconic lake", False),
                     ("Schluchsee", 47.819, 8.179, "Overnight", False),
                 ],
@@ -1590,7 +1595,7 @@ SIX_DAY_TOURS = [
                 "waypoints": [
                     ("Schluchsee", 47.819, 8.179, "Start", False),
                     ("Bonndorf", 47.818, 8.340, "Wutach gorge area", False),
-                    ("Waldshut-Tiengen", 47.623, 8.215, "High Rhine", False),
+                    ("Waldshut-Tiengen", 47.623199, 8.215840, "High Rhine", False),
                     ("Schaffhausen (Rhine Falls)", 47.697, 8.635, "Europe\u2019s largest waterfall", True),
                     ("Stein am Rhein", 47.660, 8.860, "Medieval painted houses", False),
                     ("Konstanz", 47.658, 9.175, "Lake Constance", False),
@@ -1645,7 +1650,7 @@ SIX_DAY_TOURS = [
                     ("Blaubeuren", 48.412, 9.783, "Blautopf spring", True),
                     ("M\u00fcnsingen", 48.412, 9.497, "Alb plateau", False),
                     ("Bad Urach", 48.494, 9.397, "Waterfall", False),
-                    ("Schloss Lichtenstein", 48.408, 9.260, "Fairy-tale castle", False),
+                    ("Schloss Lichtenstein", 48.408679, 9.260315, "Fairy-tale castle", False),
                     ("T\u00fcbingen", 48.522, 9.057, "University town", False),
                     ("Calw", 48.714, 8.741, "Hesse\u2019s town", False),
                     ("Pforzheim", 48.891, 8.704, "Gold city", False),
@@ -1702,12 +1707,12 @@ SIX_DAY_TOURS = [
                 "waypoints": [
                     ("Obernai", 48.462, 7.483, "Start", False),
                     ("Ribeauvill\u00e9", 48.194, 7.318, "Three castles", True),
-                    ("Kaysersberg", 48.140, 7.264, "Schweitzer", False),
+                    ("Kaysersberg", 48.140544, 7.263610, "Schweitzer", False),
                     ("Munster", 48.042, 7.137, "Cheese valley", False),
-                    ("Col de la Schlucht", 48.063, 7.023, "Pass (1139 m)", False),
+                    ("Col de la Schlucht", 48.063389, 7.023751, "Pass (1139 m)", False),
                     ("Route des Cr\u00eates", 47.977, 7.053, "Ridge road", False),
-                    ("Grand Ballon", 47.902, 7.099, "Highest Vosges", False),
-                    ("Colmar", 48.079, 7.359, "Overnight", False),
+                    ("Grand Ballon", 47.901574, 7.100000, "Highest Vosges", False),
+                    ("Colmar", 48.079302, 7.360023, "Overnight", False),
                 ],
                 "description": "Wine route, Vosges passes, Grand Ballon, down to Colmar.",
                 "midpoint_name": "Ribeauvill\u00e9 to Grand Ballon", "midpoint_description": "The best of Alsace in one day.",
@@ -1718,7 +1723,7 @@ SIX_DAY_TOURS = [
                 "day": 3, "title": "Across to Freiburg",
                 "distance_km": 120,
                 "waypoints": [
-                    ("Colmar", 48.079, 7.359, "Start", False),
+                    ("Colmar", 48.079302, 7.360023, "Start", False),
                     ("Eguisheim", 48.042, 7.306, "Circular village", False),
                     ("Rouffach", 47.956, 7.299, "Wine village", False),
                     ("Breisach am Rhein", 48.028, 7.583, "Cross Rhine", True),
@@ -1736,10 +1741,10 @@ SIX_DAY_TOURS = [
                 "distance_km": 210,
                 "waypoints": [
                     ("Freiburg", 47.999, 7.842, "Start", False),
-                    ("H\u00f6llental", 47.897, 8.050, "Hell Valley", True),
+                    ("H\u00f6llental", 47.897408, 8.049594, "Hell Valley", True),
                     ("Titisee", 47.903, 8.157, "Black Forest lake", False),
                     ("Schluchsee", 47.819, 8.179, "High lake", False),
-                    ("Waldshut", 47.623, 8.215, "High Rhine", False),
+                    ("Waldshut", 47.623199, 8.215840, "High Rhine", False),
                     ("Schaffhausen (Rhine Falls)", 47.697, 8.635, "Waterfall", False),
                     ("Meersburg", 47.694, 9.271, "Overnight", False),
                 ],
@@ -1773,7 +1778,7 @@ SIX_DAY_TOURS = [
                     ("Wolfach", 48.293, 8.219, "Kinzigtal", False),
                     ("Gengenbach", 48.407, 8.015, "Nice of the BF", True),
                     ("Sasbachwalden", 48.619, 8.120, "Flower village", False),
-                    ("B500", 48.654, 8.226, "Hochstra\u00dfe", False),
+                    ("B500", 48.654527, 8.225886, "Hochstra\u00dfe", False),
                     ("Baden-Baden", 48.761, 8.241, "Spa city", False),
                     H_END,
                 ],
@@ -1857,7 +1862,7 @@ SIX_DAY_TOURS = [
                     ("Berching", 49.106, 11.440, "Medieval town", False),
                     ("Eichst\u00e4tt", 48.892, 11.184, "Baroque bishop\u2019s town", True),
                     ("Solnhofen", 48.897, 10.966, "Fossil limestone", False),
-                    ("N\u00f6rdlingen", 48.851, 10.489, "Ries crater", False),
+                    ("N\u00f6rdlingen", 48.851127, 10.488312, "Ries crater", False),
                     ("Dinkelsb\u00fchl", 49.067, 10.319, "Overnight", False),
                 ],
                 "description": "Through the Altm\u00fchltal to Eichst\u00e4tt, N\u00f6rdlingen\u2019s meteor crater, and medieval Dinkelsb\u00fchl.",
@@ -1886,7 +1891,7 @@ SIX_DAY_TOURS = [
                     ("Schw\u00e4bisch Hall", 49.112, 9.738, "Start", False),
                     ("\u00d6hringen", 49.201, 9.501, "Hohenlohe", False),
                     ("Neckarsulm", 49.192, 9.225, "Motorcycle museum!", True),
-                    ("Bad Wimpfen", 49.231, 9.165, "Kaiserpfalz", False),
+                    ("Bad Wimpfen", 49.231593, 9.165404, "Kaiserpfalz", False),
                     ("Mosbach", 49.353, 9.146, "Fachwerk", False),
                     ("Eberbach", 49.467, 8.988, "Neckar valley", False),
                     H_END,
@@ -1942,7 +1947,7 @@ SIX_DAY_TOURS = [
                     ("Bad Ems", 50.334, 7.722, "Spa (UNESCO)", True),
                     ("Koblenz", 50.354, 7.599, "Deutsches Eck", False),
                     ("Boppard", 50.230, 7.593, "Rhine bend", False),
-                    ("St. Goar", 50.153, 7.711, "Loreley views", False),
+                    ("St. Goar", 50.152430, 7.710860, "Loreley views", False),
                     ("Bacharach", 50.059, 7.770, "Overnight", False),
                 ],
                 "description": "Lahn valley to Koblenz, then Rhine south through the Loreley gorge.",
@@ -1973,10 +1978,10 @@ SIX_DAY_TOURS = [
                     ("Ulmen", 50.210, 6.975, "Maar lake", False),
                     ("Daun", 50.196, 6.831, "Volcanic Eifel", True),
                     ("Manderscheid", 50.091, 6.808, "Twin castles", False),
-                    ("Kelberg", 50.281, 6.909, "Eifel ridge", False),
+                    ("Kelberg", 50.281693, 6.908200, "Eifel ridge", False),
                     ("N\u00fcrburgring", 50.336, 6.943, "Green Hell", False),
                     ("Adenau", 50.383, 6.931, "Eifel village", False),
-                    ("Altenahr", 50.518, 6.985, "Ahr gorge", False),
+                    ("Altenahr", 50.518485, 6.984732, "Ahr gorge", False),
                     ("Bad Neuenahr", 50.543, 7.112, "Overnight", False),
                 ],
                 "description": "Through volcanic Eifel via Daun and Manderscheid, N\u00fcrburgring, then the scenic Ahr valley.",
@@ -1990,7 +1995,7 @@ SIX_DAY_TOURS = [
                     ("Bad Neuenahr", 50.543, 7.112, "Start", False),
                     ("Remagen", 50.578, 7.233, "Bridge", False),
                     ("Koblenz", 50.354, 7.599, "Moselle start", False),
-                    ("Traben-Trarbach", 49.947, 7.118, "Art Nouveau", True),
+                    ("Traben-Trarbach", 49.947918, 7.118073, "Art Nouveau", True),
                     ("Bernkastel-Kues", 49.915, 7.068, "Wine gem", False),
                     ("Morbach", 49.810, 7.130, "Hunsr\u00fcck", False),
                     ("Idar-Oberstein", 49.714, 7.308, "Overnight", False),
@@ -2061,7 +2066,7 @@ SIX_DAY_TOURS = [
                     ("Coburg", 50.259, 10.964, "Veste Coburg", True),
                     ("Kronach", 50.241, 11.328, "Festung Rosenberg", False),
                     ("Saalfeld", 50.648, 11.364, "Fairy grottoes", False),
-                    ("Schwarzatal", 50.622, 11.200, "Deep valley", False),
+                    ("Schwarzatal", 50.620777, 11.200739, "Deep valley", False),
                     ("Ilmenau", 50.685, 10.919, "Overnight", False),
                 ],
                 "description": "North to Coburg (Luther\u2019s fortress), through the Frankenwald to the Th\u00fcringer Wald.",
@@ -2073,7 +2078,7 @@ SIX_DAY_TOURS = [
                 "day": 3, "title": "Th\u00fcringer Wald to Meiningen", "distance_km": 140,
                 "waypoints": [
                     ("Ilmenau", 50.685, 10.919, "Start", False),
-                    ("Oberhof", 50.721, 10.732, "Winter sports", True),
+                    ("Oberhof", 50.723390, 10.733090, "Winter sports", True),
                     ("Tabarz", 50.875, 10.524, "Near Inselsberg", False),
                     ("Friedrichroda", 50.859, 10.558, "Crystal cave", False),
                     ("Brotterode", 50.817, 10.437, "Inselsberg area", False),
@@ -2089,7 +2094,7 @@ SIX_DAY_TOURS = [
                 "day": 4, "title": "Rh\u00f6n Mountains", "distance_km": 140,
                 "waypoints": [
                     ("Meiningen", 50.556, 10.417, "Start", False),
-                    ("Rh\u00f6n", 50.500, 10.100, "Open highlands", False),
+                    ("Rh\u00f6n", 50.498602, 10.100089, "Open highlands", False),
                     ("Wasserkuppe (950 m)", 50.498, 9.937, "Highest Hesse peak", True),
                     ("Gersfeld", 50.453, 9.920, "Rh\u00f6n village", False),
                     ("Fulda", 50.550, 9.676, "Baroque town", False),
@@ -2150,6 +2155,28 @@ def _gpx_pretty(root):
     return minidom.parseString(rough).toprettyxml(indent="  ", encoding="UTF-8")
 
 
+_POI_KEYWORDS = [
+    ("Summit",     ["pass", "col ", "col du", "col de", "historic mountain", "pass village"]),
+    ("Scenic Area",["viewpoint", "panorama", "scenic", "belvedere"]),
+    ("Castle",     ["castle", "burg", "schloss", "festung", "veste", "trifels", "ruin"]),
+    ("Waterfall",  ["waterfall", "wasserfall"]),
+    ("Lake",       [" lake", "mummelsee", "titisee", "schluchsee", "bodensee", "edersee"]),
+    ("Museum",     ["museum", "musée"]),
+    ("Monastery",  ["monastery", "abbey", "kloster", "cistercian", "romanesque", "baroque"]),
+    ("Spa",        ["spa", "thermal", "bad "]),
+    ("Winery",     ["winery", "brewery", "brauerei", "wine route", "wine village", "wine town"]),
+]
+
+
+def _poi_sym(desc: str) -> str:
+    """Return a GPX <sym> category string based on description keywords, or '' for generic."""
+    d = desc.lower()
+    for sym, keywords in _POI_KEYWORDS:
+        if any(k in d for k in keywords):
+            return sym
+    return ""
+
+
 def generate_gpx_day(tour, day, prefix, outdir):
     """Write one GPX file for a single day leg. Return the filename."""
     gpx = ET.Element("gpx")
@@ -2185,6 +2212,9 @@ def generate_gpx_day(tour, day, prefix, outdir):
             ET.SubElement(wpt, "type").text = "Overnight"
         else:
             ET.SubElement(wpt, "type").text = "Via"
+            sym = _poi_sym(desc or "")
+            if sym:
+                ET.SubElement(wpt, "sym").text = sym
 
     rte = ET.SubElement(gpx, "rte")
     ET.SubElement(rte, "name").text = day["title"]
@@ -2194,6 +2224,16 @@ def generate_gpx_day(tour, day, prefix, outdir):
         rtept.set("lat", f"{lat:.6f}")
         rtept.set("lon", f"{lon:.6f}")
         ET.SubElement(rtept, "name").text = name
+
+    # Optional POIs — <wpt> only, not in <rtept>, so routing is unaffected
+    day_key = f"{tour['slug']}_day{day['day']}"
+    for opt_name, opt_lat, opt_lon, opt_sym in OPTIONAL_POIS.get(day_key, []):
+        wpt = ET.SubElement(gpx, "wpt")
+        wpt.set("lat", f"{opt_lat:.6f}")
+        wpt.set("lon", f"{opt_lon:.6f}")
+        ET.SubElement(wpt, "name").text = opt_name
+        ET.SubElement(wpt, "type").text = "Optional"
+        ET.SubElement(wpt, "sym").text = opt_sym
 
     fname = f"{prefix}_{tour['number']:02d}_{tour['slug']}_day{day['day']}.gpx"
     path = os.path.join(outdir, fname)
@@ -2207,11 +2247,11 @@ def generate_gpx_day(tour, day, prefix, outdir):
 # ---------------------------------------------------------------------------
 def _register_fonts():
     for name, fn in {
-        "NotoSans": "NotoSans-Regular.ttf",
-        "NotoSans-Bold": "NotoSans-Bold.ttf",
-        "NotoSans-Italic": "NotoSans-Italic.ttf",
-        "NotoSans-BoldItalic": "NotoSans-BoldItalic.ttf",
-        "NotoSerif-Bold": "NotoSerif-Bold.ttf",
+        "NotoSans": "LiberationSans-Regular.ttf",
+        "NotoSans-Bold": "LiberationSans-Bold.ttf",
+        "NotoSans-Italic": "LiberationSans-Italic.ttf",
+        "NotoSans-BoldItalic": "LiberationSans-BoldItalic.ttf",
+        "NotoSerif-Bold": "LiberationSerif-Bold.ttf",
     }.items():
         p = os.path.join(FONT_DIR, fn)
         if os.path.exists(p):

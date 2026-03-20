@@ -58,4 +58,39 @@
       <name>Triberg</name>
     </rtept>
   </rte>
+  <wpt lat="47.683968" lon="8.255560">
+    <name>Ruine Heidenschloss</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="47.688144" lon="8.277652">
+    <name>Ruine Allmut</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="47.706977" lon="8.276227">
+    <name>Ruine Mandach</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="47.639010" lon="8.361416">
+    <name>Wallburg Semberg</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="47.774790" lon="8.260025">
+    <name>Schwarzwaldhaus der Sinne</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="47.639760" lon="8.277165">
+    <name>Vitibuckturm</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="47.689473" lon="8.270851">
+    <name>Witzeneichen</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
 </gpx>

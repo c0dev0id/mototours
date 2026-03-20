@@ -32,6 +32,7 @@
     <name>Alpirsbach</name>
     <desc>Klosterbräu brewery</desc>
     <type>Via</type>
+    <sym>Monastery</sym>
   </wpt>
   <wpt lat="48.290000" lon="8.339000">
     <name>Schiltach</name>
@@ -43,7 +44,7 @@
     <desc>Glassblowing</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.256000" lon="8.180000">
+  <wpt lat="48.255812" lon="8.178635">
     <name>Vogtsbauernhof, Gutach</name>
     <desc>Open-air museum – midpoint</desc>
     <sym>Restaurant</sym>
@@ -58,6 +59,7 @@
     <name>Haslach im Kinzigtal</name>
     <desc>Trachtmuseum</desc>
     <type>Via</type>
+    <sym>Museum</sym>
   </wpt>
   <wpt lat="48.407000" lon="8.015000">
     <name>Gengenbach</name>
@@ -73,6 +75,7 @@
     <name>Baden-Baden</name>
     <desc>Spa city</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>
@@ -104,7 +107,7 @@
     <rtept lat="48.293000" lon="8.219000">
       <name>Wolfach</name>
     </rtept>
-    <rtept lat="48.256000" lon="8.180000">
+    <rtept lat="48.255812" lon="8.178635">
       <name>Vogtsbauernhof, Gutach</name>
     </rtept>
     <rtept lat="48.282000" lon="8.175000">
@@ -126,4 +129,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="48.347033" lon="7.980668">
+    <name>Alt Geroldseck (Rauhkasten)</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="48.344845" lon="8.055323">
+    <name>Breig's Motorrad- und Spielzeugmuseum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.346305" lon="8.064177">
+    <name>Storchenturm-Museum</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.347764" lon="8.066936">
+    <name>Villa Haiss - Museum für zeitgen. Kunst</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="48.419195" lon="7.962399">
+    <name>Vogesenblick</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="48.424087" lon="7.961436">
+    <name>Vierlärchenplatz</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="48.476481" lon="7.968063">
+    <name>Lindenhöhe</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
 </gpx>

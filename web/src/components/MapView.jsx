@@ -43,6 +43,75 @@ const ICONS = {
      <path d="M16 9 A6 6 0 1 0 16 19 A4 4 0 1 1 16 9 Z" fill="#fff"/>`,
     color,
   ),
+  // POI category icons — used for VIA waypoints with a known <sym>, and OPTIONAL type
+  Summit: (color = '#8B6914') => svgIcon(
+    `<circle cx="14" cy="14" r="12" fill="${color}" stroke="#fff" stroke-width="2"/>
+     <polygon points="14,6 8,20 20,20" fill="#fff"/>`,
+    color,
+  ),
+  'Scenic Area': (color = '#16a085') => svgIcon(
+    `<circle cx="14" cy="14" r="12" fill="${color}" stroke="#fff" stroke-width="2"/>
+     <ellipse cx="14" cy="14" rx="6" ry="4" fill="none" stroke="#fff" stroke-width="1.5"/>
+     <circle cx="14" cy="14" r="2" fill="#fff"/>`,
+    color,
+  ),
+  Castle: (color = '#7f8c8d') => svgIcon(
+    `<circle cx="14" cy="14" r="12" fill="${color}" stroke="#fff" stroke-width="2"/>
+     <rect x="9" y="12" width="6" height="7" fill="#fff"/>
+     <rect x="16" y="12" width="3" height="7" fill="#fff"/>
+     <rect x="8" y="10" width="2" height="3" fill="#fff"/>
+     <rect x="11" y="10" width="2" height="3" fill="#fff"/>
+     <rect x="15" y="10" width="2" height="3" fill="#fff"/>
+     <rect x="18" y="10" width="2" height="3" fill="#fff"/>`,
+    color,
+  ),
+  Waterfall: (color = '#2980b9') => svgIcon(
+    `<circle cx="14" cy="14" r="12" fill="${color}" stroke="#fff" stroke-width="2"/>
+     <path d="M10 8 Q10 12 12 14 Q14 16 12 20" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+     <path d="M14 7 Q14 11 16 13 Q18 15 16 19" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
+    color,
+  ),
+  Lake: (color = '#2471a3') => svgIcon(
+    `<circle cx="14" cy="14" r="12" fill="${color}" stroke="#fff" stroke-width="2"/>
+     <path d="M14 7 C14 7 9 13 9 16 A5 5 0 0 0 19 16 C19 13 14 7 14 7 Z" fill="#fff"/>`,
+    color,
+  ),
+  Museum: (color = '#5d6d7e') => svgIcon(
+    `<circle cx="14" cy="14" r="12" fill="${color}" stroke="#fff" stroke-width="2"/>
+     <polygon points="14,7 7,12 21,12" fill="#fff"/>
+     <rect x="8" y="12" width="2" height="7" fill="#fff"/>
+     <rect x="13" y="12" width="2" height="7" fill="#fff"/>
+     <rect x="18" y="12" width="2" height="7" fill="#fff"/>
+     <rect x="7" y="19" width="14" height="1.5" fill="#fff"/>`,
+    color,
+  ),
+  Monastery: (color = '#6c3483') => svgIcon(
+    `<circle cx="14" cy="14" r="12" fill="${color}" stroke="#fff" stroke-width="2"/>
+     <rect x="12.5" y="7" width="3" height="10" fill="#fff" rx="1"/>
+     <rect x="8" y="11" width="12" height="3" fill="#fff" rx="1"/>`,
+    color,
+  ),
+  Spa: (color = '#148f77') => svgIcon(
+    `<circle cx="14" cy="14" r="12" fill="${color}" stroke="#fff" stroke-width="2"/>
+     <path d="M14 8 C11 10 9 13 11 15 C13 17 15 13 14 11 C13 9 11 9 11 12" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+     <path d="M14 8 C17 10 19 13 17 15 C15 17 13 13 14 11" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+     <path d="M10 18 Q14 16 18 18" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
+    color,
+  ),
+  Winery: (color = '#922b21') => svgIcon(
+    `<circle cx="14" cy="14" r="12" fill="${color}" stroke="#fff" stroke-width="2"/>
+     <path d="M11 8 Q10 12 12 14 Q14 16 14 20" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+     <path d="M17 8 Q18 12 16 14 Q14 16 14 20" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+     <path d="M11 8 L17 8" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+     <path d="M10 12 Q14 14 18 12" stroke="#fff" stroke-width="1.2" fill="none"/>`,
+    color,
+  ),
+  OPTIONAL: (color = '#5d9cbb') => svgIcon(
+    `<circle cx="14" cy="14" r="12" fill="${color}" stroke="#fff" stroke-width="2" opacity="0.85"/>
+     <circle cx="14" cy="10" r="1.5" fill="#fff"/>
+     <rect x="12.5" y="13" width="3" height="7" fill="#fff" rx="1"/>`,
+    color,
+  ),
 }
 
 const TYPE_COLOR = {
@@ -51,9 +120,34 @@ const TYPE_COLOR = {
   VIA: '#3498db',
   MIDPOINT: '#e67e22',
   OVERNIGHT: '#9b59b6',
+  OPTIONAL: '#5d9cbb',
 }
 
-function makeLeafletIcon(L, type) {
+// GPX <sym> values that map to a specific category icon for VIA waypoints
+const SYM_ICON = {
+  'Summit': 'Summit',
+  'Scenic Area': 'Scenic Area',
+  'Castle': 'Castle',
+  'Waterfall': 'Waterfall',
+  'Lake': 'Lake',
+  'Museum': 'Museum',
+  'Monastery': 'Monastery',
+  'Spa': 'Spa',
+  'Winery': 'Winery',
+}
+
+function makeLeafletIcon(L, type, symbol = '') {
+  // VIA waypoints with a recognised symbol get a category-specific icon
+  if (type === 'VIA' && symbol && SYM_ICON[symbol]) {
+    const iconFn = ICONS[SYM_ICON[symbol]]
+    return L.divIcon({
+      html: iconFn(),
+      className: '',
+      iconSize: ICON_SIZE,
+      iconAnchor: ICON_ANCHOR,
+      popupAnchor: [0, -14],
+    })
+  }
   const color = TYPE_COLOR[type] ?? TYPE_COLOR.VIA
   const iconFn = ICONS[type] ?? ICONS.VIA
   return L.divIcon({
@@ -153,7 +247,7 @@ export default function MapView({ inline = false, gpxFiles: propGpxFiles }) {
 
           // Waypoint markers with SVG icons
           for (const wpt of gpxData.waypoints) {
-            const icon = makeLeafletIcon(L, wpt.type)
+            const icon = makeLeafletIcon(L, wpt.type, wpt.symbol)
             const marker = L.marker([wpt.lat, wpt.lon], { icon })
             const popupLines = [
               `<strong>${wpt.name}</strong>`,

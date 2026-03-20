@@ -24,7 +24,7 @@
     <desc>Rhine bend</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="50.153000" lon="7.711000">
+  <wpt lat="50.152430" lon="7.710860">
     <name>St. Goar / Loreley</name>
     <desc>Legendary rock</desc>
     <sym>Restaurant</sym>
@@ -34,6 +34,7 @@
     <name>Bacharach</name>
     <desc>Rhine wine town</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="49.966000" lon="7.895000">
     <name>Bingen</name>
@@ -71,7 +72,7 @@
     <rtept lat="50.230000" lon="7.593000">
       <name>Boppard</name>
     </rtept>
-    <rtept lat="50.153000" lon="7.711000">
+    <rtept lat="50.152430" lon="7.710860">
       <name>St. Goar / Loreley</name>
     </rtept>
     <rtept lat="50.059000" lon="7.770000">

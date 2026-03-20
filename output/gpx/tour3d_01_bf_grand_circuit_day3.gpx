@@ -19,13 +19,13 @@
     <desc>Höllental entrance</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="47.897000" lon="8.050000">
+  <wpt lat="47.897408" lon="8.049594">
     <name>Höllental</name>
     <desc>Hell Valley gorge</desc>
     <sym>Restaurant</sym>
     <type>Midpoint</type>
   </wpt>
-  <wpt lat="47.906000" lon="8.110000">
+  <wpt lat="47.905487" lon="8.109600">
     <name>Hinterzarten</name>
     <desc>Health resort</desc>
     <type>Via</type>
@@ -54,6 +54,7 @@
     <name>Baden-Baden</name>
     <desc>Spa city</desc>
     <type>Via</type>
+    <sym>Spa</sym>
   </wpt>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>
@@ -73,10 +74,10 @@
     <rtept lat="47.963000" lon="7.952000">
       <name>Kirchzarten</name>
     </rtept>
-    <rtept lat="47.897000" lon="8.050000">
+    <rtept lat="47.897408" lon="8.049594">
       <name>Höllental</name>
     </rtept>
-    <rtept lat="47.906000" lon="8.110000">
+    <rtept lat="47.905487" lon="8.109600">
       <name>Hinterzarten</name>
     </rtept>
     <rtept lat="48.173000" lon="8.071000">

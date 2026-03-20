@@ -29,6 +29,7 @@
     <name>Neustadt a.d. Weinstraße</name>
     <desc>Wine route</desc>
     <type>Via</type>
+    <sym>Winery</sym>
   </wpt>
   <wpt lat="49.317000" lon="8.431000">
     <name>Speyer</name>
@@ -66,4 +67,39 @@
       <name>Hockenheim</name>
     </rtept>
   </rte>
+  <wpt lat="49.336285" lon="7.454833">
+    <name>Ruine Burg Wiesbach</name>
+    <type>Optional</type>
+    <sym>Castle</sym>
+  </wpt>
+  <wpt lat="49.404329" lon="7.440605">
+    <name>Staubsaugermuseum (vacuum cleaner)</name>
+    <type>Optional</type>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="49.378910" lon="7.496210">
+    <name>Schöne Aussicht Langwieden</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.472862" lon="7.429476">
+    <name>Henschtalbrücke</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.406517" lon="7.539265">
+    <name>Aussichtspunkt Gate</name>
+    <type>Optional</type>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="49.284672" lon="7.440440">
+    <name>Lammsberg</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="49.261428" lon="7.464543">
+    <name>Pottschütthöhe</name>
+    <type>Optional</type>
+    <sym>Summit</sym>
+  </wpt>
 </gpx>
