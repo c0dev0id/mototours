@@ -104,6 +104,30 @@ class TourDetailViewModel(app: Application) : AndroidViewModel(app) {
             } else emptyList()
 
             _state.value = TourDetailState.Loaded(tour, days, dayRoutes)
+
+            // Calculate road-following routes via OSRM for the overview map
+            if (dayRoutes.isNotEmpty()) {
+                val calculatedDayRoutes = days.sortedBy { it.day.dayNumber }.mapNotNull { dw ->
+                    val waypoints = dw.waypoints
+                        .sortedBy { it.orderIndex }
+                        .map { GpxPoint(it.lat, it.lon) }
+                    if (waypoints.size < 2) return@mapNotNull null
+                    val calculated = RouteCalculator.calculateRoute(waypoints)
+                    val startEnd = dw.waypoints.filter {
+                        it.type == WaypointType.START || it.type == WaypointType.END ||
+                                it.type == WaypointType.OVERNIGHT
+                    }
+                    if (calculated != null && calculated.size >= 2) {
+                        DayRouteData(dw.day.dayNumber, dw.day.name, calculated, startEnd)
+                    } else {
+                        // Keep GPX route points as fallback
+                        dayRoutes.find { it.dayNumber == dw.day.dayNumber }
+                    }
+                }
+                if (calculatedDayRoutes.isNotEmpty()) {
+                    _state.value = TourDetailState.Loaded(tour, days, calculatedDayRoutes)
+                }
+            }
         }
     }
 
