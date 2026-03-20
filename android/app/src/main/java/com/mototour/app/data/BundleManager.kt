@@ -32,10 +32,11 @@ class BundleManager(private val context: Context) {
             // Extract ZIP
             context.contentResolver.openInputStream(uri)?.use { stream ->
                 ZipInputStream(stream).use { zip ->
-                    var entry: ZipEntry?
+                    var entry: ZipEntry? = null
                     while (zip.nextEntry.also { entry = it } != null) {
-                        val file = File(tempDir, entry!!.name)
-                        if (entry!!.isDirectory) { file.mkdirs(); continue }
+                        val e = entry ?: continue
+                        val file = File(tempDir, e.name)
+                        if (e.isDirectory) { file.mkdirs(); continue }
                         file.parentFile?.mkdirs()
                         file.outputStream().use { out -> zip.copyTo(out) }
                     }
