@@ -106,6 +106,25 @@ const ICONS = {
      <path d="M10 12 Q14 14 18 12" stroke="#fff" stroke-width="1.2" fill="none"/>`,
     color,
   ),
+  Restaurant: (color = '#c0392b') => svgIcon(
+    `<circle cx="14" cy="14" r="12" fill="${color}" stroke="#fff" stroke-width="2"/>
+     <path d="M10 8 L10 20" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+     <path d="M8 8 L8 12 Q10 13 12 12 L12 8" stroke="#fff" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+     <path d="M18 8 L18 20 M18 8 Q21 10 21 12 Q21 14 18 14" stroke="#fff" stroke-width="1.5" fill="none" stroke-linecap="round"/>`,
+    color,
+  ),
+  Hotel: (color = '#1565c0') => svgIcon(
+    `<circle cx="14" cy="14" r="12" fill="${color}" stroke="#fff" stroke-width="2"/>
+     <rect x="7" y="15" width="14" height="5" fill="#fff" rx="1"/>
+     <rect x="9" y="11" width="9" height="5" fill="#fff" rx="1"/>
+     <rect x="7" y="10" width="2" height="10" fill="#fff" rx="1"/>`,
+    color,
+  ),
+  Attraction: (color = '#d4ac0d') => svgIcon(
+    `<circle cx="14" cy="14" r="12" fill="${color}" stroke="#fff" stroke-width="2"/>
+     <polygon points="14,7 16,12 21,12 17,15 18,20 14,17 10,20 11,15 7,12 12,12" fill="#fff"/>`,
+    color,
+  ),
   OPTIONAL: (color = '#5d9cbb') => svgIcon(
     `<circle cx="14" cy="14" r="12" fill="${color}" stroke="#fff" stroke-width="2" opacity="0.85"/>
      <circle cx="14" cy="10" r="1.5" fill="#fff"/>
@@ -134,6 +153,9 @@ const SYM_ICON = {
   'Monastery': 'Monastery',
   'Spa': 'Spa',
   'Winery': 'Winery',
+  'Restaurant': 'Restaurant',
+  'Hotel': 'Hotel',
+  'Attraction': 'Attraction',
 }
 
 function makeLeafletIcon(L, type, symbol = '') {
