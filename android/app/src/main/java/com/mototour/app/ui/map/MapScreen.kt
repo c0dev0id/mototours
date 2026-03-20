@@ -5,11 +5,11 @@ import android.graphics.Color as AndroidColor
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.Layers
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -36,16 +36,30 @@ class MapViewModel(app: Application) : AndroidViewModel(app) {
     fun load(dayId: Long) {
         viewModelScope.launch {
             val dayWithWaypoints = dao.dayWithWaypoints(dayId)
-            if (dayWithWaypoints != null) {
-                // Parse GPX for route points
-                val gpxFile = File(dayWithWaypoints.day.gpxPath)
-                val routePoints = if (gpxFile.exists()) {
-                    gpxFile.inputStream().use { GpxParser.parse(it) }.routePoints
-                } else emptyList()
-
-                _state.value = MapState.Loaded(dayWithWaypoints, routePoints)
-            } else {
+            if (dayWithWaypoints == null) {
                 _state.value = MapState.Error
+                return@launch
+            }
+
+            // Parse GPX for route points
+            val gpxFile = File(dayWithWaypoints.day.gpxPath)
+            val gpxRoutePoints = if (gpxFile.exists()) {
+                gpxFile.inputStream().use { GpxParser.parse(it) }.routePoints
+            } else emptyList()
+
+            // Show map immediately with GPX route points
+            _state.value = MapState.Loaded(dayWithWaypoints, gpxRoutePoints, routedViaApi = false)
+
+            // Try to calculate a road-following route via OSRM
+            val waypoints = dayWithWaypoints.waypoints
+                .sortedBy { it.orderIndex }
+                .map { GpxPoint(it.lat, it.lon) }
+
+            if (waypoints.size >= 2) {
+                val calculatedRoute = RouteCalculator.calculateRoute(waypoints)
+                if (calculatedRoute != null && calculatedRoute.size >= 2) {
+                    _state.value = MapState.Loaded(dayWithWaypoints, calculatedRoute, routedViaApi = true)
+                }
             }
         }
     }
@@ -54,7 +68,11 @@ class MapViewModel(app: Application) : AndroidViewModel(app) {
 sealed interface MapState {
     data object Loading : MapState
     data object Error : MapState
-    data class Loaded(val day: DayWithWaypoints, val routePoints: List<GpxPoint>) : MapState
+    data class Loaded(
+        val day: DayWithWaypoints,
+        val routePoints: List<GpxPoint>,
+        val routedViaApi: Boolean
+    ) : MapState
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -83,6 +101,7 @@ fun MapScreen(
             val day = s.day.day
             val waypoints = s.day.waypoints.sortedBy { it.orderIndex }
             val routePoints = s.routePoints
+            val routedViaApi = s.routedViaApi
 
             Scaffold(
                 topBar = {
@@ -101,13 +120,18 @@ fun MapScreen(
                     )
                 }
             ) { padding ->
-                AndroidView(
-                    modifier = Modifier.fillMaxSize().padding(padding),
-                    factory = { ctx ->
-                        MapView(ctx).apply {
-                            setTileSource(TileSourceFactory.MAPNIK)
-                            setMultiTouchControls(true)
-                            isTilesScaledToDpi = true
+                Box(Modifier.fillMaxSize().padding(padding)) {
+                    AndroidView(
+                        modifier = Modifier.fillMaxSize(),
+                        factory = { ctx ->
+                            MapView(ctx).apply {
+                                setTileSource(TileSourceFactory.MAPNIK)
+                                setMultiTouchControls(true)
+                                isTilesScaledToDpi = true
+                            }
+                        },
+                        update = { mapView ->
+                            mapView.overlays.clear()
 
                             // Draw route polyline
                             if (routePoints.isNotEmpty()) {
@@ -116,20 +140,18 @@ fun MapScreen(
                                     outlinePaint.strokeWidth = 8f
                                     setPoints(routePoints.map { GeoPoint(it.lat, it.lon) })
                                 }
-                                overlays.add(polyline)
+                                mapView.overlays.add(polyline)
                             }
 
                             // Add waypoint markers
                             for (wpt in waypoints) {
-                                val marker = Marker(this).apply {
+                                val marker = Marker(mapView).apply {
                                     position = GeoPoint(wpt.lat, wpt.lon)
                                     title = wpt.name
                                     snippet = wpt.description
                                     setAnchor(Marker.ANCHOR_CENTER, Marker.ANCHOR_BOTTOM)
                                 }
-                                // Color markers by type
-                                // Default markers are fine; we set alpha to distinguish
-                                overlays.add(marker)
+                                mapView.overlays.add(marker)
                             }
 
                             // Zoom to fit route
@@ -141,13 +163,32 @@ fun MapScreen(
 
                             if (allPoints.isNotEmpty()) {
                                 val box = BoundingBox.fromGeoPoints(allPoints)
-                                post {
-                                    zoomToBoundingBox(box.increaseByScale(1.2f), true)
+                                mapView.post {
+                                    mapView.zoomToBoundingBox(box.increaseByScale(1.2f), true)
                                 }
                             }
+
+                            mapView.invalidate()
+                        }
+                    )
+
+                    // Route source indicator
+                    if (!routedViaApi && routePoints.isNotEmpty()) {
+                        Surface(
+                            modifier = Modifier.align(Alignment.BottomCenter)
+                                .padding(padding),
+                            color = MaterialTheme.colorScheme.surfaceVariant,
+                            shape = MaterialTheme.shapes.small,
+                            tonalElevation = 2.dp
+                        ) {
+                            Text(
+                                text = "Calculating route\u2026",
+                                style = MaterialTheme.typography.labelSmall,
+                                modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp)
+                            )
                         }
                     }
-                )
+                }
             }
         }
     }
