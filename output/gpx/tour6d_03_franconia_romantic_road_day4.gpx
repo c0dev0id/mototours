@@ -30,7 +30,7 @@
     <desc>Fossil limestone</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.851000" lon="10.489000">
+  <wpt lat="48.851127" lon="10.488312">
     <name>Nördlingen</name>
     <desc>Ries crater</desc>
     <type>Via</type>
@@ -59,7 +59,7 @@
     <rtept lat="48.897000" lon="10.966000">
       <name>Solnhofen</name>
     </rtept>
-    <rtept lat="48.851000" lon="10.489000">
+    <rtept lat="48.851127" lon="10.488312">
       <name>Nördlingen</name>
     </rtept>
     <rtept lat="49.067000" lon="10.319000">

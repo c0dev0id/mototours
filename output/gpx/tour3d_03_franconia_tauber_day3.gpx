@@ -35,7 +35,7 @@
     <desc>Motorcycle museum</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.231000" lon="9.165000">
+  <wpt lat="49.231593" lon="9.165404">
     <name>Bad Wimpfen</name>
     <desc>Kaiserpfalz</desc>
     <type>Via</type>
@@ -72,7 +72,7 @@
     <rtept lat="49.192000" lon="9.225000">
       <name>Neckarsulm</name>
     </rtept>
-    <rtept lat="49.231000" lon="9.165000">
+    <rtept lat="49.231593" lon="9.165404">
       <name>Bad Wimpfen</name>
     </rtept>
     <rtept lat="49.253000" lon="8.879000">

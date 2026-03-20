@@ -36,7 +36,7 @@
     <sym>Restaurant</sym>
     <type>Midpoint</type>
   </wpt>
-  <wpt lat="48.519000" lon="7.131000">
+  <wpt lat="48.519625" lon="7.130593">
     <name>Col du Donon (727 m)</name>
     <desc>Vosges pass</desc>
     <type>Via</type>
@@ -73,7 +73,7 @@
     <rtept lat="49.052000" lon="7.430000">
       <name>Bitche</name>
     </rtept>
-    <rtept lat="48.519000" lon="7.131000">
+    <rtept lat="48.519625" lon="7.130593">
       <name>Col du Donon (727 m)</name>
     </rtept>
     <rtept lat="48.479000" lon="7.220000">

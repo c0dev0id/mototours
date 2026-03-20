@@ -30,7 +30,7 @@
     <desc>Valley end</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.538000" lon="8.132000">
+  <wpt lat="48.537973" lon="8.130656">
     <name>Kloster Allerheiligen</name>
     <desc>Ruined monastery</desc>
     <sym>Restaurant</sym>
@@ -80,7 +80,7 @@
     <rtept lat="48.570000" lon="8.152000">
       <name>Ottenhöfen</name>
     </rtept>
-    <rtept lat="48.538000" lon="8.132000">
+    <rtept lat="48.537973" lon="8.130656">
       <name>Kloster Allerheiligen</name>
     </rtept>
     <rtept lat="48.474000" lon="8.161000">

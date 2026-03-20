@@ -38,7 +38,7 @@
     <desc>Black Forest waterfalls</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.055000" lon="8.208000">
+  <wpt lat="48.054612" lon="8.208417">
     <name>Furtwangen</name>
     <desc>Cuckoo clock museum</desc>
     <type>Via</type>
@@ -49,12 +49,12 @@
     <sym>Restaurant</sym>
     <type>Midpoint</type>
   </wpt>
-  <wpt lat="47.906000" lon="8.110000">
+  <wpt lat="47.905487" lon="8.109600">
     <name>Hinterzarten</name>
     <desc>Health resort</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="47.897000" lon="8.050000">
+  <wpt lat="47.897408" lon="8.049594">
     <name>Höllental</name>
     <desc>Hell Valley gorge</desc>
     <type>Via</type>
@@ -106,16 +106,16 @@
     <rtept lat="48.133000" lon="8.237000">
       <name>Triberg</name>
     </rtept>
-    <rtept lat="48.055000" lon="8.208000">
+    <rtept lat="48.054612" lon="8.208417">
       <name>Furtwangen</name>
     </rtept>
     <rtept lat="47.903000" lon="8.157000">
       <name>Titisee</name>
     </rtept>
-    <rtept lat="47.906000" lon="8.110000">
+    <rtept lat="47.905487" lon="8.109600">
       <name>Hinterzarten</name>
     </rtept>
-    <rtept lat="47.897000" lon="8.050000">
+    <rtept lat="47.897408" lon="8.049594">
       <name>Höllental</name>
     </rtept>
     <rtept lat="47.963000" lon="7.952000">

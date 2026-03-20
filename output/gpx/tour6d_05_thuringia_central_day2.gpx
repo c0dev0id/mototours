@@ -25,7 +25,7 @@
     <desc>Fairy grottoes</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="50.622000" lon="11.200000">
+  <wpt lat="50.620777" lon="11.200739">
     <name>Schwarzatal</name>
     <desc>Deep valley</desc>
     <type>Via</type>
@@ -51,7 +51,7 @@
     <rtept lat="50.648000" lon="11.364000">
       <name>Saalfeld</name>
     </rtept>
-    <rtept lat="50.622000" lon="11.200000">
+    <rtept lat="50.620777" lon="11.200739">
       <name>Schwarzatal</name>
     </rtept>
     <rtept lat="50.685000" lon="10.919000">

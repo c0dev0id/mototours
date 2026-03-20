@@ -9,7 +9,7 @@
     <desc>Start</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="50.721000" lon="10.732000">
+  <wpt lat="50.723390" lon="10.733090">
     <name>Oberhof</name>
     <desc>Winter sports</desc>
     <sym>Restaurant</sym>
@@ -47,7 +47,7 @@
     <rtept lat="50.685000" lon="10.919000">
       <name>Ilmenau</name>
     </rtept>
-    <rtept lat="50.721000" lon="10.732000">
+    <rtept lat="50.723390" lon="10.733090">
       <name>Oberhof</name>
     </rtept>
     <rtept lat="50.875000" lon="10.524000">

@@ -23,7 +23,7 @@
     <desc>Valley climb</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.654000" lon="8.226000">
+  <wpt lat="48.654527" lon="8.225886">
     <name>Sand</name>
     <desc>B500 junction</desc>
     <type>Via</type>
@@ -92,7 +92,7 @@
     <rtept lat="48.669000" lon="8.168000">
       <name>Bühlertal</name>
     </rtept>
-    <rtept lat="48.654000" lon="8.226000">
+    <rtept lat="48.654527" lon="8.225886">
       <name>Sand</name>
     </rtept>
     <rtept lat="48.620000" lon="8.210000">

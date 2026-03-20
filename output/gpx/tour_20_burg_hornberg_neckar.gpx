@@ -18,12 +18,12 @@
     <desc>Head east</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.239000" lon="8.993000">
+  <wpt lat="49.242307" lon="8.993003">
     <name>Bad Rappenau</name>
     <desc>Saline tower</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.231000" lon="9.165000">
+  <wpt lat="49.231593" lon="9.165404">
     <name>Bad Wimpfen</name>
     <desc>Imperial palace – midpoint</desc>
     <sym>Restaurant</sym>
@@ -79,10 +79,10 @@
     <rtept lat="49.253000" lon="8.879000">
       <name>Sinsheim</name>
     </rtept>
-    <rtept lat="49.239000" lon="8.993000">
+    <rtept lat="49.242307" lon="8.993003">
       <name>Bad Rappenau</name>
     </rtept>
-    <rtept lat="49.231000" lon="9.165000">
+    <rtept lat="49.231593" lon="9.165404">
       <name>Bad Wimpfen</name>
     </rtept>
     <rtept lat="49.285000" lon="9.159000">

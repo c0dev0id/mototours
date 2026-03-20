@@ -33,12 +33,12 @@
     <desc>Neckar town</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.500000" lon="9.040000">
+  <wpt lat="49.499487" lon="9.039945">
     <name>Strümpfelbrunn</name>
     <desc>Into deep forest</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.483000" lon="9.004000">
+  <wpt lat="49.481872" lon="9.004841">
     <name>Katzenbuckel (626 m)</name>
     <desc>Highest Odenwald peak</desc>
     <type>Via</type>
@@ -69,7 +69,7 @@
     <desc>Neckar valley</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.239000" lon="8.993000">
+  <wpt lat="49.242307" lon="8.993003">
     <name>Bad Rappenau</name>
     <desc>Return west</desc>
     <type>Via</type>
@@ -98,10 +98,10 @@
     <rtept lat="49.467000" lon="8.988000">
       <name>Eberbach</name>
     </rtept>
-    <rtept lat="49.500000" lon="9.040000">
+    <rtept lat="49.499487" lon="9.039945">
       <name>Strümpfelbrunn</name>
     </rtept>
-    <rtept lat="49.483000" lon="9.004000">
+    <rtept lat="49.481872" lon="9.004841">
       <name>Katzenbuckel (626 m)</name>
     </rtept>
     <rtept lat="49.454000" lon="9.103000">
@@ -119,7 +119,7 @@
     <rtept lat="49.285000" lon="9.159000">
       <name>Gundelsheim</name>
     </rtept>
-    <rtept lat="49.239000" lon="8.993000">
+    <rtept lat="49.242307" lon="8.993003">
       <name>Bad Rappenau</name>
     </rtept>
     <rtept lat="49.322000" lon="8.548000">

@@ -14,7 +14,7 @@
     <desc>Wutach gorge area</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="47.623000" lon="8.215000">
+  <wpt lat="47.623199" lon="8.215840">
     <name>Waldshut-Tiengen</name>
     <desc>High Rhine</desc>
     <type>Via</type>
@@ -50,7 +50,7 @@
     <rtept lat="47.818000" lon="8.340000">
       <name>Bonndorf</name>
     </rtept>
-    <rtept lat="47.623000" lon="8.215000">
+    <rtept lat="47.623199" lon="8.215840">
       <name>Waldshut-Tiengen</name>
     </rtept>
     <rtept lat="47.697000" lon="8.635000">

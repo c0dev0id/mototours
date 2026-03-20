@@ -49,7 +49,7 @@
     <desc>Brief French detour</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.052000" lon="8.096000">
+  <wpt lat="49.052343" lon="8.097300">
     <name>Schweighofen</name>
     <desc>Border villages</desc>
     <type>Via</type>
@@ -59,7 +59,7 @@
     <desc>Quiet border region</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.135000" lon="8.015000">
+  <wpt lat="49.135104" lon="8.013845">
     <name>Klingenmünster</name>
     <desc>Wine village</desc>
     <type>Via</type>
@@ -112,13 +112,13 @@
     <rtept lat="49.037000" lon="7.945000">
       <name>Wissembourg</name>
     </rtept>
-    <rtept lat="49.052000" lon="8.096000">
+    <rtept lat="49.052343" lon="8.097300">
       <name>Schweighofen</name>
     </rtept>
     <rtept lat="49.067000" lon="8.051000">
       <name>Steinfeld</name>
     </rtept>
-    <rtept lat="49.135000" lon="8.015000">
+    <rtept lat="49.135104" lon="8.013845">
       <name>Klingenmünster</name>
     </rtept>
     <rtept lat="49.269000" lon="8.110000">

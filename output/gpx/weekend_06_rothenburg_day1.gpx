@@ -15,7 +15,7 @@
     <desc>Head east</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.231000" lon="9.165000">
+  <wpt lat="49.231593" lon="9.165404">
     <name>Bad Wimpfen</name>
     <desc>Kaiserpfalz</desc>
     <type>Via</type>
@@ -25,7 +25,7 @@
     <desc>Götzenburg</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.328000" lon="9.500000">
+  <wpt lat="49.328184" lon="9.499211">
     <name>Kloster Schöntal</name>
     <desc>Baroque abbey</desc>
     <sym>Restaurant</sym>
@@ -60,13 +60,13 @@
     <rtept lat="49.253000" lon="8.879000">
       <name>Sinsheim</name>
     </rtept>
-    <rtept lat="49.231000" lon="9.165000">
+    <rtept lat="49.231593" lon="9.165404">
       <name>Bad Wimpfen</name>
     </rtept>
     <rtept lat="49.309000" lon="9.469000">
       <name>Jagsthausen</name>
     </rtept>
-    <rtept lat="49.328000" lon="9.500000">
+    <rtept lat="49.328184" lon="9.499211">
       <name>Kloster Schöntal</name>
     </rtept>
     <rtept lat="49.282000" lon="9.685000">

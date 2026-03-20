@@ -9,7 +9,7 @@
     <desc>Start</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="47.897000" lon="8.050000">
+  <wpt lat="47.897408" lon="8.049594">
     <name>Höllental</name>
     <desc>Hell Valley</desc>
     <sym>Restaurant</sym>
@@ -25,7 +25,7 @@
     <desc>High lake</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="47.623000" lon="8.215000">
+  <wpt lat="47.623199" lon="8.215840">
     <name>Waldshut</name>
     <desc>High Rhine</desc>
     <type>Via</type>
@@ -47,7 +47,7 @@
     <rtept lat="47.999000" lon="7.842000">
       <name>Freiburg</name>
     </rtept>
-    <rtept lat="47.897000" lon="8.050000">
+    <rtept lat="47.897408" lon="8.049594">
       <name>Höllental</name>
     </rtept>
     <rtept lat="47.903000" lon="8.157000">
@@ -56,7 +56,7 @@
     <rtept lat="47.819000" lon="8.179000">
       <name>Schluchsee</name>
     </rtept>
-    <rtept lat="47.623000" lon="8.215000">
+    <rtept lat="47.623199" lon="8.215840">
       <name>Waldshut</name>
     </rtept>
     <rtept lat="47.697000" lon="8.635000">

@@ -9,7 +9,7 @@
     <desc>Start day 2</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.055000" lon="8.208000">
+  <wpt lat="48.054612" lon="8.208417">
     <name>Furtwangen</name>
     <desc>Clock museum</desc>
     <type>Via</type>
@@ -20,7 +20,7 @@
     <sym>Restaurant</sym>
     <type>Midpoint</type>
   </wpt>
-  <wpt lat="47.906000" lon="8.110000">
+  <wpt lat="47.905487" lon="8.109600">
     <name>Hinterzarten</name>
     <desc>Health resort</desc>
     <type>Via</type>
@@ -35,7 +35,7 @@
     <desc>Waterfall town</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="47.822000" lon="7.831000">
+  <wpt lat="47.819997" lon="7.834677">
     <name>Belchen (1414 m)</name>
     <desc>Finest panorama</desc>
     <type>Via</type>
@@ -57,13 +57,13 @@
     <rtept lat="48.133000" lon="8.237000">
       <name>Triberg</name>
     </rtept>
-    <rtept lat="48.055000" lon="8.208000">
+    <rtept lat="48.054612" lon="8.208417">
       <name>Furtwangen</name>
     </rtept>
     <rtept lat="47.903000" lon="8.157000">
       <name>Titisee</name>
     </rtept>
-    <rtept lat="47.906000" lon="8.110000">
+    <rtept lat="47.905487" lon="8.109600">
       <name>Hinterzarten</name>
     </rtept>
     <rtept lat="47.874000" lon="8.005000">
@@ -72,7 +72,7 @@
     <rtept lat="47.826000" lon="7.946000">
       <name>Todtnau</name>
     </rtept>
-    <rtept lat="47.822000" lon="7.831000">
+    <rtept lat="47.819997" lon="7.834677">
       <name>Belchen (1414 m)</name>
     </rtept>
     <rtept lat="47.856000" lon="7.770000">

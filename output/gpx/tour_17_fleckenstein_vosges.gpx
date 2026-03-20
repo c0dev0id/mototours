@@ -49,12 +49,12 @@
     <desc>Thermal spa</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.938000" lon="7.737000">
+  <wpt lat="48.937401" lon="7.737265">
     <name>Wörth-sur-Sauer</name>
     <desc>Through the forest</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.974000" lon="8.176000">
+  <wpt lat="48.974458" lon="8.176915">
     <name>Lauterbourg</name>
     <desc>Back to Germany</desc>
     <type>Via</type>
@@ -97,10 +97,10 @@
     <rtept lat="48.952000" lon="7.643000">
       <name>Niederbronn-les-Bains</name>
     </rtept>
-    <rtept lat="48.938000" lon="7.737000">
+    <rtept lat="48.937401" lon="7.737265">
       <name>Wörth-sur-Sauer</name>
     </rtept>
-    <rtept lat="48.974000" lon="8.176000">
+    <rtept lat="48.974458" lon="8.176915">
       <name>Lauterbourg</name>
     </rtept>
     <rtept lat="49.216000" lon="8.366000">

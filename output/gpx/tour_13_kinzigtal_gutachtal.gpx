@@ -43,7 +43,7 @@
     <desc>Glassblowing</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.256000" lon="8.180000">
+  <wpt lat="48.255812" lon="8.178635">
     <name>Vogtsbauernhof, Gutach</name>
     <desc>Open-air museum – midpoint</desc>
     <sym>Restaurant</sym>
@@ -104,7 +104,7 @@
     <rtept lat="48.293000" lon="8.219000">
       <name>Wolfach</name>
     </rtept>
-    <rtept lat="48.256000" lon="8.180000">
+    <rtept lat="48.255812" lon="8.178635">
       <name>Vogtsbauernhof, Gutach</name>
     </rtept>
     <rtept lat="48.282000" lon="8.175000">

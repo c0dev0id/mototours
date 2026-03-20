@@ -46,7 +46,7 @@
     <desc>Three castles</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.140000" lon="7.264000">
+  <wpt lat="48.140544" lon="7.263610">
     <name>Kaysersberg</name>
     <desc>Albert Schweitzer</desc>
     <type>Via</type>
@@ -84,7 +84,7 @@
     <rtept lat="48.194000" lon="7.318000">
       <name>Ribeauvillé</name>
     </rtept>
-    <rtept lat="48.140000" lon="7.264000">
+    <rtept lat="48.140544" lon="7.263610">
       <name>Kaysersberg</name>
     </rtept>
     <rtept lat="48.042000" lon="7.137000">

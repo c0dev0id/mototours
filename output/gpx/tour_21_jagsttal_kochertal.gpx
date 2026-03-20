@@ -18,7 +18,7 @@
     <desc>Head east</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.239000" lon="8.993000">
+  <wpt lat="49.242307" lon="8.993003">
     <name>Bad Rappenau</name>
     <desc>Saline</desc>
     <type>Via</type>
@@ -38,7 +38,7 @@
     <desc>Knight’s village</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.328000" lon="9.500000">
+  <wpt lat="49.328184" lon="9.499211">
     <name>Kloster Schöntal</name>
     <desc>Baroque abbey</desc>
     <type>Via</type>
@@ -89,7 +89,7 @@
     <rtept lat="49.253000" lon="8.879000">
       <name>Sinsheim</name>
     </rtept>
-    <rtept lat="49.239000" lon="8.993000">
+    <rtept lat="49.242307" lon="8.993003">
       <name>Bad Rappenau</name>
     </rtept>
     <rtept lat="49.231000" lon="9.211000">
@@ -101,7 +101,7 @@
     <rtept lat="49.302000" lon="9.451000">
       <name>Berlichingen</name>
     </rtept>
-    <rtept lat="49.328000" lon="9.500000">
+    <rtept lat="49.328184" lon="9.499211">
       <name>Kloster Schöntal</name>
     </rtept>
     <rtept lat="49.282000" lon="9.685000">

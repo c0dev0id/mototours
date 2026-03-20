@@ -23,7 +23,7 @@
     <desc>Valley narrows</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.403000" lon="8.838000">
+  <wpt lat="49.404621" lon="8.838092">
     <name>Neckarsteinach</name>
     <desc>Four Castle Town</desc>
     <type>Via</type>
@@ -39,7 +39,7 @@
     <sym>Restaurant</sym>
     <type>Midpoint</type>
   </wpt>
-  <wpt lat="49.352000" lon="9.039000">
+  <wpt lat="49.352622" lon="9.039285">
     <name>Zwingenberg am Neckar</name>
     <desc>Castle on the cliff</desc>
     <type>Via</type>
@@ -59,7 +59,7 @@
     <desc>Neckar valley</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.239000" lon="8.993000">
+  <wpt lat="49.242307" lon="8.993003">
     <name>Bad Rappenau</name>
     <desc>Return west</desc>
     <type>Via</type>
@@ -87,7 +87,7 @@
     <rtept lat="49.393000" lon="8.797000">
       <name>Neckargemünd</name>
     </rtept>
-    <rtept lat="49.403000" lon="8.838000">
+    <rtept lat="49.404621" lon="8.838092">
       <name>Neckarsteinach</name>
     </rtept>
     <rtept lat="49.448000" lon="8.893000">
@@ -96,7 +96,7 @@
     <rtept lat="49.467000" lon="8.988000">
       <name>Eberbach</name>
     </rtept>
-    <rtept lat="49.352000" lon="9.039000">
+    <rtept lat="49.352622" lon="9.039285">
       <name>Zwingenberg am Neckar</name>
     </rtept>
     <rtept lat="49.353000" lon="9.146000">
@@ -108,7 +108,7 @@
     <rtept lat="49.285000" lon="9.159000">
       <name>Gundelsheim</name>
     </rtept>
-    <rtept lat="49.239000" lon="8.993000">
+    <rtept lat="49.242307" lon="8.993003">
       <name>Bad Rappenau</name>
     </rtept>
     <rtept lat="49.253000" lon="8.879000">

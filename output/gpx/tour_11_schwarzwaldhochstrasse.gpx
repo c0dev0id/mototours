@@ -23,17 +23,17 @@
     <desc>Spa city</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.722000" lon="8.240000">
+  <wpt lat="48.721556" lon="8.241260">
     <name>Geroldsau</name>
     <desc>Waterfall</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.683000" lon="8.223000">
+  <wpt lat="48.683338" lon="8.222543">
     <name>Bühlerhöhe</name>
     <desc>Join B500</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.654000" lon="8.226000">
+  <wpt lat="48.654527" lon="8.225886">
     <name>Sand</name>
     <desc>B500 junction</desc>
     <type>Via</type>
@@ -54,7 +54,7 @@
     <desc>Nationalpark center</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.483000" lon="8.287000">
+  <wpt lat="48.483159" lon="8.287663">
     <name>Kniebis</name>
     <desc>Pass village</desc>
     <type>Via</type>
@@ -92,13 +92,13 @@
     <rtept lat="48.761000" lon="8.241000">
       <name>Baden-Baden</name>
     </rtept>
-    <rtept lat="48.722000" lon="8.240000">
+    <rtept lat="48.721556" lon="8.241260">
       <name>Geroldsau</name>
     </rtept>
-    <rtept lat="48.683000" lon="8.223000">
+    <rtept lat="48.683338" lon="8.222543">
       <name>Bühlerhöhe</name>
     </rtept>
-    <rtept lat="48.654000" lon="8.226000">
+    <rtept lat="48.654527" lon="8.225886">
       <name>Sand</name>
     </rtept>
     <rtept lat="48.620000" lon="8.210000">
@@ -110,7 +110,7 @@
     <rtept lat="48.561000" lon="8.221000">
       <name>Ruhestein</name>
     </rtept>
-    <rtept lat="48.483000" lon="8.287000">
+    <rtept lat="48.483159" lon="8.287663">
       <name>Kniebis</name>
     </rtept>
     <rtept lat="48.462000" lon="8.411000">

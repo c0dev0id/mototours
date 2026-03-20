@@ -19,7 +19,7 @@
     <desc>Erbeskopf nearby</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.720000" lon="7.060000">
+  <wpt lat="49.721691" lon="7.059106">
     <name>Hunsrück Hochwald</name>
     <desc>Wild highlands</desc>
     <sym>Restaurant</sym>
@@ -40,7 +40,7 @@
     <desc>Nahe wines</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.750000" lon="7.850000">
+  <wpt lat="49.749941" lon="7.848917">
     <name>Alsenz valley</name>
     <desc>Through to Pfalz</desc>
     <type>Via</type>
@@ -73,7 +73,7 @@
     <rtept lat="49.754000" lon="7.010000">
       <name>Thalfang</name>
     </rtept>
-    <rtept lat="49.720000" lon="7.060000">
+    <rtept lat="49.721691" lon="7.059106">
       <name>Hunsrück Hochwald</name>
     </rtept>
     <rtept lat="49.810000" lon="7.130000">
@@ -85,7 +85,7 @@
     <rtept lat="49.842000" lon="7.867000">
       <name>Bad Kreuznach</name>
     </rtept>
-    <rtept lat="49.750000" lon="7.850000">
+    <rtept lat="49.749941" lon="7.848917">
       <name>Alsenz valley</name>
     </rtept>
     <rtept lat="49.462000" lon="8.172000">

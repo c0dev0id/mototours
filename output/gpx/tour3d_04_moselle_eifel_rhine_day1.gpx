@@ -41,7 +41,7 @@
     <desc>Moselle wine</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.947000" lon="7.118000">
+  <wpt lat="49.947918" lon="7.118073">
     <name>Traben-Trarbach</name>
     <desc>Art Nouveau town</desc>
     <type>Via</type>
@@ -76,7 +76,7 @@
     <rtept lat="49.915000" lon="7.068000">
       <name>Bernkastel-Kues</name>
     </rtept>
-    <rtept lat="49.947000" lon="7.118000">
+    <rtept lat="49.947918" lon="7.118073">
       <name>Traben-Trarbach</name>
     </rtept>
     <rtept lat="50.146000" lon="7.167000">

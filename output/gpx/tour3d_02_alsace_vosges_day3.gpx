@@ -20,7 +20,7 @@
     <sym>Restaurant</sym>
     <type>Midpoint</type>
   </wpt>
-  <wpt lat="47.902000" lon="7.099000">
+  <wpt lat="47.901574" lon="7.100000">
     <name>Grand Ballon (1424 m)</name>
     <desc>Highest Vosges</desc>
     <type>Via</type>
@@ -35,7 +35,7 @@
     <desc>Circular wine village</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.079000" lon="7.359000">
+  <wpt lat="48.079302" lon="7.360023">
     <name>Colmar</name>
     <desc>Little Venice</desc>
     <type>Via</type>
@@ -73,7 +73,7 @@
     <rtept lat="47.977000" lon="7.053000">
       <name>Route des Crêtes</name>
     </rtept>
-    <rtept lat="47.902000" lon="7.099000">
+    <rtept lat="47.901574" lon="7.100000">
       <name>Grand Ballon (1424 m)</name>
     </rtept>
     <rtept lat="47.912000" lon="7.210000">
@@ -82,7 +82,7 @@
     <rtept lat="48.042000" lon="7.306000">
       <name>Eguisheim</name>
     </rtept>
-    <rtept lat="48.079000" lon="7.359000">
+    <rtept lat="48.079302" lon="7.360023">
       <name>Colmar</name>
     </rtept>
     <rtept lat="48.318000" lon="7.711000">

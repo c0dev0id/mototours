@@ -54,7 +54,7 @@
     <desc>Thermal springs</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.665000" lon="8.469000">
+  <wpt lat="48.664590" lon="8.468210">
     <name>Enzklösterle</name>
     <desc>Remote forest village</desc>
     <type>Via</type>
@@ -105,7 +105,7 @@
     <rtept lat="48.775000" lon="8.732000">
       <name>Bad Liebenzell</name>
     </rtept>
-    <rtept lat="48.665000" lon="8.469000">
+    <rtept lat="48.664590" lon="8.468210">
       <name>Enzklösterle</name>
     </rtept>
     <rtept lat="48.756000" lon="8.550000">

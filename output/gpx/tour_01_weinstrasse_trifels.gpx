@@ -28,7 +28,7 @@
     <desc>Wine village</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.284000" lon="8.120000">
+  <wpt lat="49.283267" lon="8.119929">
     <name>Edenkoben</name>
     <desc>Villa Ludwigshöhe</desc>
     <type>Via</type>
@@ -54,7 +54,7 @@
     <sym>Restaurant</sym>
     <type>Midpoint</type>
   </wpt>
-  <wpt lat="49.244000" lon="7.974000">
+  <wpt lat="49.244466" lon="7.973873">
     <name>Ramberg</name>
     <desc>Into the forest</desc>
     <type>Via</type>
@@ -100,7 +100,7 @@
     <rtept lat="49.306000" lon="8.132000">
       <name>Maikammer</name>
     </rtept>
-    <rtept lat="49.284000" lon="8.120000">
+    <rtept lat="49.283267" lon="8.119929">
       <name>Edenkoben</name>
     </rtept>
     <rtept lat="49.269000" lon="8.110000">
@@ -115,7 +115,7 @@
     <rtept lat="49.207000" lon="7.982000">
       <name>Burg Trifels</name>
     </rtept>
-    <rtept lat="49.244000" lon="7.974000">
+    <rtept lat="49.244466" lon="7.973873">
       <name>Ramberg</name>
     </rtept>
     <rtept lat="49.348000" lon="7.850000">

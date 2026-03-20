@@ -33,7 +33,7 @@
     <desc>Valley end</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.538000" lon="8.132000">
+  <wpt lat="48.537973" lon="8.130656">
     <name>Kloster Allerheiligen</name>
     <desc>Ruined monastery – midpoint</desc>
     <sym>Restaurant</sym>
@@ -49,7 +49,7 @@
     <desc>Spa village</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.483000" lon="8.287000">
+  <wpt lat="48.483159" lon="8.287663">
     <name>Kniebis</name>
     <desc>Pass</desc>
     <type>Via</type>
@@ -59,7 +59,7 @@
     <desc>Join B500</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.654000" lon="8.226000">
+  <wpt lat="48.654527" lon="8.225886">
     <name>Sand</name>
     <desc>B500 north</desc>
     <type>Via</type>
@@ -93,7 +93,7 @@
     <rtept lat="48.570000" lon="8.152000">
       <name>Ottenhöfen</name>
     </rtept>
-    <rtept lat="48.538000" lon="8.132000">
+    <rtept lat="48.537973" lon="8.130656">
       <name>Kloster Allerheiligen</name>
     </rtept>
     <rtept lat="48.474000" lon="8.161000">
@@ -102,13 +102,13 @@
     <rtept lat="48.427000" lon="8.202000">
       <name>Bad Peterstal-Griesbach</name>
     </rtept>
-    <rtept lat="48.483000" lon="8.287000">
+    <rtept lat="48.483159" lon="8.287663">
       <name>Kniebis</name>
     </rtept>
     <rtept lat="48.561000" lon="8.221000">
       <name>Ruhestein</name>
     </rtept>
-    <rtept lat="48.654000" lon="8.226000">
+    <rtept lat="48.654527" lon="8.225886">
       <name>Sand</name>
     </rtept>
     <rtept lat="48.761000" lon="8.241000">

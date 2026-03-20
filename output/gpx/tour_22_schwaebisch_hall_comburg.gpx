@@ -59,7 +59,7 @@
     <desc>Swabian Forest</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.879000" lon="9.474000">
+  <wpt lat="48.879172" lon="9.473148">
     <name>Sulzbach an der Murr</name>
     <desc>Forest edge</desc>
     <type>Via</type>
@@ -113,7 +113,7 @@
     <rtept lat="48.978000" lon="9.586000">
       <name>Murrhardt</name>
     </rtept>
-    <rtept lat="48.879000" lon="9.474000">
+    <rtept lat="48.879172" lon="9.473148">
       <name>Sulzbach an der Murr</name>
     </rtept>
     <rtept lat="48.948000" lon="9.432000">

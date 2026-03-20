@@ -14,7 +14,7 @@
     <desc>Valley south</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="47.822000" lon="7.831000">
+  <wpt lat="47.819997" lon="7.834677">
     <name>Belchen (1414 m)</name>
     <desc>Panoramic summit</desc>
     <sym>Restaurant</sym>
@@ -40,12 +40,12 @@
     <desc>Iconic lake</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="47.906000" lon="8.110000">
+  <wpt lat="47.905487" lon="8.109600">
     <name>Hinterzarten</name>
     <desc>Health resort</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="47.897000" lon="8.050000">
+  <wpt lat="47.897408" lon="8.049594">
     <name>Höllental</name>
     <desc>Hell Valley gorge</desc>
     <type>Via</type>
@@ -80,7 +80,7 @@
     <rtept lat="47.856000" lon="7.770000">
       <name>Münstertal</name>
     </rtept>
-    <rtept lat="47.822000" lon="7.831000">
+    <rtept lat="47.819997" lon="7.834677">
       <name>Belchen (1414 m)</name>
     </rtept>
     <rtept lat="47.787000" lon="7.893000">
@@ -95,10 +95,10 @@
     <rtept lat="47.903000" lon="8.157000">
       <name>Titisee</name>
     </rtept>
-    <rtept lat="47.906000" lon="8.110000">
+    <rtept lat="47.905487" lon="8.109600">
       <name>Hinterzarten</name>
     </rtept>
-    <rtept lat="47.897000" lon="8.050000">
+    <rtept lat="47.897408" lon="8.049594">
       <name>Höllental</name>
     </rtept>
     <rtept lat="47.999000" lon="7.842000">

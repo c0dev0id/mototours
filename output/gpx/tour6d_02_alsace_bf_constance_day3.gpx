@@ -4,7 +4,7 @@
     <name>Tour6d 02, Day 3: Across to Freiburg</name>
     <desc>Southern Alsace villages, cross Rhine at Breisach, Kaiserstuhl, Staufen to Freiburg.</desc>
   </metadata>
-  <wpt lat="48.079000" lon="7.359000">
+  <wpt lat="48.079302" lon="7.360023">
     <name>Colmar</name>
     <desc>Start</desc>
     <type>Via</type>
@@ -44,7 +44,7 @@
   <rte>
     <name>Across to Freiburg</name>
     <desc>~120 km</desc>
-    <rtept lat="48.079000" lon="7.359000">
+    <rtept lat="48.079302" lon="7.360023">
       <name>Colmar</name>
     </rtept>
     <rtept lat="48.042000" lon="7.306000">

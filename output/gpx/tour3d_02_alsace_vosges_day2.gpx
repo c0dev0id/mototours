@@ -30,7 +30,7 @@
     <desc>Walled wine village</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.140000" lon="7.264000">
+  <wpt lat="48.140544" lon="7.263610">
     <name>Kaysersberg</name>
     <desc>Schweitzer’s birthplace</desc>
     <type>Via</type>
@@ -40,7 +40,7 @@
     <desc>Cheese valley</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.063000" lon="7.023000">
+  <wpt lat="48.063389" lon="7.023751">
     <name>Col de la Schlucht</name>
     <desc>Mountain pass (1139 m)</desc>
     <type>Via</type>
@@ -69,13 +69,13 @@
     <rtept lat="48.167000" lon="7.298000">
       <name>Riquewihr</name>
     </rtept>
-    <rtept lat="48.140000" lon="7.264000">
+    <rtept lat="48.140544" lon="7.263610">
       <name>Kaysersberg</name>
     </rtept>
     <rtept lat="48.042000" lon="7.137000">
       <name>Munster</name>
     </rtept>
-    <rtept lat="48.063000" lon="7.023000">
+    <rtept lat="48.063389" lon="7.023751">
       <name>Col de la Schlucht</name>
     </rtept>
     <rtept lat="48.073000" lon="6.879000">

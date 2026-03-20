@@ -14,7 +14,7 @@
     <desc>Riemenschneider altar</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.479000" lon="9.896000">
+  <wpt lat="49.480019" lon="9.896334">
     <name>Weikersheim</name>
     <desc>Renaissance palace</desc>
     <sym>Restaurant</sym>
@@ -70,7 +70,7 @@
     <rtept lat="49.468000" lon="10.031000">
       <name>Creglingen</name>
     </rtept>
-    <rtept lat="49.479000" lon="9.896000">
+    <rtept lat="49.480019" lon="9.896334">
       <name>Weikersheim</name>
     </rtept>
     <rtept lat="49.493000" lon="9.773000">

@@ -28,7 +28,7 @@
     <desc>Kraichgau</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.351000" lon="8.824000">
+  <wpt lat="49.349728" lon="8.824247">
     <name>Zuzenhausen</name>
     <desc>Rolling hills</desc>
     <type>Via</type>
@@ -90,7 +90,7 @@
     <rtept lat="49.334000" lon="8.819000">
       <name>Meckesheim</name>
     </rtept>
-    <rtept lat="49.351000" lon="8.824000">
+    <rtept lat="49.349728" lon="8.824247">
       <name>Zuzenhausen</name>
     </rtept>
     <rtept lat="49.239000" lon="8.825000">

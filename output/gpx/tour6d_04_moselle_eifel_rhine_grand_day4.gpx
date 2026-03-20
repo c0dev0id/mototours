@@ -25,7 +25,7 @@
     <desc>Twin castles</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="50.281000" lon="6.909000">
+  <wpt lat="50.281693" lon="6.908200">
     <name>Kelberg</name>
     <desc>Eifel ridge</desc>
     <type>Via</type>
@@ -40,7 +40,7 @@
     <desc>Eifel village</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="50.518000" lon="6.985000">
+  <wpt lat="50.518485" lon="6.984732">
     <name>Altenahr</name>
     <desc>Ahr gorge</desc>
     <type>Via</type>
@@ -66,7 +66,7 @@
     <rtept lat="50.091000" lon="6.808000">
       <name>Manderscheid</name>
     </rtept>
-    <rtept lat="50.281000" lon="6.909000">
+    <rtept lat="50.281693" lon="6.908200">
       <name>Kelberg</name>
     </rtept>
     <rtept lat="50.336000" lon="6.943000">
@@ -75,7 +75,7 @@
     <rtept lat="50.383000" lon="6.931000">
       <name>Adenau</name>
     </rtept>
-    <rtept lat="50.518000" lon="6.985000">
+    <rtept lat="50.518485" lon="6.984732">
       <name>Altenahr</name>
     </rtept>
     <rtept lat="50.543000" lon="7.112000">

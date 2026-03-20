@@ -20,7 +20,7 @@
     <sym>Restaurant</sym>
     <type>Midpoint</type>
   </wpt>
-  <wpt lat="48.055000" lon="8.208000">
+  <wpt lat="48.054612" lon="8.208417">
     <name>Furtwangen</name>
     <desc>Clock museum</desc>
     <type>Via</type>
@@ -48,7 +48,7 @@
     <rtept lat="48.133000" lon="8.237000">
       <name>Triberg</name>
     </rtept>
-    <rtept lat="48.055000" lon="8.208000">
+    <rtept lat="48.054612" lon="8.208417">
       <name>Furtwangen</name>
     </rtept>
     <rtept lat="47.903000" lon="8.157000">

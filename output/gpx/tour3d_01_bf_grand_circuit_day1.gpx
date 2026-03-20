@@ -15,7 +15,7 @@
     <desc>Spa city (via A5)</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.683000" lon="8.223000">
+  <wpt lat="48.683338" lon="8.222543">
     <name>Bühlerhöhe</name>
     <desc>Join B500</desc>
     <type>Via</type>
@@ -61,7 +61,7 @@
     <rtept lat="48.761000" lon="8.241000">
       <name>Baden-Baden</name>
     </rtept>
-    <rtept lat="48.683000" lon="8.223000">
+    <rtept lat="48.683338" lon="8.222543">
       <name>Bühlerhöhe</name>
     </rtept>
     <rtept lat="48.596000" lon="8.201000">

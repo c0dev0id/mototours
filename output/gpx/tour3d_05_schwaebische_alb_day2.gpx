@@ -20,7 +20,7 @@
     <desc>Alb plateau</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.408000" lon="9.260000">
+  <wpt lat="48.408679" lon="9.260315">
     <name>Schloss Lichtenstein</name>
     <desc>Fairy-tale castle</desc>
     <type>Via</type>
@@ -53,7 +53,7 @@
     <rtept lat="48.412000" lon="9.497000">
       <name>Münsingen</name>
     </rtept>
-    <rtept lat="48.408000" lon="9.260000">
+    <rtept lat="48.408679" lon="9.260315">
       <name>Schloss Lichtenstein</name>
     </rtept>
     <rtept lat="48.494000" lon="9.397000">

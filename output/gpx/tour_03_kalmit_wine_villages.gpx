@@ -44,7 +44,7 @@
     <desc>Wine village</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.284000" lon="8.120000">
+  <wpt lat="49.283267" lon="8.119929">
     <name>Edenkoben</name>
     <desc>Villa Ludwigshöhe</desc>
     <type>Via</type>
@@ -99,7 +99,7 @@
     <rtept lat="49.306000" lon="8.132000">
       <name>Maikammer</name>
     </rtept>
-    <rtept lat="49.284000" lon="8.120000">
+    <rtept lat="49.283267" lon="8.119929">
       <name>Edenkoben</name>
     </rtept>
     <rtept lat="49.117000" lon="8.052000">

@@ -14,7 +14,7 @@
     <desc>Valley town</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.256000" lon="8.180000">
+  <wpt lat="48.255812" lon="8.178635">
     <name>Gutach (Vogtsbauernhof)</name>
     <desc>Open-air museum</desc>
     <type>Via</type>
@@ -35,7 +35,7 @@
     <desc>Flower village</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.654000" lon="8.226000">
+  <wpt lat="48.654527" lon="8.225886">
     <name>B500 Sand</name>
     <desc>Join Hochstraße</desc>
     <type>Via</type>
@@ -65,7 +65,7 @@
     <rtept lat="48.212000" lon="8.228000">
       <name>Hornberg</name>
     </rtept>
-    <rtept lat="48.256000" lon="8.180000">
+    <rtept lat="48.255812" lon="8.178635">
       <name>Gutach (Vogtsbauernhof)</name>
     </rtept>
     <rtept lat="48.282000" lon="8.175000">
@@ -77,7 +77,7 @@
     <rtept lat="48.619000" lon="8.120000">
       <name>Sasbachwalden</name>
     </rtept>
-    <rtept lat="48.654000" lon="8.226000">
+    <rtept lat="48.654527" lon="8.225886">
       <name>B500 Sand</name>
     </rtept>
     <rtept lat="48.596000" lon="8.201000">

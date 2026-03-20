@@ -30,7 +30,7 @@
     <desc>Eifel village</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="50.518000" lon="6.985000">
+  <wpt lat="50.518485" lon="6.984732">
     <name>Altenahr</name>
     <desc>Ahr gorge</desc>
     <type>Via</type>
@@ -59,7 +59,7 @@
     <rtept lat="50.383000" lon="6.931000">
       <name>Adenau</name>
     </rtept>
-    <rtept lat="50.518000" lon="6.985000">
+    <rtept lat="50.518485" lon="6.984732">
       <name>Altenahr</name>
     </rtept>
     <rtept lat="50.543000" lon="7.112000">

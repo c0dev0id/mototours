@@ -28,7 +28,7 @@
     <desc>Enter Elmstein Valley</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.360000" lon="7.940000">
+  <wpt lat="49.359567" lon="7.939514">
     <name>Elmstein</name>
     <desc>Valley village</desc>
     <type>Via</type>
@@ -54,12 +54,12 @@
     <desc>Castle ruin</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.383000" lon="7.923000">
+  <wpt lat="49.383721" lon="7.921809">
     <name>Weidenthal</name>
     <desc>Forest village</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.378000" lon="8.042000">
+  <wpt lat="49.376833" lon="8.042369">
     <name>Neidenfels</name>
     <desc>Back to the valley</desc>
     <type>Via</type>
@@ -100,7 +100,7 @@
     <rtept lat="49.373000" lon="8.080000">
       <name>Lambrecht</name>
     </rtept>
-    <rtept lat="49.360000" lon="7.940000">
+    <rtept lat="49.359567" lon="7.939514">
       <name>Elmstein</name>
     </rtept>
     <rtept lat="49.347000" lon="7.890000">
@@ -115,10 +115,10 @@
     <rtept lat="49.394000" lon="7.971000">
       <name>Frankenstein</name>
     </rtept>
-    <rtept lat="49.383000" lon="7.923000">
+    <rtept lat="49.383721" lon="7.921809">
       <name>Weidenthal</name>
     </rtept>
-    <rtept lat="49.378000" lon="8.042000">
+    <rtept lat="49.376833" lon="8.042369">
       <name>Neidenfels</name>
     </rtept>
     <rtept lat="49.373000" lon="8.080000">

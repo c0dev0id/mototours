@@ -33,7 +33,7 @@
     <desc>Valley deepens</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.685000" lon="8.347000">
+  <wpt lat="48.684974" lon="8.348239">
     <name>Forbach</name>
     <desc>Wooden bridge – midpoint</desc>
     <sym>Restaurant</sym>
@@ -44,17 +44,17 @@
     <desc>Forest reservoir</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.658000" lon="8.253000">
+  <wpt lat="48.658226" lon="8.255849">
     <name>Herrenwies</name>
     <desc>Mountain village</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.654000" lon="8.226000">
+  <wpt lat="48.654527" lon="8.225886">
     <name>Sand</name>
     <desc>Join B500</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.683000" lon="8.223000">
+  <wpt lat="48.683338" lon="8.222543">
     <name>Bühlerhöhe</name>
     <desc>Viewpoint</desc>
     <type>Via</type>
@@ -88,19 +88,19 @@
     <rtept lat="48.732000" lon="8.365000">
       <name>Weisenbach</name>
     </rtept>
-    <rtept lat="48.685000" lon="8.347000">
+    <rtept lat="48.684974" lon="8.348239">
       <name>Forbach</name>
     </rtept>
     <rtept lat="48.667000" lon="8.322000">
       <name>Schwarzenbachtalsperre</name>
     </rtept>
-    <rtept lat="48.658000" lon="8.253000">
+    <rtept lat="48.658226" lon="8.255849">
       <name>Herrenwies</name>
     </rtept>
-    <rtept lat="48.654000" lon="8.226000">
+    <rtept lat="48.654527" lon="8.225886">
       <name>Sand</name>
     </rtept>
-    <rtept lat="48.683000" lon="8.223000">
+    <rtept lat="48.683338" lon="8.222543">
       <name>Bühlerhöhe</name>
     </rtept>
     <rtept lat="48.696000" lon="8.136000">

@@ -9,7 +9,7 @@
     <desc>Start</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="50.500000" lon="10.100000">
+  <wpt lat="50.498602" lon="10.100089">
     <name>Rhön</name>
     <desc>Open highlands</desc>
     <type>Via</type>
@@ -42,7 +42,7 @@
     <rtept lat="50.556000" lon="10.417000">
       <name>Meiningen</name>
     </rtept>
-    <rtept lat="50.500000" lon="10.100000">
+    <rtept lat="50.498602" lon="10.100089">
       <name>Rhön</name>
     </rtept>
     <rtept lat="50.498000" lon="9.937000">

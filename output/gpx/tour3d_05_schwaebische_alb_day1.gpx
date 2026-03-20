@@ -36,7 +36,7 @@
     <desc>Kocher valley</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.837000" lon="10.093000">
+  <wpt lat="48.837126" lon="10.092300">
     <name>Aalen</name>
     <desc>Limes museum</desc>
     <type>Via</type>
@@ -68,7 +68,7 @@
     <rtept lat="48.995000" lon="9.770000">
       <name>Gaildorf</name>
     </rtept>
-    <rtept lat="48.837000" lon="10.093000">
+    <rtept lat="48.837126" lon="10.092300">
       <name>Aalen</name>
     </rtept>
     <rtept lat="48.676000" lon="10.152000">

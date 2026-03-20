@@ -25,10 +25,11 @@ GPX_NS = "{http://www.topografix.com/GPX/1/1}"
 EARTH_RADIUS_KM = 6371.0
 
 # Thresholds
-DISTANCE_WARN_PCT = 20   # warn if OSRM differs >20% from stated
-DISTANCE_ERR_PCT = 40    # error if OSRM differs >40% from stated
-DETOUR_RATIO_WARN = 3.0  # warn if leg is >3x straight-line distance
-LONG_LEG_WARN_KM = 100   # warn if a single leg exceeds this
+DISTANCE_WARN_PCT = 20        # warn if OSRM differs >20% from stated
+DISTANCE_ERR_PCT = 40         # error if OSRM differs >40% from stated
+DETOUR_RATIO_WARN = 3.0       # warn if leg is >3x straight-line distance
+LONG_LEG_WARN_KM = 100        # warn if a single leg exceeds this
+WAYPOINT_ROAD_DIST_WARN_KM = 0.1  # warn if waypoint is >100 m from routed path
 
 # Home address (Gustav-Stresemann-Weg 1, 68766 Hockenheim)
 HOME_LAT = 49.322
@@ -86,11 +87,91 @@ def parse_gpx(filepath):
     }
 
 
+def decode_polyline6(encoded):
+    """Decode a Valhalla polyline6-encoded string into a list of (lat, lon) tuples.
+
+    Valhalla uses precision=6 (divide by 1e6), unlike Google Maps (precision=5).
+    """
+    result = []
+    index = 0
+    lat = 0
+    lon = 0
+    while index < len(encoded):
+        # Decode latitude delta
+        b, shift, result_val = 0, 0, 0
+        while True:
+            b = ord(encoded[index]) - 63
+            index += 1
+            result_val |= (b & 0x1F) << shift
+            shift += 5
+            if b < 0x20:
+                break
+        dlat = ~(result_val >> 1) if (result_val & 1) else (result_val >> 1)
+        lat += dlat
+
+        # Decode longitude delta
+        b, shift, result_val = 0, 0, 0
+        while True:
+            b = ord(encoded[index]) - 63
+            index += 1
+            result_val |= (b & 0x1F) << shift
+            shift += 5
+            if b < 0x20:
+                break
+        dlon = ~(result_val >> 1) if (result_val & 1) else (result_val >> 1)
+        lon += dlon
+
+        result.append((lat / 1e6, lon / 1e6))
+    return result
+
+
+def point_to_segment_km(plat, plon, alat, alon, blat, blon):
+    """Minimum distance in km from point P to line segment A–B.
+
+    Uses a planar approximation (adequate for segments < ~50 km).
+    """
+    # Convert to approximate Cartesian using equirectangular projection
+    cos_lat = math.cos(math.radians((alat + blat) / 2.0))
+    px = (plon - alon) * cos_lat
+    py = plat - alat
+    ax, ay = 0.0, 0.0
+    bx = (blon - alon) * cos_lat
+    by = blat - alat
+
+    dx, dy = bx - ax, by - ay
+    len_sq = dx * dx + dy * dy
+    if len_sq == 0:
+        # Segment is a point
+        cx, cy = ax, ay
+    else:
+        t = max(0.0, min(1.0, ((px - ax) * dx + (py - ay) * dy) / len_sq))
+        cx = ax + t * dx
+        cy = ay + t * dy
+
+    # Convert back to degrees then to km via haversine
+    closest_lat = alat + cy
+    closest_lon = alon + (cx / cos_lat if cos_lat != 0 else 0)
+    return haversine_km(plat, plon, closest_lat, closest_lon)
+
+
+def min_dist_to_polyline_km(lat, lon, polyline):
+    """Minimum distance in km from (lat, lon) to any segment of the polyline."""
+    if len(polyline) < 2:
+        if polyline:
+            return haversine_km(lat, lon, polyline[0][0], polyline[0][1])
+        return float("inf")
+    return min(
+        point_to_segment_km(lat, lon, polyline[i][0], polyline[i][1],
+                             polyline[i + 1][0], polyline[i + 1][1])
+        for i in range(len(polyline) - 1)
+    )
+
+
 def query_valhalla(route_points, timeout=15):
     """Query Valhalla for a route through the given points.
 
     Returns a normalized dict with keys:
-      total_km, total_min, legs: [{km, minutes}]
+      total_km, total_min, legs: [{km, minutes}], shape: [(lat, lon), …]
     or None on failure.
     """
     if len(route_points) < 2:
@@ -119,13 +200,22 @@ def query_valhalla(route_points, timeout=15):
                 return None
             summary = trip["summary"]
             legs = []
+            shape_points = []
             for leg in trip.get("legs", []):
                 ls = leg["summary"]
                 legs.append({"km": ls["length"], "minutes": ls["time"] / 60.0})
+                encoded = leg.get("shape", "")
+                if encoded:
+                    leg_pts = decode_polyline6(encoded)
+                    # Avoid duplicating the join point between legs
+                    if shape_points and leg_pts:
+                        leg_pts = leg_pts[1:]
+                    shape_points.extend(leg_pts)
             return {
                 "total_km": summary["length"],
                 "total_min": summary["time"] / 60.0,
                 "legs": legs,
+                "shape": shape_points,
             }
         except (URLError, OSError, ValueError, KeyError):
             if attempt == 0:
@@ -175,6 +265,17 @@ def validate_route(tour, route_data):
         issues.append(("WARNING",
             f"End point '{name}' is {dist:.1f} km from home "
             f"({HOME_NAME}, expected within {HOME_TOLERANCE_KM:.0f} km)"))
+
+    # Check each intermediate waypoint's distance from the routed path
+    shape = route_data.get("shape", [])
+    if shape:
+        for lat, lon, name in points[1:-1]:
+            dist_km = min_dist_to_polyline_km(lat, lon, shape)
+            if dist_km > WAYPOINT_ROAD_DIST_WARN_KM:
+                issues.append(("WARNING",
+                    f"Waypoint '{name}' is {dist_km * 1000:.0f} m from the routed path "
+                    f"(threshold {WAYPOINT_ROAD_DIST_WARN_KM * 1000:.0f} m) — "
+                    f"coordinate may be off-road"))
 
     # Check individual legs
     for i, leg in enumerate(legs):

@@ -18,7 +18,7 @@
     <desc>Head east</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.239000" lon="8.993000">
+  <wpt lat="49.242307" lon="8.993003">
     <name>Bad Rappenau</name>
     <desc>Saline</desc>
     <type>Via</type>
@@ -38,7 +38,7 @@
     <desc>Castle</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.189000" lon="9.632000">
+  <wpt lat="49.189419" lon="9.632702">
     <name>Waldenburg</name>
     <desc>Balcony of Hohenlohe – midpoint</desc>
     <sym>Restaurant</sym>
@@ -89,7 +89,7 @@
     <rtept lat="49.253000" lon="8.879000">
       <name>Sinsheim</name>
     </rtept>
-    <rtept lat="49.239000" lon="8.993000">
+    <rtept lat="49.242307" lon="8.993003">
       <name>Bad Rappenau</name>
     </rtept>
     <rtept lat="49.192000" lon="9.225000">
@@ -101,7 +101,7 @@
     <rtept lat="49.201000" lon="9.578000">
       <name>Neuenstein</name>
     </rtept>
-    <rtept lat="49.189000" lon="9.632000">
+    <rtept lat="49.189419" lon="9.632702">
       <name>Waldenburg</name>
     </rtept>
     <rtept lat="49.254000" lon="9.858000">

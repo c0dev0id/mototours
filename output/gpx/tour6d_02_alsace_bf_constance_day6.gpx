@@ -30,7 +30,7 @@
     <desc>Flower village</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.654000" lon="8.226000">
+  <wpt lat="48.654527" lon="8.225886">
     <name>B500</name>
     <desc>Hochstraße</desc>
     <type>Via</type>
@@ -64,7 +64,7 @@
     <rtept lat="48.619000" lon="8.120000">
       <name>Sasbachwalden</name>
     </rtept>
-    <rtept lat="48.654000" lon="8.226000">
+    <rtept lat="48.654527" lon="8.225886">
       <name>B500</name>
     </rtept>
     <rtept lat="48.761000" lon="8.241000">

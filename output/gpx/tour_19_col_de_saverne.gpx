@@ -44,7 +44,7 @@
     <sym>Restaurant</sym>
     <type>Midpoint</type>
   </wpt>
-  <wpt lat="48.736000" lon="7.303000">
+  <wpt lat="48.735383" lon="7.303055">
     <name>Col de Saverne</name>
     <desc>Historic mountain pass</desc>
     <type>Via</type>
@@ -104,7 +104,7 @@
     <rtept lat="48.742000" lon="7.362000">
       <name>Saverne</name>
     </rtept>
-    <rtept lat="48.736000" lon="7.303000">
+    <rtept lat="48.735383" lon="7.303055">
       <name>Col de Saverne</name>
     </rtept>
     <rtept lat="48.824000" lon="7.484000">

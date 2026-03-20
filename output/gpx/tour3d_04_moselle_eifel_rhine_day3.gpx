@@ -24,7 +24,7 @@
     <desc>Rhine bend</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="50.153000" lon="7.711000">
+  <wpt lat="50.152430" lon="7.710860">
     <name>St. Goar / Loreley</name>
     <desc>Legendary rock</desc>
     <sym>Restaurant</sym>
@@ -71,7 +71,7 @@
     <rtept lat="50.230000" lon="7.593000">
       <name>Boppard</name>
     </rtept>
-    <rtept lat="50.153000" lon="7.711000">
+    <rtept lat="50.152430" lon="7.710860">
       <name>St. Goar / Loreley</name>
     </rtept>
     <rtept lat="50.059000" lon="7.770000">

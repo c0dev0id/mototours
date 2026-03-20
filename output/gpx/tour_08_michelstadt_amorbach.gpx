@@ -59,7 +59,7 @@
     <desc>Continue south</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.568000" lon="8.780000">
+  <wpt lat="49.568435" lon="8.780766">
     <name>Lindenfels</name>
     <desc>Pearl of the Odenwald</desc>
     <type>Via</type>
@@ -108,7 +108,7 @@
     <rtept lat="49.710000" lon="8.837000">
       <name>Reichelsheim</name>
     </rtept>
-    <rtept lat="49.568000" lon="8.780000">
+    <rtept lat="49.568435" lon="8.780766">
       <name>Lindenfels</name>
     </rtept>
     <rtept lat="49.681000" lon="8.618000">

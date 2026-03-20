@@ -38,7 +38,7 @@
     <desc>Deep forest</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="49.568000" lon="8.780000">
+  <wpt lat="49.568435" lon="8.780766">
     <name>Lindenfels</name>
     <desc>Pearl of the Odenwald – midpoint</desc>
     <sym>Restaurant</sym>
@@ -91,7 +91,7 @@
     <rtept lat="49.530000" lon="8.960000">
       <name>Oberzent</name>
     </rtept>
-    <rtept lat="49.568000" lon="8.780000">
+    <rtept lat="49.568435" lon="8.780766">
       <name>Lindenfels</name>
     </rtept>
     <rtept lat="49.650000" lon="8.773000">

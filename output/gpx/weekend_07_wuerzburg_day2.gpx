@@ -30,7 +30,7 @@
     <sym>Restaurant</sym>
     <type>Midpoint</type>
   </wpt>
-  <wpt lat="49.479000" lon="9.896000">
+  <wpt lat="49.480019" lon="9.896334">
     <name>Weikersheim</name>
     <desc>Palace</desc>
     <type>Via</type>
@@ -79,7 +79,7 @@
     <rtept lat="49.493000" lon="9.773000">
       <name>Bad Mergentheim</name>
     </rtept>
-    <rtept lat="49.479000" lon="9.896000">
+    <rtept lat="49.480019" lon="9.896334">
       <name>Weikersheim</name>
     </rtept>
     <rtept lat="49.112000" lon="9.738000">
