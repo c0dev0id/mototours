@@ -43,4 +43,10 @@ interface TourDao {
 
     @Query("SELECT EXISTS(SELECT 1 FROM tours WHERE slug = :slug AND category = :category)")
     suspend fun tourExists(slug: String, category: TourCategory): Boolean
+
+    @Query("UPDATE tours SET is_favorite = :favorite WHERE id = :tourId")
+    suspend fun setFavorite(tourId: Long, favorite: Boolean)
+
+    @Query("UPDATE tours SET completed_at = :completedAt WHERE id = :tourId")
+    suspend fun setCompletedAt(tourId: Long, completedAt: Long?)
 }

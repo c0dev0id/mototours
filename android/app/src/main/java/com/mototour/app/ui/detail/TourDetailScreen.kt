@@ -31,6 +31,9 @@ import com.mototour.app.data.*
 import com.mototour.app.ui.map.WaypointMarkerUtils
 import com.mototour.app.ui.theme.Accent
 import com.mototour.app.ui.theme.Blue
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -127,6 +130,31 @@ class TourDetailViewModel(app: Application) : AndroidViewModel(app) {
                 if (calculatedDayRoutes.isNotEmpty()) {
                     _state.value = TourDetailState.Loaded(tour, days, calculatedDayRoutes)
                 }
+            }
+        }
+    }
+
+    fun toggleFavorite(tourId: Long, currentValue: Boolean) {
+        viewModelScope.launch {
+            dao.setFavorite(tourId, !currentValue)
+            // Reload to reflect the change
+            val updated = dao.tourWithDays(tourId) ?: return@launch
+            val current = _state.value
+            if (current is TourDetailState.Loaded) {
+                _state.value = current.copy(tour = updated)
+            }
+        }
+    }
+
+    fun toggleCompleted(tourId: Long, currentCompletedAt: Long?) {
+        viewModelScope.launch {
+            val newValue = if (currentCompletedAt != null) null else System.currentTimeMillis()
+            dao.setCompletedAt(tourId, newValue)
+            // Reload to reflect the change
+            val updated = dao.tourWithDays(tourId) ?: return@launch
+            val current = _state.value
+            if (current is TourDetailState.Loaded) {
+                _state.value = current.copy(tour = updated)
             }
         }
     }
@@ -239,6 +267,23 @@ fun TourDetailScreen(
                             actionIconContentColor = MaterialTheme.colorScheme.onPrimary
                         ),
                         actions = {
+                            IconButton(onClick = {
+                                vm.toggleFavorite(tourId, tour.isFavorite)
+                            }) {
+                                Icon(
+                                    if (tour.isFavorite) Icons.Default.Favorite else Icons.Default.FavoriteBorder,
+                                    contentDescription = if (tour.isFavorite) "Remove from favorites" else "Add to favorites",
+                                    tint = if (tour.isFavorite) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.onPrimary
+                                )
+                            }
+                            IconButton(onClick = {
+                                vm.toggleCompleted(tourId, tour.completedAt)
+                            }) {
+                                Icon(
+                                    if (tour.completedAt != null) Icons.Default.CheckCircle else Icons.Default.CheckCircleOutline,
+                                    contentDescription = if (tour.completedAt != null) "Mark as not completed" else "Mark as completed"
+                                )
+                            }
                             IconButton(onClick = {
                                 exportLauncher.launch("${tour.slug}.zip")
                             }) {
@@ -408,6 +453,19 @@ private fun TourInfoHeader(tour: TourEntity) {
                     Icon(Icons.Default.Place, null, modifier = Modifier.size(16.dp), tint = Accent)
                     Spacer(Modifier.width(4.dp))
                     Text(tour.region, color = Accent, style = MaterialTheme.typography.bodyMedium)
+                }
+            }
+            if (tour.completedAt != null) {
+                Spacer(Modifier.height(8.dp))
+                val dateStr = SimpleDateFormat("MMM d, yyyy", Locale.getDefault())
+                    .format(Date(tour.completedAt))
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Icon(Icons.Default.CheckCircle, null, modifier = Modifier.size(16.dp),
+                        tint = MaterialTheme.colorScheme.primary)
+                    Spacer(Modifier.width(4.dp))
+                    Text("Completed $dateStr",
+                        color = MaterialTheme.colorScheme.primary,
+                        style = MaterialTheme.typography.bodyMedium)
                 }
             }
             if (tour.overview.isNotEmpty()) {
