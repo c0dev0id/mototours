@@ -11,7 +11,7 @@
     <name>Hockenheim</name>
     <desc>Start/End</desc>
     <sym>Flag, Blue</sym>
-    <type>Start/End</type>
+    <type>Start</type>
   </wpt>
   <wpt lat="49.317000" lon="8.431000">
     <name>Speyer</name>
@@ -73,7 +73,7 @@
     <name>Hockenheim</name>
     <desc>End</desc>
     <sym>Flag, Blue</sym>
-    <type>Start/End</type>
+    <type>End</type>
   </wpt>
   <rte>
     <name>Tour 03: Kalmit Summit &amp; Wine Villages</name>

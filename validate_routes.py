@@ -30,6 +30,12 @@ DISTANCE_ERR_PCT = 40    # error if OSRM differs >40% from stated
 DETOUR_RATIO_WARN = 3.0  # warn if leg is >3x straight-line distance
 LONG_LEG_WARN_KM = 100   # warn if a single leg exceeds this
 
+# Home address (Gustav-Stresemann-Weg 1, 68766 Hockenheim)
+HOME_LAT = 49.322
+HOME_LON = 8.548
+HOME_NAME = "Hockenheim"
+HOME_TOLERANCE_KM = 1.0  # max distance from home for start/end point
+
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -155,6 +161,20 @@ def validate_route(tour, route_data):
             issues.append(("WARNING",
                 f"Distance mismatch: stated ~{stated_km} km, routed {routed_km:.1f} km "
                 f"({pct_diff:+.1f}%)"))
+
+    # Check start/end point is home (Hockenheim)
+    lat, lon, name = points[0]
+    dist = haversine_km(lat, lon, HOME_LAT, HOME_LON)
+    if dist > HOME_TOLERANCE_KM:
+        issues.append(("WARNING",
+            f"Start point '{name}' is {dist:.1f} km from home "
+            f"({HOME_NAME}, expected within {HOME_TOLERANCE_KM:.0f} km)"))
+    lat, lon, name = points[-1]
+    dist = haversine_km(lat, lon, HOME_LAT, HOME_LON)
+    if dist > HOME_TOLERANCE_KM:
+        issues.append(("WARNING",
+            f"End point '{name}' is {dist:.1f} km from home "
+            f"({HOME_NAME}, expected within {HOME_TOLERANCE_KM:.0f} km)"))
 
     # Check individual legs
     for i, leg in enumerate(legs):

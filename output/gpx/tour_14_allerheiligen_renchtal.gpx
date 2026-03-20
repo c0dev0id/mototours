@@ -11,7 +11,7 @@
     <name>Hockenheim</name>
     <desc>Start/End</desc>
     <sym>Flag, Blue</sym>
-    <type>Start/End</type>
+    <type>Start</type>
   </wpt>
   <wpt lat="48.858000" lon="8.204000">
     <name>Rastatt</name>
@@ -38,11 +38,6 @@
     <desc>Ruined monastery – midpoint</desc>
     <sym>Restaurant</sym>
     <type>Midpoint</type>
-  </wpt>
-  <wpt lat="48.488000" lon="8.175000">
-    <name>Zuflucht</name>
-    <desc>Mountain pass</desc>
-    <type>Via</type>
   </wpt>
   <wpt lat="48.474000" lon="8.161000">
     <name>Oppenau</name>
@@ -78,7 +73,7 @@
     <name>Hockenheim</name>
     <desc>End (via A5)</desc>
     <sym>Flag, Blue</sym>
-    <type>Start/End</type>
+    <type>End</type>
   </wpt>
   <rte>
     <name>Tour 14: Allerheiligen Waterfalls &amp; Renchtal</name>
@@ -100,9 +95,6 @@
     </rtept>
     <rtept lat="48.538000" lon="8.132000">
       <name>Kloster Allerheiligen</name>
-    </rtept>
-    <rtept lat="48.488000" lon="8.175000">
-      <name>Zuflucht</name>
     </rtept>
     <rtept lat="48.474000" lon="8.161000">
       <name>Oppenau</name>

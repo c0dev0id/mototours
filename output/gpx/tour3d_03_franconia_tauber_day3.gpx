@@ -49,7 +49,7 @@
     <name>Hockenheim</name>
     <desc>End – home</desc>
     <sym>Flag, Blue</sym>
-    <type>Start/End</type>
+    <type>End</type>
   </wpt>
   <rte>
     <name>Hohenlohe &amp; Neckar Return</name>

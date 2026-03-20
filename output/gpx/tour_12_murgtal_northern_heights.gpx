@@ -11,7 +11,7 @@
     <name>Hockenheim</name>
     <desc>Start/End</desc>
     <sym>Flag, Blue</sym>
-    <type>Start/End</type>
+    <type>Start</type>
   </wpt>
   <wpt lat="48.858000" lon="8.204000">
     <name>Rastatt</name>
@@ -68,7 +68,7 @@
     <name>Hockenheim</name>
     <desc>End (via A5)</desc>
     <sym>Flag, Blue</sym>
-    <type>Start/End</type>
+    <type>End</type>
   </wpt>
   <rte>
     <name>Tour 12: Murgtal &amp; Northern Heights</name>

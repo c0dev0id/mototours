@@ -11,7 +11,7 @@
     <name>Hockenheim</name>
     <desc>Start/End</desc>
     <sym>Flag, Blue</sym>
-    <type>Start/End</type>
+    <type>Start</type>
   </wpt>
   <wpt lat="48.891000" lon="8.704000">
     <name>Pforzheim</name>
@@ -83,7 +83,7 @@
     <name>Hockenheim</name>
     <desc>End (via A5)</desc>
     <sym>Flag, Blue</sym>
-    <type>Start/End</type>
+    <type>End</type>
   </wpt>
   <rte>
     <name>Tour 16: Titisee &amp; Southern Black Forest</name>

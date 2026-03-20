@@ -11,7 +11,7 @@
     <name>Hockenheim</name>
     <desc>Start/End</desc>
     <sym>Flag, Blue</sym>
-    <type>Start/End</type>
+    <type>Start</type>
   </wpt>
   <wpt lat="49.317000" lon="8.431000">
     <name>Speyer</name>
@@ -38,11 +38,6 @@
     <desc>Sandstone rock landscape – midpoint</desc>
     <sym>Restaurant</sym>
     <type>Midpoint</type>
-  </wpt>
-  <wpt lat="49.104000" lon="7.658000">
-    <name>Fischbach bei Dahn</name>
-    <desc>Deep in the rocks</desc>
-    <type>Via</type>
   </wpt>
   <wpt lat="49.201000" lon="7.605000">
     <name>Pirmasens</name>
@@ -73,7 +68,7 @@
     <name>Hockenheim</name>
     <desc>End</desc>
     <sym>Flag, Blue</sym>
-    <type>Start/End</type>
+    <type>End</type>
   </wpt>
   <rte>
     <name>Tour 02: Dahner Felsenland – Sandstone Wonders</name>
@@ -95,9 +90,6 @@
     </rtept>
     <rtept lat="49.151000" lon="7.790000">
       <name>Dahn</name>
-    </rtept>
-    <rtept lat="49.104000" lon="7.658000">
-      <name>Fischbach bei Dahn</name>
     </rtept>
     <rtept lat="49.201000" lon="7.605000">
       <name>Pirmasens</name>
