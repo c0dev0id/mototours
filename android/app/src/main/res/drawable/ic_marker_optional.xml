@@ -9,7 +9,7 @@
         android:alpha="0.85"
         android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2z" />
     <!-- Dot -->
-    <circle android:fillColor="#FFFFFF" android:cx="12" android:cy="8.5" android:r="1.5" />
+    <path android:fillColor="#FFFFFF" android:pathData="M10.5,8.5 A1.5,1.5,0,1,0,13.5,8.5 A1.5,1.5,0,1,0,10.5,8.5 Z" />
     <!-- Stem -->
-    <rect android:fillColor="#FFFFFF" android:x="10.5" android:y="11" android:width="3" android:height="7" android:rx="1" />
+    <path android:fillColor="#FFFFFF" android:pathData="M10.5,11 L13.5,11 L13.5,18 L10.5,18 Z" />
 </vector>

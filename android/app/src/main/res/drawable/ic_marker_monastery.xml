@@ -8,7 +8,7 @@
         android:fillColor="#6c3483"
         android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2z" />
     <!-- Vertical bar -->
-    <rect android:fillColor="#FFFFFF" android:x="10.5" android:y="5" android:width="3" android:height="14" android:rx="1" />
+    <path android:fillColor="#FFFFFF" android:pathData="M10.5,5 L13.5,5 L13.5,19 L10.5,19 Z" />
     <!-- Horizontal bar -->
-    <rect android:fillColor="#FFFFFF" android:x="7" android:y="9" android:width="10" android:height="3" android:rx="1" />
+    <path android:fillColor="#FFFFFF" android:pathData="M7,9 L17,9 L17,12 L7,12 Z" />
 </vector>

@@ -10,9 +10,9 @@
     <!-- Pediment -->
     <path android:fillColor="#FFFFFF" android:pathData="M12,6 L5,11 H19 Z" />
     <!-- Columns -->
-    <rect android:fillColor="#FFFFFF" android:x="6" android:y="11" android:width="2" android:height="7" />
-    <rect android:fillColor="#FFFFFF" android:x="11" android:y="11" android:width="2" android:height="7" />
-    <rect android:fillColor="#FFFFFF" android:x="16" android:y="11" android:width="2" android:height="7" />
+    <path android:fillColor="#FFFFFF" android:pathData="M6,11 L8,11 L8,18 L6,18 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M11,11 L13,11 L13,18 L11,18 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M16,11 L18,11 L18,18 L16,18 Z" />
     <!-- Base -->
-    <rect android:fillColor="#FFFFFF" android:x="5" android:y="18" android:width="14" android:height="1.5" />
+    <path android:fillColor="#FFFFFF" android:pathData="M5,18 L19,18 L19,19.5 L5,19.5 Z" />
 </vector>

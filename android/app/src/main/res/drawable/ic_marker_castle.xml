@@ -8,15 +8,15 @@
         android:fillColor="#7f8c8d"
         android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2z" />
     <!-- Left tower -->
-    <rect android:fillColor="#FFFFFF" android:x="5" android:y="11" android:width="4" android:height="7" />
+    <path android:fillColor="#FFFFFF" android:pathData="M5,11 L9,11 L9,18 L5,18 Z" />
     <!-- Right tower -->
-    <rect android:fillColor="#FFFFFF" android:x="15" android:y="11" android:width="4" android:height="7" />
+    <path android:fillColor="#FFFFFF" android:pathData="M15,11 L19,11 L19,18 L15,18 Z" />
     <!-- Left battlements -->
-    <rect android:fillColor="#FFFFFF" android:x="5" android:y="9" android:width="1.5" android:height="3" />
-    <rect android:fillColor="#FFFFFF" android:x="7.5" android:y="9" android:width="1.5" android:height="3" />
+    <path android:fillColor="#FFFFFF" android:pathData="M5,9 L6.5,9 L6.5,12 L5,12 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M7.5,9 L9,9 L9,12 L7.5,12 Z" />
     <!-- Right battlements -->
-    <rect android:fillColor="#FFFFFF" android:x="15" android:y="9" android:width="1.5" android:height="3" />
-    <rect android:fillColor="#FFFFFF" android:x="17.5" android:y="9" android:width="1.5" android:height="3" />
+    <path android:fillColor="#FFFFFF" android:pathData="M15,9 L16.5,9 L16.5,12 L15,12 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M17.5,9 L19,9 L19,12 L17.5,12 Z" />
     <!-- Gate -->
-    <rect android:fillColor="#7f8c8d" android:x="10.5" android:y="14" android:width="3" android:height="4" />
+    <path android:fillColor="#7f8c8d" android:pathData="M10.5,14 L13.5,14 L13.5,18 L10.5,18 Z" />
 </vector>
