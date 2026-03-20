@@ -13,7 +13,6 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -21,6 +20,9 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.mototour.app.data.TourCategory
 import com.mototour.app.data.TourWithDays
 import com.mototour.app.ui.theme.Accent
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -30,6 +32,7 @@ fun TourListScreen(
 ) {
     val tours by vm.tours.collectAsStateWithLifecycle(initialValue = emptyList())
     val importResult by vm.importResult.collectAsStateWithLifecycle()
+    val currentFilter by vm.filter.collectAsStateWithLifecycle()
     var showImportMenu by remember { mutableStateOf(false) }
 
     // ZIP picker
@@ -105,38 +108,104 @@ fun TourListScreen(
             )
         }
     ) { padding ->
-        if (tours.isEmpty()) {
-            Box(
-                Modifier.fillMaxSize().padding(padding),
-                contentAlignment = Alignment.Center
+        Column(
+            modifier = Modifier.fillMaxSize().padding(padding)
+        ) {
+            // Filter chips
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 16.dp, vertical = 8.dp),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
             ) {
-                Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                    Icon(
-                        Icons.Default.TwoWheeler, null,
-                        modifier = Modifier.size(64.dp),
-                        tint = MaterialTheme.colorScheme.primary.copy(alpha = 0.4f)
-                    )
-                    Spacer(Modifier.height(16.dp))
-                    Text("No tours yet", style = MaterialTheme.typography.titleMedium)
-                    Spacer(Modifier.height(8.dp))
-                    Text("Import tours using the + button above",
-                        style = MaterialTheme.typography.bodyMedium,
-                        color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f))
-                }
-            }
-        } else {
-            val grouped = tours.groupBy { it.tour.category }
-            LazyColumn(
-                modifier = Modifier.fillMaxSize().padding(padding),
-                contentPadding = PaddingValues(bottom = 16.dp)
-            ) {
-                for (category in TourCategory.entries) {
-                    val categoryTours = grouped[category] ?: continue
-                    item(key = "header_$category") {
-                        CategoryHeader(category, categoryTours.size)
+                FilterChip(
+                    selected = currentFilter == TourFilter.ALL,
+                    onClick = { vm.setFilter(TourFilter.ALL) },
+                    label = { Text("All") },
+                    leadingIcon = if (currentFilter == TourFilter.ALL) {
+                        { Icon(Icons.Default.Done, null, modifier = Modifier.size(18.dp)) }
+                    } else null
+                )
+                FilterChip(
+                    selected = currentFilter == TourFilter.FAVORITES,
+                    onClick = { vm.setFilter(TourFilter.FAVORITES) },
+                    label = { Text("Favorites") },
+                    leadingIcon = {
+                        Icon(
+                            if (currentFilter == TourFilter.FAVORITES) Icons.Default.Favorite
+                            else Icons.Default.FavoriteBorder,
+                            null,
+                            modifier = Modifier.size(18.dp)
+                        )
                     }
-                    items(categoryTours, key = { it.tour.id }) { tourWithDays ->
-                        TourCard(tourWithDays, onClick = { onTourClick(tourWithDays.tour.id) })
+                )
+                FilterChip(
+                    selected = currentFilter == TourFilter.COMPLETED,
+                    onClick = { vm.setFilter(TourFilter.COMPLETED) },
+                    label = { Text("Completed") },
+                    leadingIcon = {
+                        Icon(
+                            if (currentFilter == TourFilter.COMPLETED) Icons.Default.CheckCircle
+                            else Icons.Default.CheckCircleOutline,
+                            null,
+                            modifier = Modifier.size(18.dp)
+                        )
+                    }
+                )
+            }
+
+            if (tours.isEmpty()) {
+                Box(
+                    Modifier.fillMaxSize(),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                        Icon(
+                            Icons.Default.TwoWheeler, null,
+                            modifier = Modifier.size(64.dp),
+                            tint = MaterialTheme.colorScheme.primary.copy(alpha = 0.4f)
+                        )
+                        Spacer(Modifier.height(16.dp))
+                        Text(
+                            when (currentFilter) {
+                                TourFilter.ALL -> "No tours yet"
+                                TourFilter.FAVORITES -> "No favorite tours"
+                                TourFilter.COMPLETED -> "No completed tours"
+                            },
+                            style = MaterialTheme.typography.titleMedium
+                        )
+                        Spacer(Modifier.height(8.dp))
+                        Text(
+                            when (currentFilter) {
+                                TourFilter.ALL -> "Import tours using the + button above"
+                                TourFilter.FAVORITES -> "Tap the heart icon on a tour to add it to favorites"
+                                TourFilter.COMPLETED -> "Mark tours as completed from the tour detail screen"
+                            },
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)
+                        )
+                    }
+                }
+            } else {
+                val grouped = tours.groupBy { it.tour.category }
+                LazyColumn(
+                    modifier = Modifier.fillMaxSize(),
+                    contentPadding = PaddingValues(bottom = 16.dp)
+                ) {
+                    for (category in TourCategory.entries) {
+                        val categoryTours = grouped[category] ?: continue
+                        item(key = "header_$category") {
+                            CategoryHeader(category, categoryTours.size)
+                        }
+                        items(categoryTours, key = { it.tour.id }) { tourWithDays ->
+                            TourCard(
+                                tourWithDays,
+                                onClick = { onTourClick(tourWithDays.tour.id) },
+                                onFavoriteClick = {
+                                    vm.toggleFavorite(tourWithDays.tour.id, tourWithDays.tour.isFavorite)
+                                }
+                            )
+                        }
                     }
                 }
             }
@@ -171,7 +240,7 @@ private fun CategoryHeader(category: TourCategory, count: Int) {
 }
 
 @Composable
-private fun TourCard(tourWithDays: TourWithDays, onClick: () -> Unit) {
+private fun TourCard(tourWithDays: TourWithDays, onClick: () -> Unit, onFavoriteClick: () -> Unit) {
     val tour = tourWithDays.tour
     Card(
         modifier = Modifier
@@ -181,11 +250,33 @@ private fun TourCard(tourWithDays: TourWithDays, onClick: () -> Unit) {
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
     ) {
         Column(modifier = Modifier.padding(16.dp)) {
-            Text(
-                text = tour.name,
-                style = MaterialTheme.typography.titleSmall,
-                fontWeight = FontWeight.Bold
-            )
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(
+                    text = tour.name,
+                    style = MaterialTheme.typography.titleSmall,
+                    fontWeight = FontWeight.Bold,
+                    modifier = Modifier.weight(1f)
+                )
+                if (tour.completedAt != null) {
+                    Icon(
+                        Icons.Default.CheckCircle, "Completed",
+                        modifier = Modifier.size(20.dp),
+                        tint = MaterialTheme.colorScheme.primary
+                    )
+                    Spacer(Modifier.width(4.dp))
+                }
+                IconButton(
+                    onClick = onFavoriteClick,
+                    modifier = Modifier.size(32.dp)
+                ) {
+                    Icon(
+                        if (tour.isFavorite) Icons.Default.Favorite else Icons.Default.FavoriteBorder,
+                        contentDescription = if (tour.isFavorite) "Remove from favorites" else "Add to favorites",
+                        modifier = Modifier.size(20.dp),
+                        tint = if (tour.isFavorite) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.onSurface.copy(alpha = 0.5f)
+                    )
+                }
+            }
             Spacer(Modifier.height(4.dp))
             Row(verticalAlignment = Alignment.CenterVertically) {
                 if (tour.region.isNotEmpty()) {
@@ -213,6 +304,16 @@ private fun TourCard(tourWithDays: TourWithDays, onClick: () -> Unit) {
                         style = MaterialTheme.typography.bodySmall
                     )
                 }
+            }
+            if (tour.completedAt != null) {
+                Spacer(Modifier.height(4.dp))
+                val dateStr = SimpleDateFormat("MMM d, yyyy", Locale.getDefault())
+                    .format(Date(tour.completedAt))
+                Text(
+                    "Completed $dateStr",
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.primary.copy(alpha = 0.7f)
+                )
             }
             if (tour.overview.isNotEmpty()) {
                 Spacer(Modifier.height(8.dp))

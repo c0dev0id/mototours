@@ -6,19 +6,40 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.mototour.app.data.AppDatabase
 import com.mototour.app.data.BundleManager
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.asStateFlow
+import com.mototour.app.data.TourWithDays
+import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
+
+enum class TourFilter { ALL, FAVORITES, COMPLETED }
 
 class TourListViewModel(app: Application) : AndroidViewModel(app) {
 
     private val dao = AppDatabase.get(app).tourDao()
     private val bundleManager = BundleManager(app)
 
-    val tours = dao.allToursWithDays()
+    private val _filter = MutableStateFlow(TourFilter.ALL)
+    val filter = _filter.asStateFlow()
+
+    private val allTours = dao.allToursWithDays()
+
+    val tours: Flow<List<TourWithDays>> = combine(allTours, _filter) { list, f ->
+        when (f) {
+            TourFilter.ALL -> list
+            TourFilter.FAVORITES -> list.filter { it.tour.isFavorite }
+            TourFilter.COMPLETED -> list.filter { it.tour.completedAt != null }
+        }
+    }
 
     private val _importResult = MutableStateFlow<String?>(null)
     val importResult = _importResult.asStateFlow()
+
+    fun setFilter(filter: TourFilter) { _filter.value = filter }
+
+    fun toggleFavorite(tourId: Long, currentValue: Boolean) {
+        viewModelScope.launch {
+            dao.setFavorite(tourId, !currentValue)
+        }
+    }
 
     fun importZip(uri: Uri) {
         viewModelScope.launch {

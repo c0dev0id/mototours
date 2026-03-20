@@ -26,7 +26,9 @@ data class TourEntity(
     val highlights: String,
     @ColumnInfo(name = "road_character") val roadCharacter: String,
     @ColumnInfo(name = "pdf_path") val pdfPath: String,
-    @ColumnInfo(name = "created_at") val createdAt: Long = System.currentTimeMillis()
+    @ColumnInfo(name = "created_at") val createdAt: Long = System.currentTimeMillis(),
+    @ColumnInfo(name = "is_favorite", defaultValue = "0") val isFavorite: Boolean = false,
+    @ColumnInfo(name = "completed_at", defaultValue = "NULL") val completedAt: Long? = null
 )
 
 @Entity(
