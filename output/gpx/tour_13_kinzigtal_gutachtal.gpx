@@ -13,24 +13,34 @@
     <sym>Flag, Blue</sym>
     <type>Start/End</type>
   </wpt>
-  <wpt lat="48.473000" lon="7.954000">
-    <name>Offenburg</name>
-    <desc>Enter Kinzigtal (via A5)</desc>
+  <wpt lat="48.891000" lon="8.704000">
+    <name>Pforzheim</name>
+    <desc>Gold City</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.407000" lon="8.015000">
-    <name>Gengenbach</name>
-    <desc>Beautiful old town</desc>
+  <wpt lat="48.714000" lon="8.741000">
+    <name>Calw</name>
+    <desc>Hermann Hesse’s birthplace</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.278000" lon="8.087000">
-    <name>Haslach im Kinzigtal</name>
-    <desc>Trachtmuseum</desc>
+  <wpt lat="48.462000" lon="8.411000">
+    <name>Freudenstadt</name>
+    <desc>Largest Marktplatz</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.282000" lon="8.175000">
-    <name>Hausach</name>
-    <desc>Valley junction</desc>
+  <wpt lat="48.346000" lon="8.403000">
+    <name>Alpirsbach</name>
+    <desc>Klosterbräu brewery</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.290000" lon="8.339000">
+    <name>Schiltach</name>
+    <desc>Half-timbered gem</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.293000" lon="8.219000">
+    <name>Wolfach</name>
+    <desc>Glassblowing</desc>
     <type>Via</type>
   </wpt>
   <wpt lat="48.256000" lon="8.180000">
@@ -39,72 +49,78 @@
     <sym>Restaurant</sym>
     <type>Midpoint</type>
   </wpt>
-  <wpt lat="48.293000" lon="8.219000">
-    <name>Wolfach</name>
-    <desc>Glassblowing</desc>
+  <wpt lat="48.282000" lon="8.175000">
+    <name>Hausach</name>
+    <desc>Valley junction</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.290000" lon="8.339000">
-    <name>Schiltach</name>
-    <desc>Half-timbered gem</desc>
+  <wpt lat="48.278000" lon="8.087000">
+    <name>Haslach im Kinzigtal</name>
+    <desc>Trachtmuseum</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.346000" lon="8.403000">
-    <name>Alpirsbach</name>
-    <desc>Klosterbräu brewery</desc>
+  <wpt lat="48.407000" lon="8.015000">
+    <name>Gengenbach</name>
+    <desc>Beautiful old town</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.462000" lon="8.411000">
-    <name>Freudenstadt</name>
-    <desc>Largest Marktplatz</desc>
+  <wpt lat="48.528000" lon="8.078000">
+    <name>Oberkirch</name>
+    <desc>Renchtal</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.473000" lon="7.954000">
-    <name>Offenburg</name>
-    <desc>Return (via B28/B33)</desc>
+  <wpt lat="48.761000" lon="8.241000">
+    <name>Baden-Baden</name>
+    <desc>Spa city</desc>
     <type>Via</type>
   </wpt>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>
-    <desc>End (via A5)</desc>
+    <desc>End</desc>
     <sym>Flag, Blue</sym>
     <type>Start/End</type>
   </wpt>
   <rte>
     <name>Tour 13: Kinzigtal &amp; Gutachtal</name>
-    <desc>Schwarzwald | ~270 km | Moderate</desc>
+    <desc>Schwarzwald | ~340 km | Moderate</desc>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>
     </rtept>
-    <rtept lat="48.473000" lon="7.954000">
-      <name>Offenburg</name>
+    <rtept lat="48.891000" lon="8.704000">
+      <name>Pforzheim</name>
     </rtept>
-    <rtept lat="48.407000" lon="8.015000">
-      <name>Gengenbach</name>
-    </rtept>
-    <rtept lat="48.278000" lon="8.087000">
-      <name>Haslach im Kinzigtal</name>
-    </rtept>
-    <rtept lat="48.282000" lon="8.175000">
-      <name>Hausach</name>
-    </rtept>
-    <rtept lat="48.256000" lon="8.180000">
-      <name>Vogtsbauernhof, Gutach</name>
-    </rtept>
-    <rtept lat="48.293000" lon="8.219000">
-      <name>Wolfach</name>
-    </rtept>
-    <rtept lat="48.290000" lon="8.339000">
-      <name>Schiltach</name>
-    </rtept>
-    <rtept lat="48.346000" lon="8.403000">
-      <name>Alpirsbach</name>
+    <rtept lat="48.714000" lon="8.741000">
+      <name>Calw</name>
     </rtept>
     <rtept lat="48.462000" lon="8.411000">
       <name>Freudenstadt</name>
     </rtept>
-    <rtept lat="48.473000" lon="7.954000">
-      <name>Offenburg</name>
+    <rtept lat="48.346000" lon="8.403000">
+      <name>Alpirsbach</name>
+    </rtept>
+    <rtept lat="48.290000" lon="8.339000">
+      <name>Schiltach</name>
+    </rtept>
+    <rtept lat="48.293000" lon="8.219000">
+      <name>Wolfach</name>
+    </rtept>
+    <rtept lat="48.256000" lon="8.180000">
+      <name>Vogtsbauernhof, Gutach</name>
+    </rtept>
+    <rtept lat="48.282000" lon="8.175000">
+      <name>Hausach</name>
+    </rtept>
+    <rtept lat="48.278000" lon="8.087000">
+      <name>Haslach im Kinzigtal</name>
+    </rtept>
+    <rtept lat="48.407000" lon="8.015000">
+      <name>Gengenbach</name>
+    </rtept>
+    <rtept lat="48.528000" lon="8.078000">
+      <name>Oberkirch</name>
+    </rtept>
+    <rtept lat="48.761000" lon="8.241000">
+      <name>Baden-Baden</name>
     </rtept>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>

@@ -2,7 +2,7 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
   <metadata>
     <name>Weekend 09, Day 1: Alsace Wine Route to Munster</name>
-    <desc>Cross the Rhine south of Baden-Baden and ride through Haguenau to the Alsace Wine Route. Head south through a parade of half-timbered villages—Obernai, Barr, Andlau, Ribeauvillé, Kaysersberg—to the Munster valley.</desc>
+    <desc>Head south on the A5 to Kehl, cross the Rhine into Strasbourg, then join the Alsace Wine Route. Head south through a parade of half-timbered villages—Obernai, Barr, Andlau, Ribeauvillé, Kaysersberg—to the Munster valley.</desc>
   </metadata>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>
@@ -10,19 +10,19 @@
     <sym>Flag, Blue</sym>
     <type>Start/End</type>
   </wpt>
-  <wpt lat="48.761000" lon="8.241000">
-    <name>Baden-Baden</name>
-    <desc>Head south (via A5)</desc>
+  <wpt lat="49.006000" lon="8.404000">
+    <name>Karlsruhe</name>
+    <desc>A5 south</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.822000" lon="8.148000">
-    <name>Iffezheim</name>
+  <wpt lat="48.572000" lon="7.818000">
+    <name>Kehl</name>
     <desc>Cross Rhine</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.815000" lon="7.791000">
-    <name>Haguenau</name>
-    <desc>French side</desc>
+  <wpt lat="48.573000" lon="7.752000">
+    <name>Strasbourg</name>
+    <desc>Alsatian capital</desc>
     <type>Via</type>
   </wpt>
   <wpt lat="48.462000" lon="7.483000">
@@ -59,18 +59,18 @@
   </wpt>
   <rte>
     <name>Alsace Wine Route to Munster</name>
-    <desc>~200 km</desc>
+    <desc>~270 km</desc>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>
     </rtept>
-    <rtept lat="48.761000" lon="8.241000">
-      <name>Baden-Baden</name>
+    <rtept lat="49.006000" lon="8.404000">
+      <name>Karlsruhe</name>
     </rtept>
-    <rtept lat="48.822000" lon="8.148000">
-      <name>Iffezheim</name>
+    <rtept lat="48.572000" lon="7.818000">
+      <name>Kehl</name>
     </rtept>
-    <rtept lat="48.815000" lon="7.791000">
-      <name>Haguenau</name>
+    <rtept lat="48.573000" lon="7.752000">
+      <name>Strasbourg</name>
     </rtept>
     <rtept lat="48.462000" lon="7.483000">
       <name>Obernai</name>

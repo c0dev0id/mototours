@@ -2,7 +2,7 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
   <metadata>
     <name>Tour6d 01, Day 4: Lake Constance to the Alps</name>
-    <desc>Along Lake Constance to Lindau and Bregenz, then through the Bregenzerwald to Oberstdorf.</desc>
+    <desc>Along Lake Constance to Lindau and Bregenz, then through the scenic Bregenzerwald via Egg and Bezau to Oberstdorf.</desc>
   </metadata>
   <wpt lat="47.694000" lon="9.271000">
     <name>Meersburg</name>
@@ -25,6 +25,16 @@
     <sym>Restaurant</sym>
     <type>Midpoint</type>
   </wpt>
+  <wpt lat="47.430000" lon="9.897000">
+    <name>Egg</name>
+    <desc>Bregenzerwald village</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="47.386000" lon="9.902000">
+    <name>Bezau</name>
+    <desc>Valley village</desc>
+    <type>Via</type>
+  </wpt>
   <wpt lat="47.460000" lon="9.957000">
     <name>Hittisau</name>
     <desc>Bregenzerwald</desc>
@@ -43,7 +53,7 @@
   </wpt>
   <rte>
     <name>Lake Constance to the Alps</name>
-    <desc>~210 km</desc>
+    <desc>~170 km</desc>
     <rtept lat="47.694000" lon="9.271000">
       <name>Meersburg</name>
     </rtept>
@@ -55,6 +65,12 @@
     </rtept>
     <rtept lat="47.503000" lon="9.741000">
       <name>Bregenz</name>
+    </rtept>
+    <rtept lat="47.430000" lon="9.897000">
+      <name>Egg</name>
+    </rtept>
+    <rtept lat="47.386000" lon="9.902000">
+      <name>Bezau</name>
     </rtept>
     <rtept lat="47.460000" lon="9.957000">
       <name>Hittisau</name>

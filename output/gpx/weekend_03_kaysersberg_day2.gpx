@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
   <metadata>
-    <name>Weekend 03, Day 2: Vosges Passes &amp; Kaiserstuhl Return</name>
-    <desc>Ride into the Munster valley (famous cheese!), then climb to the Col de la Schlucht (1139 m). Join the Route des Crêtes—the legendary Vosges ridge road—south to the Grand Ballon (1424 m), the highest peak in the Vosges. Descend through Guebwiller and Rouffach, cross the Rhine at Breisach, detour through the volcanic Kaiserstuhl, and return north on the A5.</desc>
+    <name>Weekend 03, Day 2: Vosges Passes &amp; Rhine Return</name>
+    <desc>Ride into the Munster valley (famous cheese!), then climb to the Col de la Schlucht (1139 m). Join the Route des Crêtes—the legendary Vosges ridge road—south to the Grand Ballon (1424 m), the highest peak in the Vosges. Descend through Guebwiller and Rouffach to Colmar, cross the Rhine at Rhinau, and return via Offenburg and Baden-Baden.</desc>
   </metadata>
   <wpt lat="48.140000" lon="7.264000">
     <name>Kaysersberg</name>
@@ -40,14 +40,24 @@
     <desc>Wine village</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.028000" lon="7.583000">
-    <name>Breisach am Rhein</name>
+  <wpt lat="48.079000" lon="7.359000">
+    <name>Colmar</name>
+    <desc>Little Venice</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.318000" lon="7.711000">
+    <name>Rhinau</name>
     <desc>Cross Rhine</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.092000" lon="7.655000">
-    <name>Kaiserstuhl</name>
-    <desc>Volcanic wine hills</desc>
+  <wpt lat="48.473000" lon="7.954000">
+    <name>Offenburg</name>
+    <desc>Ortenau</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.761000" lon="8.241000">
+    <name>Baden-Baden</name>
+    <desc>Spa city</desc>
     <type>Via</type>
   </wpt>
   <wpt lat="49.322000" lon="8.548000">
@@ -57,8 +67,8 @@
     <type>Start/End</type>
   </wpt>
   <rte>
-    <name>Vosges Passes &amp; Kaiserstuhl Return</name>
-    <desc>~210 km</desc>
+    <name>Vosges Passes &amp; Rhine Return</name>
+    <desc>~390 km</desc>
     <rtept lat="48.140000" lon="7.264000">
       <name>Kaysersberg</name>
     </rtept>
@@ -80,11 +90,17 @@
     <rtept lat="47.956000" lon="7.299000">
       <name>Rouffach</name>
     </rtept>
-    <rtept lat="48.028000" lon="7.583000">
-      <name>Breisach am Rhein</name>
+    <rtept lat="48.079000" lon="7.359000">
+      <name>Colmar</name>
     </rtept>
-    <rtept lat="48.092000" lon="7.655000">
-      <name>Kaiserstuhl</name>
+    <rtept lat="48.318000" lon="7.711000">
+      <name>Rhinau</name>
+    </rtept>
+    <rtept lat="48.473000" lon="7.954000">
+      <name>Offenburg</name>
+    </rtept>
+    <rtept lat="48.761000" lon="8.241000">
+      <name>Baden-Baden</name>
     </rtept>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>

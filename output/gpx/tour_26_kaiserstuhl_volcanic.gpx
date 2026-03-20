@@ -13,9 +13,14 @@
     <sym>Flag, Blue</sym>
     <type>Start/End</type>
   </wpt>
-  <wpt lat="48.343000" lon="7.871000">
-    <name>Lahr</name>
-    <desc>Enter Kaiserstuhl area (via A5)</desc>
+  <wpt lat="49.006000" lon="8.404000">
+    <name>Karlsruhe</name>
+    <desc>A5 south</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.473000" lon="7.954000">
+    <name>Offenburg</name>
+    <desc>Ortenau</desc>
     <type>Via</type>
   </wpt>
   <wpt lat="48.257000" lon="7.813000">
@@ -54,20 +59,38 @@
     <desc>Northern Kaiserstuhl</desc>
     <type>Via</type>
   </wpt>
+  <wpt lat="48.121000" lon="7.849000">
+    <name>Emmendingen</name>
+    <desc>Markgräflerland</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.343000" lon="7.871000">
+    <name>Lahr</name>
+    <desc>Return to A5</desc>
+    <type>Via</type>
+  </wpt>
+  <wpt lat="48.761000" lon="8.241000">
+    <name>Baden-Baden</name>
+    <desc>Spa city</desc>
+    <type>Via</type>
+  </wpt>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>
-    <desc>End (via A5)</desc>
+    <desc>End</desc>
     <sym>Flag, Blue</sym>
     <type>Start/End</type>
   </wpt>
   <rte>
     <name>Tour 26: Kaiserstuhl – Volcanic Hills</name>
-    <desc>Oberrhein / Kaiserstuhl | ~240 km | Easy to Moderate</desc>
+    <desc>Oberrhein / Kaiserstuhl | ~400 km | Easy to Moderate</desc>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>
     </rtept>
-    <rtept lat="48.343000" lon="7.871000">
-      <name>Lahr</name>
+    <rtept lat="49.006000" lon="8.404000">
+      <name>Karlsruhe</name>
+    </rtept>
+    <rtept lat="48.473000" lon="7.954000">
+      <name>Offenburg</name>
     </rtept>
     <rtept lat="48.257000" lon="7.813000">
       <name>Ettenheim</name>
@@ -89,6 +112,15 @@
     </rtept>
     <rtept lat="48.136000" lon="7.613000">
       <name>Sasbach am Kaiserstuhl</name>
+    </rtept>
+    <rtept lat="48.121000" lon="7.849000">
+      <name>Emmendingen</name>
+    </rtept>
+    <rtept lat="48.343000" lon="7.871000">
+      <name>Lahr</name>
+    </rtept>
+    <rtept lat="48.761000" lon="8.241000">
+      <name>Baden-Baden</name>
     </rtept>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>

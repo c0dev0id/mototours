@@ -2,7 +2,7 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Hockenheim Motorcycle Tours">
   <metadata>
     <name>Weekend 05, Day 1: Through Central Black Forest to Staufen</name>
-    <desc>Take the A5 to Offenburg and enter the Kinzigtal. Ride through Gengenbach, Haslach, and Wolfach to the stunning half-timbered Schiltach. Cut south through the Elztal to Waldkirch and past Freiburg to Staufen.</desc>
+    <desc>Head south through Pforzheim and Calw into the Black Forest via the Nagoldtal to Freudenstadt. Continue to the stunning half-timbered Schiltach, then through Wolfach and the Elztal to Waldkirch. Pass Freiburg to reach Staufen.</desc>
   </metadata>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>
@@ -10,24 +10,19 @@
     <sym>Flag, Blue</sym>
     <type>Start/End</type>
   </wpt>
-  <wpt lat="48.473000" lon="7.954000">
-    <name>Offenburg</name>
-    <desc>Kinzigtal (via A5)</desc>
+  <wpt lat="48.891000" lon="8.704000">
+    <name>Pforzheim</name>
+    <desc>Gold City</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.407000" lon="8.015000">
-    <name>Gengenbach</name>
-    <desc>Nice of the Black Forest</desc>
+  <wpt lat="48.714000" lon="8.741000">
+    <name>Calw</name>
+    <desc>Hermann Hesse’s town</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.278000" lon="8.087000">
-    <name>Haslach</name>
-    <desc>Kinzigtal</desc>
-    <type>Via</type>
-  </wpt>
-  <wpt lat="48.293000" lon="8.219000">
-    <name>Wolfach</name>
-    <desc>Glassblowing</desc>
+  <wpt lat="48.462000" lon="8.411000">
+    <name>Freudenstadt</name>
+    <desc>Marktplatz</desc>
     <type>Via</type>
   </wpt>
   <wpt lat="48.290000" lon="8.339000">
@@ -35,6 +30,11 @@
     <desc>Half-timbered gem</desc>
     <sym>Restaurant</sym>
     <type>Midpoint</type>
+  </wpt>
+  <wpt lat="48.293000" lon="8.219000">
+    <name>Wolfach</name>
+    <desc>Glassblowing</desc>
+    <type>Via</type>
   </wpt>
   <wpt lat="48.173000" lon="8.071000">
     <name>Elzach</name>
@@ -59,24 +59,24 @@
   </wpt>
   <rte>
     <name>Through Central Black Forest to Staufen</name>
-    <desc>~230 km</desc>
+    <desc>~280 km</desc>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>
     </rtept>
-    <rtept lat="48.473000" lon="7.954000">
-      <name>Offenburg</name>
+    <rtept lat="48.891000" lon="8.704000">
+      <name>Pforzheim</name>
     </rtept>
-    <rtept lat="48.407000" lon="8.015000">
-      <name>Gengenbach</name>
+    <rtept lat="48.714000" lon="8.741000">
+      <name>Calw</name>
     </rtept>
-    <rtept lat="48.278000" lon="8.087000">
-      <name>Haslach</name>
-    </rtept>
-    <rtept lat="48.293000" lon="8.219000">
-      <name>Wolfach</name>
+    <rtept lat="48.462000" lon="8.411000">
+      <name>Freudenstadt</name>
     </rtept>
     <rtept lat="48.290000" lon="8.339000">
       <name>Schiltach</name>
+    </rtept>
+    <rtept lat="48.293000" lon="8.219000">
+      <name>Wolfach</name>
     </rtept>
     <rtept lat="48.173000" lon="8.071000">
       <name>Elzach</name>

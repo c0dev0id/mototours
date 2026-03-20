@@ -13,9 +13,14 @@
     <sym>Flag, Blue</sym>
     <type>Start/End</type>
   </wpt>
+  <wpt lat="49.006000" lon="8.404000">
+    <name>Karlsruhe</name>
+    <desc>A5 south</desc>
+    <type>Via</type>
+  </wpt>
   <wpt lat="48.761000" lon="8.241000">
     <name>Baden-Baden</name>
-    <desc>Spa city (via A5)</desc>
+    <desc>Spa city</desc>
     <type>Via</type>
   </wpt>
   <wpt lat="48.722000" lon="8.240000">
@@ -44,11 +49,6 @@
     <sym>Restaurant</sym>
     <type>Midpoint</type>
   </wpt>
-  <wpt lat="48.604000" lon="8.204000">
-    <name>Hornisgrinde (1164 m)</name>
-    <desc>Highest peak, northern BF</desc>
-    <type>Via</type>
-  </wpt>
   <wpt lat="48.561000" lon="8.221000">
     <name>Ruhestein</name>
     <desc>Nationalpark center</desc>
@@ -64,27 +64,30 @@
     <desc>Germany’s largest Marktplatz</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.346000" lon="8.403000">
-    <name>Alpirsbach</name>
-    <desc>Klosterbräu brewery</desc>
+  <wpt lat="48.714000" lon="8.741000">
+    <name>Calw</name>
+    <desc>Hermann Hesse’s birthplace</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.473000" lon="7.954000">
-    <name>Offenburg</name>
-    <desc>Ortenau (via B33)</desc>
+  <wpt lat="48.891000" lon="8.704000">
+    <name>Pforzheim</name>
+    <desc>Gold City</desc>
     <type>Via</type>
   </wpt>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>
-    <desc>End (via A5)</desc>
+    <desc>End</desc>
     <sym>Flag, Blue</sym>
     <type>Start/End</type>
   </wpt>
   <rte>
     <name>Tour 11: Schwarzwaldhochstraße – The Classic</name>
-    <desc>Schwarzwald | ~250 km | Moderate to Challenging</desc>
+    <desc>Schwarzwald | ~280 km | Moderate to Challenging</desc>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="49.006000" lon="8.404000">
+      <name>Karlsruhe</name>
     </rtept>
     <rtept lat="48.761000" lon="8.241000">
       <name>Baden-Baden</name>
@@ -104,9 +107,6 @@
     <rtept lat="48.596000" lon="8.201000">
       <name>Mummelsee (1036 m)</name>
     </rtept>
-    <rtept lat="48.604000" lon="8.204000">
-      <name>Hornisgrinde (1164 m)</name>
-    </rtept>
     <rtept lat="48.561000" lon="8.221000">
       <name>Ruhestein</name>
     </rtept>
@@ -116,11 +116,11 @@
     <rtept lat="48.462000" lon="8.411000">
       <name>Freudenstadt</name>
     </rtept>
-    <rtept lat="48.346000" lon="8.403000">
-      <name>Alpirsbach</name>
+    <rtept lat="48.714000" lon="8.741000">
+      <name>Calw</name>
     </rtept>
-    <rtept lat="48.473000" lon="7.954000">
-      <name>Offenburg</name>
+    <rtept lat="48.891000" lon="8.704000">
+      <name>Pforzheim</name>
     </rtept>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>

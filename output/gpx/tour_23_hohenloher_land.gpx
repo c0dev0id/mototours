@@ -69,6 +69,11 @@
     <desc>Bypass south</desc>
     <type>Via</type>
   </wpt>
+  <wpt lat="49.142000" lon="9.220000">
+    <name>Heilbronn</name>
+    <desc>Return west</desc>
+    <type>Via</type>
+  </wpt>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>
     <desc>End (via A6)</desc>
@@ -77,7 +82,7 @@
   </wpt>
   <rte>
     <name>Tour 23: Hohenloher Land</name>
-    <desc>Hohenloher Land | ~260 km | Easy to Moderate</desc>
+    <desc>Hohenloher Land | ~360 km | Easy to Moderate</desc>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>
     </rtept>
@@ -113,6 +118,9 @@
     </rtept>
     <rtept lat="49.112000" lon="9.738000">
       <name>Schwäbisch Hall</name>
+    </rtept>
+    <rtept lat="49.142000" lon="9.220000">
+      <name>Heilbronn</name>
     </rtept>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>

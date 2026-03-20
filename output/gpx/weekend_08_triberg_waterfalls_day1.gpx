@@ -10,9 +10,14 @@
     <sym>Flag, Blue</sym>
     <type>Start/End</type>
   </wpt>
+  <wpt lat="48.858000" lon="8.204000">
+    <name>Rastatt</name>
+    <desc>Via Rhine valley</desc>
+    <type>Via</type>
+  </wpt>
   <wpt lat="48.628000" lon="8.075000">
     <name>Achern</name>
-    <desc>Enter hills (via A5)</desc>
+    <desc>Enter hills</desc>
     <type>Via</type>
   </wpt>
   <wpt lat="48.592000" lon="8.113000">
@@ -62,6 +67,9 @@
     <desc>~220 km</desc>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>
+    </rtept>
+    <rtept lat="48.858000" lon="8.204000">
+      <name>Rastatt</name>
     </rtept>
     <rtept lat="48.628000" lon="8.075000">
       <name>Achern</name>

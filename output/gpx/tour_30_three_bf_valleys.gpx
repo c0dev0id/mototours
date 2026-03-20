@@ -23,11 +23,6 @@
     <desc>Valley climb</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.660000" lon="8.229000">
-    <name>Plättig</name>
-    <desc>Mountain road</desc>
-    <type>Via</type>
-  </wpt>
   <wpt lat="48.654000" lon="8.226000">
     <name>Sand</name>
     <desc>B500 junction</desc>
@@ -69,25 +64,25 @@
     <desc>Marktplatz</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.346000" lon="8.403000">
-    <name>Alpirsbach</name>
-    <desc>Brewery</desc>
+  <wpt lat="48.714000" lon="8.741000">
+    <name>Calw</name>
+    <desc>Hermann Hesse’s birthplace</desc>
     <type>Via</type>
   </wpt>
-  <wpt lat="48.473000" lon="7.954000">
-    <name>Offenburg</name>
-    <desc>Return (via B33)</desc>
+  <wpt lat="48.891000" lon="8.704000">
+    <name>Pforzheim</name>
+    <desc>Gold City</desc>
     <type>Via</type>
   </wpt>
   <wpt lat="49.322000" lon="8.548000">
     <name>Hockenheim</name>
-    <desc>End (via A5)</desc>
+    <desc>End</desc>
     <sym>Flag, Blue</sym>
     <type>Start/End</type>
   </wpt>
   <rte>
     <name>Tour 30: Three Black Forest Valleys</name>
-    <desc>Schwarzwald | ~250 km | Moderate</desc>
+    <desc>Schwarzwald | ~320 km | Moderate</desc>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>
     </rtept>
@@ -96,9 +91,6 @@
     </rtept>
     <rtept lat="48.669000" lon="8.168000">
       <name>Bühlertal</name>
-    </rtept>
-    <rtept lat="48.660000" lon="8.229000">
-      <name>Plättig</name>
     </rtept>
     <rtept lat="48.654000" lon="8.226000">
       <name>Sand</name>
@@ -124,11 +116,11 @@
     <rtept lat="48.462000" lon="8.411000">
       <name>Freudenstadt</name>
     </rtept>
-    <rtept lat="48.346000" lon="8.403000">
-      <name>Alpirsbach</name>
+    <rtept lat="48.714000" lon="8.741000">
+      <name>Calw</name>
     </rtept>
-    <rtept lat="48.473000" lon="7.954000">
-      <name>Offenburg</name>
+    <rtept lat="48.891000" lon="8.704000">
+      <name>Pforzheim</name>
     </rtept>
     <rtept lat="49.322000" lon="8.548000">
       <name>Hockenheim</name>
