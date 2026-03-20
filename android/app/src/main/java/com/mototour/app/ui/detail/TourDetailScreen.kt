@@ -418,6 +418,7 @@ private fun DayCard(dayWithWaypoints: DayWithWaypoints, onClick: () -> Unit) {
     val wpts = dayWithWaypoints.waypoints.sortedBy { it.orderIndex }
     val midpoint = wpts.find { it.type == WaypointType.MIDPOINT }
     val overnight = wpts.find { it.type == WaypointType.OVERNIGHT }
+    val context = LocalContext.current
 
     Card(
         modifier = Modifier.fillMaxWidth(),
@@ -436,6 +437,17 @@ private fun DayCard(dayWithWaypoints: DayWithWaypoints, onClick: () -> Unit) {
                 Text("${day.distanceKm} km",
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f))
+                Spacer(Modifier.width(8.dp))
+                IconButton(
+                    onClick = {
+                        GpxShareHelper.shareGpxFile(context, day.gpxPath, day.name)
+                    },
+                    modifier = Modifier.size(32.dp)
+                ) {
+                    Icon(Icons.Default.Share, "Share GPX",
+                        modifier = Modifier.size(18.dp),
+                        tint = MaterialTheme.colorScheme.primary)
+                }
             }
 
             if (day.description.isNotEmpty()) {

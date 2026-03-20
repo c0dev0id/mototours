@@ -5,9 +5,11 @@ import android.graphics.Color as AndroidColor
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Share
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
@@ -102,6 +104,7 @@ fun MapScreen(
             val waypoints = s.day.waypoints.sortedBy { it.orderIndex }
             val routePoints = s.routePoints
             val routedViaApi = s.routedViaApi
+            val context = LocalContext.current
 
             Scaffold(
                 topBar = {
@@ -115,8 +118,16 @@ fun MapScreen(
                         colors = TopAppBarDefaults.topAppBarColors(
                             containerColor = MaterialTheme.colorScheme.primary,
                             titleContentColor = MaterialTheme.colorScheme.onPrimary,
-                            navigationIconContentColor = MaterialTheme.colorScheme.onPrimary
-                        )
+                            navigationIconContentColor = MaterialTheme.colorScheme.onPrimary,
+                            actionIconContentColor = MaterialTheme.colorScheme.onPrimary
+                        ),
+                        actions = {
+                            IconButton(onClick = {
+                                GpxShareHelper.shareGpxFile(context, day.gpxPath, day.name)
+                            }) {
+                                Icon(Icons.Default.Share, "Share GPX")
+                            }
+                        }
                     )
                 }
             ) { padding ->
