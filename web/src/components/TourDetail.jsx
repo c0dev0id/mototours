@@ -123,6 +123,15 @@ export default function TourDetail() {
                             Map →
                           </Link>
                         )}
+                        {gpxEntry && (
+                          <a
+                            className={styles.mapLink}
+                            href={`data/gpx/${gpxEntry.file}`}
+                            download={gpxEntry.file}
+                          >
+                            GPX ↓
+                          </a>
+                        )}
                       </div>
                     </div>
                     {day.description && (
