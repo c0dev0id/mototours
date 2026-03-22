@@ -4,6 +4,18 @@ import { useUserState } from '../hooks/useUserState.js'
 import MapView from './MapView.jsx'
 import styles from './TourDetail.module.css'
 
+function downloadGpx(url, filename) {
+  fetch(url)
+    .then((r) => r.blob())
+    .then((blob) => {
+      const a = document.createElement('a')
+      a.href = URL.createObjectURL(blob)
+      a.download = filename
+      a.click()
+      URL.revokeObjectURL(a.href)
+    })
+}
+
 export default function TourDetail() {
   const { slug } = useParams()
   const navigate = useNavigate()
@@ -117,13 +129,12 @@ export default function TourDetail() {
                         <span className={styles.dayDist}>{day.distance_km} km</span>
                         {gpxEntry && (
                           <div className={styles.dayLinks}>
-                            <a
-                              className={styles.mapLink}
-                              href={`data/gpx/${gpxEntry.file}`}
-                              download={gpxEntry.file}
+                            <button
+                              className={styles.gpxBtn}
+                              onClick={() => downloadGpx(`data/gpx/${gpxEntry.file}`, gpxEntry.file)}
                             >
                               GPX ↓
-                            </a>
+                            </button>
                             <Link
                               className={styles.mapLink}
                               to={`/tour/${tour.slug}/day/${dayNum}/map`}
