@@ -116,21 +116,21 @@ export default function TourDetail() {
                       <div className={styles.dayRight}>
                         <span className={styles.dayDist}>{day.distance_km} km</span>
                         {gpxEntry && (
-                          <Link
-                            className={styles.mapLink}
-                            to={`/tour/${tour.slug}/day/${dayNum}/map`}
-                          >
-                            Map →
-                          </Link>
-                        )}
-                        {gpxEntry && (
-                          <a
-                            className={styles.mapLink}
-                            href={`data/gpx/${gpxEntry.file}`}
-                            download={gpxEntry.file}
-                          >
-                            GPX ↓
-                          </a>
+                          <div className={styles.dayLinks}>
+                            <a
+                              className={styles.mapLink}
+                              href={`data/gpx/${gpxEntry.file}`}
+                              download={gpxEntry.file}
+                            >
+                              GPX ↓
+                            </a>
+                            <Link
+                              className={styles.mapLink}
+                              to={`/tour/${tour.slug}/day/${dayNum}/map`}
+                            >
+                              Map →
+                            </Link>
+                          </div>
                         )}
                       </div>
                     </div>
